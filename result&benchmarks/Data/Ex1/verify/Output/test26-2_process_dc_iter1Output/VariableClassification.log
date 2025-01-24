@@ -1,0 +1,45 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_2, __bswap_32::__bsx, __bswap_64::__bsx, __bswap_16::__bsx]
+
+IntEq
+
+[main::iVar1, main::__retval__]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[main::global.b, main::iVar1, __bswap_32::__bsx, global, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, assume::cond, main::__CPAchecker_TMP_2, __bswap_64::__CPAchecker_TMP_0, main::global.a, main::pd, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, assign::pb, __uint16_identity::__x, assign::pa, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assign::pa, assign::pb, main::global.a, main::global.b] --> [],
+[assume::cond] --> [0],
+[main::__retval__, main::iVar1] --> [0, 1048576],
+[main::pd] --> [],
+[main::__CPAchecker_TMP_2] --> [0],
+[global] --> []]
+
+RELEVANT VARS
+
+[assume::cond, assign::pb, global, assign::pa]
+
+RELEVANT FIELDS
+
+{struct __anon_type_1=[a, b]}

@@ -1,0 +1,17 @@
+line 12:	N40 -{int expr_tmp_var_131_int;}-> N41
+	w == 0;
+	expr_tmp_var_129_int == 0;
+	expr_tmp_var_130_int == 0;
+	expr_tmp_var_131_int == 0;
+line 23:	N50 -{z = 0;}-> N51
+	expr_tmp_var_131_int == 0;
+	expr_tmp_var_130_int == 0;
+	expr_tmp_var_129_int == 0;
+	w == 0;
+	z == 0;
+line 25:	N51 -{while}-> N52
+line 25:	N52 -{[!(expr_tmp_var_131_int != 0)]}-> N54
+	expr_tmp_var_131_int == 0;
+line 45:	N54 -{[z < 4]}-> N75
+	z == 0;
+line 46:	N85 -{__assert_fail("0 && \"Assertion failed: x >= 4 && y <= 2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/gcnr2008_process_dc_iter1.c", 46, "__PRETTY_FUNCTION__");}-> N364

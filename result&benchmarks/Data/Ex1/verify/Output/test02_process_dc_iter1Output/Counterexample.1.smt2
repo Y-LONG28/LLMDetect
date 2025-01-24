@@ -1,0 +1,3 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__ADDRESS_OF_main::iStack_24@| () (_ BitVec 32))
+(assert (let ((.def_12 (bvurem |__ADDRESS_OF_main::iStack_24@| (_ bv4 32))))(let ((.def_13 (= .def_12 (_ bv0 32))))(let ((.def_11 (bvslt (_ bv0 32) |__ADDRESS_OF_main::iStack_24@|)))(let ((.def_17 (and .def_11 .def_13)))(let ((.def_15 (bvadd (_ bv4 32) |__ADDRESS_OF_main::iStack_24@|)))(let ((.def_16 (bvslt (_ bv0 32) .def_15)))(let ((.def_18 (and .def_16 .def_17))).def_18))))))))

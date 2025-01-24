@@ -1,0 +1,34 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__utac_acc__VerifyForward_spec__1::pubkey| () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size1 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size0 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size2 () (_ BitVec 32))
+(declare-fun __ste_email_isSignatureVerified0 () (_ BitVec 32))
+(declare-fun __ste_email_isSignatureVerified1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey0 () (_ BitVec 32))
+
+__utac_acc__VerifyForward_spec__1:
+(assert (let ((.def_4611 (= |__utac_acc__VerifyForward_spec__1::pubkey| (_ bv0 32)))).def_4611))
+
+test N487:
+(assert (let ((.def_4621 (= __ste_ClientAddressBook_size1 __ste_ClientAddressBook_size0))).def_4621))
+(assert (let ((.def_4624 (= __ste_ClientAddressBook_size0 __ste_ClientAddressBook_size2))).def_4624))
+(assert (let ((.def_4626 (= __ste_ClientAddressBook_size0 (_ bv0 32)))).def_4626))
+(assert (let ((.def_14640 (= __ste_email_isSignatureVerified0 (_ bv0 32)))).def_14640))
+(assert (let ((.def_14643 (= __ste_email_isSignatureVerified0 __ste_email_isSignatureVerified1))).def_14643))
+(assert (let ((.def_14647 (= __ste_Client_Keyring2_PublicKey0 __ste_Client_Keyring0_PublicKey0))).def_14647))
+(assert (let ((.def_14650 (= __ste_Client_Keyring0_PublicKey0 __ste_Client_Keyring2_PublicKey1))).def_14650))
+(assert (let ((.def_14654 (= __ste_Client_Keyring0_User1 __ste_Client_Keyring0_User0))).def_14654))
+(assert (let ((.def_14657 (= __ste_Client_Keyring1_PublicKey1 (_ bv0 32)))).def_14657))
+(assert (let ((.def_14660 (= __ste_Client_Keyring1_PublicKey0 (_ bv0 32)))).def_14660))
+(assert (let ((.def_14662 (= __ste_Client_Keyring0_PublicKey0 (_ bv0 32)))).def_14662))
+
+__automaton_fail N622:
+(assert false)
+

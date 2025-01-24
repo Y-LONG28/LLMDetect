@@ -1,0 +1,21 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+(declare-fun |test::splverifierCounter| () (_ BitVec 32))
+
+test N25:
+(assert (let ((.def_1660 (bvslt waterLevel (_ bv2 32))))(let ((.def_778 (= |test::splverifierCounter| (_ bv0 32))))(let ((.def_1665 (and .def_778 .def_1660)))(let ((.def_347 (= pumpRunning (_ bv0 32))))(let ((.def_1666 (and .def_347 .def_1665)))(let ((.def_344 (= systemActive (_ bv0 32))))(let ((.def_359 (not .def_344)))(let ((.def_1667 (and .def_359 .def_1666)))(let ((.def_341 (= waterLevel (_ bv0 32))))(let ((.def_361 (not .def_341)))(let ((.def_1693 (or .def_361 .def_1667)))(let ((.def_1102 (and .def_359 .def_778)))(let ((.def_1104 (or .def_341 .def_1102)))(let ((.def_1725 (and .def_1104 .def_1693))).def_1725)))))))))))))))
+
+__utac__exception__cf_handler_free N242:
+(assert false)
+
+__utac__exception__cf_handler_reset N292:
+(assert false)
+
+__utac__error_stack_mgt N364:
+(assert false)
+
+cleanup N500:
+(assert false)
+

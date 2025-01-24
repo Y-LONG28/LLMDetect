@@ -1,0 +1,26 @@
+line 32:	N59 -{void *ptr;}-> N60
+line 34:	N60 -{l_malloc(4)}-> N66
+	size == 4;
+line 44:	N68 -{pvVar1 = malloc((long)size);}-> N69
+	pvVar1 == 8LL;
+line 45:	N69 -{[pvVar1 != ((void *)0)]}-> N71
+	pvVar1 == 8LL;
+line 46:	N71 -{globalState = 1;}-> N72
+	globalState == 1;
+line 35:	N61 -{l_free(ptr)}-> N75
+	ptr == 8LL;
+line 53:	N76 -{[ptr != ((void *)0)]}-> N79
+	ptr == 8LL;
+line 53:	N79 -{[!(globalState != 1)]}-> N77
+	globalState == 1;
+line 56:	N77 -{globalState = 0;}-> N81
+	globalState == 0;
+line 57:	N81 -{free(ptr);}-> N82
+line 36:	N62 -{l_free(ptr)}-> N75
+	ptr == 8LL;
+line 53:	N76 -{[ptr != ((void *)0)]}-> N79
+	ptr == 8LL;
+line 53:	N79 -{[globalState != 1]}-> N78
+	globalState == 0;
+line 54:	N78 -{__blast_assert()}-> N37
+line 21:	N47 -{__assert_fail("0 && \"Assertion failed in __blast_assert\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/alt_test_process_dc_iter2.c", 21, "__PRETTY_FUNCTION__");}-> N362

@@ -1,0 +1,15 @@
+line 14:	N38 -{uint local_18;}-> N39
+	local_18 == 1U;
+line 17:	N40 -{local_14 = 1;}-> N41
+	local_18 == 1U;
+	local_14 == 1U;
+line 19:	N41 -{[local_18 != 0]}-> N43
+	local_18 == 1U;
+line 20:	N43 -{while}-> N44
+line 20:	N44 -{[!(local_14 < local_18)]}-> N46
+	local_14 == 1U;
+	local_18 == 1U;
+line 27:	N46 -{[local_14 == local_18]}-> N53
+	local_14 == 1U;
+	local_18 == 1U;
+line 28:	N62 -{__assert_fail("0 && \"Assertion failed: x != y\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/phases_2-1_process_dc_iter1.c", 28, "__PRETTY_FUNCTION__");}-> N365

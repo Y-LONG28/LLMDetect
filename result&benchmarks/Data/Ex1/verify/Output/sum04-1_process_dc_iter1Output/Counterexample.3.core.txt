@@ -1,0 +1,65 @@
+line 15:	N42 -{local_18 = 0;}-> N43
+	local_18 == 0;
+lines 16-20:	N44 -{local_14 = 1;}-> N45
+	local_14 == 1;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 1;
+line 17:	N47 -{[local_14 < 4]}-> N50
+	local_14 == 1;
+line 18:	N50 -{local_18 = local_18 + 2;}-> N51
+	local_18 == 2;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 2;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 2;
+line 17:	N47 -{[local_14 < 4]}-> N50
+	local_14 == 2;
+line 18:	N50 -{local_18 = local_18 + 2;}-> N51
+	local_18 == 4;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 3;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 3;
+line 17:	N47 -{[local_14 < 4]}-> N50
+	local_14 == 3;
+line 18:	N50 -{local_18 = local_18 + 2;}-> N51
+	local_18 == 6;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 4;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 4;
+line 17:	N47 -{[!(local_14 < 4)]}-> N49
+	local_14 == 4;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 5;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 5;
+line 17:	N47 -{[!(local_14 < 4)]}-> N49
+	local_14 == 5;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 6;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 6;
+line 17:	N47 -{[!(local_14 < 4)]}-> N49
+	local_14 == 6;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 7;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 7;
+line 17:	N47 -{[!(local_14 < 4)]}-> N49
+	local_14 == 7;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 8;
+line 16:	N45 -{[local_14 < 9]}-> N47
+	local_14 == 8;
+line 17:	N47 -{[!(local_14 < 4)]}-> N49
+	local_14 == 8;
+lines 16-20:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 9;
+line 16:	N45 -{[!(local_14 < 9)]}-> N48
+	local_14 == 9;
+line 21:	N48 -{[local_18 != 16]}-> N54
+	local_18 == 6;
+line 21:	N54 -{[local_18 != 0]}-> N53
+	local_18 == 6;
+line 22:	N63 -{__assert_fail("0 && \"Assertion failed: sn==SIZE*a || sn == 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum04-1_process_dc_iter1.c", 22, "__PRETTY_FUNCTION__");}-> N342

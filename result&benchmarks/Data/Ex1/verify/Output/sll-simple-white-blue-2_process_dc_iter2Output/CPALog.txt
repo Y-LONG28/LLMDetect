@@ -1,0 +1,114 @@
+2025-01-15 14:18:51:914	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-15 14:18:51:936	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:52:010	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-15 14:18:52:032	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sll-simple-white-blue-2_process_dc_iter2.c"
+
+2025-01-15 14:18:52:862	INFO	CFACreationUtils.addEdgeToCFA	line 63: Dead code detected: [!((
+# 63 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sll-simple-white-blue-2_process_dc_iter2.c"
+           0 && "Assertion failed: expr_tmp_var_52_ptr->data != 1"
+# 63 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sll-simple-white-blue-2_process_dc_iter2.c" 3 4
+           ))]
+
+2025-01-15 14:18:52:863	INFO	CFACreationUtils.addEdgeToCFA	line 63: Dead code detected: [(
+# 63 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sll-simple-white-blue-2_process_dc_iter2.c"
+           0 && "Assertion failed: expr_tmp_var_52_ptr->data != 1"
+# 63 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sll-simple-white-blue-2_process_dc_iter2.c" 3 4
+           )]
+
+2025-01-15 14:18:52:865	INFO	CFACreationUtils.addEdgeToCFA	line 63: Dead code detected: [!(0 && "Assertion failed: expr_tmp_var_52_ptr->data != 1")]
+
+2025-01-15 14:18:52:866	INFO	CFACreationUtils.addEdgeToCFA	line 63: Dead code detected: [0 && "Assertion failed: expr_tmp_var_52_ptr->data != 1"]
+
+2025-01-15 14:18:53:038	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-15 14:18:53:429	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-15 14:18:53:439	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-15 14:18:53:440	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-15 14:18:53:444	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-15 14:18:53:446	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:53:448	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-15 14:18:53:452	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/parallel-valueAnalysis.properties ...
+
+2025-01-15 14:18:53:454	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:53:459	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 90s
+
+2025-01-15 14:18:53:566	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:53:602	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:53:673	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:53:802	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:InductionStepCase:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:53:819	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-15 14:18:53:867	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-15 14:18:53:867	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 1:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:18:53:902	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:18:54:175	WARNING	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 1:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:18:54:176	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-15 14:18:54:177	WARNING	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:18:54:199	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 3:AbstractBMCAlgorithm.analyzeCounterexample0	Error found, creating error path
+
+2025-01-15 14:18:54:205	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 1:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:54:206	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:54:266	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-kInduction.properties finished successfully.
+
+2025-01-15 14:18:54:268	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 1:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:18:54:268	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:Analysis /opt/cpachecker/config/components/parallel-valueAnalysis.properties:Parallel analysis 2:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:18:54:269	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-15 14:18:54:269	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-valueAnalysis-fallbacks.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-15 14:18:54:270	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

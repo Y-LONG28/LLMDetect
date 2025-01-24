@@ -1,0 +1,28 @@
+line 16:	N38 -{int iVar1;}-> N39
+line 17:	N39 -{int local_14;}-> N40
+	local_14 == 2;
+line 21:	N42 -{id(local_14)}-> N59
+	x == 2;
+line 35:	N63 -{[!(x == 0)]}-> N66
+	x == 2;
+line 38:	N66 -{id(x - 1)}-> N59
+	x == 1;
+line 35:	N63 -{[!(x == 0)]}-> N66
+	x == 1;
+line 38:	N66 -{id(x - 1)}-> N59
+	x == 0;
+line 35:	N63 -{[x == 0]}-> N65
+	x == 0;
+line 36:	N65 -{iVar1 = 0;}-> N67
+	iVar1 == 0;
+line 39:	N68 -{iVar1 = iVar1 + 1;}-> N69
+	iVar1 == 1;
+line 40:	N69 -{[!(3 < iVar1)]}-> N70
+	iVar1 == 1;
+line 39:	N68 -{iVar1 = iVar1 + 1;}-> N69
+	iVar1 == 2;
+line 40:	N69 -{[!(3 < iVar1)]}-> N70
+	iVar1 == 2;
+line 22:	N43 -{[iVar1 == 2]}-> N45
+	iVar1 == 2;
+line 23:	N54 -{__assert_fail("0 && \"Assertion failed: iVar1 should not be 2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id_b3_o2-2_process_dc_iter1.c", 23, "__PRETTY_FUNCTION__");}-> N350

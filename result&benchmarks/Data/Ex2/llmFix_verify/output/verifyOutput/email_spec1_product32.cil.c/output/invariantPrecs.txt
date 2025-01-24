@@ -1,0 +1,29 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun mail_is_sensitive () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size1 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size0 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size2 () (_ BitVec 32))
+(declare-fun rjh () (_ BitVec 32))
+(declare-fun __ste_client_autoResponse1 () (_ BitVec 32))
+(declare-fun queue_empty () (_ BitVec 32))
+(declare-fun bob () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_email_isEncrypted0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey0 () (_ BitVec 32))
+
+test N88:
+(assert (let ((.def_39970 (= bob (_ bv3 32))))(let ((.def_39998 (not .def_39970)))(let ((.def_39968 (= __ste_Client_Keyring0_PublicKey0 (_ bv0 32))))(let ((.def_39999 (and .def_39968 .def_39998)))(let ((.def_39965 (= __ste_email_isEncrypted0 (_ bv0 32))))(let ((.def_40000 (and .def_39965 .def_39999)))(let ((.def_39962 (= __ste_Client_Keyring0_PublicKey1 (_ bv0 32))))(let ((.def_40001 (and .def_39962 .def_40000)))(let ((.def_39960 (= __ste_Client_Keyring0_PublicKey1 __ste_Client_Keyring2_PublicKey1)))(let ((.def_40002 (and .def_39960 .def_40001)))(let ((.def_39957 (= __ste_Client_Keyring0_PublicKey1 __ste_Client_Keyring2_PublicKey0)))(let ((.def_40003 (and .def_39957 .def_40002)))(let ((.def_39954 (= __ste_Client_Keyring0_PublicKey1 __ste_Client_Keyring1_PublicKey1)))(let ((.def_40004 (and .def_39954 .def_40003)))(let ((.def_39951 (= __ste_Client_Keyring1_PublicKey0 __ste_Client_Keyring0_PublicKey1)))(let ((.def_41371 (or .def_39951 .def_40004)))(let ((.def_41369 (not .def_39951)))(let ((.def_41366 (or .def_39957 .def_40002)))(let ((.def_41364 (not .def_39957)))(let ((.def_41361 (and .def_39965 .def_39998)))(let ((.def_41362 (and .def_39962 .def_41361)))(let ((.def_41363 (and .def_39960 .def_41362)))(let ((.def_41365 (or .def_41363 .def_41364)))(let ((.def_41367 (and .def_41365 .def_41366)))(let ((.def_41368 (and .def_39954 .def_41367)))(let ((.def_41370 (or .def_41368 .def_41369)))(let ((.def_41372 (and .def_41370 .def_41371)))(let ((.def_25109 (= bob (_ bv2 32))))(let ((.def_25129 (not .def_25109)))(let ((.def_41373 (and .def_25129 .def_41372)))(let ((.def_25107 (= bob (_ bv1 32))))(let ((.def_41374 (and .def_25107 .def_41373)))(let ((.def_25104 (= queue_empty (_ bv0 32))))(let ((.def_25131 (not .def_25104)))(let ((.def_41375 (and .def_25131 .def_41374)))(let ((.def_25101 (= rjh (_ bv2 32))))(let ((.def_41376 (and .def_25101 .def_41375)))(let ((.def_25099 (= __ste_client_autoResponse1 (_ bv0 32))))(let ((.def_41490 (or .def_25099 .def_41376)))(let ((.def_41483 (or .def_39951 .def_41368)))(let ((.def_41481 (and .def_39954 .def_41363)))(let ((.def_41482 (or .def_41369 .def_41481)))(let ((.def_41484 (and .def_41482 .def_41483)))(let ((.def_41485 (and .def_25129 .def_41484)))(let ((.def_41486 (and .def_25107 .def_41485)))(let ((.def_41487 (and .def_25131 .def_41486)))(let ((.def_41488 (and .def_25101 .def_41487)))(let ((.def_41377 (not .def_25099)))(let ((.def_41489 (or .def_41377 .def_41488)))(let ((.def_41491 (and .def_41489 .def_41490)))(let ((.def_25096 (= rjh (_ bv1 32))))(let ((.def_25135 (not .def_25096)))(let ((.def_41492 (and .def_25135 .def_41491)))(let ((.def_6264 (= __ste_ClientAddressBook_size0 (_ bv0 32))))(let ((.def_7503 (not .def_6264)))(let ((.def_41610 (and .def_7503 .def_41492)))(let ((.def_6262 (= __ste_ClientAddressBook_size0 __ste_ClientAddressBook_size2)))(let ((.def_41612 (or .def_6262 .def_41610)))(let ((.def_40005 (and .def_39951 .def_40004)))(let ((.def_40006 (and .def_25129 .def_40005)))(let ((.def_40007 (and .def_25107 .def_40006)))(let ((.def_40008 (and .def_25131 .def_40007)))(let ((.def_40009 (and .def_25101 .def_40008)))(let ((.def_41379 (or .def_25099 .def_40009)))(let ((.def_41378 (or .def_41376 .def_41377)))(let ((.def_41380 (and .def_41378 .def_41379)))(let ((.def_41381 (and .def_25135 .def_41380)))(let ((.def_41477 (and .def_7503 .def_41381)))(let ((.def_7504 (not .def_6262)))(let ((.def_41611 (or .def_7504 .def_41477)))(let ((.def_41613 (and .def_41611 .def_41612)))(let ((.def_6259 (= __ste_ClientAddressBook_size1 __ste_ClientAddressBook_size0)))(let ((.def_41628 (or .def_6259 .def_41613)))(let ((.def_41623 (or .def_6264 .def_41381)))(let ((.def_41619 (or .def_25099 .def_41488)))(let ((.def_41614 (and .def_25129 .def_41481)))(let ((.def_41615 (and .def_25107 .def_41614)))(let ((.def_41616 (and .def_25131 .def_41615)))(let ((.def_41617 (and .def_25101 .def_41616)))(let ((.def_41618 (or .def_41377 .def_41617)))(let ((.def_41620 (and .def_41618 .def_41619)))(let ((.def_41621 (and .def_25135 .def_41620)))(let ((.def_41622 (or .def_7503 .def_41621)))(let ((.def_41624 (and .def_41622 .def_41623)))(let ((.def_41625 (or .def_7504 .def_41624)))(let ((.def_41479 (or .def_6262 .def_41477)))(let ((.def_41626 (and .def_41479 .def_41625)))(let ((.def_7508 (not .def_6259)))(let ((.def_41627 (or .def_7508 .def_41626)))(let ((.def_41629 (and .def_41627 .def_41628)))(let ((.def_4222 (= mail_is_sensitive (_ bv4294967295 32))))(let ((.def_41630 (and .def_4222 .def_41629))).def_41630)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+__utac__exception__cf_handler_free N851:
+(assert false)
+
+__utac__exception__cf_handler_reset N901:
+(assert false)
+
+__utac__error_stack_mgt N973:
+(assert false)
+

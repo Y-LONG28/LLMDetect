@@ -1,0 +1,17 @@
+line 9:	N34 -{int count;}-> N35
+	count == 0;
+line 11:	N35 -{iVar1 = _setjmp(__env);}-> N36
+	iVar1 == 0;
+	(&__env) == 4LL;
+	(&(__env[0])) == 4LL;
+	(&((__env[0]).__jmpbuf)) == 4LL;
+	(&((__env[0]).__saved_mask)) == 40LL;
+	(&((__env[0]).__saved_mask.__val)) == 40LL;
+	count == 0;
+line 12:	N36 -{[iVar1 == 0]}-> N38
+	iVar1 == 0;
+line 13:	N39 -{[!(count != 0)]}-> N41
+	count == 0;
+line 13:	N44 -{[!(count != 0)]}-> N47
+	count == 0;
+line 13:	N47 -{__assert_fail("count != 0 && \"Assertion failed: count should not be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_05-heap-counting-return-one-method_unknown_1_neg_process_dc_iter2.c", 13, "__PRETTY_FUNCTION__");}-> N338

@@ -1,0 +1,27 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "d9179551-1fb1-32f9-a887-6e140c9b1883"
+    creation_time: "2025-01-15T14:12:49+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/integerpromotion-3_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/integerpromotion-3_process_dc_iter1.c: "ed8500a271187c8d4b65a4546b566aa63a4e8eecd5a24be26b89493e5fbb9022"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/integerpromotion-3_process_dc_iter1.c"
+          line: 19
+          column: 13
+          function: "main"

@@ -1,0 +1,16 @@
+line 13:	N39 -{float y;}-> N40
+	y == 2.524354896707238E-29;
+line 19:	N43 -{[!(y < 0.0)]}-> N47
+	y == 2.524354896707238E-29;
+line 19:	N47 -{[!(1.0 < y)]}-> N46
+	y == 2.524354896707238E-29;
+line 22:	N46 -{cond = 1;}-> N49
+	cond == 1;
+line 24:	N44 -{assume(cond)}-> N31
+	cond == 1;
+line 6:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 27:	N50 -{[y != 0.0]}-> N53
+	y == 2.524354896707238E-29;
+line 27:	N53 -{[(y * y) == 0.0]}-> N52
+line 28:	N62 -{__assert_fail("0 && \"y != 0.f\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/inv_square-1_process_dc_iter1.c", 28, "__PRETTY_FUNCTION__");}-> N341

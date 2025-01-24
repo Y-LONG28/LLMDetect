@@ -1,0 +1,58 @@
+line 13:	N469 -{int counter = 0;}-> N470
+	counter == 0;
+line 20:	N42 -{longlong temp;}-> N43
+line 21:	N43 -{int tmp_var_2_int;}-> N44
+line 33:	N54 -{assume((uint )(0 < tmp_var_2_int))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 34:	N55 -{assume((uint )(0 < temp))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 37:	N57 -{p = (longlong )temp;}-> N58
+line 38:	N58 -{q = 1;}-> N59
+	q == 1LL;
+line 39:	N59 -{r = 0;}-> N60
+	r == 0LL;
+line 40:	N60 -{s = 0;}-> N61
+	s == 0LL;
+line 41:	N61 -{c = 1;}-> N62
+	q == 1LL;
+	r == 0LL;
+	s == 0LL;
+	c == 1LL;
+line 44:	N66 -{lVar4 = q;}-> N67
+	lVar4 == 1LL;
+line 45:	N67 -{lVar3 = s;}-> N68
+	lVar3 == 0LL;
+line 46:	N68 -{iVar2 = counter + 1;}-> N69
+	lVar4 == 1LL;
+	lVar3 == 0LL;
+	iVar2 == 1;
+line 47:	N69 -{[!(0 < counter)]}-> N72
+	counter == 0;
+line 47:	N72 -{[!(p == 0)]}-> N70
+line 54:	N70 -{d = 0;}-> N88
+	d == 0LL;
+line 55:	N88 -{counter = iVar2;}-> N89
+	counter == 1;
+line 56:	N91 -{[!(counter < 1)]}-> N94
+	counter == 1;
+line 79:	N94 -{b = p;}-> N165
+line 81:	N166 -{q = r;}-> N167
+	q == 0LL;
+line 82:	N167 -{r = lVar4 - (r * d);}-> N168
+	r == 1LL;
+line 83:	N168 -{s = c;}-> N169
+	s == 1LL;
+line 84:	N169 -{c = lVar3 - (c * d);}-> N170
+	c == 0LL;
+line 85:	N170 -{counter = counter + 1;}-> N171
+	counter == 2;
+none:	N171 -{}-> N63
+	lVar4 == 0LL;
+	lVar3 == 1LL;
+	iVar2 == 3;
+line 47:	N69 -{[0 < counter]}-> N71
+	counter == 3;
+	counter == 2;
+line 49:	N73 -{[b != ((((tmp_var_2_int * q) - (tmp_var_2_int * r)) + (temp * s)) - (temp * c))]}-> N75
+	__CPAchecker_TMP_2 == 0;
+line 50:	N84 -{__assert_fail("0 && \"Assertion failed: p*x - q*x + r*y - s*y == a\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/egcd3-ll_unwindbound1_process_dc_iter2.c", 50, "__PRETTY_FUNCTION__");}-> N477

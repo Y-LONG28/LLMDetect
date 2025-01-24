@@ -1,0 +1,32 @@
+line 33:	N56 -{int iVar1;}-> N57
+line 34:	N57 -{int local_18;}-> N58
+	local_18 == 1;
+line 35:	N58 -{int result;}-> N59
+	result == 0;
+line 39:	N61 -{[!(result < 0)]}-> N65
+	result == 0;
+line 39:	N65 -{[!(1073741823 < result)]}-> N64
+	result == 0;
+line 41:	N64 -{[!(local_18 < 0)]}-> N70
+	local_18 == 1;
+line 41:	N70 -{[!(1073741823 < local_18)]}-> N69
+	local_18 == 1;
+line 44:	N69 -{addition(result, local_18)}-> N31
+	iVar1 == 0;
+	m == 0;
+	n == 1;
+line 12:	N36 -{[n != 0]}-> N38
+	n == 1;
+line 13:	N38 -{[!(n < 1)]}-> N41
+	n == 1;
+line 19:	N41 -{addition(m + 1, n + -1)}-> N31
+	iVar1 == 1;
+	iVar1 == 0;
+	m == 1;
+	n == 0;
+line 12:	N36 -{[!(n != 0)]}-> N37
+	n == 0;
+line 45:	N72 -{[!(iVar1 == (result - local_18))]}-> N75
+	iVar1 == 1048576;
+	iVar1 == 1;
+line 49:	N86 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal result - local_18\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/Addition02_process_dc_iter1.c", 49, "__PRETTY_FUNCTION__");}-> N390

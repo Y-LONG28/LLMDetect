@@ -1,0 +1,215 @@
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 5:	N1433 -{int q_req_up = 0;}-> N1434
+	c_dr_i == 0;
+	c_dr_pc == 0;
+	c_dr_st == 0;
+	c_last_read == 0;
+	c_num_read == 0;
+	p_dw_pc == 0;
+	p_dw_st == 0;
+	p_last_write == 0;
+	p_num_write == 0;
+	q_req_up == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 44:	N1457 -{int p_dw_i = 0;}-> N1458
+	local == 0;
+	token == 0;
+	E_9 == 2;
+	E_8 == 2;
+	E_7 == 2;
+	E_6 == 2;
+	E_5 == 2;
+	E_4 == 2;
+	E_3 == 2;
+	E_2 == 2;
+	E_1 == 2;
+	E_M == 2;
+	T9_E == 2;
+	T8_E == 2;
+	T7_E == 2;
+	T6_E == 2;
+	T5_E == 2;
+	T4_E == 2;
+	T3_E == 2;
+	T2_E == 2;
+	T1_E == 2;
+	M_E == 2;
+	t9_i == 0;
+	t8_i == 0;
+	t7_i == 0;
+	t6_i == 0;
+	t5_i == 0;
+	t4_i == 0;
+	t3_i == 0;
+	t2_i == 0;
+	t1_i == 0;
+	m_i == 0;
+	t9_st == 0;
+	t8_st == 0;
+	t7_st == 0;
+	t6_st == 0;
+	t5_st == 0;
+	t4_st == 0;
+	t3_st == 0;
+	t2_st == 0;
+	t1_st == 0;
+	m_st == 0;
+	t9_pc == 0;
+	t8_pc == 0;
+	t7_pc == 0;
+	t6_pc == 0;
+	t5_pc == 0;
+	t4_pc == 0;
+	t3_pc == 0;
+	t2_pc == 0;
+	t1_pc == 0;
+	m_pc == 0;
+	src_pc_sfifo_2_cil_2_token_ring_09_cil_1_pc_sfifo_2_cil_2_token_ring_09_cil_1_ca_t == 0;
+	p_dw_i == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, lines 1937-1940:	N1425 -{__CPAchecker_TMP_0 = __VERIFIER_nondet_int();}-> N1426
+	q_buf_0 == 0;
+	q_free == 0;
+	q_read_ev == 0;
+	q_write_ev == 0;
+	q_req_up == 0;
+	p_num_write == 0;
+	p_last_write == 0;
+	p_dw_st == 0;
+	p_dw_pc == 0;
+	c_num_read == 0;
+	c_last_read == 0;
+	c_dr_st == 0;
+	c_dr_pc == 0;
+	c_dr_i == 0;
+	p_dw_i == 0;
+	src_pc_sfifo_2_cil_2_token_ring_09_cil_1_pc_sfifo_2_cil_2_token_ring_09_cil_1_ca_t == 0;
+	m_pc == 0;
+	t1_pc == 0;
+	t2_pc == 0;
+	t3_pc == 0;
+	t4_pc == 0;
+	t5_pc == 0;
+	t6_pc == 0;
+	t7_pc == 0;
+	t8_pc == 0;
+	t9_pc == 0;
+	m_st == 0;
+	t1_st == 0;
+	t2_st == 0;
+	t3_st == 0;
+	t4_st == 0;
+	t5_st == 0;
+	t6_st == 0;
+	t7_st == 0;
+	t8_st == 0;
+	t9_st == 0;
+	m_i == 0;
+	t1_i == 0;
+	t2_i == 0;
+	t3_i == 0;
+	t4_i == 0;
+	t5_i == 0;
+	t6_i == 0;
+	t7_i == 0;
+	t8_i == 0;
+	t9_i == 0;
+	M_E == 2;
+	T1_E == 2;
+	T2_E == 2;
+	T3_E == 2;
+	T4_E == 2;
+	T5_E == 2;
+	T6_E == 2;
+	T7_E == 2;
+	T8_E == 2;
+	T9_E == 2;
+	E_M == 2;
+	E_1 == 2;
+	E_2 == 2;
+	E_3 == 2;
+	E_4 == 2;
+	E_5 == 2;
+	E_6 == 2;
+	E_7 == 2;
+	E_8 == 2;
+	E_9 == 2;
+	token == 0;
+	local == 0;
+	__CPAchecker_TMP_0 == 2;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 1937:	N1426 -{[!(__CPAchecker_TMP_0 == 0)]}-> N1423
+	__CPAchecker_TMP_0 == 2;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 1938:	N1423 -{main1()}-> N319
+	q_free == 1;
+	q_write_ev == 2;
+	q_read_ev == 2;
+	p_num_write == 0;
+	p_dw_pc == 0;
+	c_num_read == 0;
+	c_dr_pc == 0;
+	c_dr_i == 1;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 453:	N329 -{init_model1(&p_dw_i)}-> N12
+	q_free == 1;
+	p_dw_i == 8LL;
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 30:	N14 -{q_write_ev = 2;}-> N15
+	q_write_ev == 2;
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 31:	N15 -{q_read_ev = 2;}-> N16
+	p_num_write == 0;
+	q_read_ev == 2;
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 33:	N17 -{p_dw_pc = 0;}-> N18
+	c_num_read == 0;
+	(*p_dw_i) == 1;
+	p_dw_pc == 0;
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 36:	N20 -{c_dr_pc = 0;}-> N21
+	c_dr_pc == 0;
+output/pc_sfifo_2.cil-2+token_ring.09.cil-1_dc_fix.c, line 37:	N21 -{c_dr_i = 1;}-> N22
+	p_dw_i == 8LL;
+	(*p_dw_i) == 1;
+	q_free == 1;
+	q_write_ev == 2;
+	q_read_ev == 2;
+	p_num_write == 0;
+	p_dw_pc == 0;
+	c_num_read == 0;
+	c_dr_pc == 0;
+	c_dr_i == 1;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 454:	N330 -{start_simulation1()}-> N288
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 402:	N292 -{update_channels1()}-> N158
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 212:	N159 -{[!(((int)q_req_up) == 1)]}-> N162
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 403:	N293 -{init_threads1()}-> N166
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 227:	N167 -{[((int)p_dw_i) == 1]}-> N169
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 228:	N169 -{p_dw_st = 0;}-> N171
+	p_dw_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 232:	N168 -{[((int)c_dr_i) == 1]}-> N174
+	c_dr_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 404:	N294 -{fire_delta_events1()}-> N197
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 265:	N198 -{[!(((int)q_read_ev) == 0)]}-> N201
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 270:	N199 -{[!(((int)q_write_ev) == 0)]}-> N205
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 405:	N295 -{activate_threads1()}-> N221
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 298:	N222 -{int tmp;}-> N223
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 299:	N223 -{int tmp___0;}-> N224
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 303:	N224 -{is_do_write_p_triggered()}-> N35
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 54:	N37 -{[!(((int)p_dw_pc) == 1)]}-> N40
+	__retres1 == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 305:	N225 -{[tmp == 0]}-> N228
+	tmp == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 311:	N226 -{is_do_read_c_triggered()}-> N50
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 73:	N52 -{[!(((int)c_dr_pc) == 1)]}-> N55
+	__retres1 == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 313:	N230 -{[tmp___0 == 0]}-> N233
+	tmp___0 == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 406:	N296 -{reset_delta_events1()}-> N209
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 283:	N210 -{[!(((int)q_read_ev) == 1)]}-> N213
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 288:	N211 -{[!(((int)q_write_ev) == 1)]}-> N217
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 409:	N297 -{while}-> N298
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 413:	N302 -{eval1()}-> N237
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 325:	N240 -{int tmp___1;}-> N241
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 329:	N241 -{while}-> N242
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 332:	N245 -{exists_runnable_thread1()}-> N180
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 245:	N182 -{[((int)p_dw_st) == 0]}-> N184
+	__retres1 == 1;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 334:	N246 -{[!(tmp___1 == 0)]}-> N248
+	tmp___1 == 1;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 339:	N247 -{[((int)p_dw_st) == 0]}-> N252
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 341:	N252 -{tmp = __VERIFIER_nondet_int();}-> N254
+	tmp == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 343:	N254 -{[tmp == 0]}-> N257
+	tmp == 0;
+src/pc_sfifo_2.cil-2+token_ring.09.cil-1/pc_sfifo_2.cil-2+token_ring.09.cil-1.c, line 349:	N257 -{error1()}-> N28

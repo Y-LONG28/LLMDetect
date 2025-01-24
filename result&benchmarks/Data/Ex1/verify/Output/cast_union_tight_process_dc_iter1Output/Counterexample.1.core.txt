@@ -1,0 +1,11 @@
+line 23:	N39 -{double r;}-> N40
+line 25:	N41 -{int tmp_var_1_int;}-> N42
+	tmp_var_1_int == -2147483648U;
+line 28:	N42 -{cast(tmp_var_1_int)}-> N31
+	(y.parts.high) == 0U;
+	(y.parts.low) == 2147483648U;
+	(&y) == 4LL;
+	i == -2147483648U;
+line 29:	N43 -{[r != ((double)tmp_var_1_int)]}-> N45
+	r == 4.9E-324;
+line 30:	N54 -{__assert_fail("0 && \"Assertion failed: r == a\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cast_union_tight_process_dc_iter1.c", 30, "__PRETTY_FUNCTION__");}-> N359

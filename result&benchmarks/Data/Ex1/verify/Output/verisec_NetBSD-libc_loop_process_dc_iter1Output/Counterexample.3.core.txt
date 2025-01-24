@@ -1,0 +1,22 @@
+line 25:	N64 -{Char CStack_20;}-> N65
+	CStack_1c == 0;
+	CStack_20 == 0;
+line 27:	N66 -{Char pathbuf[2];}-> N67
+	(pathbuf[0]) == 7;
+	(&pathbuf) == 9LL;
+line 33:	N71 -{glob2(&CStack_20, (Char *)pathbuf)}-> N37
+	pathbuf == 2LL;
+	pathlim == 9LL;
+	(*pathlim) == 7;
+line 13:	N40 -{Char *tmp;}-> N41
+	tmp == 0LL;
+lines 15-20:	N42 -{local_18 = pathbuf;}-> N43
+	local_18 == 2LL;
+line 15:	N43 -{[local_18 <= pathlim]}-> N45
+	local_18 == 2LL;
+	pathlim == 9LL;
+	(*pathlim) == 7;
+line 16:	N45 -{[tmp < local_18]}-> N48
+	tmp == 0LL;
+	local_18 == 2LL;
+line 17:	N57 -{__assert_fail("0 && \"Assertion failed: p <= tmp\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c", 17, "__PRETTY_FUNCTION__");}-> N351

@@ -1,0 +1,93 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "cafffa55-b15b-3b3c-b0e2-f53943b3ed1e"
+    creation_time: "2025-01-15T14:09:27+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c: "c12e2c48558ba690975a44612aa1c025c0bd1aba90ecce4b18c5f9db4727c274"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 29
+          column: 5
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 31
+          column: 12
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 32
+          column: 9
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 34
+          column: 16
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 52
+          column: 5
+          function: "fmin_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 85
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c"
+          line: 86
+          column: 17
+          function: "main"

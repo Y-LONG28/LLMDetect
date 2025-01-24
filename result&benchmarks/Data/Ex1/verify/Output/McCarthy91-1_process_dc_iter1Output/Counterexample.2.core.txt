@@ -1,0 +1,14 @@
+line 27:	N50 -{int iVar1;}-> N51
+line 28:	N51 -{int local_14;}-> N52
+	local_14 == 102;
+line 32:	N54 -{f91(local_14)}-> N31
+	x == 102;
+line 9:	N34 -{[!(x < 101)]}-> N37
+	iVar1 == 92;
+	x == 102;
+line 33:	N55 -{[!(iVar1 == 91)]}-> N59
+	iVar1 == 92;
+line 33:	N59 -{[!(102 < local_14)]}-> N58
+	iVar1 == 1048576;
+	local_14 == 102;
+line 37:	N71 -{__assert_fail("0 && \"Assertion failed: Condition not met\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c", 37, "__PRETTY_FUNCTION__");}-> N351

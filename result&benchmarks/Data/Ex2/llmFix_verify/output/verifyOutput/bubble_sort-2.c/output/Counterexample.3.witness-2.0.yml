@@ -1,0 +1,51 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "ecdeb951-8373-3fd8-958a-ae99d27ba04c"
+    creation_time: "2025-01-24T02:27:37+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/bubble_sort-2_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/bubble_sort-2/bubble_sort-2.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/bubble_sort-2_dc_fix.c: "ddd1df898977b002dc63854da0d1cdc15936ed7a8a6fa3a3fd39b7370d2b4e85"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/bubble_sort-2/bubble_sort-2.c: "fad7925ba25e27b7c84938da6d4db8981e9d7559c3682c84ed8f1a7badf38759"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/bubble_sort-2/bubble_sort-2.c"
+          line: 662
+          column: 5
+          function: "src_bubble_sort_2_bubble_sort_2_cgl_read"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/bubble_sort-2/bubble_sort-2.c"
+          line: 178
+          column: 5
+          function: "src_bubble_sort_2_bubble_sort_2_cinspect"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/bubble_sort-2/bubble_sort-2.c"
+          line: 27
+          column: 3
+          function: "src_bubble_sort_2_bubble_sort_2_cfail"

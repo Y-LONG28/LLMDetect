@@ -1,0 +1,42 @@
+line 76:	N106 -{double in_a0;}-> N107
+	in_a1 == 4.9E-324;
+line 79:	N109 -{double extraout_fa0;}-> N110
+	extraout_fa0 == 2.0;
+line 84:	N113 -{fmin_double(in_a0, in_a1)}-> N76
+	y == 4.9E-324;
+line 46:	N77 -{int iVar1;}-> N78
+	y == 4.9E-324;
+line 51:	N81 -{__fpclassify_double(x)}-> N36
+	(&ew_u) == 4LL;
+line 26:	N43 -{lsw = ew_u.parts.lsw;}-> N44
+	lsw == 1U;
+line 27:	N44 -{msw = ew_u.parts.msw;}-> N45
+	msw == 4293918720U;
+line 29:	N45 -{[!(msw == 0)]}-> N49
+	msw == 4293918720U;
+line 29:	N49 -{[!(msw == 2147483648U)]}-> N48
+	msw == 4293918720U;
+line 31:	N48 -{[!(msw < 1048576)]}-> N57
+	msw == 4293918720U;
+line 31:	N57 -{[2146435071 < msw]}-> N56
+	msw == 4293918720U;
+line 31:	N56 -{[!(msw < 2148532224U)]}-> N58
+	msw == 4293918720U;
+line 31:	N58 -{[4293918719U < msw]}-> N54
+	msw == 4293918720U;
+line 32:	N54 -{[!(msw < 1048576)]}-> N62
+	msw == 4293918720U;
+line 32:	N62 -{[!(x < 0)]}-> N61
+line 34:	N61 -{[!(msw == 2146435072)]}-> N68
+	msw == 4293918720U;
+line 34:	N68 -{[msw == 4293918720U]}-> N70
+	msw == 4293918720U;
+line 34:	N70 -{[!(lsw == 0)]}-> N67
+	iVar1 == 0;
+	lsw == 1U;
+line 52:	N82 -{[iVar1 == 0]}-> N84
+	dVar2 == 0.0;
+	iVar1 == 0;
+line 85:	N114 -{[extraout_fa0 != 0.0]}-> N116
+	extraout_fa0 == 2.0;
+line 86:	N129 -{__assert_fail("0 && \"Assertion failed: extraout_fa0 should be 0.0 or signbit should be 1\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c", 86, "__PRETTY_FUNCTION__");}-> N439

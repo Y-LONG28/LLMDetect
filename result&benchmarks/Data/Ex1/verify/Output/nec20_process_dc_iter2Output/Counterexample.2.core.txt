@@ -1,0 +1,22 @@
+line 22:	N45 -{[!(((a[1024]) & 255) == 0)]}-> N48
+line 25:	N48 -{uStack_18 = 0;}-> N50
+	uStack_18 == 0U;
+line 27:	N46 -{j = 0;}-> N51
+	j == 0U;
+line 28:	N51 -{tmp_var_1_uint = a[1023];}-> N52
+	j == 0U;
+line 29:	N52 -{[((uint )(a[1023])) < 10001]}-> N54
+line 30:	N54 -{for}-> N56
+line 30:	N56 -{[j <= uStack_18]}-> N58
+	j == 0U;
+	uStack_18 == 0U;
+line 31:	N58 -{tmp_var_1_uint = tmp_var_1_uint + 2;}-> N60
+lines 30-32:	N57 -{j = j + 1;}-> N56
+	j == 1U;
+line 30:	N56 -{[!(j <= uStack_18)]}-> N59
+	(auStack_1028[j]) == 0U;
+	j == 1U;
+	uStack_18 == 0U;
+line 34:	N61 -{[1024 < tmp_var_1_uint]}-> N63
+	__CPAchecker_TMP_2 == 0;
+line 35:	N72 -{__assert_fail("0 && \"Assertion failed: j < 1025\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/nec20_process_dc_iter2.c", 35, "__PRETTY_FUNCTION__");}-> N384

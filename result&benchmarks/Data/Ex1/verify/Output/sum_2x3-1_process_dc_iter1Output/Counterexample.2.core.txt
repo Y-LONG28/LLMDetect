@@ -1,0 +1,20 @@
+line 16:	N38 -{int iVar1;}-> N39
+line 21:	N42 -{sum(2, 3)}-> N59
+	n == 2;
+	m == 3;
+line 35:	N63 -{[!(n < 1)]}-> N66
+	n == 2;
+line 38:	N66 -{sum(n - 1, m + 1)}-> N59
+	n == 1;
+	m == 4;
+line 35:	N63 -{[!(n < 1)]}-> N66
+	n == 1;
+line 38:	N66 -{sum(n - 1, m + 1)}-> N59
+	n == 0;
+	m == 5;
+line 35:	N63 -{[n < 1]}-> N65
+	iVar1 == 5;
+	n == 0;
+line 22:	N43 -{[iVar1 == 5]}-> N45
+	iVar1 == 5;
+line 23:	N54 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 5\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c", 23, "__PRETTY_FUNCTION__");}-> N346

@@ -1,0 +1,18 @@
+loop__test__64:
+(set-info :source |printed by MathSAT|)
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+(assert (let ((.def_224 (= waterLevel (_ bv2 32))))(let ((.def_244 (not .def_224)))(let ((.def_227 (= systemActive (_ bv0 32))))(let ((.def_242 (not .def_227)))(let ((.def_230 (= pumpRunning (_ bv0 32))))(let ((.def_243 (and .def_230 .def_242)))(let ((.def_245 (and .def_243 .def_244))).def_245))))))))
+loop____utac__exception__cf_handler_free__468:
+(set-info :source |printed by MathSAT|)
+(assert false)
+loop____utac__exception__cf_handler_reset__525:
+(set-info :source |printed by MathSAT|)
+(assert false)
+loop____utac__error_stack_mgt__610:
+(set-info :source |printed by MathSAT|)
+(assert false)
+loop__cleanup__857:
+(set-info :source |printed by MathSAT|)
+(assert true)

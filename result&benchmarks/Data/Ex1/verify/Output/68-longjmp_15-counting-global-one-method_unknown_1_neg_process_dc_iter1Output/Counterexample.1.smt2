@@ -1,0 +1,4 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun __ADDRESS_OF_my_jump_buffer@ () (_ BitVec 32))
+(declare-fun count@2 () (_ BitVec 32))
+(assert (let ((.def_21 (= count@2 (_ bv0 32))))(let ((.def_13 (bvurem __ADDRESS_OF_my_jump_buffer@ (_ bv4 32))))(let ((.def_14 (= .def_13 (_ bv0 32))))(let ((.def_11 (bvslt (_ bv0 32) __ADDRESS_OF_my_jump_buffer@)))(let ((.def_18 (and .def_11 .def_14)))(let ((.def_16 (bvadd (_ bv164 32) __ADDRESS_OF_my_jump_buffer@)))(let ((.def_17 (bvslt (_ bv0 32) .def_16)))(let ((.def_19 (and .def_17 .def_18)))(let ((.def_22 (and .def_19 .def_21)))(let ((.def_25 (and .def_21 .def_22))).def_25)))))))))))

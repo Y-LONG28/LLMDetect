@@ -1,0 +1,214 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "25f7697d-0a19-3083-8c45-7713437f83d0"
+    creation_time: "2025-01-15T14:11:03+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c: "826e72b169c96bd6601048abf54e80338acea9463e03874b0ceee56571a5d3aa"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 21
+          column: 5
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 23
+          column: 12
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 38
+          column: 5
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 40
+          column: 12
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 21
+          column: 5
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 23
+          column: 12
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 38
+          column: 5
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 40
+          column: 12
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 38
+          column: 5
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 21
+          column: 5
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 23
+          column: 12
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 38
+          column: 5
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 40
+          column: 12
+          function: "fibo2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 21
+          column: 5
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 23
+          column: 12
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 21
+          column: 5
+          function: "fibo1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 56
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_4-2_process_dc_iter1.c"
+          line: 57
+          column: 17
+          function: "main"

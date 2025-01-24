@@ -1,0 +1,101 @@
+line 13:	N509 -{int counter = 0;}-> N510
+	counter == 0;
+line 18:	N40 -{short local_32;}-> N41
+line 27:	N48 -{x = 0;}-> N49
+	x == 0LL;
+line 28:	N49 -{y = 0;}-> N50
+	y == 0LL;
+line 29:	N50 -{z = 1;}-> N51
+	z == 1LL;
+line 30:	N51 -{lStack_30 = 6;}-> N52
+	counter == 0;
+	lStack_30 == 6L;
+	z == 1LL;
+	y == 0LL;
+	x == 0LL;
+line 31:	N52 -{while}-> N53
+line 31:	N56 -{iVar2 = counter + 1;}-> N57
+	iVar2 == 1;
+line 31:	N57 -{bVar1 = counter < 2;}-> N58
+	bVar1 == 1;
+line 31:	N58 -{counter = iVar2;}-> N59
+	counter == 1;
+line 31:	N59 -{__CPAchecker_TMP_0 = bVar1;}-> N60
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 1;
+	bVar1 == 1;
+	counter == 1;
+line 31:	N60 -{[!(__CPAchecker_TMP_0 == 0)]}-> N54
+	__CPAchecker_TMP_0 == 1;
+line 32:	N54 -{[!(lStack_30 != ((x + 1) * 6))]}-> N61
+	lStack_30 == 6L;
+line 35:	N61 -{[!(z != ((((x * x) + x) * 3) + 1))]}-> N74
+	z == 1LL;
+line 38:	N74 -{[!(y != ((x * x) * x))]}-> N87
+	y == 0LL;
+line 41:	N87 -{[!(((((z * lStack_30) + (y * -18)) + (z * -12)) + (lStack_30 * 2)) != 6)]}-> N100
+line 44:	N100 -{[!((((lStack_30 * lStack_30) + (z * -12)) + (lStack_30 * -6)) != -12)]}-> N113
+line 47:	N113 -{[!(local_32 < x)]}-> N126
+	x == 0LL;
+line 48:	N126 -{x = x + 1;}-> N129
+	x == 1LL;
+line 49:	N129 -{y = z + y;}-> N130
+	y == 1LL;
+line 50:	N130 -{z = lStack_30 + z;}-> N131
+	z == 7LL;
+line 51:	N131 -{lStack_30 = lStack_30 + 6;}-> N132
+	x == 1LL;
+	y == 1LL;
+	z == 7LL;
+	lStack_30 == 12L;
+none:	N132 -{}-> N53
+line 31:	N56 -{iVar2 = counter + 1;}-> N57
+	iVar2 == 2;
+line 31:	N57 -{bVar1 = counter < 2;}-> N58
+	bVar1 == 1;
+line 31:	N58 -{counter = iVar2;}-> N59
+	counter == 2;
+line 31:	N59 -{__CPAchecker_TMP_0 = bVar1;}-> N60
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 2;
+	bVar1 == 1;
+	counter == 2;
+line 31:	N60 -{[!(__CPAchecker_TMP_0 == 0)]}-> N54
+	__CPAchecker_TMP_0 == 1;
+line 32:	N54 -{[!(lStack_30 != ((x + 1) * 6))]}-> N61
+	lStack_30 == 12L;
+line 35:	N61 -{[!(z != ((((x * x) + x) * 3) + 1))]}-> N74
+	z == 7LL;
+line 38:	N74 -{[!(y != ((x * x) * x))]}-> N87
+	y == 1LL;
+line 41:	N87 -{[!(((((z * lStack_30) + (y * -18)) + (z * -12)) + (lStack_30 * 2)) != 6)]}-> N100
+line 44:	N100 -{[!((((lStack_30 * lStack_30) + (z * -12)) + (lStack_30 * -6)) != -12)]}-> N113
+line 47:	N113 -{[!(local_32 < x)]}-> N126
+	x == 1LL;
+line 48:	N126 -{x = x + 1;}-> N129
+	x == 2LL;
+line 49:	N129 -{y = z + y;}-> N130
+	z == 19LL;
+	y == 8LL;
+line 51:	N131 -{lStack_30 = lStack_30 + 6;}-> N132
+	x == 2LL;
+	y == 8LL;
+	z == 19LL;
+	lStack_30 == 18L;
+none:	N132 -{}-> N53
+	iVar2 == 3;
+line 31:	N57 -{bVar1 = counter < 2;}-> N58
+	counter == 3;
+	bVar1 == 0;
+line 31:	N59 -{__CPAchecker_TMP_0 = bVar1;}-> N60
+	__CPAchecker_TMP_0 == 0;
+	iVar2 == 3;
+	bVar1 == 0;
+	counter == 3;
+line 31:	N60 -{[__CPAchecker_TMP_0 == 0]}-> N55
+	__CPAchecker_TMP_0 == 0;
+line 53:	N55 -{[!(lStack_30 != ((x + 1) * 6))]}-> N133
+	lStack_30 == 18L;
+line 56:	N133 -{[((y * 12) + (((local_32 * 6) * y) - (y * lStack_30))) != 0]}-> N147
+	__CPAchecker_TMP_21 == 0;
+line 57:	N156 -{__assert_fail("0 && \"6*a*x - x*z + 12*x == 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound2_process_dc_iter1.c", 57, "__PRETTY_FUNCTION__");}-> N517

@@ -1,0 +1,212 @@
+none:	N237 -{INIT GLOBAL VARS}-> N246
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, lines 1-34:	N246 -{unsigned int base2flt(unsigned int m, int e);}-> N247
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 12:	N247 -{unsigned int __VERIFIER_nondet_uint();}-> N248
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 13:	N248 -{char __VERIFIER_nondet_char();}-> N249
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 14:	N249 -{int __VERIFIER_nondet_int();}-> N250
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 15:	N250 -{long int __VERIFIER_nondet_long();}-> N251
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 16:	N251 -{unsigned long int __VERIFIER_nondet_ulong();}-> N252
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 17:	N252 -{float __VERIFIER_nondet_float();}-> N253
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 18:	N253 -{void exit(int);}-> N254
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 20:	N254 -{void abort();}-> N255
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 22-24:	N255 -{void __assert_fail(const char *__assertion, const char *__file, unsigned int __line, const char *__function);}-> N256
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 25-27:	N256 -{void __assert_perror_fail(int __errnum, const char *__file, unsigned int __line, const char *__function);}-> N257
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 28-29:	N257 -{void __assert(const char *__assertion, const char *__file, int __line);}-> N258
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 31:	N258 -{void reach_error();}-> N259
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 33-35:	N259 -{void assume_abort_if_not(int cond);}-> N260
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 37-51:	N260 -{int main1();}-> N261
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 54:	N261 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N262
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 58-63:	N262 -{void __VERIFIER_assert(int cond);}-> N263
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 69-133:	N263 -{unsigned int addflt(unsigned int a, unsigned int b);}-> N264
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 134-210:	N264 -{unsigned int mulflt(unsigned int a, unsigned int b);}-> N265
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 211-249:	N265 -{int main2();}-> N266
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 250-256:	N266 -{int main();}-> N267
+none:	N267 -{Function start dummy edge}-> N238
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 252-255:	N238 -{int __CPAchecker_TMP_0;}-> N242
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, lines 252-255:	N242 -{__CPAchecker_TMP_0 = __VERIFIER_nondet_int();}-> N243
+	__CPAchecker_TMP_0 == 0;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 252:	N243 -{[__CPAchecker_TMP_0 == 0]}-> N241
+	__CPAchecker_TMP_0 == 0;
+	__CPAchecker_TMP_0 == 0;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 255:	N241 -{main2()}-> N200
+none:	N200 -{Function start dummy edge}-> N201
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 212:	N201 -{unsigned int a;}-> N202
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 213:	N202 -{unsigned int ma;}-> N203
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 213:	N203 -{ma = __VERIFIER_nondet_uint();}-> N204
+	ma == 16777216U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 214:	N204 -{signed char ea;}-> N205
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 214:	N205 -{ea = __VERIFIER_nondet_char();}-> N206
+	ea == -127;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 215:	N206 -{unsigned int b;}-> N207
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 216:	N207 -{unsigned int mb;}-> N208
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 216:	N208 -{mb = __VERIFIER_nondet_uint();}-> N209
+	mb == 8388608U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 217:	N209 -{signed char eb;}-> N210
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 217:	N210 -{eb = __VERIFIER_nondet_char();}-> N211
+	eb == 0;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 218:	N211 -{unsigned int r_add1;}-> N212
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 219:	N212 -{unsigned int r_add2;}-> N213
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 220:	N213 -{unsigned int zero;}-> N214
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 221:	N214 -{int tmp;}-> N215
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 222:	N215 -{int tmp___0;}-> N216
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 223:	N216 -{int __retres14;}-> N217
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 227:	N217 -{base2flt(0, 0)}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+	m == 0U;
+	e == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 2:	N2 -{int local_28;}-> N3
+	m == 0U;
+	e == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 3:	N3 -{unsigned int local_24;}-> N4
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 4:	N4 -{int e_local;}-> N5
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 5:	N5 -{unsigned int m_local;}-> N6
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 6:	N6 -{unsigned int local_14;}-> N7
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 7:	N7 -{unsigned int res;}-> N8
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 8:	N8 -{unsigned int __retres4;}-> N9
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[m == 0]}-> N11
+	m == 0U;
+	m == 0U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 11:	N11 -{local_14 = 0;}-> N13
+	local_14 == 0U;
+none:	N13 -{}-> N10
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 33:	N10 -{return local_14;}-> N0
+	local_14 = 0
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 227:	N0 -{Return edge from base2flt to main2: zero = base2flt(0, 0);}-> N218
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 228:	N218 -{base2flt(ma, ea)}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+	m == 16777216U;
+	e == -127;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 2:	N2 -{int local_28;}-> N3
+	m == 16777216U;
+	e == -127;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 3:	N3 -{unsigned int local_24;}-> N4
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 4:	N4 -{int e_local;}-> N5
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 5:	N5 -{unsigned int m_local;}-> N6
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 6:	N6 -{unsigned int local_14;}-> N7
+	local_14 == 0U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 7:	N7 -{unsigned int res;}-> N8
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 8:	N8 -{unsigned int __retres4;}-> N9
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[!(m == 0)]}-> N12
+	m == 16777216U;
+	m == 16777216U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 13:	N12 -{local_28 = e;}-> N14
+	local_28 == -127;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 14:	N14 -{local_24 = m;}-> N15
+	local_24 == 16777216U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 15:	N15 -{[!(m < 16777216)]}-> N18
+	m == 16777216U;
+	m == 16777216U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 24:	N18 -{for}-> N28
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 24:	N28 -{[!(33554431 < local_24)]}-> N31
+	local_24 == 16777216U;
+	local_24 == 16777216U;
+none:	N31 -{}-> N16
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 31:	N16 -{local_14 = ((local_28 + 128) * 16777216) | (local_24 & 4278190079U);}-> N36
+	local_14 == 16777216U;
+none:	N36 -{}-> N10
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 33:	N10 -{return local_14;}-> N0
+	local_14 = 16777216
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 228:	N0 -{Return edge from base2flt to main2: a = base2flt(ma, ea);}-> N219
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 229:	N219 -{base2flt(mb, eb)}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+	m == 8388608U;
+	e == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 2:	N2 -{int local_28;}-> N3
+	local_28 == -127;
+	m == 8388608U;
+	e == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 3:	N3 -{unsigned int local_24;}-> N4
+	local_24 == 16777216U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 4:	N4 -{int e_local;}-> N5
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 5:	N5 -{unsigned int m_local;}-> N6
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 6:	N6 -{unsigned int local_14;}-> N7
+	local_14 == 16777216U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 7:	N7 -{unsigned int res;}-> N8
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 8:	N8 -{unsigned int __retres4;}-> N9
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[!(m == 0)]}-> N12
+	m == 8388608U;
+	m == 8388608U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 13:	N12 -{local_28 = e;}-> N14
+	local_28 == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 14:	N14 -{local_24 = m;}-> N15
+	local_24 == 8388608U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 15:	N15 -{[m < 16777216]}-> N17
+	m == 8388608U;
+	m == 8388608U;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 16:	N17 -{do}-> N22
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 17:	N22 -{[!(local_28 < -127)]}-> N23
+	local_28 == 0;
+	local_28 == 0;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 20:	N23 -{local_28 = local_28 + -1;}-> N26
+	local_28 == -1;
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 21:	N26 -{local_24 = local_24 << 1;}-> N27
+	local_24 == 16777216U;
+none:	N27 -{}-> N19
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, lines 16-22:	N19 -{[!(local_24 < 16777216)]}-> N21
+	local_24 == 16777216U;
+	local_24 == 16777216U;
+none:	N21 -{}-> N16
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 31:	N16 -{local_14 = ((local_28 + 128) * 16777216) | (local_24 & 4278190079U);}-> N36
+	local_14 == 2130706432U;
+none:	N36 -{}-> N10
+output/square_8+soft_float_4-3a.c.cil_dc_fix.c, line 33:	N10 -{return local_14;}-> N0
+	local_14 = 2130706432
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 229:	N0 -{Return edge from base2flt to main2: b = base2flt(mb, eb);}-> N220
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 230:	N220 -{addflt(a, b)}-> N80
+none:	N80 -{Function start dummy edge}-> N81
+	a == 16777216U;
+	b == 2130706432U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 70:	N81 -{unsigned int res;}-> N82
+	a == 16777216U;
+	b == 2130706432U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 71:	N82 -{unsigned int ma;}-> N83
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 72:	N83 -{unsigned int mb;}-> N84
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 73:	N84 -{unsigned int delta;}-> N85
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 74:	N85 -{int ea;}-> N86
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 75:	N86 -{int eb;}-> N87
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 76:	N87 -{unsigned int tmp;}-> N88
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 77:	N88 -{unsigned int __retres10;}-> N89
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 80:	N89 -{[a < b]}-> N91
+	a == 16777216U;
+	b == 2130706432U;
+	a == 16777216U;
+b == 2130706432U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 81:	N91 -{tmp = a;}-> N93
+	tmp == 16777216U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 82:	N93 -{a = b;}-> N94
+	a == 2130706432U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 83:	N94 -{b = tmp;}-> N95
+	b == 16777216U;
+none:	N95 -{}-> N90
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 87:	N90 -{[!(b == 0)]}-> N98
+	b == 16777216U;
+	b == 16777216U;
+none:	N98 -{}-> N96
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 94:	N96 -{ma = a & 16777215U;}-> N101
+	ma == 0U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 95:	N101 -{ea = ((int)(a >> 24U)) - 128;}-> N102
+	ea == -1;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 96:	N102 -{ma = ma | 16777216U;}-> N103
+	ma == 16777216U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 97:	N103 -{mb = b & 16777215U;}-> N104
+	mb == 0U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 98:	N104 -{eb = ((int)(b >> 24U)) - 128;}-> N105
+	eb == -127;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 99:	N105 -{mb = mb | 16777216U;}-> N106
+	mb == 16777216U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 100:	N106 -{__VERIFIER_assert(ea >= eb)}-> N71
+none:	N71 -{Function start dummy edge}-> N72
+	cond == 1;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 59:	N72 -{[!(cond == 0)]}-> N73
+	cond == 1;
+	cond == 1;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 62:	N73 -{return;}-> N70
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 100:	N70 -{Return edge from __VERIFIER_assert to addflt: __VERIFIER_assert(ea >= eb);}-> N107
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 101:	N107 -{delta = ea - eb;}-> N108
+	delta == 126U;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 102:	N108 -{__VERIFIER_assert(delta < 32UL)}-> N71
+none:	N71 -{Function start dummy edge}-> N72
+	cond == 0;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 59:	N72 -{[cond == 0]}-> N74
+	cond == 0;
+	cond == 0;
+src/square_8+soft_float_4-3a.c.cil/square_8+soft_float_4-3a.c.cil.c, line 60:	N74 -{Label: ERROR}-> N75

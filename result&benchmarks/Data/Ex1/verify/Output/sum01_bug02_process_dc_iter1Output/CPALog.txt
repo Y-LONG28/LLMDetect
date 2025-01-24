@@ -1,0 +1,128 @@
+2025-01-15 14:13:32:328	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-15 14:13:32:351	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:32:447	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-15 14:13:32:462	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c"
+
+2025-01-15 14:13:33:236	INFO	CFACreationUtils.addEdgeToCFA	line 32: Dead code detected: [!((
+# 32 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c"
+           0 && "Assertion failed: sn==((long long) n)*a || sn == 0"
+# 32 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:13:33:237	INFO	CFACreationUtils.addEdgeToCFA	line 32: Dead code detected: [(
+# 32 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c"
+           0 && "Assertion failed: sn==((long long) n)*a || sn == 0"
+# 32 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:13:33:244	INFO	CFACreationUtils.addEdgeToCFA	line 32: Dead code detected: [!(0 && "Assertion failed: sn==((long long) n)*a || sn == 0")]
+
+2025-01-15 14:13:33:245	INFO	CFACreationUtils.addEdgeToCFA	line 32: Dead code detected: [0 && "Assertion failed: sn==((long long) n)*a || sn == 0"]
+
+2025-01-15 14:13:33:384	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-15 14:13:33:736	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-15 14:13:33:747	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-15 14:13:33:748	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-15 14:13:33:750	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-15 14:13:33:753	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:33:754	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-15 14:13:33:758	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/parallel-singleLoop.properties ...
+
+2025-01-15 14:13:33:760	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:33:769	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 140s
+
+2025-01-15 14:13:33:957	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 60s
+
+2025-01-15 14:13:34:000	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 200s
+
+2025-01-15 14:13:34:042	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2025-01-15 14:13:34:086	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 3:PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2025-01-15 14:13:34:092	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 4:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 60s
+
+2025-01-15 14:13:34:123	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:34:134	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:13:34:167	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-15 14:13:34:391	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 2
+
+2025-01-15 14:13:34:398	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 1:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:13:34:422	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 3
+
+2025-01-15 14:13:34:439	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 4
+
+2025-01-15 14:13:34:441	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:13:34:458	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 5
+
+2025-01-15 14:13:34:471	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 6
+
+2025-01-15 14:13:34:488	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 7
+
+2025-01-15 14:13:34:498	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 5:AbstractBMCAlgorithm.analyzeCounterexample0	Error found, creating error path
+
+2025-01-15 14:13:34:547	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-IMC.properties finished successfully.
+
+2025-01-15 14:13:34:548	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 4:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:13:34:552	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 3:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:13:34:662	WARNING	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:13:34:667	WARNING	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 1:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:13:34:674	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 2:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:13:34:675	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:Analysis /opt/cpachecker/config/components/parallel-singleLoop.properties:Parallel analysis 1:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:13:34:679	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-15 14:13:34:679	INFO	Analysis /opt/cpachecker/config/components/singleLoopConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-15 14:13:34:679	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

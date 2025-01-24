@@ -1,0 +1,21 @@
+line 16:	N40 -{dummy dStack_38;}-> N41
+	(&d1) == 44LL;
+	(d1.b) == 2;
+	(&d2) == 28LL;
+	(&dStack_38) == 4LL;
+	(dStack_38.b) == 1;
+line 19:	N43 -{dummy *pd = (void *)0;}-> N44
+	pd == 0LL;
+line 21:	N44 -{[pd == ((void *)0)]}-> N46
+	pd == 0LL;
+line 22:	N46 -{pdVar2 = &dStack_38;}-> N48
+	pdVar2 == 4LL;
+line 27:	N45 -{[pdVar2 == (&dStack_38)]}-> N51
+	(pdVar2->b) == 2;
+	pdVar2 == 4LL;
+line 34:	N50 -{[pdVar2 == (&dStack_38)]}-> N59
+	pdVar2 == 4LL;
+	(pdVar2->b) == 2;
+line 34:	N59 -{[(dStack_38.b) != 0]}-> N57
+	(dStack_38.b) == 2;
+line 36:	N69 -{__assert_fail("0 && \"Assertion failed: dStack_38.b should be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test28-1_process_dc_iter2.c", 36, "__PRETTY_FUNCTION__");}-> N351

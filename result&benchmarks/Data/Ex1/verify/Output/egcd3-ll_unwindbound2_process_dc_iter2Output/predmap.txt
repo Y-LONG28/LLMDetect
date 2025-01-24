@@ -1,0 +1,21 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::s| () (_ BitVec 64))
+(declare-fun |main::temp| () (_ BitVec 64))
+(declare-fun |main::q| () (_ BitVec 64))
+(declare-fun |main::tmp_var_2_int| () (_ BitVec 32))
+(declare-fun |main::b| () (_ BitVec 64))
+(declare-fun counter () (_ BitVec 32))
+
+main:
+(assert (let ((.def_256 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_258 (bvmul |main::q| .def_256)))(let ((.def_253 (bvmul |main::s| |main::temp|)))(let ((.def_260 (bvadd .def_253 .def_258)))(let ((.def_262 (= .def_260 |main::b|))).def_262))))))
+
+main N66:
+(assert (let ((.def_466 (= counter (_ bv0 32)))).def_466))
+(assert (let ((.def_470 (= counter (_ bv2 32)))).def_470))
+(assert (let ((.def_256 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_258 (bvmul |main::q| .def_256)))(let ((.def_253 (bvmul |main::s| |main::temp|)))(let ((.def_260 (bvadd .def_253 .def_258)))(let ((.def_262 (= .def_260 |main::b|))).def_262))))))
+
+main N91:
+(assert (let ((.def_468 (= counter (_ bv1 32)))).def_468))
+(assert false)
+(assert (let ((.def_256 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_258 (bvmul |main::q| .def_256)))(let ((.def_253 (bvmul |main::s| |main::temp|)))(let ((.def_260 (bvadd .def_253 .def_258)))(let ((.def_262 (= .def_260 |main::b|))).def_262))))))
+

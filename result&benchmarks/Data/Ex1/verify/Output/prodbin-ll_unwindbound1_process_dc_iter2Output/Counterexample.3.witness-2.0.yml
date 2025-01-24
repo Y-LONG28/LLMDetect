@@ -1,0 +1,60 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "a61d62a6-865b-362b-9908-b804a736b41f"
+    creation_time: "2025-01-15T14:08:00+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c: "38d2c60dba87edccab2869207c5b9e3dd56d944542bca7777ce46a244edbac5d"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c"
+          line: 10
+          column: 3
+          function: "assume"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c"
+          line: 28
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c"
+          line: 40
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c"
+          line: 41
+          column: 17
+          function: "main"

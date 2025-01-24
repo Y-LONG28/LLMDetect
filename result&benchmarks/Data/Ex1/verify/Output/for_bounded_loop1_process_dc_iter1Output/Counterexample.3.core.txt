@@ -1,0 +1,34 @@
+line 10:	N39 -{int local_24;}-> N40
+	local_24 == 2;
+line 11:	N40 -{int local_20;}-> N41
+	local_20 == 1;
+line 16:	N44 -{n = 0;}-> N45
+	n == 0;
+line 17:	N45 -{tmp_var_1_int = 0;}-> N46
+	tmp_var_1_int == 0;
+line 18:	N46 -{[0 < local_20]}-> N48
+	local_20 == 1;
+lines 19-32:	N49 -{y = 0;}-> N50
+	y == 0;
+line 19:	N50 -{[y < local_20]}-> N52
+	y == 0;
+	local_20 == 1;
+line 20:	N52 -{iVar1 = n - tmp_var_1_int;}-> N54
+	iVar1 == 0;
+line 21:	N54 -{[!(iVar1 != 0)]}-> N55
+	tmp_var_1_int == 2;
+	iVar1 == 0;
+line 25:	N68 -{[!(local_24 == 0)]}-> N69
+	local_24 == 2;
+line 28:	N69 -{n = local_24 + iVar1;}-> N72
+	n == 2;
+line 29:	N72 -{[!(n == 0)]}-> N73
+	n == 2;
+lines 19-32:	N51 -{y = y + 1;}-> N50
+	y == 1;
+line 19:	N50 -{[!(y < local_20)]}-> N53
+	y == 1;
+	local_20 == 1;
+line 33:	N53 -{[n != 0]}-> N87
+	n == 2;
+line 34:	N96 -{__assert_fail("0 && \"Assertion failed: n should be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/for_bounded_loop1_process_dc_iter1.c", 34, "__PRETTY_FUNCTION__");}-> N375

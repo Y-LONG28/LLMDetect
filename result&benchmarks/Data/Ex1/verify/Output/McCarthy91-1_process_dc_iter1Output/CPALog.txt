@@ -1,0 +1,76 @@
+2025-01-15 14:13:03:770	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-15 14:13:03:799	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:03:932	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-15 14:13:03:943	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c"
+
+2025-01-15 14:13:04:725	INFO	CFACreationUtils.addEdgeToCFA	line 37: Dead code detected: [!((
+# 37 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c"
+       0 && "Assertion failed: Condition not met"
+# 37 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:13:04:726	INFO	CFACreationUtils.addEdgeToCFA	line 37: Dead code detected: [(
+# 37 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c"
+       0 && "Assertion failed: Condition not met"
+# 37 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/McCarthy91-1_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:13:04:727	INFO	CFACreationUtils.addEdgeToCFA	line 37: Dead code detected: [!(0 && "Assertion failed: Condition not met")]
+
+2025-01-15 14:13:04:727	INFO	CFACreationUtils.addEdgeToCFA	line 37: Dead code detected: [0 && "Assertion failed: Condition not met"]
+
+2025-01-15 14:13:04:885	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-15 14:13:05:313	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-15 14:13:05:324	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-15 14:13:05:324	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-15 14:13:05:329	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-15 14:13:05:332	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:05:334	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-15 14:13:05:339	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/configselection-bmc-incremental.properties ...
+
+2025-01-15 14:13:05:343	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:05:451	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:13:05:603	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-15 14:13:05:725	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:TargetLocationProvider:CallstackCPA:CallstackTransferRelation.getAbstractSuccessorsForEdge	Recursion detected, aborting. To ignore recursion, add --skip-recursion to the command line.
+
+2025-01-15 14:13:05:726	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:TargetLocationProvider:TargetLocationProviderImpl.tryGetAutomatonTargetLocations	Recursion detected. Defaulting to selecting all locations as potential target locations.
+
+2025-01-15 14:13:05:732	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-15 14:13:05:842	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:CallstackCPA:CallstackTransferRelation.getAbstractSuccessorsForEdge	Recursion detected, aborting. To ignore recursion, add --skip-recursion to the command line.
+
+2025-01-15 14:13:05:845	WARNING	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:CallstackTransferRelation.getAbstractSuccessorsForEdge	Warning: Analysis 1 not completed. (line 10: Unsupported feature (recursion): iVar1 = f91(x + 11);)
+
+2025-01-15 14:13:05:875	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	RestartAlgorithm switches to the next configuration...
+
+2025-01-15 14:13:05:876	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Loading analysis 2 from file /opt/cpachecker/config/components/recursion.properties ...
+
+2025-01-15 14:13:05:879	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/recursion.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:13:05:949	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/recursion.properties:BAMPredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2025-01-15 14:13:06:025	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/recursion.properties:BAMPredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with BAMPredicateAbstractionRefinementStrategy strategy.
+
+2025-01-15 14:13:06:028	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Starting analysis 2 ...
+
+2025-01-15 14:13:06:137	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/recursion.properties:BAMCPA:BAMTransferRelationWithFixPointForRecursion.doFixpointIterationForRecursion	fixpoint-iteration aborted, because there was a target state.
+
+2025-01-15 14:13:06:402	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-15 14:13:06:404	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

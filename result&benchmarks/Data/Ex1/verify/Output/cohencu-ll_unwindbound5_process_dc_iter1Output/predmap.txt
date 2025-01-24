@@ -1,0 +1,26 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::x| () (_ BitVec 64))
+(declare-fun |main::lStack_30| () (_ BitVec 32))
+(declare-fun |main::z| () (_ BitVec 64))
+(declare-fun |main::y| () (_ BitVec 64))
+
+main:
+(assert (let ((.def_115 ((_ sign_extend 32) |main::lStack_30|)))(let ((.def_112 (bvmul (_ bv6 64) |main::x|)))(let ((.def_113 (bvadd (_ bv6 64) .def_112)))(let ((.def_116 (= .def_113 .def_115))).def_116)))))
+
+main N53:
+(assert (let ((.def_192 (= |main::x| (_ bv0 64)))).def_192))
+(assert (let ((.def_195 (= |main::z| (_ bv1 64)))).def_195))
+(assert (let ((.def_197 (= |main::lStack_30| (_ bv6 32)))).def_197))
+(assert (let ((.def_115 ((_ sign_extend 32) |main::lStack_30|)))(let ((.def_112 (bvmul (_ bv6 64) |main::x|)))(let ((.def_113 (bvadd (_ bv6 64) .def_112)))(let ((.def_116 (= .def_113 .def_115))).def_116)))))
+(assert (let ((.def_250 (= |main::y| (_ bv0 64)))).def_250))
+(assert (let ((.def_500 (= |main::x| (_ bv1 64)))).def_500))
+(assert (let ((.def_502 (= |main::z| (_ bv7 64)))).def_502))
+
+main N533:
+(assert false)
+(assert (let ((.def_115 ((_ sign_extend 32) |main::lStack_30|)))(let ((.def_112 (bvmul (_ bv6 64) |main::x|)))(let ((.def_113 (bvadd (_ bv6 64) .def_112)))(let ((.def_116 (= .def_113 .def_115))).def_116)))))
+
+main N534:
+(assert false)
+(assert (let ((.def_115 ((_ sign_extend 32) |main::lStack_30|)))(let ((.def_112 (bvmul (_ bv6 64) |main::x|)))(let ((.def_113 (bvadd (_ bv6 64) .def_112)))(let ((.def_116 (= .def_113 .def_115))).def_116)))))
+

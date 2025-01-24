@@ -1,0 +1,481 @@
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 24:	N529 -{int m_pc = 0;}-> N530
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 25:	N530 -{int t1_pc = 0;}-> N531
+	t1_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 26:	N531 -{int t2_pc = 0;}-> N532
+	t2_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 27:	N532 -{int t3_pc = 0;}-> N533
+	t3_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 36:	N533 -{int M_E = 2;}-> N534
+	M_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 37:	N534 -{int T1_E = 2;}-> N535
+	T1_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 38:	N535 -{int T2_E = 2;}-> N536
+	T2_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 39:	N536 -{int T3_E = 2;}-> N537
+	T3_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 40:	N537 -{int E_M = 2;}-> N538
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 41:	N538 -{int E_1 = 2;}-> N539
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 42:	N539 -{int E_2 = 2;}-> N540
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 43:	N540 -{int E_3 = 2;}-> N541
+	local == 0;
+	token == 0;
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 684:	N510 -{init_model()}-> N446
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 593:	N447 -{m_i = 1;}-> N448
+	m_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 594:	N448 -{t1_i = 1;}-> N449
+	t1_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 595:	N449 -{t2_i = 1;}-> N450
+	t2_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 596:	N450 -{t3_i = 1;}-> N451
+	m_i == 1;
+	t1_i == 1;
+	t2_i == 1;
+	t3_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 685:	N511 -{start_simulation()}-> N468
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 628:	N473 -{update_channels()}-> N240
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 629:	N474 -{init_threads()}-> N1
+output/token_ring.03.cil-1_dc_fix.c, line 13:	N2 -{[m_i == 1]}-> N4
+	m_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 14:	N4 -{m_st = 0;}-> N6
+	m_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 18:	N3 -{[t1_i == 1]}-> N9
+	t1_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 19:	N9 -{t1_st = 0;}-> N11
+	t1_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 23:	N8 -{[t2_i == 1]}-> N14
+	t2_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 24:	N14 -{t2_st = 0;}-> N16
+	t2_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 28:	N13 -{[t3_i == 1]}-> N19
+	t3_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 29:	N19 -{t3_st = 0;}-> N21
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 630:	N475 -{fire_delta_events()}-> N300
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 386:	N301 -{[!(M_E == 0)]}-> N304
+	M_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 391:	N302 -{[!(T1_E == 0)]}-> N308
+	T1_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 396:	N306 -{[!(T2_E == 0)]}-> N312
+	T2_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 401:	N310 -{[!(T3_E == 0)]}-> N316
+	T3_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 406:	N314 -{[!(E_M == 0)]}-> N320
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 411:	N318 -{[!(E_1 == 0)]}-> N324
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 416:	N322 -{[!(E_2 == 0)]}-> N328
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 421:	N326 -{[!(E_3 == 0)]}-> N332
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 631:	N476 -{activate_threads()}-> N372
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[!(m_pc == 1)]}-> N185
+	__retres1 == 0;
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[!(t1_pc == 1)]}-> N200
+	__retres1 == 0;
+	t1_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[!(t2_pc == 1)]}-> N215
+	__retres1 == 0;
+	t2_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[!(t3_pc == 1)]}-> N230
+	__retres1 == 0;
+	t3_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 632:	N477 -{reset_delta_events()}-> N336
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 434:	N337 -{[!(M_E == 1)]}-> N340
+	M_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 439:	N338 -{[!(T1_E == 1)]}-> N344
+	T1_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 444:	N342 -{[!(T2_E == 1)]}-> N348
+	T2_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 449:	N346 -{[!(T3_E == 1)]}-> N352
+	T3_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 454:	N350 -{[!(E_M == 1)]}-> N356
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 459:	N354 -{[!(E_1 == 1)]}-> N360
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 464:	N358 -{[!(E_2 == 1)]}-> N364
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 469:	N362 -{[!(E_3 == 1)]}-> N368
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 635:	N478 -{while}-> N479
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 639:	N483 -{eval()}-> N244
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 305:	N245 -{int tmp;}-> N246
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 309:	N246 -{while}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[tmp_ndt_1 == 0]}-> N263
+	tmp_ndt_1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 333:	N256 -{[t1_st == 0]}-> N267
+	t1_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 335:	N269 -{tmp_ndt_2 = __VERIFIER_nondet_int();}-> N270
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 336:	N270 -{[!(tmp_ndt_2 == 0)]}-> N272
+	t1_st == 1;
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N274 -{transmit1()}-> N93
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 112:	N94 -{[t1_pc == 0]}-> N96
+	t1_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 123:	N103 -{while}-> N104
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 125:	N107 -{t1_pc = 1;}-> N108
+	t1_pc == 1;
+	t1_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 347:	N266 -{[t2_st == 0]}-> N277
+	t2_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 349:	N279 -{tmp_ndt_3 = __VERIFIER_nondet_int();}-> N280
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 350:	N280 -{[!(tmp_ndt_3 == 0)]}-> N282
+	t2_st == 1;
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N284 -{transmit2()}-> N122
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 148:	N123 -{[t2_pc == 0]}-> N125
+	t2_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 159:	N132 -{while}-> N133
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 161:	N136 -{t2_pc = 1;}-> N137
+	t2_pc == 1;
+	t2_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 361:	N276 -{[t3_st == 0]}-> N287
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 363:	N289 -{tmp_ndt_4 = __VERIFIER_nondet_int();}-> N290
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 364:	N290 -{[!(tmp_ndt_4 == 0)]}-> N292
+	t3_st == 1;
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N294 -{transmit3()}-> N151
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 184:	N152 -{[t3_pc == 0]}-> N154
+	t3_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 195:	N161 -{while}-> N162
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 197:	N165 -{t3_pc = 1;}-> N166
+	t3_pc == 1;
+	t3_st == 2;
+none:	N286 -{}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	tmp_ndt_1 == 0;
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[!(tmp_ndt_1 == 0)]}-> N262
+	m_st == 1;
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 325:	N264 -{master()}-> N46
+	tmp_var == 7;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 56:	N49 -{[m_pc == 0]}-> N51
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 67:	N58 -{while}-> N59
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 70:	N62 -{token = __VERIFIER_nondet_int();}-> N63
+	token == 3;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 71:	N63 -{local = token;}-> N64
+	local == 3;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 72:	N64 -{E_1 = 1;}-> N65
+	token == 3;
+	local == 3;
+	E_1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 73:	N65 -{immediate_notify()}-> N400
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[!(m_pc == 1)]}-> N185
+	__retres1 == 0;
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[E_1 == 1]}-> N202
+	__retres1 == 1;
+	E_1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[!(tmp___0 == 0)]}-> N385
+	tmp___0 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 497:	N385 -{t1_st = 0;}-> N387
+	t1_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	__retres1 == 0;
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	__retres1 == 0;
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 74:	N66 -{E_1 = 2;}-> N67
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 75:	N67 -{m_pc = 1;}-> N68
+	E_1 == 2;
+	m_pc == 1;
+	m_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 333:	N256 -{[t1_st == 0]}-> N267
+	tmp_ndt_2 == 2;
+	t1_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 335:	N269 -{tmp_ndt_2 = __VERIFIER_nondet_int();}-> N270
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 336:	N270 -{[!(tmp_ndt_2 == 0)]}-> N272
+	t1_st == 1;
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N274 -{transmit1()}-> N93
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 112:	N94 -{[!(t1_pc == 0)]}-> N97
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 115:	N97 -{[t1_pc == 1]}-> N100
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 131:	N112 -{token = token + 1;}-> N113
+	token == 4;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 132:	N113 -{E_2 = 1;}-> N114
+	token == 4;
+	E_2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 133:	N114 -{immediate_notify()}-> N400
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[!(E_M == 1)]}-> N188
+	__retres1 == 0;
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	__retres1 == 0;
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[E_2 == 1]}-> N217
+	__retres1 == 1;
+	E_2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[!(tmp___1 == 0)]}-> N390
+	tmp___1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 505:	N390 -{t2_st = 0;}-> N392
+	t2_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	__retres1 == 0;
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 134:	N115 -{E_2 = 2;}-> N116
+	E_2 == 2;
+none:	N116 -{}-> N104
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 125:	N107 -{t1_pc = 1;}-> N108
+	t1_pc == 1;
+	t1_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 347:	N266 -{[t2_st == 0]}-> N277
+	tmp_ndt_3 == 2;
+	t2_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 349:	N279 -{tmp_ndt_3 = __VERIFIER_nondet_int();}-> N280
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 350:	N280 -{[!(tmp_ndt_3 == 0)]}-> N282
+	t2_st == 1;
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N284 -{transmit2()}-> N122
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 148:	N123 -{[!(t2_pc == 0)]}-> N126
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 151:	N126 -{[t2_pc == 1]}-> N129
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 167:	N141 -{token = token + 1;}-> N142
+	token == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 168:	N142 -{E_3 = 1;}-> N143
+	token == 5;
+	E_3 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 169:	N143 -{immediate_notify()}-> N400
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[!(E_M == 1)]}-> N188
+	__retres1 == 0;
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	__retres1 == 0;
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	__retres1 == 0;
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[E_3 == 1]}-> N232
+	__retres1 == 1;
+	E_3 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[!(tmp___2 == 0)]}-> N395
+	tmp___2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 513:	N395 -{t3_st = 0;}-> N397
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 170:	N144 -{E_3 = 2;}-> N145
+	E_3 == 2;
+none:	N145 -{}-> N133
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 161:	N136 -{t2_pc = 1;}-> N137
+	t2_pc == 1;
+	t2_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 361:	N276 -{[t3_st == 0]}-> N287
+	tmp_ndt_4 == 2;
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 363:	N289 -{tmp_ndt_4 = __VERIFIER_nondet_int();}-> N290
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 364:	N290 -{[!(tmp_ndt_4 == 0)]}-> N292
+	t3_st == 1;
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N294 -{transmit3()}-> N151
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 184:	N152 -{[!(t3_pc == 0)]}-> N155
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 187:	N155 -{[t3_pc == 1]}-> N158
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 203:	N170 -{token = token + 1;}-> N171
+	token == 6;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 204:	N171 -{E_M = 1;}-> N172
+	token == 6;
+	E_M == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 205:	N172 -{immediate_notify()}-> N400
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[E_M == 1]}-> N187
+	__retres1 == 1;
+	E_M == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[!(tmp == 0)]}-> N380
+	tmp == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 489:	N380 -{m_st = 0;}-> N382
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	__retres1 == 0;
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	__retres1 == 0;
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	__retres1 == 0;
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	E_M == 2;
+	tmp___2 == 0;
+none:	N174 -{}-> N162
+	t3_pc == 1;
+	t3_st == 2;
+none:	N286 -{}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	tmp_ndt_1 == 2;
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[!(tmp_ndt_1 == 0)]}-> N262
+	m_st == 1;
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 325:	N264 -{master()}-> N46
+	tmp_var == 7;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 54:	N48 -{tmp_var = __VERIFIER_nondet_int();}-> N49
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 56:	N49 -{[!(m_pc == 0)]}-> N52
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 59:	N52 -{[m_pc == 1]}-> N55
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 81:	N72 -{[!(token != (local + 3))]}-> N75
+	token == 6;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 92:	N77 -{[tmp_var <= 5]}-> N82
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 93:	N82 -{[tmp_var >= 5]}-> N84
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 94:	N84 -{[tmp_var == 5]}-> N86
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 95:	N86 -{error()}-> N39

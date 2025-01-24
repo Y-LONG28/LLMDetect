@@ -1,0 +1,63 @@
+- entry_type: "invariant_set"
+  metadata:
+    format_version: "2.0"
+    uuid: "282805a7-2dc3-3cbb-8d3f-26b9f88de439"
+    creation_time: "2025-01-15T14:19:34+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c: "1d974e6c36b3f8d0efd834513f8297d3216cdef117933f6345ec2bf3b96030b2"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+        line: 37
+        column: 13
+        function: "main"
+      value: "(found == (2) && iStack_20 == (2) && nc_A == (5)) || (found == (0) && iStack_20 == (1) && nc_A == (5)) || (found == (2) && iStack_20 == (4) && nc_A == (5)) || (found == (0) && iStack_20 == (0) && nc_A == (5)) || (found == (4) && iStack_20 == (3) && nc_A == (5)) || (found == (3) && iStack_20 == (3) && nc_A == (5)) || (found == (1) && iStack_20 == (0) && nc_A == (5)) || (found == (4) && iStack_20 == (0) && nc_A == (5)) || (found == (3) && iStack_20 == (0) && nc_A == (5)) || (found == (2) && iStack_20 == (3) && nc_A == (5)) || (found == (3) && iStack_20 == (2) && nc_A == (5)) || (found == (2) && iStack_20 == (1) && nc_A == (5)) || (found == (4) && iStack_20 == (4) && nc_A == (5)) || (found == (0) && iStack_20 == (2) && nc_A == (5)) || (found == (4) && iStack_20 == (2) && nc_A == (5)) || (found == (1) && iStack_20 == (1) && nc_A == (5)) || (found == (1) && iStack_20 == (4) && nc_A == (5)) || (found == (4) && iStack_20 == (1) && nc_A == (5)) || (found == (2) && iStack_20 == (0) && nc_A == (5)) || (found == (1) && iStack_20 == (3) && nc_A == (5)) || (found == (0) && iStack_20 == (3) && nc_A == (5)) || (found == (3) && iStack_20 == (4) && nc_A == (5)) || (found == (1) && iStack_20 == (2) && nc_A == (5)) || (found == (0) && iStack_20 == (4) && nc_A == (5)) || (found == (3) && iStack_20 == (1) && nc_A == (5))"
+      format: "c_expression"
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+        line: 27
+        column: 5
+        function: "main"
+      value: "nc_A == (2) || nc_A == (1) || nc_A == (4) || nc_A == (5) || nc_A == (3) || nc_A == (0)"
+      format: "c_expression"
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+        line: 42
+        column: 17
+        function: "main"
+      value: "(found == (2) && iStack_20 == (2) && nc_A == (0) && nc_B == (0)) || (found == (2) && iStack_20 == (2)) || (found == (2) && iStack_20 == (3)) || (found == (4) && iStack_20 == (4) && nc_A == (1)) || (found == (3) && iStack_20 == (4)) || (found == (2) && iStack_20 == (3) && nc_A == (0) && nc_B == (0)) || (found == (4) && iStack_20 == (4)) || (found == (3) && iStack_20 == (3)) || (found == (2) && iStack_20 == (4)) || (found == (3) && iStack_20 == (3) && nc_A == (1)) || (found == (2) && iStack_20 == (3) && nc_A == (1)) || (found == (1) && iStack_20 == (3) && nc_A == (1)) || (found == (1) && iStack_20 == (1) && nc_A == (0) && nc_B == (0)) || (found == (2) && iStack_20 == (4) && nc_A == (1)) || (found == (3) && iStack_20 == (3) && nc_A == (0) && nc_B == (0)) || (found == (1) && iStack_20 == (2) && nc_A == (0) && nc_B == (0)) || (found == (1) && iStack_20 == (1) && nc_A == (1)) || (found == (3) && iStack_20 == (4) && nc_A == (1)) || (found == (0) && iStack_20 == (0) && nc_A == (0) && nc_B == (0)) || (found == (1) && iStack_20 == (3) && nc_A == (0) && nc_B == (0)) || (found == (0) && iStack_20 == (1) && nc_A == (0) && nc_B == (0)) || (found == (0) && iStack_20 == (3) && nc_A == (0) && nc_B == (0)) || (found == (0) && iStack_20 == (4) && nc_A == (0) && nc_B == (0)) || (found == (2) && iStack_20 == (2) && nc_A == (1)) || (found == (1) && iStack_20 == (2) && nc_A == (1)) || (found == (2) && iStack_20 == (4) && nc_A == (0) && nc_B == (0)) || (found == (0) && iStack_20 == (2) && nc_A == (0) && nc_B == (0)) || (found == (1) && iStack_20 == (4) && nc_A == (0) && nc_B == (0)) || (found == (4) && iStack_20 == (4) && nc_A == (0) && nc_B == (0)) || (found == (1) && iStack_20 == (4) && nc_A == (1)) || (found == (3) && iStack_20 == (4) && nc_A == (0) && nc_B == (0))"
+      format: "c_expression"
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+        line: 31
+        column: 9
+        function: "main"
+      value: "nc_A == (0) || nc_A == (1) || nc_A == (4) || nc_A == (5) || nc_A == (3) || nc_A == (2)"
+      format: "c_expression"
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/string-2_process_dc_iter1.c"
+        line: 35
+        column: 13
+        function: "main"
+      value: "(found == (4) && nc_A == (5)) || (found == (0) && nc_A == (5)) || (found == (1) && nc_A == (5)) || (found == (3) && nc_A == (5)) || (found == (2) && nc_A == (5))"
+      format: "c_expression"

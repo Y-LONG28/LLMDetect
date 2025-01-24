@@ -1,0 +1,14 @@
+lines 23-30:	N46 -{z = 0;}-> N47
+	z == 0U;
+line 23:	N47 -{[z < 268435455]}-> N49
+	z == 0U;
+lines 24-26:	N51 -{w = 0;}-> N52
+	w == 0U;
+line 24:	N52 -{[w < 268435455]}-> N54
+	w == 0U;
+line 25:	N56 -{[(z % 4) == 0]}-> N59
+line 25:	N59 -{["Assertion failed: !(z % 4)" == 0]}-> N58
+	__CPAchecker_TMP_2 == 0;
+line 25:	N61 -{[(z % 4) == 0]}-> N65
+line 25:	N65 -{["Assertion failed: !(z % 4)" == 0]}-> N64
+line 25:	N64 -{__assert_fail("!(z % 4) && \"Assertion failed: !(z % 4)\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/nested3-2_abstracted_process_dc_iter1.c", 25, "__PRETTY_FUNCTION__");}-> N396

@@ -1,0 +1,19 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+
+test N21:
+(assert (let ((.def_225 (= waterLevel (_ bv2 32))))(let ((.def_238 (not .def_225)))(let ((.def_228 (= systemActive (_ bv0 32))))(let ((.def_237 (not .def_228)))(let ((.def_239 (and .def_237 .def_238))).def_239))))))
+
+cleanup N179:
+(assert (let ((.def_228 (= systemActive (_ bv0 32))))(let ((.def_237 (not .def_228))).def_237)))
+
+__utac__exception__cf_handler_free N386:
+(assert false)
+
+__utac__exception__cf_handler_reset N436:
+(assert false)
+
+__utac__error_stack_mgt N508:
+(assert false)
+

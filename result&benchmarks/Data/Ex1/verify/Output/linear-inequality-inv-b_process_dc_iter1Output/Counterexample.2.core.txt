@@ -1,0 +1,38 @@
+line 16:	N38 -{uchar local_1a;}-> N39
+	local_1a == 129U;
+line 17:	N39 -{byte local_19;}-> N40
+	local_19 == 2U;
+line 25:	N46 -{[local_19 != 0]}-> N48
+	n == 0U;
+	local_19 == 2U;
+line 27:	N49 -{tmp_var_1_uchar = '\x0';}-> N50
+	n == 0U;
+	tmp_var_1_uchar == 0U;
+lines 28-31:	N51 -{local_18 = 0;}-> N52
+	local_18 == 0U;
+line 28:	N52 -{[local_18 < local_19]}-> N54
+	n == 129U;
+	local_18 == 0U;
+	local_19 == 2U;
+line 30:	N56 -{tmp_var_1_uchar = local_1a + tmp_var_1_uchar;}-> N57
+	n == 129U;
+	tmp_var_1_uchar == 129U;
+lines 28-31:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 1U;
+line 28:	N52 -{[local_18 < local_19]}-> N54
+	local_18 == 1U;
+	local_19 == 2U;
+line 29:	N54 -{n = local_1a;}-> N56
+	n == 129U;
+line 30:	N56 -{tmp_var_1_uchar = local_1a + tmp_var_1_uchar;}-> N57
+	n == 129U;
+	tmp_var_1_uchar == 2U;
+lines 28-31:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 2U;
+line 28:	N52 -{[!(local_18 < local_19)]}-> N55
+	local_18 == 2U;
+	local_19 == 2U;
+line 32:	N55 -{[tmp_var_1_uchar < n]}-> N59
+	tmp_var_1_uchar == 2U;
+	n == 129U;
+line 33:	N68 -{__assert_fail("0 && \"Assertion failed: tmp_var_1_uchar should not be less than n\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/linear-inequality-inv-b_process_dc_iter1.c", 33, "__PRETTY_FUNCTION__");}-> N373

@@ -1,0 +1,207 @@
+extern int q_free;
+extern int q_write_ev;
+extern int q_read_ev;
+extern int q_ev;
+extern int q_req_up;
+void update_fifo_q();
+unsigned int __VERIFIER_nondet_uint();
+char __VERIFIER_nondet_char();
+int __VERIFIER_nondet_int();
+long int __VERIFIER_nondet_long();
+unsigned long int __VERIFIER_nondet_ulong();
+float __VERIFIER_nondet_float();
+void exit(int);
+void abort();
+void __assert_fail(const char *, const char *, unsigned int, const char *);
+void reach_error();
+void error1();
+int q_buf_0 = 0;
+int q_free = 0;
+int q_read_ev = 0;
+int q_write_ev = 0;
+int q_req_up = 0;
+int q_ev = 0;
+int p_num_write = 0;
+int p_last_write = 0;
+int p_dw_st = 0;
+int p_dw_pc = 0;
+int p_dw_i = 0;
+int c_num_read = 0;
+int c_last_read = 0;
+int c_dr_st = 0;
+int c_dr_pc = 0;
+int c_dr_i = 0;
+int is_do_write_p_triggered();
+int is_do_read_c_triggered();
+void immediate_notify_threads();
+void do_write_p();
+int src_pc_sfifo_2_cil_2_token_ring_01_cil_1_pc_sfifo_2_cil_2_token_ring_01_cil_1_ca_t = 0;
+void do_read_c();
+void update_channels1();
+void init_threads1();
+int exists_runnable_thread1();
+void fire_delta_events1();
+void reset_delta_events1();
+void activate_threads1();
+void eval1();
+int stop_simulation1();
+void start_simulation1();
+void init_model1();
+int main1();
+void error2();
+int m_pc = 0;
+int t1_pc = 0;
+int m_st = 0;
+int t1_st = 0;
+int m_i = 0;
+int t1_i = 0;
+int M_E = 2;
+int T1_E = 2;
+int E_M = 2;
+int E_1 = 2;
+int is_master_triggered();
+int is_transmit1_triggered();
+void immediate_notify();
+int token = 0;
+int local = 0;
+void master();
+void transmit1();
+void update_channels2();
+void init_threads2();
+int exists_runnable_thread2();
+void eval2();
+void fire_delta_events2();
+void reset_delta_events2();
+void activate_threads2();
+void fire_time_events2();
+void reset_time_events2();
+void init_model2();
+int stop_simulation2();
+void start_simulation2();
+int main2();
+int main();
+extern void __VERIFIER_error(void);
+int main_0();
+int main1_1();
+void init_model1_2();
+void start_simulation1_3();
+void update_channels1_4();
+void init_threads1_5();
+void fire_delta_events1_6();
+void activate_threads1_7();
+int is_do_write_p_triggered_8();
+int is_do_read_c_triggered_9();
+void reset_delta_events1_10();
+void eval1_11();
+int exists_runnable_thread1_12();
+void error1_13();
+int main_0() {
+  int __CPAchecker_TMP_0;
+  __CPAchecker_TMP_0 = __VERIFIER_nondet_int();
+  __CPROVER_assume(!(__CPAchecker_TMP_0 == 0));
+  main1_1();
+}
+
+int main1_1() {
+  int __retres1;
+  init_model1_2();
+  start_simulation1_3();
+}
+
+void init_model1_2() {
+  q_free = 1;
+  q_write_ev = 2;
+  q_read_ev = q_write_ev;
+  p_num_write = 0;
+  p_dw_pc = 0;
+  p_dw_i = 1;
+  c_num_read = 0;
+  c_dr_pc = 0;
+  c_dr_i = 1;
+  return;
+}
+
+void start_simulation1_3() {
+  int kernel_st;
+  int tmp;
+  kernel_st = 0;
+  update_channels1_4();
+  init_threads1_5();
+  fire_delta_events1_6();
+  activate_threads1_7();
+  reset_delta_events1_10();
+  kernel_st = 1;
+  eval1_11();
+}
+
+void update_channels1_4() {
+  __CPROVER_assume(!(((int)q_req_up) == 1));
+  return;
+}
+
+void init_threads1_5() {
+  __CPROVER_assume(((int)p_dw_i) == 1);
+  p_dw_st = 0;
+  __CPROVER_assume(((int)c_dr_i) == 1);
+  c_dr_st = 0;
+  return;
+}
+
+void fire_delta_events1_6() {
+  __CPROVER_assume(!(((int)q_read_ev) == 0));
+  __CPROVER_assume(!(((int)q_write_ev) == 0));
+  return;
+}
+
+void activate_threads1_7() {
+  int tmp;
+  int tmp___0;
+  tmp = is_do_write_p_triggered_8();
+  __CPROVER_assume(tmp == 0);
+  tmp___0 = is_do_read_c_triggered_9();
+  __CPROVER_assume(tmp___0 == 0);
+  return;
+}
+
+int is_do_write_p_triggered_8() {
+  int __retres1;
+  __CPROVER_assume(!(((int)p_dw_pc) == 1));
+  __retres1 = 0;
+  return __retres1;
+}
+
+int is_do_read_c_triggered_9() {
+  int __retres1;
+  __CPROVER_assume(!(((int)c_dr_pc) == 1));
+  __retres1 = 0;
+  return __retres1;
+}
+
+void reset_delta_events1_10() {
+  __CPROVER_assume(!(((int)q_read_ev) == 1));
+  __CPROVER_assume(!(((int)q_write_ev) == 1));
+  return;
+}
+
+void eval1_11() {
+  int tmp;
+  int tmp___0;
+  int tmp___1;
+  tmp___1 = exists_runnable_thread1_12();
+  __CPROVER_assume(!(tmp___1 == 0));
+  __CPROVER_assume(((int)p_dw_st) == 0);
+  tmp = __VERIFIER_nondet_int();
+  __CPROVER_assume(tmp == 0);
+  error1_13();
+}
+
+int exists_runnable_thread1_12() {
+  int __retres1;
+  __CPROVER_assume(((int)p_dw_st) == 0);
+  __retres1 = 1;
+  return __retres1;
+}
+
+void error1_13() {
+  __VERIFIER_error(); // target state
+}

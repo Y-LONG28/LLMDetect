@@ -1,0 +1,270 @@
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 17:	N745 -{int waterLevel = 1;}-> N746
+	__SELECTED_FEATURE_base == 0;
+	cleanupTimeShifts == 4;
+	waterLevel == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 156:	N766 -{int __SELECTED_FEATURE_highWaterSensor = 0;}-> N767
+	__SELECTED_FEATURE_highWaterSensor == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 157:	N767 -{int __SELECTED_FEATURE_lowWaterSensor = 0;}-> N768
+	__SELECTED_FEATURE_lowWaterSensor == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 158:	N768 -{int __SELECTED_FEATURE_methaneQuery = 0;}-> N769
+	__SELECTED_FEATURE_methaneQuery == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 159:	N769 -{int __SELECTED_FEATURE_methaneAlarm = 0;}-> N770
+	__SELECTED_FEATURE_methaneAlarm == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 160:	N770 -{int __SELECTED_FEATURE_stopCommand = 0;}-> N771
+	__SELECTED_FEATURE_stopCommand == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 161:	N771 -{int __SELECTED_FEATURE_startCommand = 0;}-> N772
+	__SELECTED_FEATURE_startCommand == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 200:	N784 -{int pumpRunning = 0;}-> N785
+	pumpRunning == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 201:	N785 -{int systemActive = 1;}-> N786
+	src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_chead == 0LL;
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 984:	N808 -{int methaneLevelCritical = 0;}-> N809
+	methaneLevelCritical == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 132:	N70 -{int tmp;}-> N71
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 136:	N71 -{select_helpers()}-> N727
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 137:	N72 -{select_features()}-> N716
+	__SELECTED_FEATURE_base == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1080:	N718 -{select_one()}-> N707
+	retValue_acc == 2;
+	choice == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1081:	N719 -{select_one()}-> N707
+	retValue_acc == 0;
+	choice == 0;
+	choice == 2;
+	retValue_acc == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1082:	N720 -{select_one()}-> N707
+	retValue_acc == 0;
+	choice == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1083:	N721 -{select_one()}-> N707
+	retValue_acc == 2;
+	choice == 2;
+	choice == 0;
+	retValue_acc == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1084:	N722 -{select_one()}-> N707
+	retValue_acc == 0;
+	choice == 0;
+	choice == 2;
+	retValue_acc == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1085:	N723 -{select_one()}-> N707
+	retValue_acc == 2;
+	choice == 2;
+	choice == 0;
+	retValue_acc == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 138:	N73 -{valid_product()}-> N732
+	retValue_acc == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 140:	N74 -{[!(tmp == 0)]}-> N76
+	tmp == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 142:	N76 -{setup()}-> N59
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 143:	N78 -{runTest()}-> N63
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 122:	N64 -{test()}-> N298
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 539:	N304 -{splverifierCounter = 0;}-> N305
+	splverifierCounter == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 541:	N305 -{while}-> N306
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 543:	N309 -{[splverifierCounter < 4]}-> N311
+	splverifierCounter == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 549:	N310 -{tmp = __VERIFIER_nondet_int();}-> N314
+	tmp == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 551:	N314 -{[!(tmp == 0)]}-> N316
+	tmp == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 553:	N316 -{waterRise(&waterLevel)}-> N8
+	waterLevel == 4LL;
+	(*waterLevel) == 1;
+output/minepump_spec4_productSimulator.cil_dc_fix.c, line 17:	N9 -{[(*waterLevel) < 2]}-> N11
+	(*waterLevel) == 2;
+	(*waterLevel) == 1;
+	waterLevel == 4LL;
+	(*waterLevel) == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 559:	N315 -{tmp___0 = __VERIFIER_nondet_int();}-> N319
+	tmp___0 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 561:	N319 -{[!(tmp___0 == 0)]}-> N321
+	tmp___0 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 563:	N321 -{changeMethaneLevel()}-> N653
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 990:	N654 -{[methaneLevelCritical == 0]}-> N657
+	methaneLevelCritical == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 993:	N657 -{methaneLevelCritical = 1;}-> N659
+	methaneLevelCritical == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 569:	N320 -{tmp___2 = __VERIFIER_nondet_int();}-> N324
+	tmp___2 == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 571:	N324 -{[tmp___2 == 0]}-> N327
+	tmp___2 == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 581:	N327 -{tmp___1 = __VERIFIER_nondet_int();}-> N332
+	tmp___1 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 583:	N332 -{[!(tmp___1 == 0)]}-> N334
+	tmp___1 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 584:	N334 -{[__SELECTED_FEATURE_stopCommand == 0]}-> N338
+	__SELECTED_FEATURE_stopCommand == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 596:	N325 -{timeShift()}-> N99
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 207:	N100 -{[pumpRunning == 0]}-> N103
+	pumpRunning == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 214:	N101 -{[!(systemActive == 0)]}-> N106
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 216:	N106 -{processEnvironment()}-> N181
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 350:	N182 -{[!(__SELECTED_FEATURE_methaneAlarm == 0)]}-> N184
+	__SELECTED_FEATURE_methaneAlarm == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 352:	N184 -{processEnvironment__role__methaneAlarm()}-> N166
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 325:	N168 -{[pumpRunning == 0]}-> N171
+	pumpRunning == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 340:	N171 -{processEnvironment__before__methaneAlarm()}-> N156
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 307:	N157 -{[__SELECTED_FEATURE_lowWaterSensor == 0]}-> N160
+	__SELECTED_FEATURE_lowWaterSensor == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 314:	N160 -{processEnvironment__before__lowWaterSensor()}-> N131
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 264:	N132 -{[!(__SELECTED_FEATURE_highWaterSensor == 0)]}-> N134
+	__SELECTED_FEATURE_highWaterSensor == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 266:	N134 -{processEnvironment__role__highWaterSensor()}-> N116
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 236:	N117 -{int tmp;}-> N118
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 239:	N118 -{[pumpRunning == 0]}-> N120
+	pumpRunning == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 241:	N120 -{isHighWaterLevel()}-> N254
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 471:	N256 -{int tmp;}-> N257
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 476:	N258 -{isHighWaterSensorDry()}-> N688
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 1043:	N690 -{[!(waterLevel < 2)]}-> N693
+	retValue_acc == 0;
+	waterLevel == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 478:	N259 -{[tmp == 0]}-> N262
+	retValue_acc == 1;
+	tmp___0 == 1;
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 243:	N122 -{[!(tmp == 0)]}-> N124
+	tmp == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 245:	N124 -{activatePump()}-> N206
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 392:	N207 -{[__SELECTED_FEATURE_methaneQuery == 0]}-> N210
+	__SELECTED_FEATURE_methaneQuery == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 399:	N210 -{activatePump__before__methaneQuery()}-> N191
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 367:	N192 -{pumpRunning = 1;}-> N193
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 222:	N105 -{src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1()}-> N84
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 166:	N85 -{int tmp;}-> N86
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 171:	N87 -{getWaterLevel()}-> N681
+	retValue_acc == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 173:	N88 -{[!(tmp == 0)]}-> N91
+none:	N340 -{}-> N306
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 543:	N309 -{[splverifierCounter < 4]}-> N311
+	splverifierCounter == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 549:	N310 -{tmp = __VERIFIER_nondet_int();}-> N314
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 551:	N314 -{[tmp == 0]}-> N317
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 559:	N315 -{tmp___0 = __VERIFIER_nondet_int();}-> N319
+	tmp___0 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 561:	N319 -{[!(tmp___0 == 0)]}-> N321
+	tmp___0 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 563:	N321 -{changeMethaneLevel()}-> N653
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 990:	N654 -{[!(methaneLevelCritical == 0)]}-> N656
+	methaneLevelCritical == 0;
+	methaneLevelCritical == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 569:	N320 -{tmp___2 = __VERIFIER_nondet_int();}-> N324
+	tmp___2 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 571:	N324 -{[!(tmp___2 == 0)]}-> N326
+	tmp___2 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 572:	N326 -{[!(__SELECTED_FEATURE_startCommand == 0)]}-> N329
+	__SELECTED_FEATURE_startCommand == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 574:	N329 -{startSystem()}-> N293
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 526:	N294 -{systemActive = 1;}-> N295
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 596:	N325 -{timeShift()}-> N99
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 207:	N100 -{[!(pumpRunning == 0)]}-> N102
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 209:	N102 -{lowerWaterLevel(&waterLevel)}-> N1
+	waterLevel == 4LL;
+	(*waterLevel) == 2;
+output/minepump_spec4_productSimulator.cil_dc_fix.c, line 7:	N2 -{[(*waterLevel) > 0]}-> N4
+	(*waterLevel) == 1;
+	(*waterLevel) == 2;
+	waterLevel == 4LL;
+	(*waterLevel) == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 214:	N101 -{[!(systemActive == 0)]}-> N106
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 216:	N106 -{processEnvironment()}-> N181
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 350:	N182 -{[!(__SELECTED_FEATURE_methaneAlarm == 0)]}-> N184
+	__SELECTED_FEATURE_methaneAlarm == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 352:	N184 -{processEnvironment__role__methaneAlarm()}-> N166
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 322:	N167 -{int tmp;}-> N168
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 325:	N168 -{[!(pumpRunning == 0)]}-> N170
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 327:	N170 -{isMethaneAlarm()}-> N221
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 418:	N223 -{isMethaneLevelCritical()}-> N662
+	retValue_acc == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 329:	N172 -{[tmp == 0]}-> N175
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 335:	N175 -{processEnvironment__before__methaneAlarm()}-> N156
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 307:	N157 -{[__SELECTED_FEATURE_lowWaterSensor == 0]}-> N160
+	__SELECTED_FEATURE_lowWaterSensor == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 314:	N160 -{processEnvironment__before__lowWaterSensor()}-> N131
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 264:	N132 -{[!(__SELECTED_FEATURE_highWaterSensor == 0)]}-> N134
+	__SELECTED_FEATURE_highWaterSensor == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 266:	N134 -{processEnvironment__role__highWaterSensor()}-> N116
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 239:	N118 -{[!(pumpRunning == 0)]}-> N121
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 254:	N121 -{processEnvironment__before__highWaterSensor()}-> N112
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 222:	N105 -{src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1()}-> N84
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 166:	N85 -{int tmp;}-> N86
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 171:	N87 -{getWaterLevel()}-> N681
+	retValue_acc == 1;
+	retValue_acc == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 173:	N88 -{[!(tmp == 0)]}-> N91
+none:	N340 -{}-> N306
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 543:	N309 -{[splverifierCounter < 4]}-> N311
+	splverifierCounter == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 549:	N310 -{tmp = __VERIFIER_nondet_int();}-> N314
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 551:	N314 -{[tmp == 0]}-> N317
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 559:	N315 -{tmp___0 = __VERIFIER_nondet_int();}-> N319
+	tmp___0 == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 561:	N319 -{[tmp___0 == 0]}-> N322
+	tmp___0 == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 569:	N320 -{tmp___2 = __VERIFIER_nondet_int();}-> N324
+	tmp___2 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 571:	N324 -{[!(tmp___2 == 0)]}-> N326
+	tmp___2 == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 572:	N326 -{[!(__SELECTED_FEATURE_startCommand == 0)]}-> N329
+	__SELECTED_FEATURE_startCommand == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 574:	N329 -{startSystem()}-> N293
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 526:	N294 -{systemActive = 1;}-> N295
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 596:	N325 -{timeShift()}-> N99
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 207:	N100 -{[!(pumpRunning == 0)]}-> N102
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 209:	N102 -{lowerWaterLevel(&waterLevel)}-> N1
+	waterLevel == 4LL;
+	(*waterLevel) == 1;
+output/minepump_spec4_productSimulator.cil_dc_fix.c, line 7:	N2 -{[(*waterLevel) > 0]}-> N4
+	(*waterLevel) == 1;
+	waterLevel == 4LL;
+	(*waterLevel) == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 214:	N101 -{[!(systemActive == 0)]}-> N106
+	systemActive == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 216:	N106 -{processEnvironment()}-> N181
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 350:	N182 -{[!(__SELECTED_FEATURE_methaneAlarm == 0)]}-> N184
+	__SELECTED_FEATURE_methaneAlarm == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 352:	N184 -{processEnvironment__role__methaneAlarm()}-> N166
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 322:	N167 -{int tmp;}-> N168
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 325:	N168 -{[!(pumpRunning == 0)]}-> N170
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 327:	N170 -{isMethaneAlarm()}-> N221
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 418:	N223 -{isMethaneLevelCritical()}-> N662
+	retValue_acc == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 329:	N172 -{[tmp == 0]}-> N175
+	tmp == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 335:	N175 -{processEnvironment__before__methaneAlarm()}-> N156
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 307:	N157 -{[__SELECTED_FEATURE_lowWaterSensor == 0]}-> N160
+	__SELECTED_FEATURE_lowWaterSensor == 0;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 314:	N160 -{processEnvironment__before__lowWaterSensor()}-> N131
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 264:	N132 -{[!(__SELECTED_FEATURE_highWaterSensor == 0)]}-> N134
+	__SELECTED_FEATURE_highWaterSensor == 2;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 266:	N134 -{processEnvironment__role__highWaterSensor()}-> N116
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 239:	N118 -{[!(pumpRunning == 0)]}-> N121
+	pumpRunning == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 254:	N121 -{processEnvironment__before__highWaterSensor()}-> N112
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 222:	N105 -{src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1()}-> N84
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 166:	N85 -{int tmp;}-> N86
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 167:	N86 -{int tmp___0;}-> N87
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 171:	N87 -{getWaterLevel()}-> N681
+	retValue_acc == 0;
+	retValue_acc == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 173:	N88 -{[tmp == 0]}-> N90
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 175:	N90 -{isPumpRunning()}-> N228
+	retValue_acc == 1;
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 177:	N92 -{[!(tmp___0 == 0)]}-> N94
+src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c, line 179:	N94 -{__automaton_fail()}-> N346

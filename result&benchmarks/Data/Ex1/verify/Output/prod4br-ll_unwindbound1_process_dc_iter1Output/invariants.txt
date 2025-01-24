@@ -1,0 +1,9 @@
+loop__main__1413:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::local_3c| () (_ BitVec 32))
+(declare-fun |main::tmp_var_2_int| () (_ BitVec 32))
+(declare-fun |main::_x| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 64))
+(declare-fun |main::p| () (_ BitVec 64))
+(declare-fun |main::b| () (_ BitVec 64))
+(assert (let ((.def_143 (bvmul |main::p| |main::b|)))(let ((.def_145 (bvmul |main::q| .def_143)))(let ((.def_138 ((_ sign_extend 32) |main::_x|)))(let ((.def_147 (bvadd .def_138 .def_145)))(let ((.def_134 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_132 ((_ sign_extend 32) |main::local_3c|)))(let ((.def_136 (bvmul .def_132 .def_134)))(let ((.def_148 (= .def_136 .def_147))).def_148)))))))))

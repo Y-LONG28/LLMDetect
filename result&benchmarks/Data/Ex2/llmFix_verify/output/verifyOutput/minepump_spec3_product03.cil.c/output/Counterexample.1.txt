@@ -1,0 +1,191 @@
+none:	N522 -{INIT GLOBAL VARS}-> N580
+output/minepump_spec3_product03.cil_dc_fix.c, line 2:	N580 -{int waterLevel;}-> N581
+output/minepump_spec3_product03.cil_dc_fix.c, lines 5-10:	N581 -{void waterRise();}-> N582
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 9:	N582 -{void abort();}-> N583
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 10:	N583 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N584
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 11:	N584 -{void reach_error();}-> N585
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 13:	N585 -{int __VERIFIER_nondet_int();}-> N586
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 14:	N586 -{int printf(const char *__format, ...);}-> N587
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 18-32:	N587 -{struct JoinPoint {   void **(*fp)(struct JoinPoint *);   void **args;   int argsCount;   const char **argsType;   void *(*arg)(int, struct JoinPoint *);   const char *(*argType)(int, struct JoinPoint *);   void **retValue;   const char *retType;   const char *funcName;   const char *targetName;   const char *fileName;   const char *kind;   void *excep_return; } ;}-> N588
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 33-37:	N588 -{struct __UTAC__CFLOW_FUNC {   int (*func)(int, int);   int val;   struct __UTAC__CFLOW_FUNC *next; } ;}-> N589
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 38-43:	N589 -{struct __UTAC__EXCEPTION {   void *jumpbuf;   unsigned long long prtValue;   int pops;   struct __UTAC__CFLOW_FUNC *cflowfuncs; } ;}-> N590
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 44:	N590 -{typedef unsigned int size_t__src_minepump_spec3_product03_cil_minepump_spec3_product03_cil_c;}-> N591
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 45-48:	N591 -{struct __ACC__ERR {   void *v;   struct __ACC__ERR *next; } ;}-> N592
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 51:	N592 -{void changeMethaneLevel();}-> N593
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 52:	N593 -{void stopSystem();}-> N594
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 53:	N594 -{void timeShift();}-> N595
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 54:	N595 -{void cleanup();}-> N596
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 55-120:	N596 -{void test();}-> N597
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 122:	N597 -{void lowerWaterLevel();}-> N598
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 123:	N598 -{int isMethaneLevelCritical();}-> N599
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 124:	N599 -{void printEnvironment();}-> N600
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 125:	N600 -{void activatePump();}-> N601
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 126:	N601 -{void deactivatePump();}-> N602
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 127:	N602 -{int isPumpRunning();}-> N603
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 128:	N603 -{void printPump();}-> N604
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 129:	N604 -{int pumpRunning = 0;}-> N605
+	pumpRunning == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 130:	N605 -{int systemActive = 1;}-> N606
+	systemActive == 1;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 131:	N606 -{void __utac_acc__Specification3_spec__1();}-> N607
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 132:	N607 -{void processEnvironment();}-> N608
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 180-190:	N608 -{int isMethaneAlarm();}-> N609
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 252-255:	N609 -{void __assert_fail(const char *__assertion, const char *__file, unsigned int __line, const char *__function);}-> N610
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 256:	N610 -{void *malloc(size_t__src_minepump_spec3_product03_cil_minepump_spec3_product03_cil_c __size);}-> N611
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 257:	N611 -{void free(void *__ptr);}-> N612
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 258-303:	N612 -{void __utac__exception__cf_handler_set(void *exception, int (*cflow_func)(int, int), int val);}-> N613
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 304-359:	N613 -{void __utac__exception__cf_handler_free(void *exception);}-> N614
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 360-419:	N614 -{void __utac__exception__cf_handler_reset(void *exception);}-> N615
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 420:	N615 -{void *__utac__error_stack_mgt(void *env, int mode, int count);}-> N616
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 421:	N616 -{struct __ACC__ERR *src_minepump_spec3_product03_cil_minepump_spec3_product03_cil_chead = (struct __ACC__ERR *)0;}-> N617
+	src_minepump_spec3_product03_cil_minepump_spec3_product03_cil_chead == 0LL;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 525-570:	N617 -{void *__utac__get_this_arg(int i, struct JoinPoint *this);}-> N618
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 571-616:	N618 -{const char *__utac__get_this_argtype(int i, struct JoinPoint *this);}-> N619
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 618:	N619 -{int select_one();}-> N620
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 619:	N620 -{void select_features();}-> N621
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 620:	N621 -{void select_helpers();}-> N622
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 621:	N622 -{int valid_product();}-> N623
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 656-663:	N623 -{void __automaton_fail();}-> N624
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 665:	N624 -{int getWaterLevel();}-> N625
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 700:	N625 -{int cleanupTimeShifts = 4;}-> N626
+	cleanupTimeShifts == 4;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 731-754:	N626 -{void Specification2();}-> N627
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 755-761:	N627 -{void setup();}-> N628
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 762-771:	N628 -{void runTest();}-> N629
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, lines 772-794:	N629 -{int main();}-> N630
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 796:	N630 -{int waterLevel = 1;}-> N631
+	waterLevel == 1;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 797:	N631 -{int methaneLevelCritical = 0;}-> N632
+	methaneLevelCritical == 0;
+none:	N632 -{Function start dummy edge}-> N523
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 773:	N523 -{int retValue_acc;}-> N524
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 774:	N524 -{int tmp;}-> N525
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 778:	N525 -{select_helpers()}-> N435
+none:	N435 -{Function start dummy edge}-> N436
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 643:	N436 -{return;}-> N434
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 778:	N434 -{Return edge from select_helpers to main: select_helpers();}-> N526
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 779:	N526 -{select_features()}-> N431
+none:	N431 -{Function start dummy edge}-> N432
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 636:	N432 -{return;}-> N430
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 779:	N430 -{Return edge from select_features to main: select_features();}-> N527
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 780:	N527 -{valid_product()}-> N439
+none:	N439 -{Function start dummy edge}-> N440
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 647:	N440 -{int retValue_acc;}-> N441
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 650:	N441 -{retValue_acc = 1;}-> N442
+	retValue_acc == 1;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 651:	N442 -{return retValue_acc;}-> N438
+	retValue_acc = 1
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 780:	N438 -{Return edge from valid_product to main: tmp = valid_product();}-> N528
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 782:	N528 -{[!(tmp == 0)]}-> N530
+	tmp == 1;
+	tmp == 1;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 784:	N530 -{setup()}-> N513
+none:	N513 -{Function start dummy edge}-> N514
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 759:	N514 -{return;}-> N512
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 784:	N512 -{Return edge from setup to main: setup();}-> N532
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 785:	N532 -{runTest()}-> N517
+none:	N517 -{Function start dummy edge}-> N518
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 767:	N518 -{test()}-> N12
+none:	N12 -{Function start dummy edge}-> N13
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 56:	N13 -{int splverifierCounter;}-> N14
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 57:	N14 -{int tmp;}-> N15
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 58:	N15 -{int tmp___0;}-> N16
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 59:	N16 -{int tmp___1;}-> N17
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 60:	N17 -{int tmp___2;}-> N18
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 63:	N18 -{splverifierCounter = 0;}-> N19
+	splverifierCounter == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 65:	N19 -{while}-> N20
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 65:	N20 -{}-> N21
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 66:	N21 -{Label: while_0_continue}-> N23
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 67:	N23 -{[splverifierCounter < 4]}-> N25
+	splverifierCounter == 0;
+	splverifierCounter == 0;
+none:	N25 -{}-> N24
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 73:	N24 -{tmp = __VERIFIER_nondet_int();}-> N28
+	tmp == 2;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 75:	N28 -{[!(tmp == 0)]}-> N30
+	tmp == 2;
+	tmp == 2;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 77:	N30 -{waterRise()}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+output/minepump_spec3_product03.cil_dc_fix.c, line 6:	N2 -{[waterLevel < 2]}-> N4
+	waterLevel == 1;
+	waterLevel == 1;
+output/minepump_spec3_product03.cil_dc_fix.c, line 7:	N4 -{waterLevel = waterLevel + 1;}-> N5
+	waterLevel == 2;
+none:	N5 -{}-> N3
+output/minepump_spec3_product03.cil_dc_fix.c, line 9:	N3 -{return;}-> N0
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 77:	N0 -{Return edge from waterRise to test: waterRise();}-> N32
+none:	N32 -{}-> N29
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 83:	N29 -{tmp___0 = __VERIFIER_nondet_int();}-> N33
+	tmp___0 == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 85:	N33 -{[tmp___0 == 0]}-> N36
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N36 -{}-> N34
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 93:	N34 -{tmp___2 = __VERIFIER_nondet_int();}-> N38
+	tmp___2 == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 95:	N38 -{[tmp___2 == 0]}-> N41
+	tmp___2 == 0;
+	tmp___2 == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 99:	N41 -{tmp___1 = __VERIFIER_nondet_int();}-> N42
+	tmp___1 == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 101:	N42 -{[tmp___1 == 0]}-> N45
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N45 -{}-> N39
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 110:	N39 -{timeShift()}-> N53
+none:	N53 -{Function start dummy edge}-> N54
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 137:	N54 -{[pumpRunning == 0]}-> N57
+	pumpRunning == 0;
+	pumpRunning == 0;
+none:	N57 -{}-> N55
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 144:	N55 -{[!(systemActive == 0)]}-> N60
+	systemActive == 1;
+	systemActive == 1;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 146:	N60 -{processEnvironment()}-> N66
+none:	N66 -{Function start dummy edge}-> N67
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 161:	N67 -{return;}-> N65
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 146:	N65 -{Return edge from processEnvironment to timeShift: processEnvironment();}-> N62
+none:	N62 -{}-> N59
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 152:	N59 -{__utac_acc__Specification3_spec__1()}-> N453
+none:	N453 -{Function start dummy edge}-> N454
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 667:	N454 -{int tmp;}-> N455
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 668:	N455 -{int tmp___0;}-> N456
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 669:	N456 -{int tmp___1;}-> N457
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 673:	N457 -{isMethaneLevelCritical()}-> N555
+none:	N555 -{Function start dummy edge}-> N556
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 824:	N556 -{int retValue_acc;}-> N557
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 827:	N557 -{retValue_acc = methaneLevelCritical;}-> N558
+	retValue_acc == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 828:	N558 -{return retValue_acc;}-> N554
+	retValue_acc = 0
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 673:	N554 -{Return edge from isMethaneLevelCritical to __utac_acc__Specification3_spec__1: tmp = isMethaneLevelCritical();}-> N458
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 675:	N458 -{[tmp == 0]}-> N461
+	tmp == 0;
+	tmp == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 679:	N461 -{getWaterLevel()}-> N574
+none:	N574 -{Function start dummy edge}-> N575
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 856:	N575 -{int retValue_acc;}-> N576
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 859:	N576 -{retValue_acc = waterLevel;}-> N577
+	retValue_acc == 2;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 860:	N577 -{return retValue_acc;}-> N573
+	retValue_acc = 2
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 679:	N573 -{Return edge from getWaterLevel to __utac_acc__Specification3_spec__1: tmp___0 = getWaterLevel();}-> N462
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 681:	N462 -{[tmp___0 == 2]}-> N464
+	tmp___0 == 2;
+	tmp___0 == 2;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 683:	N464 -{isPumpRunning()}-> N87
+none:	N87 -{Function start dummy edge}-> N88
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 192:	N88 -{int retValue_acc;}-> N89
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 195:	N89 -{retValue_acc = pumpRunning;}-> N90
+	retValue_acc == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 196:	N90 -{return retValue_acc;}-> N86
+	retValue_acc = 0
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 683:	N86 -{Return edge from isPumpRunning to __utac_acc__Specification3_spec__1: tmp___1 = isPumpRunning();}-> N466
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 685:	N466 -{[tmp___1 == 0]}-> N469
+	tmp___1 == 0;
+	tmp___1 == 0;
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 689:	N469 -{__automaton_fail()}-> N446
+none:	N446 -{Function start dummy edge}-> N447
+src/minepump_spec3_product03.cil/minepump_spec3_product03.cil.c, line 660:	N447 -{Label: ERROR}-> N448

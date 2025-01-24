@@ -1,0 +1,48 @@
+IntBool
+
+[main::temp, main::multFactor, main::__CPAchecker_TMP_2, main::evenExp, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, main::local_30, signgam, main::oddExp]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[assume::cond, main::iVar2, main::octant, main::count, main::x, main::fVar1, main::term, main::tmp_var_1_int]
+
+ALL
+
+[main::iVar2, __bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::local_30, signgam, assume::cond, main::temp, main::__CPAchecker_TMP_2, main::octant, main::x, __bswap_64::__CPAchecker_TMP_0, main::tmp_var_1_int, __bswap_16::__CPAchecker_TMP_0, main::evenExp, main::count, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, main::multFactor, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, main::fVar1, main::term, __bswap_16::__retval__, __uint16_identity::__retval__, main::oddExp]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond, main::count, main::fVar1, main::iVar2, main::octant, main::term, main::tmp_var_1_int, main::x] --> [-1, 0, 1, 2],
+[main::local_30] --> [0],
+[main::temp] --> [],
+[main::multFactor] --> [],
+[main::evenExp] --> [],
+[main::oddExp] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_2] --> [0],
+[signgam] --> []]
+
+RELEVANT VARS
+
+[assume::cond, main::iVar2, main::octant, main::count, main::x, main::fVar1, main::term, main::tmp_var_1_int, main::local_30]
+
+RELEVANT FIELDS
+
+{}

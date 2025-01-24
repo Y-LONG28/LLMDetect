@@ -1,0 +1,16 @@
+loop__main__1344:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_int| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+(declare-fun |main::A| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 32))
+(declare-fun |main::B| () (_ BitVec 32))
+(assert (let ((.def_214 (= |main::p| |main::B|)))(let ((.def_210 (= |main::A| (_ bv0 32))))(let ((.def_223 (and .def_210 .def_214)))(let ((.def_94 (= |main::tmp_var_1_int| |main::q|)))(let ((.def_224 (and .def_94 .def_223))).def_224))))))
+loop__main__1370:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_int| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+(declare-fun |main::A| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 32))
+(declare-fun |main::B| () (_ BitVec 32))
+(assert (let ((.def_668 (bvadd |main::A| |main::p|)))(let ((.def_669 (= |main::B| .def_668)))(let ((.def_214 (= |main::p| |main::B|)))(let ((.def_325 (not .def_214)))(let ((.def_704 (and .def_325 .def_669)))(let ((.def_210 (= |main::A| (_ bv0 32))))(let ((.def_707 (or .def_210 .def_704)))(let ((.def_705 (and .def_214 .def_669)))(let ((.def_326 (not .def_210)))(let ((.def_706 (or .def_326 .def_705)))(let ((.def_708 (and .def_706 .def_707)))(let ((.def_94 (= |main::tmp_var_1_int| |main::q|)))(let ((.def_709 (and .def_94 .def_708))).def_709))))))))))))))

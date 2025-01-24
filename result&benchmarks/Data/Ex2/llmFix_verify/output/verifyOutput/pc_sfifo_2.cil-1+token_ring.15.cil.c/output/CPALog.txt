@@ -1,0 +1,2072 @@
+2025-01-24 02:19:20:266	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-24 02:19:20:345	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-24 02:19:20:366	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/pc_sfifo_2.cil-1+token_ring.15.cil_dc_fix.c, /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_2.cil-1+token_ring.15.cil/pc_sfifo_2.cil-1+token_ring.15.cil.c"
+
+2025-01-24 02:19:21:754	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-24 02:19:22:352	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-24 02:19:22:365	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-24 02:19:22:365	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-24 02:19:22:369	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-24 02:19:22:375	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-24 02:19:22:381	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/parallel-multipleLoops.properties ...
+
+2025-01-24 02:19:22:395	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 140s
+
+2025-01-24 02:19:22:612	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 60s
+
+2025-01-24 02:19:22:657	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 200s
+
+2025-01-24 02:19:22:707	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2025-01-24 02:19:22:783	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2025-01-24 02:19:22:791	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 60s
+
+2025-01-24 02:19:22:843	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:23:161	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:InductionStepCase:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:23:173	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-24 02:19:23:567	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-24 02:19:24:053	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-24 02:19:24:054	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.checkBoundingAssertions	Starting assertions check...
+
+2025-01-24 02:19:24:447	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:24:477	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Running algorithm to create induction hypothesis
+
+2025-01-24 02:19:25:011	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:25:176	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:25:306	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:25:309	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Infeasible counterexample found, but could not remove it from the ARG. Therefore, we cannot prove safety.
+
+2025-01-24 02:19:25:555	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:25:697	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:25:795	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:25:904	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:25:905	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:26:250	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:26:441	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:26:554	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:26:649	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:26:650	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:26:824	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:26:923	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:26:993	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:27:091	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:27:121	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:27:412	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:27:570	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:27:682	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:27:895	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:27:896	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:28:052	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:28:157	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:28:235	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:28:295	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:28:296	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:28:432	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:28:491	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:28:535	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:28:586	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:28:587	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:28:682	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:28:798	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:28:896	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:28:945	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:28:946	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:29:109	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:29:188	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:29:268	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:29:341	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:29:343	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:29:411	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:29:483	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:29:581	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:29:721	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:29:732	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:29:849	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:29:967	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:30:112	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:30:232	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:30:235	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:30:390	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:30:540	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:30:732	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:30:949	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:30:951	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:31:130	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:31:329	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:31:599	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:31:720	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Starting induction check...
+
+2025-01-24 02:19:31:782	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:31:784	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:31:977	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:32:177	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:32:413	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:32:678	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:32:681	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:32:909	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:32:947	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:33:016	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:33:070	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:33:071	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:33:138	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:33:186	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:33:242	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:33:284	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:33:285	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:33:336	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:33:388	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:33:457	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:33:529	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:33:530	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:33:617	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:33:684	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:33:791	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:33:898	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:33:899	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:34:007	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:34:439	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:34:600	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:34:728	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:34:730	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:34:902	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:35:030	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:35:272	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:35:424	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:35:425	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:35:666	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:35:778	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 2
+
+2025-01-24 02:19:35:779	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-24 02:19:35:825	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:36:032	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:36:221	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:36:223	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:36:389	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:36:398	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-24 02:19:36:421	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:36:447	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:36:478	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:36:479	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:36:488	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.checkBoundingAssertions	Starting assertions check...
+
+2025-01-24 02:19:36:528	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:36:581	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:36:629	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:36:688	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:36:689	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:36:742	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:36:786	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:36:850	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:36:912	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:36:913	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:36:995	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:37:061	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:37:169	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:37:272	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:37:273	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:37:383	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:37:477	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:37:610	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Running algorithm to create induction hypothesis
+
+2025-01-24 02:19:37:627	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:37:753	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:37:754	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:37:923	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:38:014	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:38:180	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:38:384	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:38:390	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:38:581	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:38:724	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:39:055	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:39:221	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:39:224	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:39:350	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:39:381	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:39:398	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:39:429	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:39:431	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:39:492	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:39:543	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:39:591	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:39:635	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:39:635	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:39:691	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:39:739	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:39:802	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:39:857	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:39:859	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:39:941	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:39:996	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:40:085	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:40:175	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:40:182	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:40:271	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:40:330	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:40:443	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:40:565	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:40:567	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:40:733	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:40:842	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:40:993	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:41:141	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:41:143	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:41:364	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:41:491	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:41:681	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:41:851	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:41:853	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:41:984	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:42:006	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:42:059	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:42:117	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:42:118	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:42:205	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:42:236	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:42:281	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:42:332	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:42:332	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:42:382	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:42:428	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:42:506	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:42:553	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:42:554	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:42:631	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:42:690	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:42:806	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:42:899	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:42:900	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:43:026	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:43:098	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:43:211	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:43:323	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:43:325	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:43:462	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:43:565	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:43:717	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:43:872	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:43:874	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:44:118	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:44:215	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:44:403	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:44:549	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:44:551	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:44:647	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:44:707	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:44:729	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:44:763	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:44:764	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:44:813	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:44:856	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:44:891	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:44:961	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:44:962	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:45:020	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:45:056	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:45:109	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:45:156	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:45:157	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:45:230	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:45:269	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:45:364	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:45:432	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:45:433	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:45:550	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:45:601	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:45:707	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:45:805	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:45:806	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:45:928	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:46:033	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:46:185	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:46:329	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:46:331	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:46:510	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:46:586	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:46:767	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:46:921	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:46:923	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:47:074	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:47:096	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:47:122	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Starting induction check...
+
+2025-01-24 02:19:47:127	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:47:155	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:47:156	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:47:197	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:47:225	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:47:262	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:47:302	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:47:303	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:47:359	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:47:391	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:47:449	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:47:500	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:47:501	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:47:580	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:47:620	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:47:694	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:47:757	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:47:758	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:47:848	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:47:900	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:47:998	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:48:080	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:48:081	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:48:216	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:48:303	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:48:443	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:48:557	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:48:558	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:48:692	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:48:721	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:48:740	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:48:765	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:48:766	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:48:805	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:48:833	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:48:869	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:48:902	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:48:903	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:48:953	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:48:979	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:49:021	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:49:071	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:49:071	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:49:134	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:49:181	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:49:273	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:49:347	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:49:347	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:49:445	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:49:525	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:49:712	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:49:816	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:49:818	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:49:991	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:50:057	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:50:248	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:50:396	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:50:397	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:50:528	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:50:617	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:50:774	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:50:907	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:50:908	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:51:001	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:51:027	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:51:047	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:51:070	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:51:071	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:51:109	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:51:137	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:51:168	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:51:205	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:51:206	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:51:258	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:51:286	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:51:332	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:51:394	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:51:395	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:51:468	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:51:515	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:51:585	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:51:659	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:51:660	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:51:758	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:51:805	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:51:903	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:52:000	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:52:001	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:52:122	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:52:177	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:52:297	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:52:415	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:52:416	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:52:549	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:52:638	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:52:801	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:52:956	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:52:958	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:53:065	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:53:082	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:53:103	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:53:130	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:53:130	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:53:173	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:53:196	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:53:228	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:53:273	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:53:274	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:53:322	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:53:352	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:53:413	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:53:461	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:53:462	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:53:533	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:53:572	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:53:647	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:53:723	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:53:725	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:53:829	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:53:883	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:53:993	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:54:092	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:54:093	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:54:245	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:54:310	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:54:466	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:54:594	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:54:595	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:54:735	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:54:821	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:54:872	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:LoopBoundCPA:LoopBoundPrecisionAdjustment.nextState	Adjusting maxLoopIterations to 3
+
+2025-01-24 02:19:54:872	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-24 02:19:54:985	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:55:133	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:55:134	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:55:307	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:55:392	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:55:556	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:55:711	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:55:712	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:55:772	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-24 02:19:55:817	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:55:835	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:55:865	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:55:889	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:55:889	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:55:926	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:55:947	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:55:983	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:56:017	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:56:017	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:56:058	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:56:087	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:56:136	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:56:182	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:56:183	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:56:260	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.analyzeCounterexample0	Error found, creating error path
+
+2025-01-24 02:19:56:264	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:56:298	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:56:374	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:56:455	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:56:456	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:56:561	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:56:608	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:56:720	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:19:56:823	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found but identified as infeasible.
+
+2025-01-24 02:19:56:826	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ExceptionHandlingAlgorithm.handleExceptionWithErrorPath	Another infeasible counterexample found which could not be removed from the ARG.
+
+2025-01-24 02:19:56:942	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:19:57:000	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:19:57:030	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-kInduction.properties finished successfully.
+
+2025-01-24 02:19:57:042	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:19:57:042	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:19:57:044	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:19:57:162	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:19:57:163	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-24 02:19:57:163	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-24 02:19:57:166	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

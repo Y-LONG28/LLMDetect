@@ -1,0 +1,48 @@
+IntBool
+
+[assume::cond, __bswap_32::__bsx, __blast_assert::__CPAchecker_TMP_2, __bswap_64::__bsx, __getMemory::local_14, main::__retval__, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[__getMemory::size, my_malloc::size]
+
+IntOverflow
+
+[elem, main::new, list_add::new->next, main::new_00, __getMemory::pvVar1, list_add::head->next->prev, list_add::head->next, my_malloc::__retval__, __getMemory::__retval__, guard_malloc_counter, my_malloc::pvVar1, list_del::entry, list_add::new]
+
+ALL
+
+[list_del::entry->next, list_del::entry->prev, list_add::new->next, list_add::new->prev, main::new_00, __getMemory::pvVar1, __bswap_32::__bsx, __blast_assert::__CPAchecker_TMP_2, list_add::head->next, __uint32_identity::__x, __uint32_identity::__retval__, list_add::head, __bswap_16::__bsx, my_malloc::size, my_malloc::__retval__, head, __getMemory::__retval__, assume::cond, __bswap_64::__CPAchecker_TMP_0, my_malloc::pvVar1, list_del::entry, list_del::entry->prev->next, list_add::new, elem, main::new, __bswap_16::__CPAchecker_TMP_0, list_add::head->next->prev, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __getMemory::local_14, __uint64_identity::__x, guard_malloc_counter, __bswap_16::__retval__, __getMemory::size, list_del::entry->next->prev, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__blast_assert::__CPAchecker_TMP_2] --> [0],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__getMemory::__retval__, __getMemory::pvVar1, elem, guard_malloc_counter, list_add::head->next, list_add::head->next->prev, list_add::new, list_add::new->next, list_del::entry, main::new, main::new_00, my_malloc::__retval__, my_malloc::pvVar1] --> [0, 1],
+[__getMemory::local_14] --> [0],
+[__getMemory::size, my_malloc::size] --> [1, 16],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[head, list_add::head, list_add::new->prev] --> [],
+[list_del::entry->next->prev, list_del::entry->prev] --> [],
+[list_del::entry->next, list_del::entry->prev->next] --> [],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[elem, main::new, main::new_00, __getMemory::pvVar1, my_malloc::size, my_malloc::__retval__, assume::cond, __getMemory::__retval__, __getMemory::local_14, guard_malloc_counter, __getMemory::size, my_malloc::pvVar1, list_del::entry, list_add::new]
+
+RELEVANT FIELDS
+
+{}

@@ -1,0 +1,49 @@
+line 20:	N40 -{SORT_1 var_9;}-> N41
+	var_9 == 0U;
+line 21:	N41 -{SORT_1 var_15_arg_0;}-> N42
+	var_15_arg_0 == 1U;
+line 22:	N42 -{SORT_1 constr_16_arg_0;}-> N43
+	constr_16_arg_0 == 1U;
+line 26:	N45 -{expr_tmp_var_60_uchar = var_9 & 1;}-> N46
+	expr_tmp_var_60_uchar == 0U;
+line 27:	N46 -{expr_tmp_var_61_uchar = var_15_arg_0 & 1;}-> N47
+	expr_tmp_var_61_uchar == 1U;
+line 28:	N47 -{bVar1 = 1;}-> N48
+	bVar1 == 1;
+	var_9 == 0U;
+	var_15_arg_0 == 1U;
+	constr_16_arg_0 == 1U;
+	expr_tmp_var_60_uchar == 0U;
+	expr_tmp_var_61_uchar == 1U;
+line 31:	N52 -{[!(bVar1 == 0)]}-> N56
+	bVar1 == 1;
+line 31:	N56 -{[!(((_Bool)((~(expr_tmp_var_60_uchar == expr_tmp_var_61_uchar)) & 1)) == 0)]}-> N54
+line 32:	N54 -{bVar2 = 1;}-> N57
+	bVar2 == 1U;
+line 36:	N53 -{assume(bVar2)}-> N31
+	cond == 1;
+line 12:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 38:	N59 -{[!(expr_tmp_var_60_uchar == expr_tmp_var_61_uchar)]}-> N60
+	expr_tmp_var_60_uchar == 0U;
+	expr_tmp_var_61_uchar == 1U;
+line 42:	N60 -{[!(((~(constr_16_arg_0 & 1)) & 1) != 0)]}-> N73
+line 46:	N73 -{[(constr_16_arg_0 & 1) != 0]}-> N77
+line 47:	N77 -{expr_tmp_var_61_uchar = (~expr_tmp_var_61_uchar) & 1;}-> N78
+	expr_tmp_var_61_uchar == 0U;
+line 50:	N76 -{bVar1 = 0;}-> N79
+	bVar1 == 0;
+none:	N79 -{}-> N49
+	bVar1 == 0;
+line 31:	N52 -{[bVar1 == 0]}-> N54
+	bVar1 == 0;
+line 32:	N54 -{bVar2 = 1;}-> N57
+	bVar2 == 1U;
+line 36:	N53 -{assume(bVar2)}-> N31
+	cond == 1;
+line 12:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 38:	N59 -{[expr_tmp_var_60_uchar == expr_tmp_var_61_uchar]}-> N61
+	expr_tmp_var_60_uchar == 0U;
+	expr_tmp_var_61_uchar == 0U;
+line 39:	N70 -{__assert_fail("0 && \"Assertion failed: !(bad_17_arg_0)\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/btor2c-lazyMod.noninitstate_process_dc_iter2.c", 39, "__PRETTY_FUNCTION__");}-> N394

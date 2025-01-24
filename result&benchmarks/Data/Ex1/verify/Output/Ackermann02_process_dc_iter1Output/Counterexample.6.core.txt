@@ -1,0 +1,53 @@
+line 31:	N55 -{int iVar1;}-> N56
+line 32:	N56 -{int local_18;}-> N57
+	local_18 == 0;
+line 33:	N57 -{int result;}-> N58
+	result == 2;
+line 37:	N60 -{[!(result < 0)]}-> N64
+	result == 2;
+line 37:	N64 -{[!(3 < result)]}-> N63
+	result == 2;
+line 40:	N63 -{[!(local_18 < 0)]}-> N69
+	local_18 == 0;
+line 40:	N69 -{[!(23 < local_18)]}-> N68
+	local_18 == 0;
+line 44:	N68 -{ackermann(result, local_18)}-> N31
+	m == 2;
+	n == 0;
+line 10:	N35 -{[!(m == 0)]}-> N38
+	m == 2;
+line 13:	N38 -{[n == 0]}-> N41
+	n == 0;
+line 14:	N41 -{ackermann(m - 1, 1)}-> N31
+	m == 1;
+	n == 1;
+line 10:	N35 -{[!(m == 0)]}-> N38
+	m == 1;
+line 13:	N38 -{[!(n == 0)]}-> N42
+	n == 1;
+line 17:	N42 -{ackermann(m, n - 1)}-> N31
+	m == 1;
+	n == 0;
+line 10:	N35 -{[!(m == 0)]}-> N38
+	m == 1;
+line 13:	N38 -{[n == 0]}-> N41
+	n == 0;
+line 14:	N41 -{ackermann(m - 1, 1)}-> N31
+	m == 0;
+	n == 1;
+line 10:	N35 -{[m == 0]}-> N37
+	iVar1 == 2;
+	m == 0;
+line 18:	N44 -{ackermann(m - 1, iVar1)}-> N31
+	iVar1 == 2;
+	m == 0;
+	n == 2;
+line 10:	N35 -{[m == 0]}-> N37
+	iVar1 == 3;
+	m == 0;
+line 45:	N71 -{[!(result < 2)]}-> N75
+	result == 2;
+line 45:	N75 -{[!(3 < iVar1)]}-> N74
+	iVar1 == 1048576;
+	iVar1 == 3;
+line 50:	N86 -{__assert_fail("0 && \"Assertion failed: result should not be in the range [2, 3] and iVar1 should not be greater than 3\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/Ackermann02_process_dc_iter1.c", 50, "__PRETTY_FUNCTION__");}-> N366

@@ -1,0 +1,50 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun num () (_ BitVec 32))
+(declare-fun P_1_st () (_ BitVec 32))
+(declare-fun C_1_pc () (_ BitVec 32))
+(declare-fun C_1_st () (_ BitVec 32))
+(declare-fun P_1_pc () (_ BitVec 32))
+(declare-fun max_loop () (_ BitVec 32))
+(declare-fun i () (_ BitVec 32))
+(declare-fun C_1_ev () (_ BitVec 32))
+(declare-fun P_1_ev () (_ BitVec 32))
+
+*:
+(assert (let ((.def_322 ((_ extract 31 31) num)))(let ((.def_323 (= .def_322 (_ bv1 1)))).def_323)))
+
+error N7:
+(assert false)
+(assert (let ((.def_322 ((_ extract 31 31) num)))(let ((.def_323 (= .def_322 (_ bv1 1)))).def_323)))
+
+eval N165:
+(assert (let ((.def_338 (= P_1_st (_ bv0 32)))).def_338))
+(assert (let ((.def_340 (= num (_ bv0 32)))).def_340))
+(assert (let ((.def_343 (= C_1_pc (_ bv0 32)))).def_343))
+(assert (let ((.def_322 ((_ extract 31 31) num)))(let ((.def_323 (= .def_322 (_ bv1 1)))).def_323)))
+(assert (let ((.def_679 (= C_1_st (_ bv0 32)))).def_679))
+(assert (let ((.def_681 (= C_1_pc (_ bv1 32)))).def_681))
+(assert (let ((.def_683 (= C_1_pc (_ bv2 32)))).def_683))
+(assert (let ((.def_686 (= P_1_pc (_ bv1 32)))).def_686))
+(assert (let ((.def_688 (= num (_ bv1 32)))).def_688))
+(assert (let ((.def_3408 (= max_loop (_ bv2 32)))).def_3408))
+(assert (let ((.def_3411 (= i (_ bv0 32)))).def_3411))
+(assert (let ((.def_3414 (= C_1_ev (_ bv1 32)))).def_3414))
+(assert (let ((.def_3417 (= P_1_ev (_ bv1 32)))).def_3417))
+(assert (let ((.def_3419 (= i (_ bv1 32)))).def_3419))
+(assert false)
+
+start_simulation N269:
+(assert (let ((.def_338 (= P_1_st (_ bv0 32)))).def_338))
+(assert (let ((.def_340 (= num (_ bv0 32)))).def_340))
+(assert (let ((.def_343 (= C_1_pc (_ bv0 32)))).def_343))
+(assert (let ((.def_322 ((_ extract 31 31) num)))(let ((.def_323 (= .def_322 (_ bv1 1)))).def_323)))
+(assert (let ((.def_679 (= C_1_st (_ bv0 32)))).def_679))
+(assert (let ((.def_681 (= C_1_pc (_ bv1 32)))).def_681))
+(assert (let ((.def_683 (= C_1_pc (_ bv2 32)))).def_683))
+(assert (let ((.def_3408 (= max_loop (_ bv2 32)))).def_3408))
+(assert (let ((.def_3411 (= i (_ bv0 32)))).def_3411))
+(assert (let ((.def_3414 (= C_1_ev (_ bv1 32)))).def_3414))
+(assert (let ((.def_3417 (= P_1_ev (_ bv1 32)))).def_3417))
+(assert (let ((.def_688 (= num (_ bv1 32)))).def_688))
+(assert (let ((.def_686 (= P_1_pc (_ bv1 32)))).def_686))
+

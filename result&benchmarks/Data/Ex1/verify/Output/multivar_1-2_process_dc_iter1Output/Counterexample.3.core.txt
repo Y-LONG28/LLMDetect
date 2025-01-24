@@ -1,0 +1,12 @@
+line 15:	N39 -{uint local_14;}-> N40
+	local_14 == 2048U;
+line 17:	N40 -{local_18 = local_14 + 1;}-> N41
+	local_18 == 2049U;
+	local_14 == 2048U;
+line 19:	N41 -{for}-> N42
+line 19:	N42 -{[!(local_14 < 1024)]}-> N45
+	local_14 == 2048U;
+line 24:	N45 -{[local_14 != local_18]}-> N48
+	local_14 == 2048U;
+	local_18 == 2049U;
+line 25:	N57 -{__assert_fail("0 && \"Assertion failed: x == y\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/multivar_1-2_process_dc_iter1.c", 25, "__PRETTY_FUNCTION__");}-> N360

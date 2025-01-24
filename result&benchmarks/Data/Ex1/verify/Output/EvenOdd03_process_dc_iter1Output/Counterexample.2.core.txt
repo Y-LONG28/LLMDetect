@@ -1,0 +1,24 @@
+line 45:	N68 -{int iVar1;}-> N69
+line 46:	N69 -{int mod;}-> N70
+	mod == 2;
+line 50:	N72 -{[!(mod < 0)]}-> N75
+	mod == 2;
+line 54:	N75 -{isEven(mod)}-> N52
+	n == 2;
+line 32:	N55 -{[!(n == 0)]}-> N58
+	n == 2;
+line 35:	N58 -{[!(n == 1)]}-> N62
+	n == 2;
+line 39:	N62 -{isOdd(n + -1)}-> N37
+	n == 1;
+line 16:	N40 -{[!(n == 0)]}-> N43
+	n == 1;
+line 19:	N43 -{[n == 1]}-> N46
+	iVar1 == 1;
+	n == 1;
+line 55:	N77 -{[!(iVar1 < 0)]}-> N81
+	iVar1 == 1;
+line 55:	N81 -{[!(iVar1 == (mod % 2))]}-> N80
+	iVar1 == 1048576;
+	iVar1 == 1;
+line 60:	N92 -{__assert_fail("0 && \"Assertion failed: iVar1 should not be 0x100000\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/EvenOdd03_process_dc_iter1.c", 60, "__PRETTY_FUNCTION__");}-> N373

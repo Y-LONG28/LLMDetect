@@ -1,0 +1,12 @@
+line 11:	N40 -{float y;}-> N41
+	y == 0.0;
+line 15:	N43 -{[!(((int)y) < -10)]}-> N47
+line 15:	N47 -{[!(10 < ((int)y))]}-> N46
+line 18:	N46 -{cond = 1;}-> N49
+	cond == 1;
+line 20:	N44 -{assume(cond)}-> N31
+	cond == 1;
+line 5:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 22:	N50 -{[(((float)(((int)y) * ((int)y))) - 0.0) == 0.0]}-> N52
+line 23:	N61 -{__assert_fail("0 && \"y != 0.f\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_int_inv_square_process_dc_iter1.c", 23, "__PRETTY_FUNCTION__");}-> N340

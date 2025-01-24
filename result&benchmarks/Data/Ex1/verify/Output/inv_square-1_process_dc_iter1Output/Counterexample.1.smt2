@@ -1,0 +1,5 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::y@2| () (_ FloatingPoint 8 24))
+(declare-fun |main::cond@3| () (_ BitVec 32))
+(declare-fun |assume::cond@2| () (_ BitVec 32))
+(assert (let ((.def_30 (= |main::cond@3| |assume::cond@2|)))(let ((.def_24 (= |main::cond@3| (_ bv1 32))))(let ((.def_17 (fp.lt (fp #b0 #b01111111 #b00000000000000000000000) |main::y@2|)))(let ((.def_20 (not .def_17)))(let ((.def_12 (fp.lt |main::y@2| (fp #b0 #b00000000 #b00000000000000000000000))))(let ((.def_15 (not .def_12)))(let ((.def_21 (and .def_15 .def_20)))(let ((.def_25 (and .def_21 .def_24)))(let ((.def_92 (and .def_25 .def_30)))(let ((.def_32 (= |assume::cond@2| (_ bv0 32))))(let ((.def_35 (not .def_32)))(let ((.def_93 (and .def_35 .def_92)))(let ((.def_38 (fp.eq |main::y@2| (fp #b0 #b00000000 #b00000000000000000000000))))(let ((.def_39 (not .def_38)))(let ((.def_94 (and .def_39 .def_93)))(let ((.def_43 (fp.mul RNE |main::y@2| |main::y@2|)))(let ((.def_44 (fp.eq (fp #b0 #b00000000 #b00000000000000000000000) .def_43)))(let ((.def_95 (and .def_44 .def_94))).def_95)))))))))))))))))))

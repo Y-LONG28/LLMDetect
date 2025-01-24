@@ -1,0 +1,43 @@
+IntBool
+
+[assume::cond, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, equal::__CPAchecker_TMP_2]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[a, b, __bswap_16::__CPAchecker_TMP_0, __bswap_32::__bsx, equal::b, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint32_identity::__x, __uint32_identity::__retval__, equal::a, __bswap_16::__bsx, equal::__CPAchecker_TMP_2, assume::cond, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_64::__CPAchecker_TMP_0, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[a, b, equal::a, equal::b] --> [0],
+[equal::__CPAchecker_TMP_2] --> [0],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[equal::b, assume::cond, a, b, equal::a]
+
+RELEVANT FIELDS
+
+{}

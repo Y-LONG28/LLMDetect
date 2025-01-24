@@ -1,0 +1,31 @@
+lines 13-14:	N41 -{local_14 = 0;}-> N42
+	local_14 == 0;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 0;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 1;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 1;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 2;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 2;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 3;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 3;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 4;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 4;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 5;
+line 13:	N42 -{[local_14 < 6]}-> N44
+	local_14 == 5;
+lines 13-14:	N43 -{local_14 = local_14 + 1;}-> N42
+	local_14 == 6;
+line 13:	N42 -{[!(local_14 < 6)]}-> N45
+	local_14 == 6;
+line 16:	N45 -{[local_14 == 6]}-> N47
+	local_14 == 6;
+line 17:	N56 -{__assert_fail("0 && \"Assertion failed: local_14 should not equal 6\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/nested_1b_process_dc_iter1.c", 17, "__PRETTY_FUNCTION__");}-> N335

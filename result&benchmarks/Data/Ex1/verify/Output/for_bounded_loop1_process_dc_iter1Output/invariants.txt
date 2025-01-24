@@ -1,0 +1,5 @@
+loop__main__1327:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::n| () (_ BitVec 32))
+(declare-fun |main::tmp_var_1_int| () (_ BitVec 32))
+(assert (let ((.def_97 (= |main::tmp_var_1_int| (_ bv0 32))))(let ((.def_155 (not .def_97)))(let ((.def_60 (= |main::n| (_ bv0 32))))(let ((.def_193 (or .def_60 .def_155)))(let ((.def_156 (not .def_60)))(let ((.def_192 (or .def_97 .def_156)))(let ((.def_194 (and .def_192 .def_193))).def_194))))))))

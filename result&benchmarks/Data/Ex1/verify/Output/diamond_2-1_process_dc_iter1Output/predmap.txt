@@ -1,0 +1,15 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::local_14| () (_ BitVec 32))
+(declare-fun |main::local_18| () (_ BitVec 32))
+
+main:
+(assert (let ((.def_65 (bvxor |main::local_14| |main::local_18|)))(let ((.def_66 (bvand (_ bv1 32) .def_65)))(let ((.def_67 (= .def_66 (_ bv0 32)))).def_67))))
+
+main N44:
+(assert (let ((.def_73 (= |main::local_14| (_ bv0 32)))).def_73))
+(assert (let ((.def_65 (bvxor |main::local_14| |main::local_18|)))(let ((.def_66 (bvand (_ bv1 32) .def_65)))(let ((.def_67 (= .def_66 (_ bv0 32)))).def_67))))
+
+main N393:
+(assert false)
+(assert (let ((.def_65 (bvxor |main::local_14| |main::local_18|)))(let ((.def_66 (bvand (_ bv1 32) .def_65)))(let ((.def_67 (= .def_66 (_ bv0 32)))).def_67))))
+

@@ -1,0 +1,14 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_uint| () (_ BitVec 32))
+(declare-fun |main::local_2c| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+(declare-fun |main::A| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 32))
+(declare-fun |main::tmp_var_2_uint| () (_ BitVec 32))
+
+main N53:
+(assert (let ((.def_179 (= |main::p| |main::tmp_var_2_uint|)))(let ((.def_175 (= |main::A| (_ bv0 32))))(let ((.def_188 (and .def_175 .def_179)))(let ((.def_95 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_97 (= .def_95 |main::q|)))(let ((.def_189 (and .def_97 .def_188))).def_189)))))))
+
+main N80:
+(assert (let ((.def_175 (= |main::A| (_ bv0 32))))(let ((.def_279 (not .def_175)))(let ((.def_179 (= |main::p| |main::tmp_var_2_uint|)))(let ((.def_280 (or .def_179 .def_279))).def_280)))))
+

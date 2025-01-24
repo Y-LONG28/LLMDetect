@@ -1,0 +1,28 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_int| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+(declare-fun |main::A| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 32))
+(declare-fun |main::B| () (_ BitVec 32))
+
+main:
+(assert (let ((.def_94 (= |main::tmp_var_1_int| |main::q|))).def_94))
+
+main N52:
+(assert (let ((.def_210 (= |main::A| (_ bv0 32)))).def_210))
+(assert (let ((.def_214 (= |main::p| |main::B|))).def_214))
+(assert (let ((.def_94 (= |main::tmp_var_1_int| |main::q|))).def_94))
+(assert (let ((.def_401 (= |main::tmp_var_1_int| (_ bv1 32)))).def_401))
+
+main N81:
+(assert (let ((.def_210 (= |main::A| (_ bv0 32)))).def_210))
+(assert (let ((.def_214 (= |main::p| |main::B|))).def_214))
+(assert (let ((.def_94 (= |main::tmp_var_1_int| |main::q|))).def_94))
+(assert (let ((.def_401 (= |main::tmp_var_1_int| (_ bv1 32)))).def_401))
+(assert false)
+(assert (let ((.def_668 (bvadd |main::A| |main::p|)))(let ((.def_669 (= |main::B| .def_668))).def_669)))
+
+main N429:
+(assert false)
+(assert (let ((.def_94 (= |main::tmp_var_1_int| |main::q|))).def_94))
+

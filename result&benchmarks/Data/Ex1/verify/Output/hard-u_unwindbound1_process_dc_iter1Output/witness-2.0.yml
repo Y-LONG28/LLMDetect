@@ -1,0 +1,27 @@
+- entry_type: "invariant_set"
+  metadata:
+    format_version: "2.0"
+    uuid: "8d5bb99e-65dc-3766-b857-e2798d56be92"
+    creation_time: "2025-01-15T14:13:31+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-u_unwindbound1_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-u_unwindbound1_process_dc_iter1.c: "0259ccf87126f3f6bcf1fa60068384b32fbaf9f6f686652349ed24e50f9a22da"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-u_unwindbound1_process_dc_iter1.c"
+        line: 33
+        column: 5
+        function: "main"
+      value: "1"
+      format: "c_expression"

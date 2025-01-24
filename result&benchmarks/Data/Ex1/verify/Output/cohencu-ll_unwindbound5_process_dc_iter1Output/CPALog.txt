@@ -1,0 +1,292 @@
+2025-01-15 14:18:44:757	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-15 14:18:44:783	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:44:874	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-15 14:18:44:891	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+
+2025-01-15 14:18:45:620	INFO	CFACreationUtils.addEdgeToCFA	line 39: Dead code detected: [!((
+# 39 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "z == 6 * n + 6"
+# 39 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:18:45:620	INFO	CFACreationUtils.addEdgeToCFA	line 39: Dead code detected: [(
+# 39 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "z == 6 * n + 6"
+# 39 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:18:45:621	INFO	CFACreationUtils.addEdgeToCFA	line 39: Dead code detected: [!(0 && "z == 6 * n + 6")]
+
+2025-01-15 14:18:45:621	INFO	CFACreationUtils.addEdgeToCFA	line 39: Dead code detected: [0 && "z == 6 * n + 6"]
+
+2025-01-15 14:18:45:622	INFO	CFACreationUtils.addEdgeToCFA	line 42: Dead code detected: [!((
+# 42 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "y == 3 * n * n + 3 * n + 1"
+# 42 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:18:45:622	INFO	CFACreationUtils.addEdgeToCFA	line 42: Dead code detected: [(
+# 42 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "y == 3 * n * n + 3 * n + 1"
+# 42 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:18:45:623	INFO	CFACreationUtils.addEdgeToCFA	line 42: Dead code detected: [!(0 && "y == 3 * n * n + 3 * n + 1")]
+
+2025-01-15 14:18:45:623	INFO	CFACreationUtils.addEdgeToCFA	line 42: Dead code detected: [0 && "y == 3 * n * n + 3 * n + 1"]
+
+2025-01-15 14:18:45:625	INFO	CFACreationUtils.addEdgeToCFA	line 45: Dead code detected: [!((
+# 45 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "x == n * n * n"
+# 45 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:18:45:625	INFO	CFACreationUtils.addEdgeToCFA	line 45: Dead code detected: [(
+# 45 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "x == n * n * n"
+# 45 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:18:45:626	INFO	CFACreationUtils.addEdgeToCFA	line 45: Dead code detected: [!(0 && "x == n * n * n")]
+
+2025-01-15 14:18:45:626	INFO	CFACreationUtils.addEdgeToCFA	line 45: Dead code detected: [0 && "x == n * n * n"]
+
+2025-01-15 14:18:45:628	INFO	CFACreationUtils.addEdgeToCFA	line 48: Dead code detected: [!((
+# 48 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"
+# 48 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:18:45:629	INFO	CFACreationUtils.addEdgeToCFA	line 48: Dead code detected: [(
+# 48 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"
+# 48 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:18:45:629	INFO	CFACreationUtils.addEdgeToCFA	line 48: Dead code detected: [!(0 && "y*z - 18*x - 12*y + 2*z - 6 == 0")]
+
+2025-01-15 14:18:45:630	INFO	CFACreationUtils.addEdgeToCFA	line 48: Dead code detected: [0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"]
+
+2025-01-15 14:18:45:632	INFO	CFACreationUtils.addEdgeToCFA	line 51: Dead code detected: [!((
+# 51 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "(z*z) - 12*y - 6*z + 12 == 0"
+# 51 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           ))]
+
+2025-01-15 14:18:45:633	INFO	CFACreationUtils.addEdgeToCFA	line 51: Dead code detected: [(
+# 51 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+           0 && "(z*z) - 12*y - 6*z + 12 == 0"
+# 51 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+           )]
+
+2025-01-15 14:18:45:635	INFO	CFACreationUtils.addEdgeToCFA	line 51: Dead code detected: [!(0 && "(z*z) - 12*y - 6*z + 12 == 0")]
+
+2025-01-15 14:18:45:635	INFO	CFACreationUtils.addEdgeToCFA	line 51: Dead code detected: [0 && "(z*z) - 12*y - 6*z + 12 == 0"]
+
+2025-01-15 14:18:45:637	INFO	CFACreationUtils.addEdgeToCFA	line 61: Dead code detected: [!((
+# 61 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "z == 6*n + 6"
+# 61 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:637	INFO	CFACreationUtils.addEdgeToCFA	line 61: Dead code detected: [(
+# 61 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "z == 6*n + 6"
+# 61 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:637	INFO	CFACreationUtils.addEdgeToCFA	line 61: Dead code detected: [!(0 && "z == 6*n + 6")]
+
+2025-01-15 14:18:45:638	INFO	CFACreationUtils.addEdgeToCFA	line 61: Dead code detected: [0 && "z == 6*n + 6"]
+
+2025-01-15 14:18:45:639	INFO	CFACreationUtils.addEdgeToCFA	line 64: Dead code detected: [!((
+# 64 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "6*a*x - x*z + 12*x == 0"
+# 64 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:639	INFO	CFACreationUtils.addEdgeToCFA	line 64: Dead code detected: [(
+# 64 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "6*a*x - x*z + 12*x == 0"
+# 64 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:640	INFO	CFACreationUtils.addEdgeToCFA	line 64: Dead code detected: [!(0 && "6*a*x - x*z + 12*x == 0")]
+
+2025-01-15 14:18:45:640	INFO	CFACreationUtils.addEdgeToCFA	line 64: Dead code detected: [0 && "6*a*x - x*z + 12*x == 0"]
+
+2025-01-15 14:18:45:641	INFO	CFACreationUtils.addEdgeToCFA	line 67: Dead code detected: [!((
+# 67 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "a*z - 6*a - 2*y + 2*z - 10 == 0"
+# 67 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:641	INFO	CFACreationUtils.addEdgeToCFA	line 67: Dead code detected: [(
+# 67 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "a*z - 6*a - 2*y + 2*z - 10 == 0"
+# 67 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:642	INFO	CFACreationUtils.addEdgeToCFA	line 67: Dead code detected: [!(0 && "a*z - 6*a - 2*y + 2*z - 10 == 0")]
+
+2025-01-15 14:18:45:642	INFO	CFACreationUtils.addEdgeToCFA	line 67: Dead code detected: [0 && "a*z - 6*a - 2*y + 2*z - 10 == 0"]
+
+2025-01-15 14:18:45:644	INFO	CFACreationUtils.addEdgeToCFA	line 70: Dead code detected: [!((
+# 70 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "2*y*y - 3*x*z - 18*x - 10*y + 3*z - 10 == 0"
+# 70 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:644	INFO	CFACreationUtils.addEdgeToCFA	line 70: Dead code detected: [(
+# 70 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "2*y*y - 3*x*z - 18*x - 10*y + 3*z - 10 == 0"
+# 70 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:644	INFO	CFACreationUtils.addEdgeToCFA	line 70: Dead code detected: [!(0 && "2*y*y - 3*x*z - 18*x - 10*y + 3*z - 10 == 0")]
+
+2025-01-15 14:18:45:644	INFO	CFACreationUtils.addEdgeToCFA	line 70: Dead code detected: [0 && "2*y*y - 3*x*z - 18*x - 10*y + 3*z - 10 == 0"]
+
+2025-01-15 14:18:45:646	INFO	CFACreationUtils.addEdgeToCFA	line 73: Dead code detected: [!((
+# 73 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "z*z - 12*y - 6*z + 12 == 0"
+# 73 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:646	INFO	CFACreationUtils.addEdgeToCFA	line 73: Dead code detected: [(
+# 73 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "z*z - 12*y - 6*z + 12 == 0"
+# 73 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:649	INFO	CFACreationUtils.addEdgeToCFA	line 73: Dead code detected: [!(0 && "z*z - 12*y - 6*z + 12 == 0")]
+
+2025-01-15 14:18:45:649	INFO	CFACreationUtils.addEdgeToCFA	line 73: Dead code detected: [0 && "z*z - 12*y - 6*z + 12 == 0"]
+
+2025-01-15 14:18:45:655	INFO	CFACreationUtils.addEdgeToCFA	line 76: Dead code detected: [!((
+# 76 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"
+# 76 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       ))]
+
+2025-01-15 14:18:45:656	INFO	CFACreationUtils.addEdgeToCFA	line 76: Dead code detected: [(
+# 76 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c"
+       0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"
+# 76 "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/cohencu-ll_unwindbound5_process_dc_iter1.c" 3 4
+       )]
+
+2025-01-15 14:18:45:658	INFO	CFACreationUtils.addEdgeToCFA	line 76: Dead code detected: [!(0 && "y*z - 18*x - 12*y + 2*z - 6 == 0")]
+
+2025-01-15 14:18:45:659	INFO	CFACreationUtils.addEdgeToCFA	line 76: Dead code detected: [0 && "y*z - 18*x - 12*y + 2*z - 6 == 0"]
+
+2025-01-15 14:18:45:835	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-15 14:18:46:219	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-15 14:18:46:230	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-15 14:18:46:230	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-15 14:18:46:236	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-15 14:18:46:238	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:46:240	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-15 14:18:46:248	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/parallel-multipleLoops.properties ...
+
+2025-01-15 14:18:46:251	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:46:261	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 140s
+
+2025-01-15 14:18:46:448	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 60s
+
+2025-01-15 14:18:46:507	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 200s
+
+2025-01-15 14:18:46:552	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2025-01-15 14:18:46:604	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2025-01-15 14:18:46:615	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s, Thread CPU-time limit of 60s
+
+2025-01-15 14:18:46:645	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:46:651	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:46:804	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:InductionStepCase:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:46:814	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-15 14:18:46:965	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-15 14:18:47:071	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-15 14:18:47:156	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:18:47:274	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-15 14:18:47:483	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-dataFlow.properties finished without usable result.
+
+2025-01-15 14:18:47:589	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:18:47:593	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-15 14:18:47:632	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:47:698	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.checkBoundingAssertions	Starting assertions check...
+
+2025-01-15 14:18:47:700	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:CounterexampleCheck:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:47:755	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Running algorithm to create induction hypothesis
+
+2025-01-15 14:18:47:829	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:KInductionProver.check	Starting induction check...
+
+2025-01-15 14:18:47:860	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:CounterexampleCheckAlgorithm.checkCounterexample	Error path found and confirmed by counterexample check with CPACHECKER.
+
+2025-01-15 14:18:47:893	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-symbolicExecution.properties finished successfully.
+
+2025-01-15 14:18:47:904	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:18:47:967	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:18:47:987	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-15 14:18:47:989	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-15 14:18:47:989	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-15 14:18:47:989	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

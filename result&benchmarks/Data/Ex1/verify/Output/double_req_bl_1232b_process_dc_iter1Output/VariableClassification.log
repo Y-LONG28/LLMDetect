@@ -1,0 +1,59 @@
+IntBool
+
+[main::res, isnan_double::__retval__, __bswap_32::__bsx, fmin_double::x_local, main::y, main::__retval__, __bswap_16::__bsx, fmin_double::y_local, __signbit_double::x_local, main::__CPAchecker_TMP_3, assume::cond, isnan_double::x_local, __fpclassify_double::x_local, __bswap_64::__bsx, main::x]
+
+IntEq
+
+[__fpclassify_double::__retval__, fmin_double::iVar1, __fpclassify_double::iVar1]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[__fpclassify_double::x, fmin_double::__retval__, __fpclassify_double::ew_u.value, main::in_a0, main::in_a1, __signbit_double::x, fmin_double::y, fmin_double::x, __signbit_double::gh_u.value, fmin_double::dVar2, main::x_00]
+
+ALL
+
+[__fpclassify_double::ew_u.value, __fpclassify_double::iVar1, __signbit_double::__retval__, fmin_double::x_local, fmin_double::y, fmin_double::x, __uint32_identity::__retval__, fmin_double::__retval__, main::__CPAchecker_TMP_3, fmin_double::iVar1, isnan_double::x_local, main::in_a0, main::__CPAchecker_TMP_0, main::in_a1, __bswap_64::__CPAchecker_TMP_0, main::res, __bswap_16::__CPAchecker_TMP_0, __fpclassify_double::ew_u, __fpclassify_double::lsw, __bswap_64::__retval__, __uint64_identity::__retval__, __bswap_32::__retval__, __fpclassify_double::x, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __fpclassify_double::x_local, __fpclassify_double::ew_u.parts.lsw, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__, main::x_00, main::iVar1, __bswap_32::__bsx, __signbit_double::gh_u.value, __uint32_identity::__x, __bswap_16::__bsx, __signbit_double::gh_u.parts.msw, __signbit_double::x_local, assume::cond, main::x, fmin_double::dVar2, main::extraout_fa0, isnan_double::__retval__, __fpclassify_double::msw, main::y, main::__retval__, __signbit_double::gh_u, fmin_double::y_local, __fpclassify_double::__retval__, __fpclassify_double::ew_u.parts.msw, __signbit_double::x, __bswap_64::__bsx]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__fpclassify_double::__retval__, __fpclassify_double::iVar1, fmin_double::iVar1] --> [0, 1, 2, 3, 4],
+[__fpclassify_double::x_local] --> [],
+[__fpclassify_double::ew_u] --> [],
+[__fpclassify_double::ew_u.parts.lsw, __fpclassify_double::lsw] --> [0],
+[__fpclassify_double::ew_u.parts.msw, __fpclassify_double::msw] --> [0, 1048576, 2146435071, 2146435072, 2147483648, 2148532224, 4293918719, 4293918720],
+[__fpclassify_double::ew_u.value, __fpclassify_double::x, __signbit_double::gh_u.value, __signbit_double::x, fmin_double::__retval__, fmin_double::dVar2, fmin_double::x, fmin_double::y, main::in_a0, main::in_a1, main::x_00] --> [0],
+[__signbit_double::__retval__, __signbit_double::gh_u.parts.msw, main::__CPAchecker_TMP_0, main::iVar1] --> [0, 1, 31],
+[__signbit_double::x_local] --> [],
+[__signbit_double::gh_u] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[fmin_double::y_local] --> [],
+[fmin_double::x_local] --> [],
+[isnan_double::x_local] --> [],
+[isnan_double::__retval__] --> [0],
+[main::extraout_fa0] --> [],
+[main::res] --> [],
+[main::y] --> [],
+[main::x] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_3] --> [0]]
+
+RELEVANT VARS
+
+[main::extraout_fa0, main::iVar1, __fpclassify_double::iVar1, __signbit_double::__retval__, __fpclassify_double::msw, __fpclassify_double::ew_u, __fpclassify_double::lsw, fmin_double::y, fmin_double::x, __signbit_double::gh_u, __fpclassify_double::x, __fpclassify_double::__retval__, fmin_double::__retval__, assume::cond, fmin_double::iVar1, main::__CPAchecker_TMP_0, main::in_a0, main::in_a1, __signbit_double::x, fmin_double::dVar2, main::x_00]
+
+RELEVANT FIELDS
+
+{union __anon_type_ieee_double_shape_type=[parts, value], struct __anon_type_1=[msw, lsw]}

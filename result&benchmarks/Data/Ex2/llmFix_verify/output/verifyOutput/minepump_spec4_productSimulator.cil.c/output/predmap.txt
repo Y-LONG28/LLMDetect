@@ -1,0 +1,38 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__utac_acc__Specification4_spec__1::tmp___0| () (_ BitVec 32))
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+(declare-fun |test::splverifierCounter| () (_ BitVec 32))
+(declare-fun methaneLevelCritical () (_ BitVec 32))
+(declare-fun __ADDRESS_OF_waterLevel@ () (_ BitVec 32))
+(declare-fun *int () (Array (_ BitVec 32) (_ BitVec 32)))
+(declare-fun __SELECTED_FEATURE_methaneAlarm () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_lowWaterSensor () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_highWaterSensor () (_ BitVec 32))
+
+src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1:
+(assert (let ((.def_943 (= |__utac_acc__Specification4_spec__1::tmp___0| (_ bv0 32)))).def_943))
+
+cleanup N25:
+(assert false)
+
+test N306:
+(assert (let ((.def_961 (= waterLevel (_ bv0 32)))).def_961))
+(assert (let ((.def_964 (= pumpRunning (_ bv0 32)))).def_964))
+(assert (let ((.def_2071 (= systemActive (_ bv0 32)))).def_2071))
+(assert (let ((.def_2074 (= |test::splverifierCounter| (_ bv0 32)))).def_2074))
+(assert (let ((.def_4692 (= systemActive (_ bv1 32)))).def_4692))
+(assert (let ((.def_4694 (= waterLevel (_ bv1 32)))).def_4694))
+(assert (let ((.def_4697 (= methaneLevelCritical (_ bv0 32)))).def_4697))
+(assert (let ((.def_4700 (select *int __ADDRESS_OF_waterLevel@)))(let ((.def_4701 (bvslt .def_4700 (_ bv2 32)))).def_4701)))
+(assert (let ((.def_4700 (select *int __ADDRESS_OF_waterLevel@)))(let ((.def_4703 (= .def_4700 (_ bv0 32)))).def_4703)))
+(assert (let ((.def_4700 (select *int __ADDRESS_OF_waterLevel@)))(let ((.def_4705 (bvult (_ bv2147483647 32) .def_4700))).def_4705)))
+(assert (let ((.def_4700 (select *int __ADDRESS_OF_waterLevel@)))(let ((.def_4707 (bvult .def_4700 (_ bv2 32)))).def_4707)))
+(assert (let ((.def_4710 (= __SELECTED_FEATURE_methaneAlarm (_ bv0 32)))).def_4710))
+(assert (let ((.def_4713 (= __SELECTED_FEATURE_lowWaterSensor (_ bv0 32)))).def_4713))
+(assert (let ((.def_4716 (= __SELECTED_FEATURE_highWaterSensor (_ bv0 32)))).def_4716))
+
+__automaton_fail N348:
+(assert false)
+

@@ -1,0 +1,26 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun __ste_ClientAddressBook_size1 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size0 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size2 () (_ BitVec 32))
+(declare-fun __ste_email_isSignatureVerified0 () (_ BitVec 32))
+(declare-fun __ste_email_isSignatureVerified1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring2_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User0 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring1_PublicKey0 () (_ BitVec 32))
+
+test N487:
+(assert (let ((.def_14662 (= __ste_Client_Keyring0_PublicKey0 (_ bv0 32))))(let ((.def_16397 (not .def_14662)))(let ((.def_14657 (= __ste_Client_Keyring1_PublicKey1 (_ bv0 32))))(let ((.def_16487 (and .def_14657 .def_16397)))(let ((.def_14654 (= __ste_Client_Keyring0_User1 __ste_Client_Keyring0_User0)))(let ((.def_16600 (or .def_14654 .def_16487)))(let ((.def_16490 (not .def_14654)))(let ((.def_16599 (or .def_14657 .def_16490)))(let ((.def_16601 (and .def_16599 .def_16600)))(let ((.def_14650 (= __ste_Client_Keyring0_PublicKey0 __ste_Client_Keyring2_PublicKey1)))(let ((.def_16400 (not .def_14650)))(let ((.def_16602 (or .def_16400 .def_16601)))(let ((.def_16495 (or .def_14650 .def_16487)))(let ((.def_16603 (and .def_16495 .def_16602)))(let ((.def_14643 (= __ste_email_isSignatureVerified0 __ste_email_isSignatureVerified1)))(let ((.def_16604 (and .def_14643 .def_16603)))(let ((.def_14640 (= __ste_email_isSignatureVerified0 (_ bv0 32))))(let ((.def_16605 (and .def_14640 .def_16604)))(let ((.def_4626 (= __ste_ClientAddressBook_size0 (_ bv0 32))))(let ((.def_18981 (or .def_4626 .def_16605)))(let ((.def_14660 (= __ste_Client_Keyring1_PublicKey0 (_ bv0 32))))(let ((.def_16398 (and .def_14660 .def_16397)))(let ((.def_16399 (and .def_14657 .def_16398)))(let ((.def_16492 (or .def_14654 .def_16399)))(let ((.def_16488 (or .def_14660 .def_14662)))(let ((.def_16489 (and .def_14657 .def_16488)))(let ((.def_16491 (or .def_16489 .def_16490)))(let ((.def_16493 (and .def_16491 .def_16492)))(let ((.def_16494 (or .def_16400 .def_16493)))(let ((.def_16496 (and .def_16494 .def_16495)))(let ((.def_14647 (= __ste_Client_Keyring2_PublicKey0 __ste_Client_Keyring0_PublicKey0)))(let ((.def_16499 (or .def_14647 .def_16496)))(let ((.def_16402 (or .def_14650 .def_16399)))(let ((.def_16497 (and .def_16402 .def_16494)))(let ((.def_16407 (not .def_14647)))(let ((.def_16498 (or .def_16407 .def_16497)))(let ((.def_16500 (and .def_16498 .def_16499)))(let ((.def_16501 (and .def_14643 .def_16500)))(let ((.def_16502 (and .def_14640 .def_16501)))(let ((.def_5829 (not .def_4626)))(let ((.def_16503 (or .def_5829 .def_16502)))(let ((.def_18982 (and .def_16503 .def_18981)))(let ((.def_4624 (= __ste_ClientAddressBook_size0 __ste_ClientAddressBook_size2)))(let ((.def_18985 (or .def_4624 .def_18982)))(let ((.def_16606 (or .def_5829 .def_16605)))(let ((.def_16593 (or .def_4626 .def_16502)))(let ((.def_18983 (and .def_16593 .def_16606)))(let ((.def_5830 (not .def_4624)))(let ((.def_18984 (or .def_5830 .def_18983)))(let ((.def_18986 (and .def_18984 .def_18985)))(let ((.def_4621 (= __ste_ClientAddressBook_size1 __ste_ClientAddressBook_size0)))(let ((.def_18988 (or .def_4621 .def_18986)))(let ((.def_5834 (not .def_4621)))(let ((.def_18987 (or .def_5834 .def_18983)))(let ((.def_18989 (and .def_18987 .def_18988))).def_18989))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+__utac__exception__cf_handler_free N701:
+(assert false)
+
+__utac__exception__cf_handler_reset N751:
+(assert false)
+
+__utac__error_stack_mgt N823:
+(assert false)
+

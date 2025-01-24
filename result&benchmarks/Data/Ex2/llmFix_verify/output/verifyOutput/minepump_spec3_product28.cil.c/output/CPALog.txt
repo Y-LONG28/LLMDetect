@@ -1,0 +1,104 @@
+2025-01-24 02:23:33:463	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-24 02:23:33:573	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-24 02:23:33:602	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec3_product28.cil_dc_fix.c, /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c"
+
+2025-01-24 02:23:34:507	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 61: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:512	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 84: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:525	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 202: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:526	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 211: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:528	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 266: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:540	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 399: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:543	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 431: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:544	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 440: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:566	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 536: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:616	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 899: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:621	INFO	CFACreationUtils.addEdgeToCFA	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 945: Dead code detected: return (retValue_acc);
+
+2025-01-24 02:23:34:752	WARNING	CFunctionPointerResolver.getTargets	src/minepump_spec3_product28.cil/minepump_spec3_product28.cil.c, line 736: Function pointer *__cil_tmp10 with type int (*)(int, int) is called, but no possible target functions were found.
+
+2025-01-24 02:23:34:895	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-24 02:23:35:376	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-24 02:23:35:386	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-24 02:23:35:386	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-24 02:23:35:389	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-24 02:23:35:393	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-24 02:23:35:399	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/parallel-multipleLoops.properties ...
+
+2025-01-24 02:23:35:411	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 140s
+
+2025-01-24 02:23:35:638	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 60s
+
+2025-01-24 02:23:35:697	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 200s
+
+2025-01-24 02:23:35:752	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant) and JFactory 1.21.
+
+2025-01-24 02:23:35:801	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:PredicateCPA:PredicateCPARefiner.<init>	Using refinement for predicate analysis with PredicateAbstractionRefinementStrategy strategy.
+
+2025-01-24 02:23:35:812	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ResourceLimitChecker.fromConfiguration	Using the following resource limits: Thread CPU-time limit of 60s
+
+2025-01-24 02:23:35:879	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:23:36:072	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:InductionStepCase:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-24 02:23:36:086	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-24 02:23:36:161	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.run	Creating formula for program
+
+2025-01-24 02:23:36:485	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.boundedModelCheck	Starting satisfiability check...
+
+2025-01-24 02:23:36:492	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 5:AbstractBMCAlgorithm.analyzeCounterexample0	Error found, creating error path
+
+2025-01-24 02:23:36:627	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheckAlgorithm.checkCounterexample	Error path found, starting counterexample check with CPACHECKER.
+
+2025-01-24 02:23:36:629	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:ParallelAlgorithm.handleFutureResults	/opt/cpachecker/config/components/parallel-kInduction.properties finished successfully.
+
+2025-01-24 02:23:36:631	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 1:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:23:36:631	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 4:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:23:36:636	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 3:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:23:36:894	WARNING	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:CounterexampleCheck:AutomatonGraphmlParser.getSpecAsProperties	Cannot map specification // This file is part of CPAchecker,
+// a tool for configurable software verification:
+// https://cpachecker.sosy-lab.org
+//
+// SPDX-FileCopyrightText: 2007-2020 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// check for assertions
+#include Assertion.spc
+// and "ERROR" labels
+#include ErrorLabel.spc
+
+// Recognize functions such as exit() and abort() which do not return.
+#include TerminatingFunctions.spc to property type. Will ignore it (would only be problematic if this were the termination property).
+
+2025-01-24 02:23:36:918	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:Analysis /opt/cpachecker/config/components/parallel-multipleLoops.properties:Parallel analysis 2:ParallelAlgorithm.runParallelAnalysis	Analysis was terminated
+
+2025-01-24 02:23:36:920	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-24 02:23:36:921	INFO	Analysis /opt/cpachecker/config/components/multipleLoopsConfig.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-24 02:23:36:921	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

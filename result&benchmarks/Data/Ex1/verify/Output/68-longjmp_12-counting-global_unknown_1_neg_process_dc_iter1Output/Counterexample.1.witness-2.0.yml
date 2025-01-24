@@ -1,0 +1,38 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "89bc10d3-ec9b-3155-ab1c-383ee95da899"
+    creation_time: "2025-01-15T14:17:03+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_12-counting-global_unknown_1_neg_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_12-counting-global_unknown_1_neg_process_dc_iter1.c: "87290caf478dbd80da90fba38380cf27515b0ec4e8871f2bd0da2e4377f78dfd"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_12-counting-global_unknown_1_neg_process_dc_iter1.c"
+          line: 20
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_12-counting-global_unknown_1_neg_process_dc_iter1.c"
+          line: 21
+          column: 17
+          function: "main"

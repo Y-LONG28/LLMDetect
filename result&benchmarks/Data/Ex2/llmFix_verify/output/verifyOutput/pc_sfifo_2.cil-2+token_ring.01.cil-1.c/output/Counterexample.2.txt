@@ -1,0 +1,300 @@
+none:	N654 -{INIT GLOBAL VARS}-> N663
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, line 2:	N663 -{extern int q_free;}-> N664
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, line 3:	N664 -{extern int q_write_ev;}-> N665
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, line 4:	N665 -{extern int q_read_ev;}-> N666
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, line 5:	N666 -{extern int q_ev;}-> N667
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, line 6:	N667 -{extern int q_req_up;}-> N668
+output/pc_sfifo_2.cil-2+token_ring.01.cil-1_dc_fix.c, lines 10-21:	N668 -{void update_fifo_q();}-> N669
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 9:	N669 -{unsigned int __VERIFIER_nondet_uint();}-> N670
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 10:	N670 -{char __VERIFIER_nondet_char();}-> N671
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 11:	N671 -{int __VERIFIER_nondet_int();}-> N672
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 12:	N672 -{long int __VERIFIER_nondet_long();}-> N673
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 13:	N673 -{unsigned long int __VERIFIER_nondet_ulong();}-> N674
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 14:	N674 -{float __VERIFIER_nondet_float();}-> N675
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 15:	N675 -{void exit(int);}-> N676
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 17:	N676 -{void abort();}-> N677
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 18:	N677 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N678
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 19:	N678 -{void reach_error();}-> N679
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 24-31:	N679 -{void error1();}-> N680
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 33:	N680 -{int q_buf_0 = 0;}-> N681
+	q_buf_0 == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 34:	N681 -{int q_free = 0;}-> N682
+	q_free == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 35:	N682 -{int q_read_ev = 0;}-> N683
+	q_read_ev == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 36:	N683 -{int q_write_ev = 0;}-> N684
+	q_write_ev == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 37:	N684 -{int q_req_up = 0;}-> N685
+	q_req_up == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 38:	N685 -{int q_ev = 0;}-> N686
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 41:	N686 -{int p_num_write = 0;}-> N687
+	p_num_write == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 42:	N687 -{int p_last_write = 0;}-> N688
+	p_last_write == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 43:	N688 -{int p_dw_st = 0;}-> N689
+	p_dw_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 44:	N689 -{int p_dw_pc = 0;}-> N690
+	p_dw_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 45:	N690 -{int p_dw_i = 0;}-> N691
+	p_dw_i == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 46:	N691 -{int c_num_read = 0;}-> N692
+	c_num_read == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 47:	N692 -{int c_last_read = 0;}-> N693
+	c_last_read == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 48:	N693 -{int c_dr_st = 0;}-> N694
+	c_dr_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 49:	N694 -{int c_dr_pc = 0;}-> N695
+	c_dr_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 50:	N695 -{int c_dr_i = 0;}-> N696
+	c_dr_i == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 51-69:	N696 -{int is_do_write_p_triggered();}-> N697
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 70-88:	N697 -{int is_do_read_c_triggered();}-> N698
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 89-113:	N698 -{void immediate_notify_threads();}-> N699
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 114-153:	N699 -{void do_write_p();}-> N700
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 154:	N700 -{int src_pc_sfifo_2_cil_2_token_ring_01_cil_1_pc_sfifo_2_cil_2_token_ring_01_cil_1_ca_t = 0;}-> N701
+	src_pc_sfifo_2_cil_2_token_ring_01_cil_1_pc_sfifo_2_cil_2_token_ring_01_cil_1_ca_t == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 155-207:	N701 -{void do_read_c();}-> N702
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 208-222:	N702 -{void update_channels1();}-> N703
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 223-240:	N703 -{void init_threads1();}-> N704
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 241-260:	N704 -{int exists_runnable_thread1();}-> N705
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 261-278:	N705 -{void fire_delta_events1();}-> N706
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 279-296:	N706 -{void reset_delta_events1();}-> N707
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 297-321:	N707 -{void activate_threads1();}-> N708
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 322-375:	N708 -{void eval1();}-> N709
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 376-394:	N709 -{int stop_simulation1();}-> N710
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 395-437:	N710 -{void start_simulation1();}-> N711
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 438-454:	N711 -{void init_model1();}-> N712
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 455-466:	N712 -{int main1();}-> N713
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 474-481:	N713 -{void error2();}-> N714
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 482:	N714 -{int m_pc = 0;}-> N715
+	m_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 483:	N715 -{int t1_pc = 0;}-> N716
+	t1_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 484:	N716 -{int m_st = 0;}-> N717
+	m_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 485:	N717 -{int t1_st = 0;}-> N718
+	t1_st == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 486:	N718 -{int m_i = 0;}-> N719
+	m_i == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 487:	N719 -{int t1_i = 0;}-> N720
+	t1_i == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 488:	N720 -{int M_E = 2;}-> N721
+	M_E == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 489:	N721 -{int T1_E = 2;}-> N722
+	T1_E == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 490:	N722 -{int E_M = 2;}-> N723
+	E_M == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 491:	N723 -{int E_1 = 2;}-> N724
+	E_1 == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 492:	N724 -{int is_master_triggered();}-> N725
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 493:	N725 -{int is_transmit1_triggered();}-> N726
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 494:	N726 -{void immediate_notify();}-> N727
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 495:	N727 -{int token = 0;}-> N728
+	token == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 497:	N728 -{int local = 0;}-> N729
+	local == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 498-541:	N729 -{void master();}-> N730
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 542-577:	N730 -{void transmit1();}-> N731
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 616-623:	N731 -{void update_channels2();}-> N732
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 624-641:	N732 -{void init_threads2();}-> N733
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 642-661:	N733 -{int exists_runnable_thread2();}-> N734
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 662-712:	N734 -{void eval2();}-> N735
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 713-740:	N735 -{void fire_delta_events2();}-> N736
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 741-768:	N736 -{void reset_delta_events2();}-> N737
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 769-793:	N737 -{void activate_threads2();}-> N738
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 805-813:	N738 -{void fire_time_events2();}-> N739
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 814-841:	N739 -{void reset_time_events2();}-> N740
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 842-851:	N740 -{void init_model2();}-> N741
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 852-870:	N741 -{int stop_simulation2();}-> N742
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 871-929:	N742 -{void start_simulation2();}-> N743
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 930-941:	N743 -{int main2();}-> N744
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 942-948:	N744 -{int main();}-> N745
+none:	N745 -{Function start dummy edge}-> N655
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 944-947:	N655 -{int __CPAchecker_TMP_0;}-> N659
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, lines 944-947:	N659 -{__CPAchecker_TMP_0 = __VERIFIER_nondet_int();}-> N660
+	q_free == 0;
+	q_write_ev == 0;
+	q_read_ev == 0;
+	q_req_up == 0;
+	q_buf_0 == 0;
+	p_num_write == 0;
+	p_last_write == 0;
+	p_dw_st == 0;
+	p_dw_pc == 0;
+	p_dw_i == 0;
+	c_num_read == 0;
+	c_last_read == 0;
+	c_dr_st == 0;
+	c_dr_pc == 0;
+	c_dr_i == 0;
+	src_pc_sfifo_2_cil_2_token_ring_01_cil_1_pc_sfifo_2_cil_2_token_ring_01_cil_1_ca_t == 0;
+	m_pc == 0;
+	t1_pc == 0;
+	m_st == 0;
+	t1_st == 0;
+	m_i == 0;
+	t1_i == 0;
+	M_E == 2;
+	T1_E == 2;
+	E_M == 2;
+	E_1 == 2;
+	token == 0;
+	local == 0;
+	__CPAchecker_TMP_0 == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 944:	N660 -{[!(__CPAchecker_TMP_0 == 0)]}-> N657
+	__CPAchecker_TMP_0 == 2;
+	__CPAchecker_TMP_0 == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 945:	N657 -{main1()}-> N321
+none:	N321 -{Function start dummy edge}-> N322
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 456:	N322 -{int __retres1;}-> N323
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 460:	N323 -{init_model1()}-> N308
+none:	N308 -{Function start dummy edge}-> N309
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 442:	N309 -{q_free = 1;}-> N310
+	q_free == 1;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 443:	N310 -{q_write_ev = 2;}-> N311
+	q_write_ev == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 444:	N311 -{q_read_ev = q_write_ev;}-> N312
+	q_read_ev == 2;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 445:	N312 -{p_num_write = 0;}-> N313
+	p_num_write == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 446:	N313 -{p_dw_pc = 0;}-> N314
+	p_dw_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 447:	N314 -{p_dw_i = 1;}-> N315
+	p_dw_i == 1;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 448:	N315 -{c_num_read = 0;}-> N316
+	c_num_read == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 449:	N316 -{c_dr_pc = 0;}-> N317
+	c_dr_pc == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 450:	N317 -{c_dr_i = 1;}-> N318
+	q_free == 1;
+	q_write_ev == 2;
+	q_read_ev == 2;
+	p_num_write == 0;
+	p_dw_pc == 0;
+	p_dw_i == 1;
+	c_num_read == 0;
+	c_dr_pc == 0;
+	c_dr_i == 1;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 452:	N318 -{return;}-> N307
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 460:	N307 -{Return edge from init_model1 to main1: init_model1();}-> N324
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 461:	N324 -{start_simulation1()}-> N277
+none:	N277 -{Function start dummy edge}-> N278
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 396:	N278 -{int kernel_st;}-> N279
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 397:	N279 -{int tmp;}-> N280
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 401:	N280 -{kernel_st = 0;}-> N281
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 402:	N281 -{update_channels1()}-> N147
+none:	N147 -{Function start dummy edge}-> N148
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 212:	N148 -{[!(((int)q_req_up) == 1)]}-> N151
+	(int)q_req_up == 0
+none:	N151 -{}-> N149
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 220:	N149 -{return;}-> N146
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 402:	N146 -{Return edge from update_channels1 to start_simulation1: update_channels1();}-> N282
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 403:	N282 -{init_threads1()}-> N155
+none:	N155 -{Function start dummy edge}-> N156
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 227:	N156 -{[((int)p_dw_i) == 1]}-> N158
+	(int)p_dw_i == 1
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 228:	N158 -{p_dw_st = 0;}-> N160
+	p_dw_st == 0;
+none:	N160 -{}-> N157
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 232:	N157 -{[((int)c_dr_i) == 1]}-> N163
+	(int)c_dr_i == 1
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 233:	N163 -{c_dr_st = 0;}-> N165
+	c_dr_st == 0;
+none:	N165 -{}-> N162
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 238:	N162 -{return;}-> N154
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 403:	N154 -{Return edge from init_threads1 to start_simulation1: init_threads1();}-> N283
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 404:	N283 -{fire_delta_events1()}-> N186
+none:	N186 -{Function start dummy edge}-> N187
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 265:	N187 -{[!(((int)q_read_ev) == 0)]}-> N190
+	(int)q_read_ev == 2
+none:	N190 -{}-> N188
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 270:	N188 -{[!(((int)q_write_ev) == 0)]}-> N194
+	(int)q_write_ev == 2
+none:	N194 -{}-> N192
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 276:	N192 -{return;}-> N185
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 404:	N185 -{Return edge from fire_delta_events1 to start_simulation1: fire_delta_events1();}-> N284
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 405:	N284 -{activate_threads1()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 298:	N211 -{int tmp;}-> N212
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 299:	N212 -{int tmp___0;}-> N213
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 303:	N213 -{is_do_write_p_triggered()}-> N24
+none:	N24 -{Function start dummy edge}-> N25
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 52:	N25 -{int __retres1;}-> N26
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 55:	N26 -{[!(((int)p_dw_pc) == 1)]}-> N29
+	(int)p_dw_pc == 0
+none:	N29 -{}-> N27
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 65:	N27 -{__retres1 = 0;}-> N35
+	__retres1 == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 66:	N35 -{Label: return_label}-> N36
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 67:	N36 -{return __retres1;}-> N23
+	__retres1 = 0
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 303:	N23 -{Return edge from is_do_write_p_triggered to activate_threads1: tmp = is_do_write_p_triggered();}-> N214
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 305:	N214 -{[tmp == 0]}-> N217
+	tmp == 0;
+	tmp == 0;
+none:	N217 -{}-> N215
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 311:	N215 -{is_do_read_c_triggered()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 71:	N40 -{int __retres1;}-> N41
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 74:	N41 -{[!(((int)c_dr_pc) == 1)]}-> N44
+	(int)c_dr_pc == 0
+none:	N44 -{}-> N42
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 84:	N42 -{__retres1 = 0;}-> N50
+	__retres1 == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 85:	N50 -{Label: return_label}-> N51
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 86:	N51 -{return __retres1;}-> N38
+	__retres1 = 0
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 311:	N38 -{Return edge from is_do_read_c_triggered to activate_threads1: tmp___0 = is_do_read_c_triggered();}-> N219
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 313:	N219 -{[tmp___0 == 0]}-> N222
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N222 -{}-> N220
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 319:	N220 -{return;}-> N209
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 405:	N209 -{Return edge from activate_threads1 to start_simulation1: activate_threads1();}-> N285
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 406:	N285 -{reset_delta_events1()}-> N198
+none:	N198 -{Function start dummy edge}-> N199
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 283:	N199 -{[!(((int)q_read_ev) == 1)]}-> N202
+	(int)q_read_ev == 2
+none:	N202 -{}-> N200
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 288:	N200 -{[!(((int)q_write_ev) == 1)]}-> N206
+	(int)q_write_ev == 2
+none:	N206 -{}-> N204
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 294:	N204 -{return;}-> N197
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 406:	N197 -{Return edge from reset_delta_events1 to start_simulation1: reset_delta_events1();}-> N286
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 409:	N286 -{while}-> N287
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 409:	N287 -{}-> N288
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 410:	N288 -{Label: while_3_continue}-> N290
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 412:	N290 -{kernel_st = 1;}-> N291
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 413:	N291 -{eval1()}-> N226
+none:	N226 -{Function start dummy edge}-> N227
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 323:	N227 -{int tmp;}-> N228
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 324:	N228 -{int tmp___0;}-> N229
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 325:	N229 -{int tmp___1;}-> N230
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 329:	N230 -{while}-> N231
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 329:	N231 -{}-> N232
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 330:	N232 -{Label: while_2_continue}-> N234
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 332:	N234 -{exists_runnable_thread1()}-> N169
+none:	N169 -{Function start dummy edge}-> N170
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 242:	N170 -{int __retres1;}-> N171
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 245:	N171 -{[((int)p_dw_st) == 0]}-> N173
+	(int)p_dw_st == 0
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 246:	N173 -{__retres1 = 1;}-> N175
+	__retres1 == 1;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 247:	N175 -{Goto: return_label}-> N183
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 258:	N183 -{return __retres1;}-> N168
+	__retres1 = 1
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 332:	N168 -{Return edge from exists_runnable_thread1 to eval1: tmp___1 = exists_runnable_thread1();}-> N235
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 334:	N235 -{[!(tmp___1 == 0)]}-> N237
+	tmp___1 == 1;
+	tmp___1 == 1;
+none:	N237 -{}-> N236
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 339:	N236 -{[((int)p_dw_st) == 0]}-> N241
+	(int)p_dw_st == 0
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 341:	N241 -{tmp = __VERIFIER_nondet_int();}-> N243
+	tmp == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 343:	N243 -{[tmp == 0]}-> N246
+	tmp == 0;
+	tmp == 0;
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 349:	N246 -{error1()}-> N17
+none:	N17 -{Function start dummy edge}-> N18
+src/pc_sfifo_2.cil-2+token_ring.01.cil-1/pc_sfifo_2.cil-2+token_ring.01.cil-1.c, line 28:	N18 -{Label: ERROR}-> N19

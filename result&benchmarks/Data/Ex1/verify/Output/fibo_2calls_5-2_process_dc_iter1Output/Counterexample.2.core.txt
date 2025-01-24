@@ -1,0 +1,122 @@
+line 51:	N74 -{int iVar1;}-> N75
+line 55:	N77 -{fibo1(5)}-> N37
+	n == 5;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 5;
+line 23:	N44 -{[!(n == 1)]}-> N48
+	n == 5;
+line 26:	N48 -{fibo2(n - 1)}-> N55
+	n == 4;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 4;
+line 40:	N62 -{[!(n == 1)]}-> N66
+	n == 4;
+line 43:	N66 -{fibo1(n - 1)}-> N37
+	n == 3;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 3;
+line 23:	N44 -{[!(n == 1)]}-> N48
+	n == 3;
+line 26:	N48 -{fibo2(n - 1)}-> N55
+	n == 2;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 2;
+line 40:	N62 -{[!(n == 1)]}-> N66
+	n == 2;
+line 43:	N66 -{fibo1(n - 1)}-> N37
+	n == 1;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 1;
+line 23:	N44 -{[n == 1]}-> N47
+	iVar2 == 1;
+	n == 1;
+line 44:	N68 -{fibo1(n - 2)}-> N37
+	iVar2 == 1;
+	n == 0;
+line 21:	N41 -{[n < 1]}-> N43
+	iVar2 == 1;
+	iVar2 == 0;
+	n == 0;
+line 27:	N50 -{fibo2(n - 2)}-> N55
+	iVar2 == 1;
+	iVar1 == 1;
+	n == 1;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 1;
+line 40:	N62 -{[n == 1]}-> N65
+	iVar2 == 2;
+	iVar2 == 1;
+	n == 1;
+line 44:	N68 -{fibo1(n - 2)}-> N37
+	iVar2 == 2;
+	iVar1 == 1;
+	n == 2;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 2;
+line 23:	N44 -{[!(n == 1)]}-> N48
+	n == 2;
+line 26:	N48 -{fibo2(n - 1)}-> N55
+	iVar2 == 1;
+	iVar1 == 2;
+	n == 1;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 1;
+line 40:	N62 -{[n == 1]}-> N65
+	iVar2 == 1;
+	n == 1;
+line 27:	N50 -{fibo2(n - 2)}-> N55
+	iVar2 == 1;
+	iVar1 == 2;
+	n == 0;
+line 38:	N59 -{[n < 1]}-> N61
+	iVar2 == 3;
+	iVar2 == 1;
+	iVar2 == 0;
+	n == 0;
+line 27:	N50 -{fibo2(n - 2)}-> N55
+	iVar2 == 3;
+	iVar1 == 2;
+	n == 3;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 3;
+line 40:	N62 -{[!(n == 1)]}-> N66
+	n == 3;
+line 43:	N66 -{fibo1(n - 1)}-> N37
+	iVar2 == 1;
+	iVar1 == 3;
+	n == 2;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 2;
+line 23:	N44 -{[!(n == 1)]}-> N48
+	n == 2;
+line 26:	N48 -{fibo2(n - 1)}-> N55
+	iVar2 == 3;
+	iVar1 == 2;
+	n == 1;
+line 38:	N59 -{[!(n < 1)]}-> N62
+	n == 1;
+line 40:	N62 -{[n == 1]}-> N65
+	iVar2 == 1;
+	n == 1;
+line 27:	N50 -{fibo2(n - 2)}-> N55
+	iVar2 == 1;
+	iVar1 == 2;
+	n == 0;
+line 38:	N59 -{[n < 1]}-> N61
+	iVar2 == 1;
+	iVar2 == 0;
+	n == 0;
+line 44:	N68 -{fibo1(n - 2)}-> N37
+	iVar2 == 1;
+	iVar1 == 1;
+	n == 1;
+line 21:	N41 -{[!(n < 1)]}-> N44
+	n == 1;
+line 23:	N44 -{[n == 1]}-> N47
+	iVar2 == 5;
+	iVar2 == 2;
+	iVar2 == 1;
+	n == 1;
+line 56:	N78 -{[iVar1 == 5]}-> N80
+	iVar1 == 5;
+line 57:	N89 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 5\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_5-2_process_dc_iter1.c", 57, "__PRETTY_FUNCTION__");}-> N370

@@ -1,0 +1,43 @@
+line 27:	N42 -{int local_28;}-> N43
+	local_28 == 2;
+line 28:	N43 -{int expr_tmp_var_29_int;}-> N44
+	current == 8LL;
+	(current->next) == 0LL;
+	(x->next) == 0LL;
+	x == 8LL;
+	expr_tmp_var_29_int == 0;
+line 36:	N50 -{while}-> N51
+line 36:	N51 -{[!(expr_tmp_var_29_int != 0)]}-> N53
+	current == 8LL;
+	(current->next) == 0LL;
+	expr_tmp_var_29_int == 0;
+line 45:	N60 -{[!(local_28 == 0)]}-> N63
+	current == 0LL;
+	(current->next) == 8LL;
+	(current->next->next) == 0LL;
+	(current->next->next->data) == 1;
+	x == 0LL;
+	(x->next) == 8LL;
+	(x->next->next) == 0LL;
+	(x->next->next->data) == 1;
+	(pSVar1->next) == 8LL;
+	(pSVar1->next->next) == 0LL;
+	(pSVar1->next->next->next) == 8LL;
+	(pSVar1->next->next->data) == 1;
+	(pSVar1->data) == 1;
+	pSVar1 == 0LL;
+	local_28 == 2;
+line 66:	N85 -{[!((current->data) != 1)]}-> N88
+	(current->data) == 1;
+lines 68-72:	N89 -{current = (SLL *)(current->next);}-> N90
+	current == 8LL;
+	(current->next) == 0LL;
+	(current->next->next) == 8LL;
+	(current->next->data) == 1;
+line 68:	N90 -{[current != ((TSLL *)0)]}-> N92
+	current == 8LL;
+	(current->next) == 0LL;
+	(current->next->next) == 8LL;
+	(current->next->data) == 1;
+line 69:	N92 -{[(current->data) != 1]}-> N95
+line 70:	N104 -{__assert_fail("0 && \"Assertion failed: current->data != 1\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/dll-simple-white-blue-1_process_dc_iter2.c", 70, "__PRETTY_FUNCTION__");}-> N394

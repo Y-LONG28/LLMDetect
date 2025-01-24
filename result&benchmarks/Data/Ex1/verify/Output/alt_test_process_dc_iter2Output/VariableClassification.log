@@ -1,0 +1,45 @@
+IntBool
+
+[assume::cond, __bswap_32::__bsx, __blast_assert::__CPAchecker_TMP_2, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx]
+
+IntEq
+
+[globalState, l_malloc::size]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[globalState, l_malloc::__retval__, __bswap_16::__CPAchecker_TMP_0, __bswap_32::__bsx, __blast_assert::__CPAchecker_TMP_2, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, l_free::ptr, assume::cond, l_malloc::pvVar1, __uint16_identity::__x, main::ptr, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_64::__CPAchecker_TMP_0, __bswap_16::__retval__, __uint16_identity::__retval__, l_malloc::size]
+
+DEPENDENCIES
+
+[[__blast_assert::__CPAchecker_TMP_2] --> [0],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[l_free::ptr, l_malloc::__retval__, l_malloc::pvVar1, main::ptr] --> [0],
+[globalState] --> [0, 1],
+[l_malloc::size] --> [4],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[globalState, l_malloc::__retval__, l_malloc::pvVar1, assume::cond, main::ptr, l_free::ptr, l_malloc::size]
+
+RELEVANT FIELDS
+
+{}

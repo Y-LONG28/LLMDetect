@@ -1,0 +1,73 @@
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 57:	N658 -{int waterLevel = 1;}-> N659
+	src_minepump_spec3_product31_cil_minepump_spec3_product31_cil_chead == 0LL;
+	methaneLevelCritical == 0;
+	waterLevel == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 587:	N679 -{int pumpRunning = 0;}-> N680
+	pumpRunning == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 588:	N680 -{int systemActive = 1;}-> N681
+	cleanupTimeShifts == 4;
+	systemActive == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 944:	N627 -{int tmp;}-> N628
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 948:	N628 -{select_helpers()}-> N565
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 949:	N629 -{select_features()}-> N561
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 950:	N630 -{valid_product()}-> N569
+	retValue_acc == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 952:	N631 -{[!(tmp == 0)]}-> N633
+	tmp == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 954:	N633 -{setup()}-> N616
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 955:	N635 -{runTest()}-> N620
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 937:	N621 -{test()}-> N367
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 524:	N373 -{splverifierCounter = 0;}-> N374
+	splverifierCounter == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 526:	N374 -{while}-> N375
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 528:	N378 -{[splverifierCounter < 4]}-> N380
+	splverifierCounter == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 534:	N379 -{tmp = __VERIFIER_nondet_int();}-> N383
+	tmp == 2;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 536:	N383 -{[!(tmp == 0)]}-> N385
+	tmp == 2;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 538:	N385 -{waterRise()}-> N17
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 75:	N18 -{[waterLevel < 2]}-> N20
+	waterLevel == 2;
+	waterLevel == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 544:	N384 -{tmp___0 = __VERIFIER_nondet_int();}-> N388
+	tmp___0 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 546:	N388 -{[tmp___0 == 0]}-> N391
+	tmp___0 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 554:	N389 -{tmp___2 = __VERIFIER_nondet_int();}-> N393
+	tmp___2 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 556:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 560:	N396 -{tmp___1 = __VERIFIER_nondet_int();}-> N397
+	tmp___1 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 562:	N397 -{[tmp___1 == 0]}-> N400
+	tmp___1 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 571:	N394 -{timeShift()}-> N408
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 595:	N409 -{[pumpRunning == 0]}-> N412
+	pumpRunning == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 602:	N410 -{[!(systemActive == 0)]}-> N415
+	systemActive == 1;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 604:	N415 -{processEnvironment()}-> N440
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 653:	N442 -{[pumpRunning == 0]}-> N445
+	pumpRunning == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 668:	N445 -{processEnvironment__wrappee__methaneQuery()}-> N425
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 627:	N427 -{[pumpRunning == 0]}-> N430
+	pumpRunning == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 642:	N430 -{processEnvironment__wrappee__base()}-> N421
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 610:	N414 -{__utac_acc__Specification3_spec__1()}-> N532
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 799:	N533 -{int tmp;}-> N534
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 800:	N534 -{int tmp___0;}-> N535
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 801:	N535 -{int tmp___1;}-> N536
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 805:	N536 -{isMethaneLevelCritical()}-> N34
+	retValue_acc == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 807:	N537 -{[tmp == 0]}-> N540
+	tmp == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 811:	N540 -{getWaterLevel()}-> N53
+	retValue_acc == 2;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 813:	N541 -{[tmp___0 == 2]}-> N543
+	tmp___0 == 2;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 815:	N543 -{isPumpRunning()}-> N482
+	retValue_acc == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 817:	N545 -{[tmp___1 == 0]}-> N548
+	tmp___1 == 0;
+src/minepump_spec3_product31.cil/minepump_spec3_product31.cil.c, line 821:	N548 -{__automaton_fail()}-> N60

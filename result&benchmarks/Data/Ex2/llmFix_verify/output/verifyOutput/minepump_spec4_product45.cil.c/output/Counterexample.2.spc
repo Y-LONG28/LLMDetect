@@ -1,0 +1,1218 @@
+CONTROL AUTOMATON ErrorPath2
+
+INITIAL STATE ARG15;
+
+STATE USEFIRST ARG15 :
+    MATCH "" -> GOTO ARG1160;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1160 :
+    MATCH "void select_features(void)" -> GOTO ARG1184_1_1;
+STATE USEFIRST ARG1184_0_1 :
+    MATCH "void select_features(void)" -> GOTO ARG1184_1_1;
+STATE USEFIRST ARG1184_1_1 :
+    MATCH "void select_helpers(void)" -> GOTO ARG1184_2_1;
+STATE USEFIRST ARG1184_2_1 :
+    MATCH "int valid_product(void)" -> GOTO ARG1184_3_1;
+STATE USEFIRST ARG1184_3_1 :
+    MATCH "extern void abort(void);" -> GOTO ARG1184_4_1;
+STATE USEFIRST ARG1184_4_1 :
+    MATCH "extern void __assert_fail(const char *, const char *, unsigned int, const char *) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));" -> GOTO ARG1184_5_1;
+STATE USEFIRST ARG1184_5_1 :
+    MATCH "void reach_error()" -> GOTO ARG1184_6_1;
+STATE USEFIRST ARG1184_6_1 :
+    MATCH "extern int __VERIFIER_nondet_int(void);" -> GOTO ARG1184_7_1;
+STATE USEFIRST ARG1184_7_1 :
+    MATCH "extern int printf (__const char *__restrict __format, ...);" -> GOTO ARG1184_8_1;
+STATE USEFIRST ARG1184_8_1 :
+    MATCH "struct JoinPoint {\n   void **(*fp)(struct JoinPoint * ) ;\n   void **args ;\n   int argsCount ;\n   char const **argsType ;\n   void *(*arg)(int , struct JoinPoint * ) ;\n   char const *(*argType)(int , struct JoinPoint * ) ;\n   void **retValue ;\n   char const *retType ;\n   char const *funcName ;\n   char const *targetName ;\n   char const *fileName ;\n   char const *kind ;\n   void *excep_return ;\n};" -> GOTO ARG1184_9_1;
+STATE USEFIRST ARG1184_9_1 :
+    MATCH "struct __UTAC__CFLOW_FUNC {\n   int (*func)(int , int ) ;\n   int val ;\n   struct __UTAC__CFLOW_FUNC *next ;\n};" -> GOTO ARG1184_10_1;
+STATE USEFIRST ARG1184_10_1 :
+    MATCH "struct __UTAC__EXCEPTION {\n   void *jumpbuf ;\n   unsigned long long prtValue ;\n   int pops ;\n   struct __UTAC__CFLOW_FUNC *cflowfuncs ;\n};" -> GOTO ARG1184_11_1;
+STATE USEFIRST ARG1184_11_1 :
+    MATCH "typedef unsigned int size_t;" -> GOTO ARG1184_12_1;
+STATE USEFIRST ARG1184_12_1 :
+    MATCH "struct __ACC__ERR {\n   void *v ;\n   struct __ACC__ERR *next ;\n};" -> GOTO ARG1184_13_1;
+STATE USEFIRST ARG1184_13_1 :
+    MATCH "void waterRise(void) ;" -> GOTO ARG1184_14_1;
+STATE USEFIRST ARG1184_14_1 :
+    MATCH "void changeMethaneLevel(void) ;" -> GOTO ARG1184_15_1;
+STATE USEFIRST ARG1184_15_1 :
+    MATCH "void timeShift(void) ;" -> GOTO ARG1184_16_1;
+STATE USEFIRST ARG1184_16_1 :
+    MATCH "void cleanup(void) ;" -> GOTO ARG1184_17_1;
+STATE USEFIRST ARG1184_17_1 :
+    MATCH "void test(void)" -> GOTO ARG1184_18_1;
+STATE USEFIRST ARG1184_18_1 :
+    MATCH "void lowerWaterLevel(void) ;" -> GOTO ARG1184_19_1;
+STATE USEFIRST ARG1184_19_1 :
+    MATCH "int isMethaneLevelCritical(void) ;" -> GOTO ARG1184_20_1;
+STATE USEFIRST ARG1184_20_1 :
+    MATCH "void printEnvironment(void) ;" -> GOTO ARG1184_21_1;
+STATE USEFIRST ARG1184_21_1 :
+    MATCH "int isHighWaterSensorDry(void) ;" -> GOTO ARG1184_22_1;
+STATE USEFIRST ARG1184_22_1 :
+    MATCH "void activatePump(void) ;" -> GOTO ARG1184_23_1;
+STATE USEFIRST ARG1184_23_1 :
+    MATCH "void deactivatePump(void) ;" -> GOTO ARG1184_24_1;
+STATE USEFIRST ARG1184_24_1 :
+    MATCH "int isPumpRunning(void) ;" -> GOTO ARG1184_25_1;
+STATE USEFIRST ARG1184_25_1 :
+    MATCH "void printPump(void) ;" -> GOTO ARG1184_26_1;
+STATE USEFIRST ARG1184_26_1 :
+    MATCH "int pumpRunning = 0;" -> GOTO ARG1184_27_1;
+STATE USEFIRST ARG1184_27_1 :
+    MATCH "int systemActive = 1;" -> GOTO ARG1184_28_1;
+STATE USEFIRST ARG1184_28_1 :
+    MATCH "void __utac_acc__Specification4_spec__1(void) ;" -> GOTO ARG1184_29_1;
+STATE USEFIRST ARG1184_29_1 :
+    MATCH "void processEnvironment(void) ;" -> GOTO ARG1184_30_1;
+STATE USEFIRST ARG1184_30_1 :
+    MATCH "void processEnvironment__wrappee__base(void)" -> GOTO ARG1184_31_1;
+STATE USEFIRST ARG1184_31_1 :
+    MATCH "int isHighWaterLevel(void) ;" -> GOTO ARG1184_32_1;
+STATE USEFIRST ARG1184_32_1 :
+    MATCH "void processEnvironment__wrappee__methaneQuery(void)" -> GOTO ARG1184_33_1;
+STATE USEFIRST ARG1184_33_1 :
+    MATCH "int isMethaneAlarm(void) ;" -> GOTO ARG1184_34_1;
+STATE USEFIRST ARG1184_34_1 :
+    MATCH "void activatePump__wrappee__highWaterSensor(void)" -> GOTO ARG1184_35_1;
+STATE USEFIRST ARG1184_35_1 :
+    MATCH "void __automaton_fail(void)" -> GOTO ARG1184_36_1;
+STATE USEFIRST ARG1184_36_1 :
+    MATCH "extern __attribute__((__nothrow__, __noreturn__)) void __assert_fail(char const *__assertion ,\n                                                                      char const *__file ,\n                                                                      unsigned int __line ,\n                                                                      char const *__function ) ;" -> GOTO ARG1184_37_1;
+STATE USEFIRST ARG1184_37_1 :
+    MATCH "extern __attribute__((__nothrow__)) void *malloc(size_t __size ) __attribute__((__malloc__)) ;" -> GOTO ARG1184_38_1;
+STATE USEFIRST ARG1184_38_1 :
+    MATCH "extern __attribute__((__nothrow__)) void free(void *__ptr ) ;" -> GOTO ARG1184_39_1;
+STATE USEFIRST ARG1184_39_1 :
+    MATCH "void __utac__exception__cf_handler_set(void *exception , int (*cflow_func)(int ,\n                                                                           int ) ,\n                                       int val )" -> GOTO ARG1184_40_1;
+STATE USEFIRST ARG1184_40_1 :
+    MATCH "void __utac__exception__cf_handler_free(void *exception )" -> GOTO ARG1184_41_1;
+STATE USEFIRST ARG1184_41_1 :
+    MATCH "void __utac__exception__cf_handler_reset(void *exception )" -> GOTO ARG1184_42_1;
+STATE USEFIRST ARG1184_42_1 :
+    MATCH "void *__utac__error_stack_mgt(void *env , int mode , int count ) ;" -> GOTO ARG1184_43_1;
+STATE USEFIRST ARG1184_43_1 :
+    MATCH "static struct __ACC__ERR *head = (struct __ACC__ERR *)0;" -> GOTO ARG1184_44_1;
+STATE USEFIRST ARG1184_44_1 :
+    MATCH "void *__utac__get_this_arg(int i , struct JoinPoint *this )" -> GOTO ARG1184_45_1;
+STATE USEFIRST ARG1184_45_1 :
+    MATCH "char const *__utac__get_this_argtype(int i , struct JoinPoint *this )" -> GOTO ARG1184_46_1;
+STATE USEFIRST ARG1184_46_1 :
+    MATCH "int getWaterLevel(void) ;" -> GOTO ARG1184_47_1;
+STATE USEFIRST ARG1184_47_1 :
+    MATCH "int cleanupTimeShifts = 4;" -> GOTO ARG1184_48_1;
+STATE USEFIRST ARG1184_48_1 :
+    MATCH "void Specification2(void)" -> GOTO ARG1184_49_1;
+STATE USEFIRST ARG1184_49_1 :
+    MATCH "void setup(void)" -> GOTO ARG1184_50_1;
+STATE USEFIRST ARG1184_50_1 :
+    MATCH "void runTest(void)" -> GOTO ARG1184_51_1;
+STATE USEFIRST ARG1184_51_1 :
+    MATCH "int main(void)" -> GOTO ARG1184_52_1;
+STATE USEFIRST ARG1184_52_1 :
+    MATCH "int waterLevel = 1;" -> GOTO ARG1184_53_1;
+STATE USEFIRST ARG1184_53_1 :
+    MATCH "int methaneLevelCritical = 0;" -> GOTO ARG1184_54_1;
+STATE USEFIRST ARG1184_54_1 :
+    MATCH "int select_one(void) ;" -> GOTO ARG1184_55_1;
+STATE USEFIRST ARG1184_55_1 :
+    MATCH "" -> GOTO ARG1184_56_1;
+STATE USEFIRST ARG1184_56_1 :
+    MATCH "int retValue_acc ;" -> GOTO ARG1184_57_1;
+STATE USEFIRST ARG1184_57_1 :
+    MATCH "int tmp ;" -> GOTO ARG1184;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1184 :
+    MATCH "select_helpers();" -> GOTO ARG1186;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1186 :
+    MATCH "" -> GOTO ARG1187;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1187 :
+    MATCH "return;" -> GOTO ARG1191;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1191 :
+    MATCH "" -> GOTO ARG1193;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1193 :
+    MATCH "select_features();" -> GOTO ARG1195;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1195 :
+    MATCH "" -> GOTO ARG1197;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1197 :
+    MATCH "return;" -> GOTO ARG1198;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1198 :
+    MATCH "" -> GOTO ARG1201;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1201 :
+    MATCH "tmp = valid_product();" -> GOTO ARG1203;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1203 :
+    MATCH "" -> GOTO ARG1205;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1205 :
+    MATCH "return 1;" -> GOTO ARG1207;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1207 :
+    MATCH "" -> GOTO ARG1211;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1211 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG1214;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1214 :
+    MATCH "setup();" -> GOTO ARG1216;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1216 :
+    MATCH "" -> GOTO ARG1217;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1217 :
+    MATCH "return;" -> GOTO ARG1220;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1220 :
+    MATCH "" -> GOTO ARG1223;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1223 :
+    MATCH "runTest();" -> GOTO ARG1225;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1225 :
+    MATCH "" -> GOTO ARG1227;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1227 :
+    MATCH "test();" -> GOTO ARG1228;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1228 :
+    MATCH "" -> GOTO ARG1232_1_2;
+STATE USEFIRST ARG1232_0_2 :
+    MATCH "" -> GOTO ARG1232_1_2;
+STATE USEFIRST ARG1232_1_2 :
+    MATCH "int splverifierCounter ;" -> GOTO ARG1232_2_2;
+STATE USEFIRST ARG1232_2_2 :
+    MATCH "int tmp ;" -> GOTO ARG1232_3_2;
+STATE USEFIRST ARG1232_3_2 :
+    MATCH "int tmp___0 ;" -> GOTO ARG1232_4_2;
+STATE USEFIRST ARG1232_4_2 :
+    MATCH "int tmp___1 ;" -> GOTO ARG1232_5_2;
+STATE USEFIRST ARG1232_5_2 :
+    MATCH "int tmp___2 ;" -> GOTO ARG1232_6_2;
+STATE USEFIRST ARG1232_6_2 :
+    MATCH "splverifierCounter = 0;" -> ASSUME {splverifierCounter == (0);} GOTO ARG1232;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1232 :
+    MATCH "" -> GOTO ARG9909;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG9909 :
+    MATCH "1" -> GOTO ARG9910;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG9910 :
+    MATCH "while_0_continue: ;" -> GOTO ARG9911;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG9911 :
+    MATCH "[splverifierCounter < 4]" -> ASSUME {splverifierCounter == (0);} GOTO ARG9912;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG9912 :
+    MATCH "" -> GOTO ARG10188_1_3;
+STATE USEFIRST ARG10188_0_3 :
+    MATCH "" -> GOTO ARG10188_1_3;
+STATE USEFIRST ARG10188_1_3 :
+    MATCH "tmp = __VERIFIER_nondet_int();" -> ASSUME {tmp == (2);} GOTO ARG10188;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10188 :
+    MATCH "[tmp]" -> ASSUME {tmp == (2);} GOTO ARG10190;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10190 :
+    MATCH "waterRise();" -> GOTO ARG10191;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10191 :
+    MATCH "" -> GOTO ARG10193;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10193 :
+    MATCH "[waterLevel < 2]" -> ASSUME {waterLevel == (1);} GOTO ARG10194;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10194 :
+    MATCH "waterLevel = waterLevel + 1;" -> ASSUME {waterLevel == (2);} GOTO ARG10197;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10197 :
+    MATCH "" -> GOTO ARG10199;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10199 :
+    MATCH "return;" -> GOTO ARG10200;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10200 :
+    MATCH "" -> GOTO ARG10201;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10201 :
+    MATCH "" -> GOTO ARG10204;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10204 :
+    MATCH "tmp___0 = __VERIFIER_nondet_int();" -> ASSUME {tmp___0 == (0);} GOTO ARG10207;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10207 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG10208;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10208 :
+    MATCH "" -> GOTO ARG10226;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10226 :
+    MATCH "tmp___2 = __VERIFIER_nondet_int();" -> ASSUME {tmp___2 == (2);} GOTO ARG10227;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10227 :
+    MATCH "[tmp___2]" -> ASSUME {tmp___2 == (2);} GOTO ARG10229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10229 :
+    MATCH "" -> GOTO ARG10238;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10238 :
+    MATCH "timeShift();" -> GOTO ARG10239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10239 :
+    MATCH "" -> GOTO ARG10241;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10241 :
+    MATCH "[!(pumpRunning)]" -> ASSUME {pumpRunning == (0);} GOTO ARG10242;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10242 :
+    MATCH "" -> GOTO ARG10257;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10257 :
+    MATCH "[systemActive]" -> ASSUME {systemActive == (1);} GOTO ARG10259;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10259 :
+    MATCH "processEnvironment();" -> GOTO ARG10261;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10261 :
+    MATCH "" -> GOTO ARG10262_1_4;
+STATE USEFIRST ARG10262_0_4 :
+    MATCH "" -> GOTO ARG10262_1_4;
+STATE USEFIRST ARG10262_1_4 :
+    MATCH "int tmp ;" -> GOTO ARG10262;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10262 :
+    MATCH "[!(pumpRunning)]" -> ASSUME {pumpRunning == (0);} GOTO ARG10263;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10263 :
+    MATCH "processEnvironment__wrappee__methaneQuery();" -> GOTO ARG10365;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10365 :
+    MATCH "" -> GOTO ARG10366_1_5;
+STATE USEFIRST ARG10366_0_5 :
+    MATCH "" -> GOTO ARG10366_1_5;
+STATE USEFIRST ARG10366_1_5 :
+    MATCH "int tmp ;" -> GOTO ARG10366;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10366 :
+    MATCH "[! pumpRunning]" -> ASSUME {pumpRunning == (0);} GOTO ARG10367;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10367 :
+    MATCH "tmp = isHighWaterLevel();" -> GOTO ARG10375;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10375 :
+    MATCH "" -> GOTO ARG10376_1_6;
+STATE USEFIRST ARG10376_0_6 :
+    MATCH "" -> GOTO ARG10376_1_6;
+STATE USEFIRST ARG10376_1_6 :
+    MATCH "int retValue_acc ;" -> GOTO ARG10376_2_6;
+STATE USEFIRST ARG10376_2_6 :
+    MATCH "int tmp ;" -> GOTO ARG10376_3_6;
+STATE USEFIRST ARG10376_3_6 :
+    MATCH "int tmp___0 ;" -> GOTO ARG10376;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10376 :
+    MATCH "tmp = isHighWaterSensorDry();" -> GOTO ARG10377;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10377 :
+    MATCH "" -> GOTO ARG10378_1_7;
+STATE USEFIRST ARG10378_0_7 :
+    MATCH "" -> GOTO ARG10378_1_7;
+STATE USEFIRST ARG10378_1_7 :
+    MATCH "int retValue_acc ;" -> GOTO ARG10378;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10378 :
+    MATCH "[!(waterLevel < 2)]" -> ASSUME {waterLevel == (2);} GOTO ARG10380;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10380 :
+    MATCH "retValue_acc = 0;" -> ASSUME {retValue_acc == (0);} GOTO ARG10381;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10381 :
+    MATCH "return (retValue_acc);" -> GOTO ARG10387;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10387 :
+    MATCH "" -> GOTO ARG10389;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10389 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG10391;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10391 :
+    MATCH "tmp___0 = 1;" -> ASSUME {tmp___0 == (1);} GOTO ARG10396;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10396 :
+    MATCH "" -> GOTO ARG10399;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10399 :
+    MATCH "retValue_acc = tmp___0;" -> ASSUME {retValue_acc == (1);} GOTO ARG10401;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10401 :
+    MATCH "return (retValue_acc);" -> GOTO ARG10402;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10402 :
+    MATCH "" -> GOTO ARG10404;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10404 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG10407;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10407 :
+    MATCH "activatePump();" -> GOTO ARG10408;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10408 :
+    MATCH "" -> GOTO ARG10409_1_8;
+STATE USEFIRST ARG10409_0_8 :
+    MATCH "" -> GOTO ARG10409_1_8;
+STATE USEFIRST ARG10409_1_8 :
+    MATCH "int tmp ;" -> GOTO ARG10409;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10409 :
+    MATCH "tmp = isMethaneAlarm();" -> GOTO ARG10410;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10410 :
+    MATCH "" -> GOTO ARG10411_1_9;
+STATE USEFIRST ARG10411_0_9 :
+    MATCH "" -> GOTO ARG10411_1_9;
+STATE USEFIRST ARG10411_1_9 :
+    MATCH "int retValue_acc ;" -> GOTO ARG10411;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10411 :
+    MATCH "retValue_acc = isMethaneLevelCritical();" -> GOTO ARG10412;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10412 :
+    MATCH "" -> GOTO ARG10413_1_10;
+STATE USEFIRST ARG10413_0_10 :
+    MATCH "" -> GOTO ARG10413_1_10;
+STATE USEFIRST ARG10413_1_10 :
+    MATCH "int retValue_acc ;" -> GOTO ARG10413_2_10;
+STATE USEFIRST ARG10413_2_10 :
+    MATCH "retValue_acc = methaneLevelCritical;" -> ASSUME {retValue_acc == (0);} GOTO ARG10413;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10413 :
+    MATCH "return (retValue_acc);" -> GOTO ARG10414;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10414 :
+    MATCH "" -> GOTO ARG10415;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10415 :
+    MATCH "return (retValue_acc);" -> GOTO ARG10418;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10418 :
+    MATCH "" -> GOTO ARG10419;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10419 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG10420;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10420 :
+    MATCH "activatePump__wrappee__highWaterSensor();" -> GOTO ARG10424;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10424 :
+    MATCH "" -> GOTO ARG10426_1_11;
+STATE USEFIRST ARG10426_0_11 :
+    MATCH "" -> GOTO ARG10426_1_11;
+STATE USEFIRST ARG10426_1_11 :
+    MATCH "pumpRunning = 1;" -> ASSUME {pumpRunning == (1);} GOTO ARG10426;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10426 :
+    MATCH "return;" -> GOTO ARG10427;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10427 :
+    MATCH "" -> GOTO ARG10428;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10428 :
+    MATCH "" -> GOTO ARG10430;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10430 :
+    MATCH "return;" -> GOTO ARG10431;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10431 :
+    MATCH "" -> GOTO ARG10432;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10432 :
+    MATCH "" -> GOTO ARG10442;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10442 :
+    MATCH "" -> GOTO ARG10444;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10444 :
+    MATCH "return;" -> GOTO ARG10445;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10445 :
+    MATCH "" -> GOTO ARG10446;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10446 :
+    MATCH "" -> GOTO ARG10448;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10448 :
+    MATCH "return;" -> GOTO ARG10449;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10449 :
+    MATCH "" -> GOTO ARG10450;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10450 :
+    MATCH "" -> GOTO ARG10454;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10454 :
+    MATCH "__utac_acc__Specification4_spec__1();" -> GOTO ARG10455;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10455 :
+    MATCH "" -> GOTO ARG10457_1_12;
+STATE USEFIRST ARG10457_0_12 :
+    MATCH "" -> GOTO ARG10457_1_12;
+STATE USEFIRST ARG10457_1_12 :
+    MATCH "int tmp ;" -> GOTO ARG10457_2_12;
+STATE USEFIRST ARG10457_2_12 :
+    MATCH "int tmp___0 ;" -> GOTO ARG10457;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10457 :
+    MATCH "tmp = getWaterLevel();" -> GOTO ARG10458;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10458 :
+    MATCH "" -> GOTO ARG10461_1_13;
+STATE USEFIRST ARG10461_0_13 :
+    MATCH "" -> GOTO ARG10461_1_13;
+STATE USEFIRST ARG10461_1_13 :
+    MATCH "int retValue_acc ;" -> GOTO ARG10461_2_13;
+STATE USEFIRST ARG10461_2_13 :
+    MATCH "retValue_acc = waterLevel;" -> ASSUME {retValue_acc == (2);} GOTO ARG10461;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10461 :
+    MATCH "return (retValue_acc);" -> GOTO ARG10462;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10462 :
+    MATCH "" -> GOTO ARG10464;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10464 :
+    MATCH "[!(tmp == 0)]" -> ASSUME {tmp == (2);} GOTO ARG10467;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10467 :
+    MATCH "" -> GOTO ARG10563;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10563 :
+    MATCH "return;" -> GOTO ARG10564;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10564 :
+    MATCH "" -> GOTO ARG10565;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10565 :
+    MATCH "return;" -> GOTO ARG10566;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10566 :
+    MATCH "" -> GOTO ARG10567;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10567 :
+    MATCH "" -> GOTO ARG10772;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10772 :
+    MATCH "1" -> GOTO ARG10775;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10775 :
+    MATCH "while_0_continue: ;" -> GOTO ARG10776;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10776 :
+    MATCH "[splverifierCounter < 4]" -> ASSUME {splverifierCounter == (0);} GOTO ARG10778;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG10778 :
+    MATCH "" -> GOTO ARG11219_1_14;
+STATE USEFIRST ARG11219_0_14 :
+    MATCH "" -> GOTO ARG11219_1_14;
+STATE USEFIRST ARG11219_1_14 :
+    MATCH "tmp = __VERIFIER_nondet_int();" -> ASSUME {tmp == (0);} GOTO ARG11219;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11219 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG11220;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11220 :
+    MATCH "" -> GOTO ARG11234;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11234 :
+    MATCH "tmp___0 = __VERIFIER_nondet_int();" -> ASSUME {tmp___0 == (0);} GOTO ARG11235;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11235 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG11236;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11236 :
+    MATCH "" -> GOTO ARG11251;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11251 :
+    MATCH "tmp___2 = __VERIFIER_nondet_int();" -> ASSUME {tmp___2 == (2);} GOTO ARG11252;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11252 :
+    MATCH "[tmp___2]" -> ASSUME {tmp___2 == (2);} GOTO ARG11254;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11254 :
+    MATCH "" -> GOTO ARG11262;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11262 :
+    MATCH "timeShift();" -> GOTO ARG11263;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11263 :
+    MATCH "" -> GOTO ARG11264;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11264 :
+    MATCH "[pumpRunning]" -> ASSUME {pumpRunning == (1);} GOTO ARG11266;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11266 :
+    MATCH "lowerWaterLevel();" -> GOTO ARG11267;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11267 :
+    MATCH "" -> GOTO ARG11268;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11268 :
+    MATCH "[waterLevel > 0]" -> ASSUME {waterLevel == (2);} GOTO ARG11269;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11269 :
+    MATCH "waterLevel = waterLevel - 1;" -> ASSUME {waterLevel == (1);} GOTO ARG11272;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11272 :
+    MATCH "" -> GOTO ARG11274;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11274 :
+    MATCH "return;" -> GOTO ARG11275;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11275 :
+    MATCH "" -> GOTO ARG11276;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11276 :
+    MATCH "" -> GOTO ARG11279;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11279 :
+    MATCH "[systemActive]" -> ASSUME {systemActive == (1);} GOTO ARG11281;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11281 :
+    MATCH "processEnvironment();" -> GOTO ARG11282;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11282 :
+    MATCH "" -> GOTO ARG11283_1_15;
+STATE USEFIRST ARG11283_0_15 :
+    MATCH "" -> GOTO ARG11283_1_15;
+STATE USEFIRST ARG11283_1_15 :
+    MATCH "int tmp ;" -> GOTO ARG11283;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11283 :
+    MATCH "[pumpRunning]" -> ASSUME {pumpRunning == (1);} GOTO ARG11285;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11285 :
+    MATCH "tmp = isMethaneAlarm();" -> GOTO ARG11286;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11286 :
+    MATCH "" -> GOTO ARG11287_1_16;
+STATE USEFIRST ARG11287_0_16 :
+    MATCH "" -> GOTO ARG11287_1_16;
+STATE USEFIRST ARG11287_1_16 :
+    MATCH "int retValue_acc ;" -> GOTO ARG11287;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11287 :
+    MATCH "retValue_acc = isMethaneLevelCritical();" -> GOTO ARG11288;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11288 :
+    MATCH "" -> GOTO ARG11289_1_17;
+STATE USEFIRST ARG11289_0_17 :
+    MATCH "" -> GOTO ARG11289_1_17;
+STATE USEFIRST ARG11289_1_17 :
+    MATCH "int retValue_acc ;" -> GOTO ARG11289_2_17;
+STATE USEFIRST ARG11289_2_17 :
+    MATCH "retValue_acc = methaneLevelCritical;" -> ASSUME {retValue_acc == (0);} GOTO ARG11289;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11289 :
+    MATCH "return (retValue_acc);" -> GOTO ARG11292;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11292 :
+    MATCH "" -> GOTO ARG11293;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11293 :
+    MATCH "return (retValue_acc);" -> GOTO ARG11294;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11294 :
+    MATCH "" -> GOTO ARG11295;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11295 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG11296;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11296 :
+    MATCH "processEnvironment__wrappee__methaneQuery();" -> GOTO ARG11304;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11304 :
+    MATCH "" -> GOTO ARG11305_1_18;
+STATE USEFIRST ARG11305_0_18 :
+    MATCH "" -> GOTO ARG11305_1_18;
+STATE USEFIRST ARG11305_1_18 :
+    MATCH "int tmp ;" -> GOTO ARG11305;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11305 :
+    MATCH "[!(! pumpRunning)]" -> ASSUME {pumpRunning == (1);} GOTO ARG11308;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11308 :
+    MATCH "processEnvironment__wrappee__base();" -> GOTO ARG11309;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11309 :
+    MATCH "" -> GOTO ARG11310;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11310 :
+    MATCH "return;" -> GOTO ARG11312;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11312 :
+    MATCH "" -> GOTO ARG11313;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11313 :
+    MATCH "" -> GOTO ARG11380;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11380 :
+    MATCH "return;" -> GOTO ARG11382;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11382 :
+    MATCH "" -> GOTO ARG11383;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11383 :
+    MATCH "" -> GOTO ARG11385;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11385 :
+    MATCH "" -> GOTO ARG11459;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11459 :
+    MATCH "return;" -> GOTO ARG11460;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11460 :
+    MATCH "" -> GOTO ARG11461;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11461 :
+    MATCH "" -> GOTO ARG11464;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11464 :
+    MATCH "__utac_acc__Specification4_spec__1();" -> GOTO ARG11465;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11465 :
+    MATCH "" -> GOTO ARG11467_1_19;
+STATE USEFIRST ARG11467_0_19 :
+    MATCH "" -> GOTO ARG11467_1_19;
+STATE USEFIRST ARG11467_1_19 :
+    MATCH "int tmp ;" -> GOTO ARG11467_2_19;
+STATE USEFIRST ARG11467_2_19 :
+    MATCH "int tmp___0 ;" -> GOTO ARG11467;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11467 :
+    MATCH "tmp = getWaterLevel();" -> GOTO ARG11468;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11468 :
+    MATCH "" -> GOTO ARG11469_1_20;
+STATE USEFIRST ARG11469_0_20 :
+    MATCH "" -> GOTO ARG11469_1_20;
+STATE USEFIRST ARG11469_1_20 :
+    MATCH "int retValue_acc ;" -> GOTO ARG11469_2_20;
+STATE USEFIRST ARG11469_2_20 :
+    MATCH "retValue_acc = waterLevel;" -> ASSUME {retValue_acc == (1);} GOTO ARG11469;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11469 :
+    MATCH "return (retValue_acc);" -> GOTO ARG11470;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11470 :
+    MATCH "" -> GOTO ARG11476;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11476 :
+    MATCH "[!(tmp == 0)]" -> ASSUME {tmp == (1);} GOTO ARG11478;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11478 :
+    MATCH "" -> GOTO ARG11554;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11554 :
+    MATCH "return;" -> GOTO ARG11555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11555 :
+    MATCH "" -> GOTO ARG11556;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11556 :
+    MATCH "return;" -> GOTO ARG11557;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11557 :
+    MATCH "" -> GOTO ARG11558;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11558 :
+    MATCH "" -> GOTO ARG11741;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11741 :
+    MATCH "1" -> GOTO ARG11744;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11744 :
+    MATCH "while_0_continue: ;" -> GOTO ARG11745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11745 :
+    MATCH "[splverifierCounter < 4]" -> ASSUME {splverifierCounter == (0);} GOTO ARG11749;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG11749 :
+    MATCH "" -> GOTO ARG12313_1_21;
+STATE USEFIRST ARG12313_0_21 :
+    MATCH "" -> GOTO ARG12313_1_21;
+STATE USEFIRST ARG12313_1_21 :
+    MATCH "tmp = __VERIFIER_nondet_int();" -> ASSUME {tmp == (0);} GOTO ARG12313;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12313 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG12314;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12314 :
+    MATCH "" -> GOTO ARG12328;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12328 :
+    MATCH "tmp___0 = __VERIFIER_nondet_int();" -> ASSUME {tmp___0 == (0);} GOTO ARG12329;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12329 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG12330;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12330 :
+    MATCH "" -> GOTO ARG12345;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12345 :
+    MATCH "tmp___2 = __VERIFIER_nondet_int();" -> ASSUME {tmp___2 == (2);} GOTO ARG12346;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12346 :
+    MATCH "[tmp___2]" -> ASSUME {tmp___2 == (2);} GOTO ARG12348;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12348 :
+    MATCH "" -> GOTO ARG12356;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12356 :
+    MATCH "timeShift();" -> GOTO ARG12357;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12357 :
+    MATCH "" -> GOTO ARG12358;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12358 :
+    MATCH "[pumpRunning]" -> ASSUME {pumpRunning == (1);} GOTO ARG12360;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12360 :
+    MATCH "lowerWaterLevel();" -> GOTO ARG12361;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12361 :
+    MATCH "" -> GOTO ARG12362;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12362 :
+    MATCH "[waterLevel > 0]" -> ASSUME {waterLevel == (1);} GOTO ARG12363;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12363 :
+    MATCH "waterLevel = waterLevel - 1;" -> ASSUME {waterLevel == (0);} GOTO ARG12366;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12366 :
+    MATCH "" -> GOTO ARG12368;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12368 :
+    MATCH "return;" -> GOTO ARG12369;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12369 :
+    MATCH "" -> GOTO ARG12370;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12370 :
+    MATCH "" -> GOTO ARG12373;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12373 :
+    MATCH "[systemActive]" -> ASSUME {systemActive == (1);} GOTO ARG12375;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12375 :
+    MATCH "processEnvironment();" -> GOTO ARG12376;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12376 :
+    MATCH "" -> GOTO ARG12377_1_22;
+STATE USEFIRST ARG12377_0_22 :
+    MATCH "" -> GOTO ARG12377_1_22;
+STATE USEFIRST ARG12377_1_22 :
+    MATCH "int tmp ;" -> GOTO ARG12377;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12377 :
+    MATCH "[pumpRunning]" -> ASSUME {pumpRunning == (1);} GOTO ARG12379;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12379 :
+    MATCH "tmp = isMethaneAlarm();" -> GOTO ARG12380;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12380 :
+    MATCH "" -> GOTO ARG12381_1_23;
+STATE USEFIRST ARG12381_0_23 :
+    MATCH "" -> GOTO ARG12381_1_23;
+STATE USEFIRST ARG12381_1_23 :
+    MATCH "int retValue_acc ;" -> GOTO ARG12381;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12381 :
+    MATCH "retValue_acc = isMethaneLevelCritical();" -> GOTO ARG12382;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12382 :
+    MATCH "" -> GOTO ARG12383_1_24;
+STATE USEFIRST ARG12383_0_24 :
+    MATCH "" -> GOTO ARG12383_1_24;
+STATE USEFIRST ARG12383_1_24 :
+    MATCH "int retValue_acc ;" -> GOTO ARG12383_2_24;
+STATE USEFIRST ARG12383_2_24 :
+    MATCH "retValue_acc = methaneLevelCritical;" -> ASSUME {retValue_acc == (0);} GOTO ARG12383;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12383 :
+    MATCH "return (retValue_acc);" -> GOTO ARG12384;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12384 :
+    MATCH "" -> GOTO ARG12385;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12385 :
+    MATCH "return (retValue_acc);" -> GOTO ARG12386;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12386 :
+    MATCH "" -> GOTO ARG12387;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12387 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG12388;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12388 :
+    MATCH "processEnvironment__wrappee__methaneQuery();" -> GOTO ARG12395;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12395 :
+    MATCH "" -> GOTO ARG12396_1_25;
+STATE USEFIRST ARG12396_0_25 :
+    MATCH "" -> GOTO ARG12396_1_25;
+STATE USEFIRST ARG12396_1_25 :
+    MATCH "int tmp ;" -> GOTO ARG12396;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12396 :
+    MATCH "[!(! pumpRunning)]" -> ASSUME {pumpRunning == (1);} GOTO ARG12398;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12398 :
+    MATCH "processEnvironment__wrappee__base();" -> GOTO ARG12399;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12399 :
+    MATCH "" -> GOTO ARG12400;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12400 :
+    MATCH "return;" -> GOTO ARG12401;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12401 :
+    MATCH "" -> GOTO ARG12402;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12402 :
+    MATCH "" -> GOTO ARG12465;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12465 :
+    MATCH "return;" -> GOTO ARG12466;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12466 :
+    MATCH "" -> GOTO ARG12467;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12467 :
+    MATCH "" -> GOTO ARG12469;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12469 :
+    MATCH "" -> GOTO ARG12545;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12545 :
+    MATCH "return;" -> GOTO ARG12546;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12546 :
+    MATCH "" -> GOTO ARG12547;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12547 :
+    MATCH "" -> GOTO ARG12550;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12550 :
+    MATCH "__utac_acc__Specification4_spec__1();" -> GOTO ARG12551;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12551 :
+    MATCH "" -> GOTO ARG12552_1_26;
+STATE USEFIRST ARG12552_0_26 :
+    MATCH "" -> GOTO ARG12552_1_26;
+STATE USEFIRST ARG12552_1_26 :
+    MATCH "int tmp ;" -> GOTO ARG12552_2_26;
+STATE USEFIRST ARG12552_2_26 :
+    MATCH "int tmp___0 ;" -> GOTO ARG12552;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12552 :
+    MATCH "tmp = getWaterLevel();" -> GOTO ARG12553;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12553 :
+    MATCH "" -> GOTO ARG12554_1_27;
+STATE USEFIRST ARG12554_0_27 :
+    MATCH "" -> GOTO ARG12554_1_27;
+STATE USEFIRST ARG12554_1_27 :
+    MATCH "int retValue_acc ;" -> GOTO ARG12554_2_27;
+STATE USEFIRST ARG12554_2_27 :
+    MATCH "retValue_acc = waterLevel;" -> ASSUME {retValue_acc == (0);} GOTO ARG12554;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12554 :
+    MATCH "return (retValue_acc);" -> GOTO ARG12555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12555 :
+    MATCH "" -> GOTO ARG12556;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12556 :
+    MATCH "[tmp == 0]" -> ASSUME {tmp == (0);} GOTO ARG12557;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12557 :
+    MATCH "tmp___0 = isPumpRunning();" -> GOTO ARG12560;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12560 :
+    MATCH "" -> GOTO ARG12561_1_28;
+STATE USEFIRST ARG12561_0_28 :
+    MATCH "" -> GOTO ARG12561_1_28;
+STATE USEFIRST ARG12561_1_28 :
+    MATCH "int retValue_acc ;" -> GOTO ARG12561_2_28;
+STATE USEFIRST ARG12561_2_28 :
+    MATCH "retValue_acc = pumpRunning;" -> ASSUME {retValue_acc == (1);} GOTO ARG12561;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12561 :
+    MATCH "return (retValue_acc);" -> GOTO ARG12616;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12616 :
+    MATCH "" -> GOTO ARG12620;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12620 :
+    MATCH "[tmp___0]" -> ASSUME {tmp___0 == (1);} GOTO ARG12626;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12626 :
+    MATCH "__automaton_fail();" -> GOTO ARG12628;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12628 :
+    MATCH "" -> GOTO ARG12629;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12629 :
+    MATCH "ERROR: {reach_error();abort();}" -> ERROR;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG12723 :
+    TRUE -> STOP;
+
+END AUTOMATON

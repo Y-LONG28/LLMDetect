@@ -1,0 +1,90 @@
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, lines 252-255:	N242 -{__CPAchecker_TMP_0 = __VERIFIER_nondet_int();}-> N243
+	__CPAchecker_TMP_0 == 0;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 252:	N243 -{[__CPAchecker_TMP_0 == 0]}-> N241
+	__CPAchecker_TMP_0 == 0;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 255:	N241 -{main2()}-> N200
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 212:	N201 -{unsigned int a;}-> N202
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 213:	N203 -{ma = __VERIFIER_nondet_uint();}-> N204
+	ma == 8388608U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 214:	N205 -{ea = __VERIFIER_nondet_char();}-> N206
+	ea == 0;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 215:	N206 -{unsigned int b;}-> N207
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 216:	N208 -{mb = __VERIFIER_nondet_uint();}-> N209
+	eb == 31;
+	mb == 16777216U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 227:	N217 -{base2flt(0, 0)}-> N1
+	m == 0U;
+	e == 0;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[m == 0]}-> N11
+	local_14 == 0U;
+	m == 0U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 228:	N218 -{base2flt(ma, ea)}-> N1
+	local_14 == 0U;
+	m == 8388608U;
+	e == 0;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[!(m == 0)]}-> N12
+	m == 8388608U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 13:	N12 -{local_28 = e;}-> N14
+	local_28 == 0;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 14:	N14 -{local_24 = m;}-> N15
+	local_24 == 8388608U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 15:	N15 -{[m < 16777216]}-> N17
+	m == 8388608U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 17:	N22 -{[!(local_28 < -127)]}-> N23
+	local_28 == -1;
+	local_28 == 0;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 21:	N26 -{local_24 = local_24 << 1;}-> N27
+	local_24 == 16777216U;
+none:	N27 -{}-> N19
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, lines 16-22:	N19 -{[!(local_24 < 16777216)]}-> N21
+	local_14 == 2130706432U;
+	local_24 == 16777216U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 229:	N219 -{base2flt(mb, eb)}-> N1
+	local_14 == 2130706432U;
+	local_24 == 16777216U;
+	local_28 == -1;
+	m == 16777216U;
+	e == 31;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 10:	N9 -{[!(m == 0)]}-> N12
+	local_28 == 31;
+	m == 16777216U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 14:	N14 -{local_24 = m;}-> N15
+	local_24 == 16777216U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 15:	N15 -{[!(m < 16777216)]}-> N18
+	m == 16777216U;
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 24:	N18 -{for}-> N28
+output/square_7+soft_float_4-3a.c.cil_dc_fix.c, line 24:	N28 -{[!(33554431 < local_24)]}-> N31
+	local_14 == 2667577344U;
+	local_24 == 16777216U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 230:	N220 -{addflt(a, b)}-> N80
+	a == 2130706432U;
+	b == 2667577344U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 80:	N89 -{[a < b]}-> N91
+	a == 2130706432U;
+	b == 2667577344U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 81:	N91 -{tmp = a;}-> N93
+	tmp == 2130706432U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 82:	N93 -{a = b;}-> N94
+	a == 2667577344U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 83:	N94 -{b = tmp;}-> N95
+	b == 2130706432U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 87:	N90 -{[!(b == 0)]}-> N98
+	ma == 0U;
+	b == 2130706432U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 95:	N101 -{ea = ((int)(a >> 24U)) - 128;}-> N102
+	mb == 0U;
+	ma == 16777216U;
+	ea == 31;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 98:	N104 -{eb = ((int)(b >> 24U)) - 128;}-> N105
+	mb == 16777216U;
+	eb == -1;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 100:	N106 -{__VERIFIER_assert(ea >= eb)}-> N71
+	cond == 1;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 59:	N72 -{[!(cond == 0)]}-> N73
+	cond == 1;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 101:	N107 -{delta = ea - eb;}-> N108
+	delta == 32U;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 102:	N108 -{__VERIFIER_assert(delta < 32UL)}-> N71
+	cond == 0;
+src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c, line 59:	N72 -{[cond == 0]}-> N74
+	cond == 0;

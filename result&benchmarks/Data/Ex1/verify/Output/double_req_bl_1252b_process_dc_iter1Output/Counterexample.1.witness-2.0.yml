@@ -1,0 +1,71 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "6d36c184-7103-37c2-ac10-bc5ea8654301"
+    creation_time: "2025-01-15T14:07:52+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c: "5d5776e5c156697f7904030f0f3bd28f9f897d1228e5bd5959681842e0474064"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+          line: 28
+          column: 5
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+          line: 32
+          column: 9
+          function: "__fpclassify_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+          line: 51
+          column: 5
+          function: "fmax_double"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+          line: 83
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1252b_process_dc_iter1.c"
+          line: 84
+          column: 17
+          function: "main"

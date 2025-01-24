@@ -1,0 +1,59 @@
+line 16:	N38 -{int iVar1;}-> N39
+line 20:	N41 -{id(10)}-> N58
+	x == 10;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 10;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 9;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 9;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 8;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 8;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 7;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 7;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 6;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 6;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 5;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 5;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 4;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 4;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 3;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 3;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 2;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 2;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 1;
+line 33:	N61 -{[!(x == 0)]}-> N64
+	x == 1;
+line 36:	N64 -{id(x - 1)}-> N58
+	x == 0;
+line 33:	N61 -{[x == 0]}-> N63
+	iVar1 == 10;
+	iVar1 == 9;
+	iVar1 == 8;
+	iVar1 == 7;
+	iVar1 == 6;
+	iVar1 == 5;
+	iVar1 == 4;
+	iVar1 == 3;
+	iVar1 == 2;
+	iVar1 == 1;
+	iVar1 == 0;
+	x == 0;
+line 21:	N42 -{[iVar1 == 10]}-> N44
+	iVar1 == 10;
+line 22:	N53 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 10\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id_i10_o10-1_process_dc_iter1.c", 22, "__PRETTY_FUNCTION__");}-> N345

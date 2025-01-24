@@ -1,0 +1,8 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_uint| () (_ BitVec 32))
+(declare-fun |main::local_2c| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+
+main:
+(assert (let ((.def_94 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_96 (= .def_94 |main::q|))).def_96)))
+

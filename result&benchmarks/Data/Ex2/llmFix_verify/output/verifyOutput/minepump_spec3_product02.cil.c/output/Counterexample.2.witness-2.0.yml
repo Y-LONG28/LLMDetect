@@ -1,0 +1,164 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "cd3b4aa6-fa1f-3a3e-9e7f-c63e0cb004c3"
+    creation_time: "2025-01-24T02:20:12+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec3_product02.cil_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec3_product02.cil_dc_fix.c: "e6243f4cedfcf50dac79158e93e656bbd1bba37edff6100b317ec2beb67543f1"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c: "20b02171cd67f4f49b851fc9fe582ff86e0795f4f519c7b6237ed4a8729c8b43"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 767
+          column: 3
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 630
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 638
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 638
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 799
+          column: 3
+          function: "waterRise"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___0 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 648
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___2 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 658
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 658
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 479
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 590
+          column: 3
+          function: "__utac_acc__Specification3_spec__1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 596
+          column: 5
+          function: "__utac_acc__Specification3_spec__1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 600
+          column: 7
+          function: "__utac_acc__Specification3_spec__1"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec3_product02.cil/minepump_spec3_product02.cil.c"
+          line: 84
+          column: 3
+          function: "__automaton_fail"

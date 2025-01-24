@@ -1,0 +1,46 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::result| () (_ BitVec 32))
+(declare-fun |ackermann::m__param__| () (_ BitVec 32))
+(declare-fun |ackermann::m| () (_ BitVec 32))
+
+ackermann N30:
+(assert (let ((.def_137 (= |main::result| (_ bv0 32)))).def_137))
+(assert (let ((.def_134 ((_ extract 31 31) |main::result|)))(let ((.def_135 (= .def_134 (_ bv1 1)))).def_135)))
+(assert (let ((.def_132 (bvslt (_ bv3 32) |main::result|))).def_132))
+(assert (let ((.def_140 (= |ackermann::m__param__| (_ bv0 32)))).def_140))
+(assert (let ((.def_260 (= |ackermann::m| (_ bv0 32)))).def_260))
+(assert (let ((.def_308 (= |ackermann::m__param__| (_ bv1 32)))).def_308))
+(assert (let ((.def_306 (= |ackermann::m__param__| |ackermann::m|))).def_306))
+(assert (let ((.def_310 (= |main::result| (_ bv1 32)))).def_310))
+(assert (let ((.def_631 (= |ackermann::m| (_ bv1 32)))).def_631))
+
+ackermann N41:
+(assert (let ((.def_306 (= |ackermann::m__param__| |ackermann::m|))).def_306))
+
+ackermann N42:
+(assert (let ((.def_260 (= |ackermann::m| (_ bv0 32)))).def_260))
+(assert (let ((.def_306 (= |ackermann::m__param__| |ackermann::m|))).def_306))
+
+ackermann N43:
+(assert (let ((.def_308 (= |ackermann::m__param__| (_ bv1 32)))).def_308))
+
+ackermann N44:
+(assert false)
+(assert (let ((.def_306 (= |ackermann::m__param__| |ackermann::m|))).def_306))
+(assert (let ((.def_631 (= |ackermann::m| (_ bv1 32)))).def_631))
+
+ackermann N45:
+(assert (let ((.def_308 (= |ackermann::m__param__| (_ bv1 32)))).def_308))
+(assert false)
+
+main N68:
+(assert (let ((.def_132 (bvslt (_ bv3 32) |main::result|))).def_132))
+(assert (let ((.def_134 ((_ extract 31 31) |main::result|)))(let ((.def_135 (= .def_134 (_ bv1 1)))).def_135)))
+
+main N71:
+(assert (let ((.def_137 (= |main::result| (_ bv0 32)))).def_137))
+(assert (let ((.def_310 (= |main::result| (_ bv1 32)))).def_310))
+
+main N366:
+(assert false)
+

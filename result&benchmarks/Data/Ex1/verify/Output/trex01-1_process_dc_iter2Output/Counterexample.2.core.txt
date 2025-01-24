@@ -1,0 +1,29 @@
+line 44:	N82 -{char local_11;}-> N83
+	local_11 == 2;
+line 48:	N85 -{[!(local_11 == '\x0')]}-> N88
+	local_11 == 2;
+line 51:	N88 -{f(1)}-> N37
+	d == 1;
+line 15:	N40 -{int iStack_28;}-> N41
+	expr_tmp_var_46_int == 3;
+	z == 2;
+	k == 3;
+	expr_tmp_var_48_int == 2;
+	iStack_28 == 0;
+line 24:	N48 -{expr_tmp_var_47_int = 1;}-> N49
+	d == 1;
+	iStack_28 == 0;
+	expr_tmp_var_48_int == 2;
+	expr_tmp_var_47_int == 1;
+	expr_tmp_var_46_int == 3;
+	z == 2;
+	k == 3;
+line 25:	N49 -{[iStack_28 < 1073741824]}-> N51
+	iStack_28 == 0;
+line 26:	N51 -{for}-> N52
+line 26:	N52 -{[!(expr_tmp_var_47_int < iStack_28)]}-> N55
+	expr_tmp_var_47_int == 1;
+	iStack_28 == 0;
+line 28:	N55 -{[expr_tmp_var_47_int < 2]}-> N57
+	expr_tmp_var_47_int == 1;
+line 29:	N66 -{__assert_fail("0 && \"Assertion failed: expr_tmp_var_47_int should not be less than 2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/trex01-1_process_dc_iter2.c", 29, "__PRETTY_FUNCTION__");}-> N393

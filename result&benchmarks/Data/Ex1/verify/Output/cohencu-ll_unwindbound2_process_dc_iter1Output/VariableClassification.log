@@ -1,0 +1,57 @@
+IntBool
+
+[main::__CPAchecker_TMP_12, main::__CPAchecker_TMP_24, main::__CPAchecker_TMP_21, main::__CPAchecker_TMP_33, main::__CPAchecker_TMP_30, __bswap_32::__bsx, main::__retval__, __bswap_16::__bsx, main::a, assume::cond, main::__CPAchecker_TMP_3, __bswap_64::__bsx, main::__CPAchecker_TMP_18, main::__CPAchecker_TMP_9, main::__CPAchecker_TMP_27, main::__CPAchecker_TMP_6, main::__CPAchecker_TMP_15]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, counter]
+
+IntOverflow
+
+[main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, main::z, main::y, main::x, main::local_32, counter, main::lStack_30]
+
+ALL
+
+[main::__CPAchecker_TMP_24, main::iVar2, main::__CPAchecker_TMP_21, __bswap_32::__bsx, main::local_32, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::a, assume::cond, main::__CPAchecker_TMP_3, main::n, main::__CPAchecker_TMP_0, main::x, __bswap_64::__CPAchecker_TMP_0, main::__CPAchecker_TMP_9, main::__CPAchecker_TMP_27, main::__CPAchecker_TMP_6, main::__CPAchecker_TMP_12, main::__CPAchecker_TMP_33, __bswap_16::__CPAchecker_TMP_0, main::__CPAchecker_TMP_30, main::bVar1, main::tmp_var_1_ushort, main::z, main::y, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, counter, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, main::__CPAchecker_TMP_18, __bswap_16::__retval__, __uint16_identity::__retval__, main::lStack_30, main::__CPAchecker_TMP_15]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[counter, main::__CPAchecker_TMP_0, main::bVar1, main::iVar2] --> [0, 1, 2],
+[main::lStack_30, main::local_32, main::x, main::y, main::z] --> [-18, -12, -10, -6, -3, -2, 0, 1, 2, 3, 6, 10, 12],
+[main::a] --> [],
+[main::tmp_var_1_ushort] --> [],
+[main::n] --> [],
+[main::__CPAchecker_TMP_3] --> [0],
+[main::__CPAchecker_TMP_6] --> [0],
+[main::__CPAchecker_TMP_9] --> [0],
+[main::__CPAchecker_TMP_12] --> [0],
+[main::__CPAchecker_TMP_15] --> [0],
+[main::__CPAchecker_TMP_18] --> [0],
+[main::__CPAchecker_TMP_21] --> [0],
+[main::__CPAchecker_TMP_24] --> [0],
+[main::__CPAchecker_TMP_27] --> [0],
+[main::__CPAchecker_TMP_30] --> [0],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_33] --> [0]]
+
+RELEVANT VARS
+
+[assume::cond, main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, main::z, main::y, main::x, main::local_32, counter, main::lStack_30]
+
+RELEVANT FIELDS
+
+{}

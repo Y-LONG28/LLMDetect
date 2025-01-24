@@ -1,0 +1,423 @@
+src/toy1.cil/toy1.cil.c, line 29:	N534 -{int c_t = 0;}-> N535
+	src_toy1_cil_toy1_cil_ct_b == 0;
+	processed == 0;
+	data == 0;
+	d == 0;
+	e_wl == 0;
+	e_c == 0;
+	e_g == 0;
+	e_f == 0;
+	e_e == 0;
+	wb_pc == 0;
+	c2_pc == 0;
+	c1_pc == 0;
+	wl_pc == 0;
+	r_i == 0;
+	wb_i == 0;
+	c2_i == 0;
+	c1_i == 0;
+	wl_i == 0;
+	r_st == 0;
+	wb_st == 0;
+	c2_st == 0;
+	c1_st == 0;
+	wl_st == 0;
+	c_req_up == 0;
+	c_t == 0;
+src/toy1.cil/toy1.cil.c, line 673:	N506 -{e_wl = 2;}-> N507
+	e_wl == 2;
+src/toy1.cil/toy1.cil.c, line 674:	N507 -{e_c = e_wl;}-> N508
+	e_c == 2;
+src/toy1.cil/toy1.cil.c, line 675:	N508 -{e_g = e_c;}-> N509
+	e_g == 2;
+src/toy1.cil/toy1.cil.c, line 676:	N509 -{e_f = e_g;}-> N510
+	e_f == 2;
+src/toy1.cil/toy1.cil.c, line 677:	N510 -{e_e = e_f;}-> N511
+	e_e == 2;
+src/toy1.cil/toy1.cil.c, line 678:	N511 -{wl_pc = 0;}-> N512
+	wl_pc == 0;
+src/toy1.cil/toy1.cil.c, line 679:	N512 -{c1_pc = 0;}-> N513
+	c1_pc == 0;
+src/toy1.cil/toy1.cil.c, line 680:	N513 -{c2_pc = 0;}-> N514
+	c2_pc == 0;
+src/toy1.cil/toy1.cil.c, line 681:	N514 -{wb_pc = 0;}-> N515
+	wb_pc == 0;
+src/toy1.cil/toy1.cil.c, line 682:	N515 -{wb_i = 1;}-> N516
+	wb_i == 1;
+src/toy1.cil/toy1.cil.c, line 683:	N516 -{c2_i = wb_i;}-> N517
+	c2_i == 1;
+src/toy1.cil/toy1.cil.c, line 684:	N517 -{c1_i = c2_i;}-> N518
+	c1_i == 1;
+src/toy1.cil/toy1.cil.c, line 685:	N518 -{wl_i = c1_i;}-> N519
+	wl_i == 1;
+src/toy1.cil/toy1.cil.c, line 686:	N519 -{r_i = 0;}-> N520
+	r_i == 0;
+src/toy1.cil/toy1.cil.c, line 687:	N520 -{c_req_up = 0;}-> N521
+	c_req_up == 0;
+src/toy1.cil/toy1.cil.c, line 688:	N521 -{d = 0;}-> N522
+	d == 0;
+src/toy1.cil/toy1.cil.c, line 689:	N522 -{c = 0;}-> N523
+	c == 0;
+src/toy1.cil/toy1.cil.c, line 690:	N523 -{start_simulation()}-> N267
+src/toy1.cil/toy1.cil.c, line 384:	N270 -{[!(((int)c_req_up) == 1)]}-> N273
+src/toy1.cil/toy1.cil.c, line 395:	N271 -{[((int)wl_i) == 1]}-> N281
+src/toy1.cil/toy1.cil.c, line 396:	N281 -{wl_st = 0;}-> N283
+	wl_st == 0;
+src/toy1.cil/toy1.cil.c, line 400:	N280 -{[((int)c1_i) == 1]}-> N286
+src/toy1.cil/toy1.cil.c, line 401:	N286 -{c1_st = 0;}-> N288
+	c1_st == 0;
+src/toy1.cil/toy1.cil.c, line 405:	N285 -{[((int)c2_i) == 1]}-> N291
+src/toy1.cil/toy1.cil.c, line 406:	N291 -{c2_st = 0;}-> N293
+	c2_st == 0;
+src/toy1.cil/toy1.cil.c, line 410:	N290 -{[((int)wb_i) == 1]}-> N296
+src/toy1.cil/toy1.cil.c, line 411:	N296 -{wb_st = 0;}-> N298
+	wb_st == 0;
+src/toy1.cil/toy1.cil.c, line 415:	N295 -{[!(((int)r_i) == 1)]}-> N302
+src/toy1.cil/toy1.cil.c, line 418:	N302 -{r_st = 2;}-> N304
+	r_st == 2;
+src/toy1.cil/toy1.cil.c, line 420:	N300 -{[!(((int)e_f) == 0)]}-> N307
+src/toy1.cil/toy1.cil.c, line 425:	N305 -{[!(((int)e_g) == 0)]}-> N311
+src/toy1.cil/toy1.cil.c, line 430:	N309 -{[!(((int)e_e) == 0)]}-> N315
+src/toy1.cil/toy1.cil.c, line 435:	N313 -{[!(((int)e_c) == 0)]}-> N319
+src/toy1.cil/toy1.cil.c, line 440:	N317 -{[!(((int)e_wl) == 0)]}-> N323
+src/toy1.cil/toy1.cil.c, line 445:	N321 -{[!(((int)wl_pc) == 1)]}-> N327
+src/toy1.cil/toy1.cil.c, line 453:	N333 -{[!(((int)wl_pc) == 2)]}-> N336
+src/toy1.cil/toy1.cil.c, line 463:	N325 -{[!(((int)c1_pc) == 1)]}-> N343
+src/toy1.cil/toy1.cil.c, line 472:	N341 -{[!(((int)c2_pc) == 1)]}-> N350
+src/toy1.cil/toy1.cil.c, line 481:	N348 -{[!(((int)wb_pc) == 1)]}-> N357
+src/toy1.cil/toy1.cil.c, line 490:	N355 -{[!(((int)e_c) == 1)]}-> N364
+src/toy1.cil/toy1.cil.c, line 495:	N362 -{[!(((int)e_e) == 1)]}-> N368
+src/toy1.cil/toy1.cil.c, line 500:	N366 -{[!(((int)e_f) == 1)]}-> N372
+src/toy1.cil/toy1.cil.c, line 505:	N370 -{[!(((int)e_g) == 1)]}-> N376
+src/toy1.cil/toy1.cil.c, line 510:	N374 -{[!(((int)e_c) == 1)]}-> N380
+src/toy1.cil/toy1.cil.c, line 515:	N378 -{[!(((int)e_wl) == 1)]}-> N384
+src/toy1.cil/toy1.cil.c, line 521:	N382 -{while}-> N386
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	wl_st == 1;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[((int)wl_pc) == 0]}-> N27
+src/toy1.cil/toy1.cil.c, line 80:	N38 -{wl_st = 2;}-> N39
+	wl_st == 2;
+src/toy1.cil/toy1.cil.c, line 81:	N39 -{wl_pc = 1;}-> N40
+	wl_pc == 1;
+src/toy1.cil/toy1.cil.c, line 82:	N40 -{e_wl = 0;}-> N41
+	e_wl == 0;
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[((int)c1_st) == 0]}-> N228
+src/toy1.cil/toy1.cil.c, line 314:	N228 -{tmp___0 = __VERIFIER_nondet_int();}-> N230
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 316:	N230 -{[!(tmp___0 == 0)]}-> N232
+	c1_st == 1;
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 319:	N234 -{compute1()}-> N91
+src/toy1.cil/toy1.cil.c, line 149:	N92 -{[((int)c1_pc) == 0]}-> N94
+src/toy1.cil/toy1.cil.c, line 160:	N101 -{while}-> N102
+src/toy1.cil/toy1.cil.c, line 162:	N105 -{c1_st = 2;}-> N106
+	c1_st == 2;
+src/toy1.cil/toy1.cil.c, line 163:	N106 -{c1_pc = 1;}-> N107
+	c1_pc == 1;
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[((int)c2_st) == 0]}-> N237
+src/toy1.cil/toy1.cil.c, line 329:	N237 -{tmp___1 = __VERIFIER_nondet_int();}-> N239
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 331:	N239 -{[!(tmp___1 == 0)]}-> N241
+	c2_st == 1;
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 334:	N243 -{compute2()}-> N129
+src/toy1.cil/toy1.cil.c, line 194:	N130 -{[((int)c2_pc) == 0]}-> N132
+src/toy1.cil/toy1.cil.c, line 205:	N139 -{while}-> N140
+src/toy1.cil/toy1.cil.c, line 207:	N143 -{c2_st = 2;}-> N144
+	c2_st == 2;
+src/toy1.cil/toy1.cil.c, line 208:	N144 -{c2_pc = 1;}-> N145
+	c2_pc == 1;
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[((int)wb_st) == 0]}-> N246
+src/toy1.cil/toy1.cil.c, line 344:	N246 -{tmp___2 = __VERIFIER_nondet_int();}-> N248
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 346:	N248 -{[!(tmp___2 == 0)]}-> N250
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 348:	N250 -{wb_st = 1;}-> N252
+	wb_st == 1;
+src/toy1.cil/toy1.cil.c, line 349:	N252 -{write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed)}-> N1
+	wb_pc == 52LL;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	c_req_up == 12LL;
+	processed == 68LL;
+output/toy1.cil_dc_fix.c, line 2:	N2 -{[!((*wb_pc) != 0)]}-> N3
+	(*wb_pc) == 1;
+	(*wb_st) == 2;
+	wb_pc == 52LL;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	c_req_up == 12LL;
+	processed == 68LL;
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[!(((int)r_st) == 0)]}-> N256
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[!(((int)r_st) == 0)]}-> N216
+src/toy1.cil/toy1.cil.c, line 528:	N392 -{[!(((int)c_req_up) == 1)]}-> N395
+src/toy1.cil/toy1.cil.c, line 540:	N402 -{[!(((int)e_f) == 0)]}-> N405
+src/toy1.cil/toy1.cil.c, line 545:	N403 -{[!(((int)e_g) == 0)]}-> N409
+src/toy1.cil/toy1.cil.c, line 550:	N407 -{[!(((int)e_e) == 0)]}-> N413
+src/toy1.cil/toy1.cil.c, line 555:	N411 -{[!(((int)e_c) == 0)]}-> N417
+src/toy1.cil/toy1.cil.c, line 560:	N415 -{[((int)e_wl) == 0]}-> N420
+src/toy1.cil/toy1.cil.c, line 561:	N420 -{e_wl = 1;}-> N422
+	e_wl == 1;
+src/toy1.cil/toy1.cil.c, line 565:	N419 -{[((int)wl_pc) == 1]}-> N424
+src/toy1.cil/toy1.cil.c, line 566:	N424 -{[((int)e_wl) == 1]}-> N427
+src/toy1.cil/toy1.cil.c, line 567:	N427 -{wl_st = 0;}-> N429
+	wl_st == 0;
+src/toy1.cil/toy1.cil.c, line 583:	N423 -{[((int)c1_pc) == 1]}-> N440
+src/toy1.cil/toy1.cil.c, line 584:	N440 -{[!(((int)e_f) == 1)]}-> N444
+src/toy1.cil/toy1.cil.c, line 592:	N439 -{[((int)c2_pc) == 1]}-> N447
+src/toy1.cil/toy1.cil.c, line 593:	N447 -{[!(((int)e_f) == 1)]}-> N451
+src/toy1.cil/toy1.cil.c, line 601:	N446 -{[((int)wb_pc) == 1]}-> N454
+src/toy1.cil/toy1.cil.c, line 602:	N454 -{[!(((int)e_g) == 1)]}-> N458
+src/toy1.cil/toy1.cil.c, line 610:	N453 -{[!(((int)e_c) == 1)]}-> N462
+src/toy1.cil/toy1.cil.c, line 615:	N460 -{[!(((int)e_e) == 1)]}-> N466
+src/toy1.cil/toy1.cil.c, line 620:	N464 -{[!(((int)e_f) == 1)]}-> N470
+src/toy1.cil/toy1.cil.c, line 625:	N468 -{[!(((int)e_g) == 1)]}-> N474
+src/toy1.cil/toy1.cil.c, line 630:	N472 -{[!(((int)e_c) == 1)]}-> N478
+src/toy1.cil/toy1.cil.c, line 635:	N476 -{[((int)e_wl) == 1]}-> N481
+src/toy1.cil/toy1.cil.c, line 636:	N481 -{e_wl = 2;}-> N483
+	e_wl == 2;
+src/toy1.cil/toy1.cil.c, line 640:	N480 -{[((int)wl_st) == 0]}-> N485
+none:	N484 -{}-> N386
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+	tmp___2 == 2;
+	tmp___1 == 2;
+	tmp___0 == 2;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	wl_st == 1;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[!(((int)wl_pc) == 0)]}-> N28
+src/toy1.cil/toy1.cil.c, line 69:	N28 -{[!(((int)wl_pc) == 2)]}-> N32
+src/toy1.cil/toy1.cil.c, line 72:	N32 -{[((int)wl_pc) == 1]}-> N35
+src/toy1.cil/toy1.cil.c, line 87:	N44 -{while}-> N45
+src/toy1.cil/toy1.cil.c, line 89:	N48 -{t = d;}-> N49
+	data == 0;
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 91:	N50 -{processed = 0;}-> N51
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 92:	N51 -{e_f = 1;}-> N52
+	e_f == 1;
+src/toy1.cil/toy1.cil.c, line 93:	N52 -{[((int)c1_pc) == 1]}-> N54
+src/toy1.cil/toy1.cil.c, line 94:	N54 -{[((int)e_f) == 1]}-> N57
+src/toy1.cil/toy1.cil.c, line 95:	N57 -{c1_st = 0;}-> N59
+	c1_st == 0;
+src/toy1.cil/toy1.cil.c, line 102:	N53 -{[((int)c2_pc) == 1]}-> N61
+src/toy1.cil/toy1.cil.c, line 103:	N61 -{[((int)e_f) == 1]}-> N64
+src/toy1.cil/toy1.cil.c, line 104:	N64 -{c2_st = 0;}-> N66
+	c2_st == 0;
+src/toy1.cil/toy1.cil.c, line 111:	N60 -{e_f = 2;}-> N67
+	e_f == 2;
+src/toy1.cil/toy1.cil.c, line 112:	N67 -{wl_st = 2;}-> N68
+	wl_st == 2;
+src/toy1.cil/toy1.cil.c, line 113:	N68 -{wl_pc = 2;}-> N69
+	wl_pc == 2;
+src/toy1.cil/toy1.cil.c, line 114:	N69 -{src_toy1_cil_toy1_cil_ct_b = t;}-> N70
+	src_toy1_cil_toy1_cil_ct_b == 0;
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[((int)c1_st) == 0]}-> N228
+src/toy1.cil/toy1.cil.c, line 314:	N228 -{tmp___0 = __VERIFIER_nondet_int();}-> N230
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 316:	N230 -{[!(tmp___0 == 0)]}-> N232
+	c1_st == 1;
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 319:	N234 -{compute1()}-> N91
+src/toy1.cil/toy1.cil.c, line 149:	N92 -{[!(((int)c1_pc) == 0)]}-> N95
+src/toy1.cil/toy1.cil.c, line 152:	N95 -{[((int)c1_pc) == 1]}-> N98
+src/toy1.cil/toy1.cil.c, line 167:	N110 -{[processed == 0]}-> N112
+	data == 1;
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 169:	N114 -{e_g = 1;}-> N115
+	e_g == 1;
+src/toy1.cil/toy1.cil.c, line 170:	N115 -{[((int)wb_pc) == 1]}-> N117
+src/toy1.cil/toy1.cil.c, line 171:	N117 -{[((int)e_g) == 1]}-> N120
+	e_g == 2;
+	wb_st == 0;
+none:	N111 -{}-> N102
+src/toy1.cil/toy1.cil.c, line 162:	N105 -{c1_st = 2;}-> N106
+	c1_st == 2;
+src/toy1.cil/toy1.cil.c, line 163:	N106 -{c1_pc = 1;}-> N107
+	c1_pc == 1;
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[((int)c2_st) == 0]}-> N237
+src/toy1.cil/toy1.cil.c, line 329:	N237 -{tmp___1 = __VERIFIER_nondet_int();}-> N239
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 331:	N239 -{[!(tmp___1 == 0)]}-> N241
+	c2_st == 1;
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 334:	N243 -{compute2()}-> N129
+src/toy1.cil/toy1.cil.c, line 194:	N130 -{[!(((int)c2_pc) == 0)]}-> N133
+src/toy1.cil/toy1.cil.c, line 197:	N133 -{[((int)c2_pc) == 1]}-> N136
+src/toy1.cil/toy1.cil.c, line 212:	N148 -{[processed == 0]}-> N150
+	data == 2;
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 214:	N152 -{e_g = 1;}-> N153
+	e_g == 1;
+src/toy1.cil/toy1.cil.c, line 215:	N153 -{[((int)wb_pc) == 1]}-> N155
+src/toy1.cil/toy1.cil.c, line 216:	N155 -{[((int)e_g) == 1]}-> N158
+src/toy1.cil/toy1.cil.c, line 217:	N158 -{wb_st = 0;}-> N160
+	wb_st == 0;
+src/toy1.cil/toy1.cil.c, line 224:	N154 -{e_g = 2;}-> N161
+	e_g == 2;
+none:	N149 -{}-> N140
+src/toy1.cil/toy1.cil.c, line 207:	N143 -{c2_st = 2;}-> N144
+	c2_st == 2;
+src/toy1.cil/toy1.cil.c, line 208:	N144 -{c2_pc = 1;}-> N145
+	c2_pc == 1;
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[((int)wb_st) == 0]}-> N246
+src/toy1.cil/toy1.cil.c, line 344:	N246 -{tmp___2 = __VERIFIER_nondet_int();}-> N248
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 346:	N248 -{[!(tmp___2 == 0)]}-> N250
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 348:	N250 -{wb_st = 1;}-> N252
+	wb_st == 1;
+src/toy1.cil/toy1.cil.c, line 349:	N252 -{write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed)}-> N1
+	wb_pc == 52LL;
+	(*wb_pc) == 1;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	(*data) == 2;
+	c_req_up == 12LL;
+	processed == 68LL;
+	(*processed) == 0;
+output/toy1.cil_dc_fix.c, line 2:	N2 -{[(*wb_pc) != 0]}-> N5
+	(*wb_pc) == 1;
+	wb_pc == 52LL;
+	(*wb_pc) == 1;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	(*data) == 2;
+	c_req_up == 12LL;
+	processed == 68LL;
+	(*processed) == 0;
+output/toy1.cil_dc_fix.c, line 2:	N5 -{[(*wb_pc) == 1]}-> N4
+	(*wb_pc) == 1;
+	(*wb_st) == 2;
+	(*processed) == 1;
+	(*c_req_up) == 1;
+	(*c_t) == 2;
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[!(((int)r_st) == 0)]}-> N256
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[!(((int)r_st) == 0)]}-> N216
+src/toy1.cil/toy1.cil.c, line 528:	N392 -{[((int)c_req_up) == 1]}-> N394
+src/toy1.cil/toy1.cil.c, line 529:	N394 -{[c != c_t]}-> N397
+	c == 0;
+	c_t == 2;
+src/toy1.cil/toy1.cil.c, line 530:	N397 -{c = c_t;}-> N399
+	c == 2;
+src/toy1.cil/toy1.cil.c, line 531:	N399 -{e_c = 0;}-> N400
+	c_req_up == 0;
+	e_c == 0;
+src/toy1.cil/toy1.cil.c, line 540:	N402 -{[!(((int)e_f) == 0)]}-> N405
+src/toy1.cil/toy1.cil.c, line 545:	N403 -{[!(((int)e_g) == 0)]}-> N409
+src/toy1.cil/toy1.cil.c, line 550:	N407 -{[!(((int)e_e) == 0)]}-> N413
+src/toy1.cil/toy1.cil.c, line 555:	N411 -{[((int)e_c) == 0]}-> N416
+src/toy1.cil/toy1.cil.c, line 556:	N416 -{e_c = 1;}-> N418
+	e_c == 1;
+src/toy1.cil/toy1.cil.c, line 560:	N415 -{[!(((int)e_wl) == 0)]}-> N421
+src/toy1.cil/toy1.cil.c, line 565:	N419 -{[!(((int)wl_pc) == 1)]}-> N425
+src/toy1.cil/toy1.cil.c, line 573:	N431 -{[((int)wl_pc) == 2]}-> N433
+src/toy1.cil/toy1.cil.c, line 574:	N433 -{[!(((int)e_e) == 1)]}-> N437
+src/toy1.cil/toy1.cil.c, line 583:	N423 -{[((int)c1_pc) == 1]}-> N440
+src/toy1.cil/toy1.cil.c, line 584:	N440 -{[!(((int)e_f) == 1)]}-> N444
+src/toy1.cil/toy1.cil.c, line 592:	N439 -{[((int)c2_pc) == 1]}-> N447
+src/toy1.cil/toy1.cil.c, line 593:	N447 -{[!(((int)e_f) == 1)]}-> N451
+src/toy1.cil/toy1.cil.c, line 601:	N446 -{[((int)wb_pc) == 1]}-> N454
+src/toy1.cil/toy1.cil.c, line 602:	N454 -{[!(((int)e_g) == 1)]}-> N458
+src/toy1.cil/toy1.cil.c, line 610:	N453 -{[((int)e_c) == 1]}-> N461
+src/toy1.cil/toy1.cil.c, line 611:	N461 -{r_st = 0;}-> N463
+	r_st == 0;
+src/toy1.cil/toy1.cil.c, line 615:	N460 -{[!(((int)e_e) == 1)]}-> N466
+src/toy1.cil/toy1.cil.c, line 620:	N464 -{[!(((int)e_f) == 1)]}-> N470
+src/toy1.cil/toy1.cil.c, line 625:	N468 -{[!(((int)e_g) == 1)]}-> N474
+src/toy1.cil/toy1.cil.c, line 630:	N472 -{[((int)e_c) == 1]}-> N477
+	e_c == 2;
+src/toy1.cil/toy1.cil.c, line 635:	N476 -{[!(((int)e_wl) == 1)]}-> N482
+src/toy1.cil/toy1.cil.c, line 640:	N480 -{[!(((int)wl_st) == 0)]}-> N486
+src/toy1.cil/toy1.cil.c, line 643:	N486 -{[!(((int)c1_st) == 0)]}-> N489
+src/toy1.cil/toy1.cil.c, line 646:	N489 -{[!(((int)c2_st) == 0)]}-> N492
+src/toy1.cil/toy1.cil.c, line 649:	N492 -{[!(((int)wb_st) == 0)]}-> N495
+src/toy1.cil/toy1.cil.c, line 652:	N495 -{[((int)r_st) == 0]}-> N497
+none:	N484 -{}-> N386
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+	tmp___2 == 2;
+	tmp___1 == 2;
+	tmp___0 == 2;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[((int)r_st) == 0]}-> N215
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[!(((int)wl_st) == 0)]}-> N220
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[!(((int)c1_st) == 0)]}-> N229
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[!(((int)c2_st) == 0)]}-> N238
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[!(((int)wb_st) == 0)]}-> N247
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[((int)r_st) == 0]}-> N255
+src/toy1.cil/toy1.cil.c, line 359:	N255 -{tmp___3 = __VERIFIER_nondet_int();}-> N257
+	tmp___3 == 2;
+src/toy1.cil/toy1.cil.c, line 361:	N257 -{[!(tmp___3 == 0)]}-> N259
+	r_st == 1;
+	tmp___3 == 2;
+src/toy1.cil/toy1.cil.c, line 364:	N261 -{read()}-> N167
+src/toy1.cil/toy1.cil.c, line 239:	N168 -{d = c;}-> N169
+	d == 2;
+src/toy1.cil/toy1.cil.c, line 240:	N169 -{e_e = 1;}-> N170
+	e_e == 1;
+src/toy1.cil/toy1.cil.c, line 241:	N170 -{[!(((int)wl_pc) == 1)]}-> N173
+src/toy1.cil/toy1.cil.c, line 249:	N179 -{[((int)wl_pc) == 2]}-> N181
+src/toy1.cil/toy1.cil.c, line 250:	N181 -{[((int)e_e) == 1]}-> N184
+src/toy1.cil/toy1.cil.c, line 251:	N184 -{wl_st = 0;}-> N186
+	r_st == 2;
+	e_e == 2;
+	wl_st == 0;
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	wl_st == 1;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[!(((int)wl_pc) == 0)]}-> N28
+src/toy1.cil/toy1.cil.c, line 69:	N28 -{[((int)wl_pc) == 2]}-> N31
+src/toy1.cil/toy1.cil.c, line 118:	N73 -{t = src_toy1_cil_toy1_cil_ct_b;}-> N74
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 119:	N74 -{[!(d == (t + 1))]}-> N77
+	d == 2;
+src/toy1.cil/toy1.cil.c, line 122:	N77 -{[d == (t + 2)]}-> N79
+	d == 2;
+src/toy1.cil/toy1.cil.c, line 130:	N75 -{[!(d == (t + 1))]}-> N84
+	d == 2;
+src/toy1.cil/toy1.cil.c, line 134:	N84 -{error()}-> N16

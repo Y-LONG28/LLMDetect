@@ -1,0 +1,38 @@
+2025-01-15 14:18:49:261	INFO	CPAMain.detectFrontendLanguageIfNecessary	Language C detected and set for analysis
+
+2025-01-15 14:18:49:278	INFO	ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:49:325	INFO	CPAchecker.run	CPAchecker 4.0 / default (OpenJDK 64-Bit Server VM 21.0.5) started
+
+2025-01-15 14:18:49:338	INFO	CPAchecker.parse	Parsing CFA from file(s) "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/implicitfloatconversion_process_dc_iter1.c"
+
+2025-01-15 14:18:50:237	INFO	CPAchecker.run	Using default specification, which checks for assertion failures and error labels.
+
+2025-01-15 14:18:50:587	INFO	CoreComponentsFactory.createAlgorithm	Using heuristics to select analysis
+
+2025-01-15 14:18:50:597	WARNING	CPAchecker.printConfigurationWarnings	The following configuration options were specified but are not used:
+ cpa.callstack.unsupportedFunctions 
+
+
+2025-01-15 14:18:50:598	INFO	CPAchecker.runAlgorithm	Starting analysis ...
+
+2025-01-15 14:18:50:602	INFO	SelectionAlgorithm.chooseConfig	Performing heuristic ...
+
+2025-01-15 14:18:50:604	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:50:606	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:CoreComponentsFactory.createAlgorithm	Using Restarting Algorithm
+
+2025-01-15 14:18:50:610	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Loading analysis 1 from file /opt/cpachecker/config/components/configselection-bmc-incremental.properties ...
+
+2025-01-15 14:18:50:613	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:ResourceLimitChecker.fromConfiguration	Using the following resource limits: CPU-time limit of 300s
+
+2025-01-15 14:18:50:713	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:Analysis /opt/cpachecker/config/components/configselection-bmc-incremental.properties:PredicateCPA:PredicateCPA.<init>	Using predicate analysis with MathSAT5 version 5.6.10 (9293adc746be) (May 31 2023 12:38:06, gmp 6.2.0, gcc 7.5.0, 64-bit, reentrant).
+
+2025-01-15 14:18:50:873	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.run	Starting analysis 1 ...
+
+2025-01-15 14:18:50:953	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/recursion.properties' because condition if-recursive did not match.
+
+2025-01-15 14:18:50:955	INFO	Analysis /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties:RestartAlgorithm.skipNextAnalysesIfRequired	Ignoring restart configuration '/opt/cpachecker/config/components/concurrency.properties' because condition if-concurrent did not match.
+
+2025-01-15 14:18:50:957	INFO	CPAchecker.runAlgorithm	Stopping analysis ...
+

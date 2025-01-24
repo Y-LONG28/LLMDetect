@@ -1,0 +1,62 @@
+line 64:	N68 -{int iVar1;}-> N69
+line 65:	N69 -{dummy *pdVar2;}-> N70
+line 66:	N70 -{dummy *s1;}-> N71
+line 68:	N72 -{uint32_t extraout_var;}-> N73
+	(&pd1) == 44LL;
+	extraout_var == 0U;
+line 71:	N74 -{init()}-> N37
+line 31:	N40 -{uint32_t local_1c;}-> N41
+	local_1c == 2147483660U;
+line 33:	N42 -{int expr_tmp_var_65_int;}-> N43
+	(d1.a) == -2147483636;
+	expr_tmp_var_65_int == -2147483636;
+line 37:	N45 -{assume(2147483657U < ((uint32_t )expr_tmp_var_65_int))}-> N31
+	cond == 1;
+line 22:	N32 -{[!(cond == 0)]}-> N33
+	(d2.a) == -2147483636;
+	cond == 1;
+line 40:	N48 -{assume(2147483657U < ((uint32_t )local_1c))}-> N31
+	cond == 1;
+line 22:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 72:	N75 -{get_dummy()}-> N52
+line 47:	N54 -{uint8_t local_11;}-> N55
+	local_11 == 2U;
+line 49:	N55 -{[!(local_11 == '\x0')]}-> N58
+	lVar1 == 488L;
+	local_11 == 2U;
+line 73:	N76 -{get_dummy()}-> N52
+	lVar1 == 488L;
+line 47:	N54 -{uint8_t local_11;}-> N55
+	local_11 == 2U;
+line 49:	N55 -{[!(local_11 == '\x0')]}-> N58
+	lVar1 == 488L;
+	local_11 == 2U;
+line 74:	N77 -{get_dummy()}-> N52
+	lVar1 == 488L;
+line 47:	N54 -{uint8_t local_11;}-> N55
+	local_11 == 0U;
+line 49:	N55 -{[local_11 == '\x0']}-> N57
+	lVar1 == 496L;
+	local_11 == 0U;
+line 75:	N78 -{[pdVar2 != ((dummy *)0)]}-> N82
+	pdVar2 == 1049064LL;
+line 75:	N82 -{[pdVar2 == s1]}-> N81
+	pdVar2 == 1049064LL;
+	s1 == 1049064LL;
+line 75:	N81 -{[0 < (s1->a)]}-> N80
+	(s1->a) == 2;
+lines 76-77:	N83 -{pd1.a = (pdVar3->a) + -10;}-> N84
+	(pd1.a) == 3;
+line 76:	N84 -{[!((pd1.a) < (pdVar2->a))]}-> N87
+	(pd1.a) == 3;
+	(pdVar2->a) == 2;
+line 78:	N87 -{check(s1, pd1.a)}-> N63
+	s1 == 1049064LL;
+	(s1->a) == 2;
+	i == 3;
+line 79:	N88 -{[((uint32_t )extraout_var) == 0]}-> N91
+line 79:	N91 -{[iVar1 == 0]}-> N90
+	iVar1 == 1048576;
+	iVar1 == 0;
+line 81:	N101 -{__assert_fail("0 && \"Assertion failed: check(s1, pd1.a) should not return 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test22-3_process_dc_iter3.c", 81, "__PRETTY_FUNCTION__");}-> N412

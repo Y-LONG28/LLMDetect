@@ -1,0 +1,41 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__utac_acc__EncryptForward_spec__2::tmp| () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_Sign () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_Encrypt () (_ BitVec 32))
+(declare-fun in_encrypted () (_ BitVec 32))
+(declare-fun bob () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size0 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size1 () (_ BitVec 32))
+(declare-fun __ste_ClientAddressBook_size2 () (_ BitVec 32))
+(declare-fun __ste_email_isEncrypted0 () (_ BitVec 32))
+(declare-fun rjh () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_User0 () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_Decrypt () (_ BitVec 32))
+(declare-fun __SELECTED_FEATURE_Verify () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey1 () (_ BitVec 32))
+(declare-fun __ste_Client_Keyring0_PublicKey0 () (_ BitVec 32))
+
+__utac_acc__EncryptForward_spec__2:
+(assert (let ((.def_4786 (= |__utac_acc__EncryptForward_spec__2::tmp| (_ bv0 32)))).def_4786))
+
+test N86:
+(assert (let ((.def_4794 (= __SELECTED_FEATURE_Sign (_ bv0 32)))).def_4794))
+(assert (let ((.def_4797 (= __SELECTED_FEATURE_Encrypt (_ bv0 32)))).def_4797))
+(assert (let ((.def_4800 (= in_encrypted (_ bv0 32)))).def_4800))
+(assert (let ((.def_26743 (= bob (_ bv1 32)))).def_26743))
+(assert (let ((.def_26746 (= __ste_ClientAddressBook_size0 (_ bv0 32)))).def_26746))
+(assert (let ((.def_177253 (= __ste_ClientAddressBook_size1 (_ bv0 32)))).def_177253))
+(assert (let ((.def_177256 (= __ste_ClientAddressBook_size2 (_ bv0 32)))).def_177256))
+(assert (let ((.def_269045 (= __ste_email_isEncrypted0 (_ bv0 32)))).def_269045))
+(assert (let ((.def_269049 (= rjh __ste_Client_Keyring0_User1))).def_269049))
+(assert (let ((.def_269052 (= rjh __ste_Client_Keyring0_User0))).def_269052))
+(assert (let ((.def_269054 (= bob (_ bv2 32)))).def_269054))
+(assert (let ((.def_269057 (= __SELECTED_FEATURE_Decrypt (_ bv0 32)))).def_269057))
+(assert (let ((.def_269060 (= __SELECTED_FEATURE_Verify (_ bv0 32)))).def_269060))
+(assert (let ((.def_341142 (= __ste_Client_Keyring0_PublicKey1 (_ bv0 32)))).def_341142))
+(assert (let ((.def_341145 (= __ste_Client_Keyring0_PublicKey0 (_ bv0 32)))).def_341145))
+
+__automaton_fail N1063:
+(assert false)
+

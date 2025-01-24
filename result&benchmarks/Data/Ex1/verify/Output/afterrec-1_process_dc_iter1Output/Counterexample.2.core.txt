@@ -1,0 +1,13 @@
+line 19:	N57 -{f(4)}-> N37
+	n == 4;
+line 11:	N39 -{[2 < n]}-> N41
+	n == 4;
+line 12:	N41 -{f(n - 1)}-> N37
+	n == 3;
+line 11:	N39 -{[2 < n]}-> N41
+	n == 3;
+line 12:	N41 -{f(n - 1)}-> N37
+	n == 2;
+line 11:	N39 -{[!(2 < n)]}-> N40
+	n == 2;
+line 13:	N51 -{__assert_fail("0 && \"Assertion failed: Condition in f function\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec-1_process_dc_iter1.c", 13, "__PRETTY_FUNCTION__");}-> N336

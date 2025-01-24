@@ -1,0 +1,11 @@
+line 16:	N37 -{int count;}-> N38
+	count == 0;
+lines 17-20:	N38 -{int __CPAchecker_TMP_0;}-> N41
+lines 17-20:	N41 -{_setjmp(my_jump_buffer)}-> N60
+line 17:	N42 -{[__CPAchecker_TMP_0 == 0]}-> N40
+	__CPAchecker_TMP_0 == 0;
+line 18:	N43 -{[!(count != 0)]}-> N45
+	count == 0;
+line 18:	N48 -{[!(count != 0)]}-> N51
+	count == 0;
+line 18:	N51 -{__assert_fail("count != 0 && \"Assertion failed: count should not be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_04-counting-local_unknown_1_neg_process_dc_iter1.c", 18, "__PRETTY_FUNCTION__");}-> N353

@@ -1,0 +1,31 @@
+lines 18-19:	N42 -{local_14 = 0;}-> N43
+	local_14 == 0U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 0U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 1U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 1U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 2U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 2U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 3U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 3U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 4U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 4U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 5U;
+line 18:	N43 -{[local_14 < 6]}-> N45
+	local_14 == 5U;
+lines 18-19:	N44 -{local_14 = local_14 + 1;}-> N43
+	local_14 == 6U;
+line 18:	N43 -{[!(local_14 < 6)]}-> N46
+	local_14 == 6U;
+line 21:	N46 -{[local_14 == 6]}-> N48
+	local_14 == 6U;
+line 22:	N57 -{__assert_fail("0 && \"x != 6\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/underapprox_2-1_process_dc_iter1.c", 22, "__PRETTY_FUNCTION__");}-> N360

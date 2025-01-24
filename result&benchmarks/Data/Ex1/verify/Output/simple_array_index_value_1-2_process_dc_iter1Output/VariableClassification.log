@@ -1,0 +1,49 @@
+IntBool
+
+[__VERIFIER_assert::__CPAchecker_TMP_2, assume::cond, main::__CPAchecker_TMP_0, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __VERIFIER_assert::cond, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[main::tmp_var_1_uint, main::auStack_9c60[array[9999]]]
+
+ALL
+
+[__bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, __VERIFIER_assert::__CPAchecker_TMP_2, assume::cond, main::__CPAchecker_TMP_0, main::tmp_var_1_uint, main::tmp, __bswap_64::__CPAchecker_TMP_0, __VERIFIER_assert::cond, main::auStack_9c60, main::index, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, main::array, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, main::auStack_9c60[array[9999]], __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__VERIFIER_assert::cond, main::__CPAchecker_TMP_0] --> [0],
+[__VERIFIER_assert::__CPAchecker_TMP_2] --> [0],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::auStack_9c60] --> [2],
+[main::array] --> [10000],
+[main::tmp_var_1_uint] --> [0, 9999],
+[main::index] --> [],
+[main::tmp] --> [],
+[main::auStack_9c60[array[9999]]] --> [],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[main::tmp_var_1_uint, assume::cond, __VERIFIER_assert::cond, main::auStack_9c60, main::__CPAchecker_TMP_0, main::array]
+
+RELEVANT FIELDS
+
+{}

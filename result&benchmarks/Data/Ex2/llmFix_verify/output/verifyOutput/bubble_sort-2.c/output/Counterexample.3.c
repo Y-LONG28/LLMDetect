@@ -1,0 +1,245 @@
+void __list_add(void *new, void *prev, void *next);
+void __list_del(void *prev, void *next);
+void abort();
+void __assert_fail(const char *__assertion, const char *__file, unsigned int __line, const char *__function);
+void __assert_perror_fail(int __errnum, const char *__file, unsigned int __line, const char *__function);
+void __assert(const char *__assertion, const char *__file, int __line);
+void reach_error();
+typedef unsigned int size_t__src_bubble_sort_2_bubble_sort_2_c;
+struct list_head {
+  struct list_head *next;
+  struct list_head *prev;
+} ;
+struct node {
+  int value;
+  struct list_head linkage;
+  struct list_head nested;
+} ;
+void *malloc(size_t__src_bubble_sort_2_bubble_sort_2_c __size);
+void free(void *__ptr);
+int __VERIFIER_nondet_int();
+void src_bubble_sort_2_bubble_sort_2_cfail();
+struct list_head gl_list = { &gl_list, &gl_list };
+void src_bubble_sort_2_bubble_sort_2_cinspect(const struct list_head *head);
+void __list_del(void *, void *);
+void __list_add(void *, void *, void *);
+void src_bubble_sort_2_bubble_sort_2_clist_add(struct list_head *new, struct list_head *head);
+void src_bubble_sort_2_bubble_sort_2_clist_move(struct list_head *list, struct list_head *head);
+void src_bubble_sort_2_bubble_sort_2_cgl_insert(int value);
+void src_bubble_sort_2_bubble_sort_2_cgl_read();
+void src_bubble_sort_2_bubble_sort_2_cgl_destroy();
+int src_bubble_sort_2_bubble_sort_2_cval_from_node(struct list_head *head);
+_Bool src_bubble_sort_2_bubble_sort_2_cgl_sort_pass();
+void src_bubble_sort_2_bubble_sort_2_cgl_sort();
+int main();
+extern void __VERIFIER_error(void);
+int main_0();
+void src_bubble_sort_2_bubble_sort_2_cgl_read_1();
+void src_bubble_sort_2_bubble_sort_2_cgl_insert_2(int value);
+void src_bubble_sort_2_bubble_sort_2_clist_add_3(struct list_head *new, struct list_head *head);
+void __list_add_4(void *new, void *prev, void *next);
+void src_bubble_sort_2_bubble_sort_2_cinspect_5(const struct list_head *head);
+void src_bubble_sort_2_bubble_sort_2_cfail_6();
+int main_0() {
+  const struct list_head *__cil_tmp1;
+  const struct list_head *__cil_tmp2;
+  src_bubble_sort_2_bubble_sort_2_cgl_read_1();
+  __cil_tmp1 = (const struct list_head *)(&gl_list);
+  src_bubble_sort_2_bubble_sort_2_cinspect_5(__cil_tmp1);
+}
+
+void src_bubble_sort_2_bubble_sort_2_cgl_read_1() {
+  int tmp;
+  int tmp___0;
+  tmp = __VERIFIER_nondet_int();
+  src_bubble_sort_2_bubble_sort_2_cgl_insert_2(tmp);
+  tmp___0 = __VERIFIER_nondet_int();
+  __CPROVER_assume(tmp___0 == 0);
+  return;
+}
+
+void src_bubble_sort_2_bubble_sort_2_cgl_insert_2(int value) {
+  struct node *node;
+  void *tmp;
+  unsigned int __cil_tmp4;
+  unsigned int __cil_tmp5;
+  unsigned int __cil_tmp6;
+  struct list_head *__cil_tmp7;
+  unsigned int __cil_tmp8;
+  unsigned int __cil_tmp9;
+  unsigned int __cil_tmp10;
+  unsigned int __cil_tmp11;
+  unsigned int __cil_tmp12;
+  unsigned int __cil_tmp13;
+  unsigned int __cil_tmp14;
+  unsigned int __cil_tmp15;
+  __cil_tmp4 = 20U;
+  tmp = malloc(__cil_tmp4);
+  node = (struct node *)tmp;
+  __CPROVER_assume(!(node == 0));
+  *((int *)node) = value;
+  __cil_tmp5 = (unsigned int)node;
+  __cil_tmp6 = __cil_tmp5 + 4;
+  __cil_tmp7 = (struct list_head *)__cil_tmp6;
+  src_bubble_sort_2_bubble_sort_2_clist_add_3(__cil_tmp7, &gl_list);
+  __cil_tmp8 = (unsigned int)node;
+  __cil_tmp9 = __cil_tmp8 + 12;
+  __cil_tmp10 = (unsigned int)node;
+  __cil_tmp11 = __cil_tmp10 + 12;
+  *((struct list_head **)__cil_tmp9) = (struct list_head *)__cil_tmp11;
+  __cil_tmp12 = (unsigned int)node;
+  __cil_tmp13 = __cil_tmp12 + 12;
+  __cil_tmp14 = (unsigned int)node;
+  __cil_tmp15 = __cil_tmp14 + 12;
+  *((struct list_head **)__cil_tmp13) = (struct list_head *)__cil_tmp15;
+  return;
+}
+
+void src_bubble_sort_2_bubble_sort_2_clist_add_3(struct list_head *new, struct list_head *head) {
+  struct list_head *__cil_tmp3;
+  __cil_tmp3 = *((struct list_head **)head);
+  __list_add_4(new, head, __cil_tmp3);
+  return;
+}
+
+void __list_add_4(void *new, void *prev, void *next) {
+  *((void **)next) = new;
+  *((void **)(((char *)new) + 4)) = next;
+  *((void **)new) = prev;
+  *((void **)(((char *)prev) + 4)) = new;
+}
+
+void src_bubble_sort_2_bubble_sort_2_cinspect_5(const struct list_head *head) {
+  const struct node *node;
+  unsigned int __cil_tmp3;
+  struct list_head *__cil_tmp4;
+  unsigned int __cil_tmp5;
+  int __cil_tmp6;
+  unsigned int __cil_tmp7;
+  unsigned int __cil_tmp8;
+  unsigned int __cil_tmp9;
+  struct list_head *__cil_tmp10;
+  unsigned int __cil_tmp11;
+  int __cil_tmp12;
+  unsigned int __cil_tmp13;
+  unsigned int __cil_tmp14;
+  struct list_head *__cil_tmp15;
+  unsigned int __cil_tmp16;
+  struct list_head *__cil_tmp17;
+  unsigned int __cil_tmp18;
+  int __cil_tmp19;
+  unsigned int __cil_tmp20;
+  unsigned int __cil_tmp21;
+  unsigned int __cil_tmp22;
+  struct list_head *__cil_tmp23;
+  unsigned int __cil_tmp24;
+  int __cil_tmp25;
+  struct node *__cil_tmp26;
+  unsigned int __cil_tmp27;
+  unsigned int __cil_tmp28;
+  struct list_head *__cil_tmp29;
+  unsigned long __cil_tmp30;
+  char *__cil_tmp31;
+  char *__cil_tmp32;
+  struct node *__cil_tmp33;
+  unsigned int __cil_tmp34;
+  unsigned int __cil_tmp35;
+  const struct list_head *__cil_tmp36;
+  unsigned int __cil_tmp37;
+  unsigned int __cil_tmp38;
+  unsigned int __cil_tmp39;
+  struct list_head *__cil_tmp40;
+  unsigned int __cil_tmp41;
+  int __cil_tmp42;
+  unsigned int __cil_tmp43;
+  unsigned int __cil_tmp44;
+  const struct list_head *__cil_tmp45;
+  unsigned int __cil_tmp46;
+  unsigned int __cil_tmp47;
+  unsigned int __cil_tmp48;
+  unsigned int __cil_tmp49;
+  struct list_head *__cil_tmp50;
+  unsigned int __cil_tmp51;
+  int __cil_tmp52;
+  unsigned int __cil_tmp53;
+  unsigned int __cil_tmp54;
+  const struct list_head *__cil_tmp55;
+  unsigned int __cil_tmp56;
+  unsigned int __cil_tmp57;
+  unsigned int __cil_tmp58;
+  struct list_head *__cil_tmp59;
+  unsigned int __cil_tmp60;
+  int __cil_tmp61;
+  unsigned int __cil_tmp62;
+  unsigned int __cil_tmp63;
+  const struct list_head *__cil_tmp64;
+  unsigned int __cil_tmp65;
+  unsigned int __cil_tmp66;
+  unsigned int __cil_tmp67;
+  unsigned int __cil_tmp68;
+  struct list_head *__cil_tmp69;
+  unsigned int __cil_tmp70;
+  int __cil_tmp71;
+  const struct node *__cil_tmp72;
+  unsigned int __cil_tmp73;
+  unsigned int __cil_tmp74;
+  int __cil_tmp75;
+  unsigned int __cil_tmp76;
+  unsigned int __cil_tmp77;
+  const struct list_head *__cil_tmp78;
+  const struct node *__cil_tmp79;
+  unsigned int __cil_tmp80;
+  unsigned int __cil_tmp81;
+  int __cil_tmp82;
+  const int *__cil_tmp83;
+  const struct node *__cil_tmp84;
+  unsigned int __cil_tmp85;
+  unsigned int __cil_tmp86;
+  int __cil_tmp87;
+  unsigned int __cil_tmp88;
+  unsigned int __cil_tmp89;
+  struct list_head *__cil_tmp90;
+  unsigned int __cil_tmp91;
+  unsigned int __cil_tmp92;
+  struct list_head *__cil_tmp93;
+  unsigned int __cil_tmp94;
+  unsigned int __cil_tmp95;
+  int __cil_tmp96;
+  unsigned int __cil_tmp97;
+  unsigned int __cil_tmp98;
+  unsigned int __cil_tmp99;
+  struct list_head *__cil_tmp100;
+  struct list_head *__cil_tmp101;
+  unsigned int __cil_tmp102;
+  unsigned int __cil_tmp103;
+  int __cil_tmp104;
+  struct list_head *__cil_tmp105;
+  unsigned int __cil_tmp106;
+  unsigned int __cil_tmp107;
+  unsigned int __cil_tmp108;
+  const struct list_head *__cil_tmp109;
+  unsigned int __cil_tmp110;
+  struct list_head *__cil_tmp111;
+  unsigned int __cil_tmp112;
+  struct node *__cil_tmp113;
+  unsigned int __cil_tmp114;
+  unsigned int __cil_tmp115;
+  struct list_head *__cil_tmp116;
+  unsigned long __cil_tmp117;
+  char *__cil_tmp118;
+  char *__cil_tmp119;
+  struct node *__cil_tmp120;
+  unsigned int __cil_tmp121;
+  int __cil_tmp122;
+  __CPROVER_assume(!(head == 0));
+  __cil_tmp3 = (unsigned int)head;
+  __cil_tmp4 = *((struct list_head * const *)head);
+  __cil_tmp5 = (unsigned int)__cil_tmp4;
+  __cil_tmp6 = __cil_tmp5 != __cil_tmp3;
+  __CPROVER_assume(__cil_tmp6 == 0);
+  src_bubble_sort_2_bubble_sort_2_cfail_6();
+}
+
+void src_bubble_sort_2_bubble_sort_2_cfail_6() {
+  __VERIFIER_error(); // target state
+}

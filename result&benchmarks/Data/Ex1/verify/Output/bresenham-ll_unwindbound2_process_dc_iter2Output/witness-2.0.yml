@@ -1,0 +1,27 @@
+- entry_type: "invariant_set"
+  metadata:
+    format_version: "2.0"
+    uuid: "018b39b8-6791-3e64-95a7-2417ab892a99"
+    creation_time: "2025-01-15T14:13:45+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/bresenham-ll_unwindbound2_process_dc_iter2.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/bresenham-ll_unwindbound2_process_dc_iter2.c: "7adb2a29ef7d5a69f81653487b27b092b0e403c12603dd9ad7dfa24bfccc1a88"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - invariant:
+      type: "loop_invariant"
+      location:
+        file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/bresenham-ll_unwindbound2_process_dc_iter2.c"
+        line: 33
+        column: 5
+        function: "main"
+      value: "(X == (0) && tmp_var_2_int == (0)) || (X == (0) && bVar1 == (1) && iVar2 == (1) && lVar3 == (0L) && tmp_var_2_int == (0))"
+      format: "c_expression"

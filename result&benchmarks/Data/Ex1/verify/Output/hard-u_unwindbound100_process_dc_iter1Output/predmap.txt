@@ -1,0 +1,44 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::tmp_var_1_uint| () (_ BitVec 32))
+(declare-fun |main::local_2c| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 32))
+(declare-fun |main::A| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 32))
+(declare-fun |main::tmp_var_2_uint| () (_ BitVec 32))
+(declare-fun counter () (_ BitVec 32))
+
+main:
+(assert (let ((.def_95 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_97 (= .def_95 |main::q|))).def_97)))
+
+main N53:
+(assert (let ((.def_176 (= |main::A| (_ bv0 32)))).def_176))
+(assert (let ((.def_180 (= |main::p| |main::tmp_var_2_uint|))).def_180))
+(assert (let ((.def_95 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_97 (= .def_95 |main::q|))).def_97)))
+(assert (let ((.def_307 (= |main::tmp_var_1_uint| (_ bv1 32)))).def_307))
+(assert (let ((.def_528 (= |main::local_2c| |main::q|))).def_528))
+(assert (let ((.def_531 (= counter (_ bv0 32)))).def_531))
+(assert (let ((.def_533 (= |main::tmp_var_1_uint| (_ bv2 32)))).def_533))
+(assert (let ((.def_535 (bvshl |main::local_2c| (_ bv1 32))))(let ((.def_536 (= |main::q| .def_535))).def_536)))
+(assert (let ((.def_538 (bvult |main::tmp_var_2_uint| |main::local_2c|))).def_538))
+(assert (let ((.def_540 (= counter (_ bv1 32)))).def_540))
+
+main N80:
+(assert (let ((.def_176 (= |main::A| (_ bv0 32)))).def_176))
+(assert (let ((.def_180 (= |main::p| |main::tmp_var_2_uint|))).def_180))
+(assert (let ((.def_95 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_97 (= .def_95 |main::q|))).def_97)))
+(assert (let ((.def_307 (= |main::tmp_var_1_uint| (_ bv1 32)))).def_307))
+(assert false)
+(assert (let ((.def_542 (bvult |main::tmp_var_2_uint| |main::q|))).def_542))
+(assert (let ((.def_538 (bvult |main::tmp_var_2_uint| |main::local_2c|))).def_538))
+(assert (let ((.def_535 (bvshl |main::local_2c| (_ bv1 32))))(let ((.def_536 (= |main::q| .def_535))).def_536)))
+(assert (let ((.def_533 (= |main::tmp_var_1_uint| (_ bv2 32)))).def_533))
+(assert (let ((.def_535 (bvshl |main::local_2c| (_ bv1 32))))(let ((.def_544 (bvlshr .def_535 (_ bv1 32))))(let ((.def_545 (bvneg .def_544)))(let ((.def_546 (bvadd |main::tmp_var_2_uint| .def_545)))(let ((.def_547 (= |main::p| .def_546))).def_547))))))
+(assert (let ((.def_535 (bvshl |main::local_2c| (_ bv1 32))))(let ((.def_544 (bvlshr .def_535 (_ bv1 32))))(let ((.def_549 (bvult |main::tmp_var_2_uint| .def_544))).def_549))))
+(assert (let ((.def_535 (bvshl |main::local_2c| (_ bv1 32))))(let ((.def_551 (bvult |main::tmp_var_2_uint| .def_535))).def_551)))
+(assert (let ((.def_553 (= |main::A| (_ bv1 32)))).def_553))
+(assert (let ((.def_555 (bvmul |main::local_2c| |main::A|)))(let ((.def_556 (bvadd |main::p| .def_555)))(let ((.def_557 (= |main::tmp_var_2_uint| .def_556))).def_557))))
+
+main N477:
+(assert false)
+(assert (let ((.def_95 (bvmul |main::tmp_var_1_uint| |main::local_2c|)))(let ((.def_97 (= .def_95 |main::q|))).def_97)))
+

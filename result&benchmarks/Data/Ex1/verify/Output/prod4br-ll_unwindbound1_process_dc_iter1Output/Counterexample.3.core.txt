@@ -1,0 +1,50 @@
+line 16:	N40 -{int local_3c;}-> N41
+line 18:	N42 -{int tmp_var_2_int;}-> N43
+line 28:	N51 -{assume(local_3c > 0)}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 29:	N52 -{b = (longlong )tmp_var_2_int;}-> N53
+line 30:	N53 -{p = (longlong )local_3c;}-> N54
+line 31:	N54 -{q = 1;}-> N55
+	q == 1LL;
+line 32:	N55 -{_x = 0;}-> N56
+	_x == 0;
+line 33:	N56 -{counter = 0;}-> N57
+	q == 1LL;
+	_x == 0;
+	counter == 0;
+line 35:	N57 -{while}-> N58
+line 35:	N61 -{iVar2 = counter + 1;}-> N62
+	iVar2 == 1;
+line 35:	N62 -{bVar1 = counter < 1;}-> N63
+	bVar1 == 1;
+line 35:	N63 -{counter = iVar2;}-> N64
+	counter == 1;
+line 35:	N64 -{__CPAchecker_TMP_0 = bVar1;}-> N65
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 1;
+	bVar1 == 1;
+	counter == 1;
+line 35:	N65 -{[!(__CPAchecker_TMP_0 == 0)]}-> N59
+	__CPAchecker_TMP_0 == 1;
+line 36:	N59 -{[!((((b * p) * q) + _x) != (((longlong )tmp_var_2_int) * ((longlong )local_3c)))]}-> N66
+line 39:	N66 -{[!(b == 0)]}-> N81
+line 39:	N81 -{[!(p == 0)]}-> N79
+line 40:	N79 -{[(b & 1U) == 0]}-> N86
+line 40:	N86 -{[(p & 1U) == 0]}-> N84
+	q == 4LL;
+none:	N83 -{}-> N58
+	iVar2 == 2;
+line 35:	N62 -{bVar1 = counter < 1;}-> N63
+	counter == 2;
+	bVar1 == 0;
+line 35:	N64 -{__CPAchecker_TMP_0 = bVar1;}-> N65
+	__CPAchecker_TMP_0 == 0;
+	iVar2 == 2;
+	bVar1 == 0;
+	counter == 2;
+line 35:	N65 -{[__CPAchecker_TMP_0 == 0]}-> N60
+	__CPAchecker_TMP_0 == 0;
+line 60:	N60 -{[_x != (((longlong )tmp_var_2_int) * ((longlong )local_3c))]}-> N106
+	__CPAchecker_TMP_6 == 0;
+	_x == 0;
+line 61:	N115 -{__assert_fail("0 && \"Assertion failed: q == (long long) x * y\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prod4br-ll_unwindbound1_process_dc_iter1.c", 61, "__PRETTY_FUNCTION__");}-> N433

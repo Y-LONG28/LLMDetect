@@ -1,0 +1,1 @@
+unsigned int mulflt(unsigned int a , unsigned int b ) ;

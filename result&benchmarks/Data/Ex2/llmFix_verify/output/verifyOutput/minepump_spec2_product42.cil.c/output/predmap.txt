@@ -1,0 +1,23 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun methAndRunningLastTime () (_ BitVec 32))
+(declare-fun methaneLevelCritical () (_ BitVec 32))
+(declare-fun |test::splverifierCounter| () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+
+*:
+(assert (let ((.def_247 (= methAndRunningLastTime (_ bv0 32)))).def_247))
+
+test N322:
+(assert (let ((.def_496 (= methaneLevelCritical (_ bv0 32)))).def_496))
+(assert (let ((.def_247 (= methAndRunningLastTime (_ bv0 32)))).def_247))
+(assert (let ((.def_929 (= |test::splverifierCounter| (_ bv0 32)))).def_929))
+(assert (let ((.def_1235 (= pumpRunning (_ bv0 32)))).def_1235))
+
+cleanup N504:
+(assert (let ((.def_496 (= methaneLevelCritical (_ bv0 32)))).def_496))
+(assert (let ((.def_247 (= methAndRunningLastTime (_ bv0 32)))).def_247))
+
+__automaton_fail N566:
+(assert false)
+(assert (let ((.def_247 (= methAndRunningLastTime (_ bv0 32)))).def_247))
+

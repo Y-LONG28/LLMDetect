@@ -1,0 +1,5 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::local_14@3| () (_ BitVec 32))
+(declare-fun |main::local_16@2| () (_ BitVec 16))
+(declare-fun |main::x@2| () (_ BitVec 32))
+(assert (let ((.def_14 ((_ zero_extend 16) |main::local_16@2|)))(let ((.def_15 (bvult |main::local_14@3| .def_14)))(let ((.def_18 (not .def_15)))(let ((.def_12 (= |main::local_14@3| (_ bv0 32))))(let ((.def_105 (and .def_12 .def_18)))(let ((.def_20 (bvurem |main::x@2| (_ bv2 32))))(let ((.def_38 (bvult .def_20 (_ bv2 32))))(let ((.def_28 (bvult |main::x@2| .def_20)))(let ((.def_29 (not .def_28)))(let ((.def_40 (and .def_29 .def_38)))(let ((.def_21 (bvurem .def_20 (_ bv2 32))))(let ((.def_22 (= .def_20 .def_21)))(let ((.def_42 (and .def_22 .def_40)))(let ((.def_35 (= .def_20 (_ bv0 32))))(let ((.def_36 (not .def_35)))(let ((.def_45 (and .def_36 .def_42)))(let ((.def_106 (and .def_45 .def_105)))(let ((.def_107 (and .def_45 .def_106))).def_107)))))))))))))))))))

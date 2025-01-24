@@ -1,0 +1,29 @@
+line 29:	N50 -{int local_14;}-> N51
+	local_14 == 2;
+line 31:	N51 -{A(local_14, (unsigned int)(local_14 == 0))}-> N37
+	a1 == 2;
+	a2 == 0;
+line 18:	N39 -{[!(a1 == 0)]}-> N42
+	a1 == 2;
+line 23:	N45 -{A(a2, a1)}-> N37
+	a1 == 0;
+	a2 == 2;
+line 18:	N39 -{[a1 == 0]}-> N41
+	a1 == 0;
+line 32:	N52 -{A(local_14, (unsigned int)(local_14 == 0))}-> N37
+	iVar1 == 1;
+	a1 == 2;
+	a2 == 0;
+line 18:	N39 -{[!(a1 == 0)]}-> N42
+	iVar1 == 1;
+	a1 == 2;
+line 23:	N45 -{A(a2, a1)}-> N37
+	iVar1 == 1;
+	a1 == 0;
+	a2 == 2;
+line 18:	N39 -{[a1 == 0]}-> N41
+	iVar1 == 1;
+	a1 == 0;
+line 33:	N53 -{[local_14 != 0]}-> N55
+	local_14 == 2;
+line 34:	N64 -{__assert_fail("0 && \"Assertion failed: local_14 should be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/BallRajamani-SPIN2000-Fig1_process_dc_iter2.c", 34, "__PRETTY_FUNCTION__");}-> N369

@@ -1,0 +1,47 @@
+IntBool
+
+[_setjmp::__retval__, main::__CPAchecker_TMP_0, foo::count_local, __bswap_32::__bsx, main::count, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx]
+
+IntEq
+
+[main::__CPAchecker_TMP_3, longjmp::val, foo::count]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[_setjmp::__retval__, __bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::__CPAchecker_TMP_3, longjmp::val, foo::count, main::__CPAchecker_TMP_0, __bswap_64::__CPAchecker_TMP_0, longjmp::env, my_jump_buffer, __bswap_16::__CPAchecker_TMP_0, main::count, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, foo::count_local, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, _setjmp::env, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[_setjmp::__retval__, main::__CPAchecker_TMP_0] --> [0],
+[foo::count_local] --> [],
+[_setjmp::env, longjmp::env, my_jump_buffer] --> [1, 8, 32],
+[longjmp::val] --> [1],
+[main::count] --> [0],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_3] --> [0, 1],
+[foo::count] --> [1]]
+
+RELEVANT VARS
+
+[main::__CPAchecker_TMP_0, _setjmp::__retval__, main::count]
+
+RELEVANT FIELDS
+
+{}

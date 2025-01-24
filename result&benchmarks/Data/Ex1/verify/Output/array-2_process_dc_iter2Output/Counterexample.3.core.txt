@@ -1,0 +1,22 @@
+line 20:	N39 -{int local_38;}-> N40
+	local_38 == 1;
+line 21:	N40 -{int local_34;}-> N41
+	local_34 == 0;
+line 34:	N52 -{local_18 = local_34;}-> N53
+	local_18 == 0;
+line 35:	N53 -{SIZE = 0;}-> N54
+	SIZE == 0U;
+line 37:	N54 -{while}-> N55
+line 37:	N55 -{[SIZE == 0]}-> N56
+	SIZE == 0U;
+line 38:	N56 -{[!(local_38 <= local_18)]}-> N58
+	local_38 == 1;
+	local_18 == 0;
+line 41:	N58 -{SIZE = 1;}-> N61
+	SIZE == 1U;
+none:	N61 -{}-> N55
+line 37:	N55 -{[!(SIZE == 0)]}-> N57
+	SIZE == 1U;
+line 44:	N57 -{[(aiStack_50[0]) <= local_18]}-> N63
+	local_18 == 0;
+line 45:	N72 -{__assert_fail("0 && \"Assertion failed: array[0] > menor\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/array-2_process_dc_iter2.c", 45, "__PRETTY_FUNCTION__");}-> N377

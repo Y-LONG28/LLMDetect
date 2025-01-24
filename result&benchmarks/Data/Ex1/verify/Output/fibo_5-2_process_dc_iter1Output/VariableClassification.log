@@ -1,0 +1,47 @@
+IntBool
+
+[fibo::n_local, assume::cond, main::__CPAchecker_TMP_2, __bswap_32::__bsx, __bswap_64::__bsx, main::x, main::__retval__, main::result, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[fibo::iVar2, main::iVar1, fibo::__retval__, fibo::iVar1, fibo::n]
+
+IntOverflow
+
+[fibo::iVar2, main::iVar1, fibo::__retval__, fibo::iVar1, fibo::n]
+
+ALL
+
+[fibo::iVar2, main::iVar1, fibo::iVar1, __bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, assume::cond, main::__CPAchecker_TMP_2, main::x, __bswap_64::__CPAchecker_TMP_0, main::result, fibo::n, fibo::n_local, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, fibo::__retval__, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[fibo::__retval__, fibo::iVar1, fibo::iVar2, main::iVar1] --> [0, 1, 5],
+[fibo::n_local] --> [],
+[fibo::n] --> [1, 2, 5],
+[main::result] --> [],
+[main::x] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[assume::cond, fibo::iVar2, main::iVar1, fibo::__retval__, fibo::iVar1, fibo::n]
+
+RELEVANT FIELDS
+
+{}

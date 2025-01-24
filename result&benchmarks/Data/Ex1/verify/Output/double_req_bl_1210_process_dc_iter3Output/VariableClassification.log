@@ -1,0 +1,47 @@
+IntBool
+
+[assume::cond, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, main::__CPAchecker_TMP_7, signgam]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::res, main::__CPAchecker_TMP_0]
+
+IntOverflow
+
+[main::iVar1, modf_double::*((uint64_t *)iptr), CONCAT44::__retval__, isnan_double::x, main::__CPAchecker_TMP_4, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_1, main::__CPAchecker_TMP_0, CONCAT44::low, main::extraout_var_00, main::in_a1, modf_double::x, CONCAT44::high, main::res, main::extraout_fa0, modf_double::iw_u.value, modf_double::__retval__, modf_double::iw_u.parts.lsw, modf_double::iw_u.parts.msw, isnan_double::__retval__, CONCAT44::combined, main::extraout_var, modf_double::in_fa0, modf_double::uVar2, modf_double::iptr, modf_double::__CPAchecker_TMP_0, isnan_double::__CPAchecker_TMP_0, modf_double::iVar1, main::x_00]
+
+ALL
+
+[modf_double::*((uint64_t *)iptr), __uint32_identity::__retval__, CONCAT44::__retval__, isnan_double::x, signgam, main::__CPAchecker_TMP_4, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_1, CONCAT44::low, main::__CPAchecker_TMP_0, main::in_a1, modf_double::x, CONCAT44::high, __bswap_64::__CPAchecker_TMP_0, main::__CPAchecker_TMP_7, main::res, modf_double::iw_u.value, modf_double::__retval__, __bswap_16::__CPAchecker_TMP_0, modf_double::iw_u.parts.msw, CONCAT44::combined, __bswap_64::__retval__, __uint64_identity::__retval__, __bswap_32::__retval__, __uint16_identity::__x, main::extraout_var, modf_double::in_fa0, __bswap_32::__CPAchecker_TMP_0, modf_double::iptr, modf_double::uVar2, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__, main::x_00, main::iVar1, __bswap_32::__bsx, __uint32_identity::__x, __bswap_16::__bsx, assume::cond, main::extraout_var_00, main::extraout_fa0, modf_double::iw_u.parts.lsw, isnan_double::__retval__, main::__retval__, __bswap_64::__bsx, modf_double::iw_u, isnan_double::__CPAchecker_TMP_0, modf_double::__CPAchecker_TMP_0, modf_double::iVar1]
+
+DEPENDENCIES
+
+[[CONCAT44::__retval__, CONCAT44::combined, CONCAT44::high, CONCAT44::low, isnan_double::__CPAchecker_TMP_0, isnan_double::__retval__, isnan_double::x, main::__CPAchecker_TMP_1, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_4, main::extraout_fa0, main::extraout_var, main::extraout_var_00, main::iVar1, main::in_a1, main::x_00, modf_double::__CPAchecker_TMP_0, modf_double::__retval__, modf_double::in_fa0, modf_double::iptr, modf_double::iw_u.value, modf_double::x] --> [0, 32],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::__CPAchecker_TMP_0, main::res] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_7] --> [0],
+[signgam] --> [],
+[modf_double::*((uint64_t *)iptr), modf_double::iVar1, modf_double::iw_u.parts.lsw, modf_double::iw_u.parts.msw, modf_double::uVar2] --> [0, 20, 31, 32, 52, 1023, 1043, 2047, 1048575, 2147483648, 4294967295],
+[modf_double::iw_u] --> []]
+
+RELEVANT VARS
+
+[main::iVar1, CONCAT44::__retval__, isnan_double::x, main::__CPAchecker_TMP_4, assume::cond, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_1, CONCAT44::low, main::in_a1, main::extraout_var_00, modf_double::x, CONCAT44::high, modf_double::__retval__, isnan_double::__retval__, CONCAT44::combined, main::extraout_var, modf_double::in_fa0, modf_double::iptr, modf_double::uVar2, modf_double::iw_u, modf_double::__CPAchecker_TMP_0, isnan_double::__CPAchecker_TMP_0, modf_double::iVar1, main::x_00]
+
+RELEVANT FIELDS
+
+{union __anon_type_ieee_double_shape_type=[parts, value], struct __anon_type_2=[msw, lsw]}

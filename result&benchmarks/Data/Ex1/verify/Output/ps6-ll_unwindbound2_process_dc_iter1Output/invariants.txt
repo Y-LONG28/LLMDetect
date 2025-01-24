@@ -1,0 +1,5 @@
+loop__main__1412:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::x| () (_ BitVec 64))
+(declare-fun |main::c| () (_ BitVec 64))
+(assert (let ((.def_181 (bvmul (_ bv12 64) |main::c|)))(let ((.def_171 (bvmul |main::x| |main::x|)))(let ((.def_172 (bvmul |main::x| .def_171)))(let ((.def_173 (bvmul |main::x| .def_172)))(let ((.def_176 (bvmul |main::x| .def_173)))(let ((.def_175 (bvadd (_ bv3 64) |main::x|)))(let ((.def_178 (bvmul .def_175 .def_176)))(let ((.def_179 (bvmul (_ bv18446744073709551614 64) .def_178)))(let ((.def_183 (bvadd .def_179 .def_181)))(let ((.def_174 (bvmul (_ bv18446744073709551611 64) .def_173)))(let ((.def_185 (bvadd .def_174 .def_183)))(let ((.def_186 (bvneg .def_185)))(let ((.def_187 (= .def_171 .def_186))).def_187))))))))))))))

@@ -1,0 +1,6 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::nlen| () (_ BitVec 32))
+
+main:
+(assert (let ((.def_86 ((_ extract 31 31) |main::nlen|)))(let ((.def_87 (= .def_86 (_ bv1 1)))).def_87)))
+

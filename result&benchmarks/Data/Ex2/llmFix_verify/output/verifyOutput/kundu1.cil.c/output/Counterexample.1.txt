@@ -1,0 +1,807 @@
+none:	N304 -{INIT GLOBAL VARS}-> N320
+output/kundu1.cil_dc_fix.c, line 1:	N320 -{int P_1_pc = 0;}-> N321
+	P_1_pc == 0;
+output/kundu1.cil_dc_fix.c, line 2:	N321 -{int P_1_st = 0;}-> N322
+	P_1_st == 0;
+output/kundu1.cil_dc_fix.c, line 3:	N322 -{int P_1_i = 0;}-> N323
+	P_1_i == 0;
+output/kundu1.cil_dc_fix.c, line 4:	N323 -{int P_1_ev = 0;}-> N324
+	P_1_ev == 0;
+output/kundu1.cil_dc_fix.c, line 5:	N324 -{int i = 0;}-> N325
+	i == 0;
+output/kundu1.cil_dc_fix.c, line 6:	N325 -{int max_loop = 0;}-> N326
+	max_loop == 0;
+output/kundu1.cil_dc_fix.c, line 7:	N326 -{int num = 0;}-> N327
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 9:	N327 -{void abort();}-> N328
+src/kundu1.cil/kundu1.cil.c, line 10:	N328 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N329
+src/kundu1.cil/kundu1.cil.c, line 11:	N329 -{void reach_error();}-> N330
+src/kundu1.cil/kundu1.cil.c, line 13:	N330 -{int __VERIFIER_nondet_int();}-> N331
+src/kundu1.cil/kundu1.cil.c, lines 15-22:	N331 -{void error();}-> N332
+src/kundu1.cil/kundu1.cil.c, line 24:	N332 -{void immediate_notify();}-> N333
+src/kundu1.cil/kundu1.cil.c, line 28:	N333 -{extern int e;}-> N334
+	e == 1;
+src/kundu1.cil/kundu1.cil.c, line 29:	N334 -{extern int timer;}-> N335
+src/kundu1.cil/kundu1.cil.c, line 30:	N335 -{extern char data_0;}-> N336
+src/kundu1.cil/kundu1.cil.c, line 31:	N336 -{extern char data_1;}-> N337
+src/kundu1.cil/kundu1.cil.c, lines 37-71:	N337 -{void P_1();}-> N338
+src/kundu1.cil/kundu1.cil.c, lines 72-90:	N338 -{int is_P_1_triggered();}-> N339
+src/kundu1.cil/kundu1.cil.c, line 91:	N339 -{int C_1_pc = 0;}-> N340
+	C_1_pc == 0;
+src/kundu1.cil/kundu1.cil.c, line 92:	N340 -{int C_1_st = 0;}-> N341
+	C_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 93:	N341 -{int C_1_i = 0;}-> N342
+	C_1_i == 0;
+src/kundu1.cil/kundu1.cil.c, line 94:	N342 -{int C_1_ev = 0;}-> N343
+	C_1_ev == 0;
+src/kundu1.cil/kundu1.cil.c, line 95:	N343 -{int C_1_pr = 0;}-> N344
+src/kundu1.cil/kundu1.cil.c, lines 96-153:	N344 -{void C_1();}-> N345
+src/kundu1.cil/kundu1.cil.c, lines 154-182:	N345 -{int is_C_1_triggered();}-> N346
+src/kundu1.cil/kundu1.cil.c, lines 183-190:	N346 -{void update_channels();}-> N347
+src/kundu1.cil/kundu1.cil.c, lines 191-208:	N347 -{void init_threads();}-> N348
+src/kundu1.cil/kundu1.cil.c, lines 209-228:	N348 -{int exists_runnable_thread();}-> N349
+src/kundu1.cil/kundu1.cil.c, lines 230-284:	N349 -{void eval();}-> N350
+src/kundu1.cil/kundu1.cil.c, lines 285-292:	N350 -{void fire_delta_events();}-> N351
+src/kundu1.cil/kundu1.cil.c, lines 293-300:	N351 -{void reset_delta_events();}-> N352
+src/kundu1.cil/kundu1.cil.c, lines 301-314:	N352 -{void fire_time_events();}-> N353
+src/kundu1.cil/kundu1.cil.c, lines 315-332:	N353 -{void reset_time_events();}-> N354
+src/kundu1.cil/kundu1.cil.c, lines 333-358:	N354 -{void activate_threads();}-> N355
+src/kundu1.cil/kundu1.cil.c, lines 370-388:	N355 -{int stop_simulation();}-> N356
+src/kundu1.cil/kundu1.cil.c, lines 389-447:	N356 -{void start_simulation();}-> N357
+src/kundu1.cil/kundu1.cil.c, lines 448-457:	N357 -{void init_model();}-> N358
+src/kundu1.cil/kundu1.cil.c, lines 458-479:	N358 -{int main();}-> N359
+none:	N359 -{Function start dummy edge}-> N305
+src/kundu1.cil/kundu1.cil.c, line 459:	N305 -{int count;}-> N306
+src/kundu1.cil/kundu1.cil.c, line 460:	N306 -{int __retres2;}-> N307
+src/kundu1.cil/kundu1.cil.c, line 464:	N307 -{num = 0;}-> N308
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 465:	N308 -{i = 0;}-> N309
+	i == 0;
+src/kundu1.cil/kundu1.cil.c, line 466:	N309 -{max_loop = 2;}-> N310
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 467:	N310 -{e;}-> N311
+src/kundu1.cil/kundu1.cil.c, line 468:	N311 -{timer = 0;}-> N312
+src/kundu1.cil/kundu1.cil.c, line 469:	N312 -{P_1_pc = 0;}-> N313
+	P_1_pc == 0;
+src/kundu1.cil/kundu1.cil.c, line 470:	N313 -{C_1_pc = 0;}-> N314
+	C_1_pc == 0;
+src/kundu1.cil/kundu1.cil.c, line 472:	N314 -{count = 0;}-> N315
+	P_1_pc == 0;
+	P_1_st == 0;
+	P_1_i == 0;
+	P_1_ev == 0;
+	i == 0;
+	max_loop == 2;
+	num == 0;
+	e == 1;
+	C_1_pc == 0;
+	C_1_st == 0;
+	C_1_i == 0;
+	C_1_ev == 0;
+src/kundu1.cil/kundu1.cil.c, line 473:	N315 -{init_model()}-> N298
+none:	N298 -{Function start dummy edge}-> N299
+src/kundu1.cil/kundu1.cil.c, line 452:	N299 -{P_1_i = 1;}-> N300
+	P_1_i == 1;
+src/kundu1.cil/kundu1.cil.c, line 453:	N300 -{C_1_i = 1;}-> N301
+	P_1_i == 1;
+	C_1_i == 1;
+src/kundu1.cil/kundu1.cil.c, line 455:	N301 -{return;}-> N297
+src/kundu1.cil/kundu1.cil.c, line 473:	N297 -{Return edge from init_model to main: init_model();}-> N316
+src/kundu1.cil/kundu1.cil.c, line 474:	N316 -{start_simulation()}-> N258
+none:	N258 -{Function start dummy edge}-> N259
+src/kundu1.cil/kundu1.cil.c, line 390:	N259 -{int kernel_st;}-> N260
+src/kundu1.cil/kundu1.cil.c, line 391:	N260 -{int tmp;}-> N261
+src/kundu1.cil/kundu1.cil.c, line 392:	N261 -{int tmp___0;}-> N262
+src/kundu1.cil/kundu1.cil.c, line 396:	N262 -{kernel_st = 0;}-> N263
+src/kundu1.cil/kundu1.cil.c, line 397:	N263 -{update_channels()}-> N124
+none:	N124 -{Function start dummy edge}-> N125
+src/kundu1.cil/kundu1.cil.c, line 188:	N125 -{return;}-> N123
+src/kundu1.cil/kundu1.cil.c, line 397:	N123 -{Return edge from update_channels to start_simulation: update_channels();}-> N264
+src/kundu1.cil/kundu1.cil.c, line 398:	N264 -{init_threads()}-> N128
+none:	N128 -{Function start dummy edge}-> N129
+src/kundu1.cil/kundu1.cil.c, line 195:	N129 -{[((int)P_1_i) == 1]}-> N131
+	(int)P_1_i == 1
+src/kundu1.cil/kundu1.cil.c, line 196:	N131 -{P_1_st = 0;}-> N133
+	P_1_st == 0;
+none:	N133 -{}-> N130
+src/kundu1.cil/kundu1.cil.c, line 200:	N130 -{[((int)C_1_i) == 1]}-> N136
+	(int)C_1_i == 1
+src/kundu1.cil/kundu1.cil.c, line 201:	N136 -{C_1_st = 0;}-> N138
+	C_1_st == 0;
+none:	N138 -{}-> N135
+src/kundu1.cil/kundu1.cil.c, line 206:	N135 -{return;}-> N127
+src/kundu1.cil/kundu1.cil.c, line 398:	N127 -{Return edge from init_threads to start_simulation: init_threads();}-> N265
+src/kundu1.cil/kundu1.cil.c, line 399:	N265 -{fire_delta_events()}-> N196
+none:	N196 -{Function start dummy edge}-> N197
+src/kundu1.cil/kundu1.cil.c, line 290:	N197 -{return;}-> N195
+src/kundu1.cil/kundu1.cil.c, line 399:	N195 -{Return edge from fire_delta_events to start_simulation: fire_delta_events();}-> N266
+src/kundu1.cil/kundu1.cil.c, line 400:	N266 -{activate_threads()}-> N222
+none:	N222 -{Function start dummy edge}-> N223
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+src/kundu1.cil/kundu1.cil.c, line 335:	N224 -{int tmp___0;}-> N225
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/kundu1.cil/kundu1.cil.c, line 73:	N40 -{int __retres1;}-> N41
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[!(((int)P_1_pc) == 1)]}-> N44
+	(int)P_1_pc == 0
+none:	N44 -{}-> N42
+src/kundu1.cil/kundu1.cil.c, line 86:	N42 -{__retres1 = 0;}-> N50
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 87:	N50 -{Label: return_label}-> N51
+src/kundu1.cil/kundu1.cil.c, line 88:	N51 -{return __retres1;}-> N38
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 340:	N38 -{Return edge from is_P_1_triggered to activate_threads: tmp = is_P_1_triggered();}-> N227
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+	tmp == 0;
+none:	N230 -{}-> N228
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+none:	N101 -{Function start dummy edge}-> N102
+src/kundu1.cil/kundu1.cil.c, line 155:	N102 -{int __retres1;}-> N103
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+	(int)C_1_pc == 0
+none:	N106 -{}-> N104
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[!(((int)C_1_pc) == 2)]}-> N114
+	(int)C_1_pc == 0
+none:	N114 -{}-> N112
+src/kundu1.cil/kundu1.cil.c, line 178:	N112 -{__retres1 = 0;}-> N120
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 179:	N120 -{Label: return_label}-> N121
+src/kundu1.cil/kundu1.cil.c, line 180:	N121 -{return __retres1;}-> N100
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 348:	N100 -{Return edge from is_C_1_triggered to activate_threads: tmp___1 = is_C_1_triggered();}-> N232
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[tmp___1 == 0]}-> N235
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N235 -{}-> N233
+src/kundu1.cil/kundu1.cil.c, line 356:	N233 -{return;}-> N221
+src/kundu1.cil/kundu1.cil.c, line 400:	N221 -{Return edge from activate_threads to start_simulation: activate_threads();}-> N267
+src/kundu1.cil/kundu1.cil.c, line 401:	N267 -{reset_delta_events()}-> N200
+none:	N200 -{Function start dummy edge}-> N201
+src/kundu1.cil/kundu1.cil.c, line 298:	N201 -{return;}-> N199
+src/kundu1.cil/kundu1.cil.c, line 401:	N199 -{Return edge from reset_delta_events to start_simulation: reset_delta_events();}-> N268
+src/kundu1.cil/kundu1.cil.c, line 404:	N268 -{while}-> N269
+src/kundu1.cil/kundu1.cil.c, line 404:	N269 -{}-> N270
+src/kundu1.cil/kundu1.cil.c, line 405:	N270 -{Label: while_4_continue}-> N272
+src/kundu1.cil/kundu1.cil.c, line 407:	N272 -{kernel_st = 1;}-> N273
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+none:	N159 -{Function start dummy edge}-> N160
+src/kundu1.cil/kundu1.cil.c, line 231:	N160 -{int tmp;}-> N161
+src/kundu1.cil/kundu1.cil.c, line 232:	N161 -{int tmp___0;}-> N162
+src/kundu1.cil/kundu1.cil.c, line 233:	N162 -{int tmp___1;}-> N163
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 214:	N146 -{__retres1 = 1;}-> N148
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 215:	N148 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+	tmp___2 == 1;
+none:	N171 -{}-> N170
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[!(tmp == 0)]}-> N179
+	tmp == 2;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 254:	N179 -{P_1_st = 1;}-> N181
+	P_1_st == 1;
+src/kundu1.cil/kundu1.cil.c, line 255:	N181 -{P_1()}-> N12
+none:	N12 -{Function start dummy edge}-> N13
+src/kundu1.cil/kundu1.cil.c, line 41:	N13 -{[((int)P_1_pc) == 0]}-> N15
+	(int)P_1_pc == 0
+src/kundu1.cil/kundu1.cil.c, line 42:	N15 -{Goto: P_1_ENTRY_LOC}-> N22
+src/kundu1.cil/kundu1.cil.c, line 52:	N22 -{while}-> N23
+src/kundu1.cil/kundu1.cil.c, line 52:	N23 -{[i < max_loop]}-> N24
+	i == 0;
+	max_loop == 2;
+	i == 0;
+max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 53:	N24 -{Label: while_0_continue}-> N26
+src/kundu1.cil/kundu1.cil.c, line 55:	N26 -{write_data(num, 'A');}-> N27
+src/kundu1.cil/kundu1.cil.c, line 56:	N27 -{num = num + 1;}-> N28
+	num == 1;
+src/kundu1.cil/kundu1.cil.c, line 57:	N28 -{P_1_pc = 1;}-> N29
+	P_1_pc == 1;
+src/kundu1.cil/kundu1.cil.c, line 58:	N29 -{P_1_st = 2;}-> N30
+	num == 1;
+	P_1_pc == 1;
+	P_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 61:	N30 -{Goto: return_label}-> N36
+src/kundu1.cil/kundu1.cil.c, line 69:	N36 -{return;}-> N11
+src/kundu1.cil/kundu1.cil.c, line 255:	N11 -{Return edge from P_1 to eval: P_1();}-> N182
+none:	N182 -{}-> N178
+none:	N178 -{}-> N174
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	tmp___1 == 2;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 269:	N188 -{C_1_st = 1;}-> N190
+	C_1_st == 1;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+none:	N54 -{Function start dummy edge}-> N55
+src/kundu1.cil/kundu1.cil.c, line 97:	N55 -{char c;}-> N56
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[((int)C_1_pc) == 0]}-> N58
+	(int)C_1_pc == 0
+src/kundu1.cil/kundu1.cil.c, line 101:	N58 -{Goto: C_1_ENTRY_LOC}-> N69
+src/kundu1.cil/kundu1.cil.c, line 115:	N69 -{while}-> N70
+src/kundu1.cil/kundu1.cil.c, line 115:	N70 -{[i < max_loop]}-> N71
+	i == 0;
+	max_loop == 2;
+	i == 0;
+max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 116:	N71 -{Label: while_2_continue}-> N73
+src/kundu1.cil/kundu1.cil.c, line 117:	N73 -{[!(num == 0)]}-> N76
+	num == 1;
+	num == 1;
+none:	N76 -{}-> N74
+src/kundu1.cil/kundu1.cil.c, line 128:	N74 -{num = num - 1;}-> N84
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 129:	N84 -{[num >= 0]}-> N87
+	num == 0;
+	num == 0;
+none:	N87 -{}-> N85
+src/kundu1.cil/kundu1.cil.c, line 137:	N85 -{c = read_data(num);}-> N89
+src/kundu1.cil/kundu1.cil.c, line 138:	N89 -{i = i + 1;}-> N90
+	i == 1;
+src/kundu1.cil/kundu1.cil.c, line 139:	N90 -{C_1_pc = 2;}-> N91
+	C_1_pc == 2;
+src/kundu1.cil/kundu1.cil.c, line 140:	N91 -{C_1_st = 2;}-> N92
+	i == 1;
+	C_1_pc == 2;
+	C_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 143:	N92 -{Goto: return_label}-> N98
+src/kundu1.cil/kundu1.cil.c, line 151:	N98 -{return;}-> N53
+src/kundu1.cil/kundu1.cil.c, line 270:	N53 -{Return edge from C_1 to eval: C_1();}-> N191
+none:	N191 -{}-> N187
+none:	N187 -{}-> N183
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	(int)C_1_st == 2
+none:	N152 -{}-> N145
+src/kundu1.cil/kundu1.cil.c, line 225:	N145 -{__retres1 = 0;}-> N155
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 226:	N155 -{Label: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[tmp___2 == 0]}-> N172
+	tmp___2 == 0;
+	tmp___2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 246:	N172 -{Goto: while_3_break}-> N192
+src/kundu1.cil/kundu1.cil.c, line 279:	N192 -{Label: while_3_break}-> N193
+src/kundu1.cil/kundu1.cil.c, line 282:	N193 -{return;}-> N158
+src/kundu1.cil/kundu1.cil.c, line 408:	N158 -{Return edge from eval to start_simulation: eval();}-> N274
+src/kundu1.cil/kundu1.cil.c, line 411:	N274 -{kernel_st = 2;}-> N275
+src/kundu1.cil/kundu1.cil.c, line 412:	N275 -{update_channels()}-> N124
+none:	N124 -{Function start dummy edge}-> N125
+src/kundu1.cil/kundu1.cil.c, line 188:	N125 -{return;}-> N123
+src/kundu1.cil/kundu1.cil.c, line 412:	N123 -{Return edge from update_channels to start_simulation: update_channels();}-> N276
+src/kundu1.cil/kundu1.cil.c, line 415:	N276 -{kernel_st = 3;}-> N277
+src/kundu1.cil/kundu1.cil.c, line 416:	N277 -{fire_delta_events()}-> N196
+none:	N196 -{Function start dummy edge}-> N197
+src/kundu1.cil/kundu1.cil.c, line 290:	N197 -{return;}-> N195
+src/kundu1.cil/kundu1.cil.c, line 416:	N195 -{Return edge from fire_delta_events to start_simulation: fire_delta_events();}-> N278
+src/kundu1.cil/kundu1.cil.c, line 417:	N278 -{activate_threads()}-> N222
+none:	N222 -{Function start dummy edge}-> N223
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 335:	N224 -{int tmp___0;}-> N225
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/kundu1.cil/kundu1.cil.c, line 73:	N40 -{int __retres1;}-> N41
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+	(int)P_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[!(((int)P_1_ev) == 1)]}-> N47
+	(int)P_1_ev == 0
+none:	N47 -{}-> N45
+none:	N45 -{}-> N42
+src/kundu1.cil/kundu1.cil.c, line 86:	N42 -{__retres1 = 0;}-> N50
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 87:	N50 -{Label: return_label}-> N51
+src/kundu1.cil/kundu1.cil.c, line 88:	N51 -{return __retres1;}-> N38
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 340:	N38 -{Return edge from is_P_1_triggered to activate_threads: tmp = is_P_1_triggered();}-> N227
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+	tmp == 0;
+none:	N230 -{}-> N228
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+none:	N101 -{Function start dummy edge}-> N102
+src/kundu1.cil/kundu1.cil.c, line 155:	N102 -{int __retres1;}-> N103
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+	(int)C_1_pc == 2
+none:	N106 -{}-> N104
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[((int)C_1_pc) == 2]}-> N113
+	(int)C_1_pc == 2
+src/kundu1.cil/kundu1.cil.c, line 169:	N113 -{[!(((int)C_1_ev) == 1)]}-> N117
+	(int)C_1_ev == 0
+none:	N117 -{}-> N115
+none:	N115 -{}-> N112
+src/kundu1.cil/kundu1.cil.c, line 178:	N112 -{__retres1 = 0;}-> N120
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 179:	N120 -{Label: return_label}-> N121
+src/kundu1.cil/kundu1.cil.c, line 180:	N121 -{return __retres1;}-> N100
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 348:	N100 -{Return edge from is_C_1_triggered to activate_threads: tmp___1 = is_C_1_triggered();}-> N232
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[tmp___1 == 0]}-> N235
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N235 -{}-> N233
+src/kundu1.cil/kundu1.cil.c, line 356:	N233 -{return;}-> N221
+src/kundu1.cil/kundu1.cil.c, line 417:	N221 -{Return edge from activate_threads to start_simulation: activate_threads();}-> N279
+src/kundu1.cil/kundu1.cil.c, line 418:	N279 -{reset_delta_events()}-> N200
+none:	N200 -{Function start dummy edge}-> N201
+src/kundu1.cil/kundu1.cil.c, line 298:	N201 -{return;}-> N199
+src/kundu1.cil/kundu1.cil.c, line 418:	N199 -{Return edge from reset_delta_events to start_simulation: reset_delta_events();}-> N280
+src/kundu1.cil/kundu1.cil.c, line 421:	N280 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	(int)C_1_st == 2
+none:	N152 -{}-> N145
+src/kundu1.cil/kundu1.cil.c, line 225:	N145 -{__retres1 = 0;}-> N155
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 226:	N155 -{Label: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 421:	N141 -{Return edge from exists_runnable_thread to start_simulation: tmp = exists_runnable_thread();}-> N281
+src/kundu1.cil/kundu1.cil.c, line 423:	N281 -{[tmp == 0]}-> N283
+	tmp == 0;
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 425:	N283 -{kernel_st = 4;}-> N285
+src/kundu1.cil/kundu1.cil.c, line 426:	N285 -{fire_time_events()}-> N204
+none:	N204 -{Function start dummy edge}-> N205
+src/kundu1.cil/kundu1.cil.c, line 305:	N205 -{C_1_ev = 1;}-> N206
+	C_1_ev == 1;
+src/kundu1.cil/kundu1.cil.c, line 307:	N206 -{P_1_ev = 1;}-> N207
+	C_1_ev == 1;
+	P_1_ev == 1;
+src/kundu1.cil/kundu1.cil.c, line 312:	N207 -{return;}-> N203
+src/kundu1.cil/kundu1.cil.c, line 426:	N203 -{Return edge from fire_time_events to start_simulation: fire_time_events();}-> N286
+src/kundu1.cil/kundu1.cil.c, line 427:	N286 -{activate_threads()}-> N222
+none:	N222 -{Function start dummy edge}-> N223
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 335:	N224 -{int tmp___0;}-> N225
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/kundu1.cil/kundu1.cil.c, line 73:	N40 -{int __retres1;}-> N41
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+	(int)P_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[((int)P_1_ev) == 1]}-> N46
+	(int)P_1_ev == 1
+src/kundu1.cil/kundu1.cil.c, line 78:	N46 -{__retres1 = 1;}-> N48
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 79:	N48 -{Goto: return_label}-> N51
+src/kundu1.cil/kundu1.cil.c, line 88:	N51 -{return __retres1;}-> N38
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 340:	N38 -{Return edge from is_P_1_triggered to activate_threads: tmp = is_P_1_triggered();}-> N227
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[!(tmp == 0)]}-> N229
+	tmp == 1;
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 343:	N229 -{P_1_st = 0;}-> N231
+	P_1_st == 0;
+none:	N231 -{}-> N228
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+none:	N101 -{Function start dummy edge}-> N102
+src/kundu1.cil/kundu1.cil.c, line 155:	N102 -{int __retres1;}-> N103
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+	(int)C_1_pc == 2
+none:	N106 -{}-> N104
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[((int)C_1_pc) == 2]}-> N113
+	(int)C_1_pc == 2
+src/kundu1.cil/kundu1.cil.c, line 169:	N113 -{[((int)C_1_ev) == 1]}-> N116
+	(int)C_1_ev == 1
+src/kundu1.cil/kundu1.cil.c, line 170:	N116 -{__retres1 = 1;}-> N118
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 171:	N118 -{Goto: return_label}-> N121
+src/kundu1.cil/kundu1.cil.c, line 180:	N121 -{return __retres1;}-> N100
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 348:	N100 -{Return edge from is_C_1_triggered to activate_threads: tmp___1 = is_C_1_triggered();}-> N232
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[!(tmp___1 == 0)]}-> N234
+	tmp___1 == 1;
+	tmp___1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 351:	N234 -{C_1_st = 0;}-> N236
+	C_1_st == 0;
+none:	N236 -{}-> N233
+src/kundu1.cil/kundu1.cil.c, line 356:	N233 -{return;}-> N221
+src/kundu1.cil/kundu1.cil.c, line 427:	N221 -{Return edge from activate_threads to start_simulation: activate_threads();}-> N287
+src/kundu1.cil/kundu1.cil.c, line 428:	N287 -{reset_time_events()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/kundu1.cil/kundu1.cil.c, line 319:	N211 -{[((int)P_1_ev) == 1]}-> N213
+	(int)P_1_ev == 1
+src/kundu1.cil/kundu1.cil.c, line 320:	N213 -{P_1_ev = 2;}-> N215
+	P_1_ev == 2;
+none:	N215 -{}-> N212
+src/kundu1.cil/kundu1.cil.c, line 324:	N212 -{[((int)C_1_ev) == 1]}-> N217
+	(int)C_1_ev == 1
+src/kundu1.cil/kundu1.cil.c, line 325:	N217 -{C_1_ev = 2;}-> N219
+	C_1_ev == 2;
+none:	N219 -{}-> N216
+src/kundu1.cil/kundu1.cil.c, line 330:	N216 -{return;}-> N209
+src/kundu1.cil/kundu1.cil.c, line 428:	N209 -{Return edge from reset_time_events to start_simulation: reset_time_events();}-> N288
+none:	N288 -{}-> N282
+src/kundu1.cil/kundu1.cil.c, line 434:	N282 -{stop_simulation()}-> N244
+none:	N244 -{Function start dummy edge}-> N245
+src/kundu1.cil/kundu1.cil.c, line 371:	N245 -{int tmp;}-> N246
+src/kundu1.cil/kundu1.cil.c, line 372:	N246 -{int __retres2;}-> N247
+src/kundu1.cil/kundu1.cil.c, line 376:	N247 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 214:	N146 -{__retres1 = 1;}-> N148
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 215:	N148 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 376:	N141 -{Return edge from exists_runnable_thread to stop_simulation: tmp = exists_runnable_thread();}-> N248
+src/kundu1.cil/kundu1.cil.c, line 378:	N248 -{[!(tmp == 0)]}-> N250
+	tmp == 1;
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 379:	N250 -{__retres2 = 0;}-> N252
+	__retres2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 380:	N252 -{Goto: return_label}-> N255
+src/kundu1.cil/kundu1.cil.c, line 386:	N255 -{return __retres2;}-> N243
+	__retres2 = 0
+src/kundu1.cil/kundu1.cil.c, line 434:	N243 -{Return edge from stop_simulation to start_simulation: tmp___0 = stop_simulation();}-> N289
+src/kundu1.cil/kundu1.cil.c, line 436:	N289 -{[tmp___0 == 0]}-> N292
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N292 -{}-> N290
+none:	N290 -{}-> N269
+src/kundu1.cil/kundu1.cil.c, line 404:	N269 -{}-> N270
+src/kundu1.cil/kundu1.cil.c, line 405:	N270 -{Label: while_4_continue}-> N272
+src/kundu1.cil/kundu1.cil.c, line 407:	N272 -{kernel_st = 1;}-> N273
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+none:	N159 -{Function start dummy edge}-> N160
+src/kundu1.cil/kundu1.cil.c, line 231:	N160 -{int tmp;}-> N161
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 232:	N161 -{int tmp___0;}-> N162
+src/kundu1.cil/kundu1.cil.c, line 233:	N162 -{int tmp___1;}-> N163
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 214:	N146 -{__retres1 = 1;}-> N148
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 215:	N148 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+	tmp___2 == 1;
+none:	N171 -{}-> N170
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[tmp == 0]}-> N180
+	tmp == 0;
+	tmp == 0;
+none:	N180 -{}-> N178
+none:	N178 -{}-> N174
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	tmp___1 == 2;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 269:	N188 -{C_1_st = 1;}-> N190
+	C_1_st == 1;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+none:	N54 -{Function start dummy edge}-> N55
+src/kundu1.cil/kundu1.cil.c, line 97:	N55 -{char c;}-> N56
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[!(((int)C_1_pc) == 0)]}-> N59
+	(int)C_1_pc == 2
+src/kundu1.cil/kundu1.cil.c, line 103:	N59 -{[!(((int)C_1_pc) == 1)]}-> N63
+	(int)C_1_pc == 2
+src/kundu1.cil/kundu1.cil.c, line 106:	N63 -{[((int)C_1_pc) == 2]}-> N66
+	(int)C_1_pc == 2
+src/kundu1.cil/kundu1.cil.c, line 107:	N66 -{Goto: C_1_WAIT_2_LOC}-> N94
+src/kundu1.cil/kundu1.cil.c, line 144:	N94 -{Label: C_1_WAIT_2_LOC}-> N95
+none:	N95 -{}-> N70
+src/kundu1.cil/kundu1.cil.c, line 115:	N70 -{[i < max_loop]}-> N71
+	i == 1;
+	max_loop == 2;
+	i == 1;
+max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 116:	N71 -{Label: while_2_continue}-> N73
+src/kundu1.cil/kundu1.cil.c, line 117:	N73 -{[num == 0]}-> N75
+	num == 0;
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 118:	N75 -{timer = 1;}-> N77
+src/kundu1.cil/kundu1.cil.c, line 119:	N77 -{i = i + 1;}-> N78
+	i == 2;
+src/kundu1.cil/kundu1.cil.c, line 120:	N78 -{C_1_pc = 1;}-> N79
+	C_1_pc == 1;
+src/kundu1.cil/kundu1.cil.c, line 121:	N79 -{C_1_st = 2;}-> N80
+	i == 2;
+	C_1_pc == 1;
+	C_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 123:	N80 -{Goto: return_label}-> N98
+src/kundu1.cil/kundu1.cil.c, line 151:	N98 -{return;}-> N53
+src/kundu1.cil/kundu1.cil.c, line 270:	N53 -{Return edge from C_1 to eval: C_1();}-> N191
+none:	N191 -{}-> N187
+none:	N187 -{}-> N183
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 214:	N146 -{__retres1 = 1;}-> N148
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 215:	N148 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+	tmp___2 == 1;
+none:	N171 -{}-> N170
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+	(int)P_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[!(tmp == 0)]}-> N179
+	tmp == 2;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 254:	N179 -{P_1_st = 1;}-> N181
+	P_1_st == 1;
+src/kundu1.cil/kundu1.cil.c, line 255:	N181 -{P_1()}-> N12
+none:	N12 -{Function start dummy edge}-> N13
+src/kundu1.cil/kundu1.cil.c, line 41:	N13 -{[!(((int)P_1_pc) == 0)]}-> N16
+	(int)P_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 44:	N16 -{[((int)P_1_pc) == 1]}-> N19
+	(int)P_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 45:	N19 -{Goto: P_1_WAIT_LOC}-> N32
+src/kundu1.cil/kundu1.cil.c, line 62:	N32 -{Label: P_1_WAIT_LOC}-> N33
+none:	N33 -{}-> N23
+src/kundu1.cil/kundu1.cil.c, line 52:	N23 -{[!(i < max_loop)]}-> N25
+	i == 2;
+	max_loop == 2;
+	i == 2;
+max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 64:	N25 -{Label: while_0_break}-> N34
+src/kundu1.cil/kundu1.cil.c, line 66:	N34 -{P_1_st = 2;}-> N35
+	P_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 68:	N35 -{Label: return_label}-> N36
+src/kundu1.cil/kundu1.cil.c, line 69:	N36 -{return;}-> N11
+src/kundu1.cil/kundu1.cil.c, line 255:	N11 -{Return edge from P_1 to eval: P_1();}-> N182
+none:	N182 -{}-> N178
+none:	N178 -{}-> N174
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[!(((int)C_1_st) == 0)]}-> N185
+	(int)C_1_st == 2
+none:	N185 -{}-> N183
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	(int)C_1_st == 2
+none:	N152 -{}-> N145
+src/kundu1.cil/kundu1.cil.c, line 225:	N145 -{__retres1 = 0;}-> N155
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 226:	N155 -{Label: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[tmp___2 == 0]}-> N172
+	tmp___2 == 0;
+	tmp___2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 246:	N172 -{Goto: while_3_break}-> N192
+src/kundu1.cil/kundu1.cil.c, line 279:	N192 -{Label: while_3_break}-> N193
+src/kundu1.cil/kundu1.cil.c, line 282:	N193 -{return;}-> N158
+src/kundu1.cil/kundu1.cil.c, line 408:	N158 -{Return edge from eval to start_simulation: eval();}-> N274
+src/kundu1.cil/kundu1.cil.c, line 411:	N274 -{kernel_st = 2;}-> N275
+src/kundu1.cil/kundu1.cil.c, line 412:	N275 -{update_channels()}-> N124
+none:	N124 -{Function start dummy edge}-> N125
+src/kundu1.cil/kundu1.cil.c, line 188:	N125 -{return;}-> N123
+src/kundu1.cil/kundu1.cil.c, line 412:	N123 -{Return edge from update_channels to start_simulation: update_channels();}-> N276
+src/kundu1.cil/kundu1.cil.c, line 415:	N276 -{kernel_st = 3;}-> N277
+src/kundu1.cil/kundu1.cil.c, line 416:	N277 -{fire_delta_events()}-> N196
+none:	N196 -{Function start dummy edge}-> N197
+src/kundu1.cil/kundu1.cil.c, line 290:	N197 -{return;}-> N195
+src/kundu1.cil/kundu1.cil.c, line 416:	N195 -{Return edge from fire_delta_events to start_simulation: fire_delta_events();}-> N278
+src/kundu1.cil/kundu1.cil.c, line 417:	N278 -{activate_threads()}-> N222
+none:	N222 -{Function start dummy edge}-> N223
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 335:	N224 -{int tmp___0;}-> N225
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/kundu1.cil/kundu1.cil.c, line 73:	N40 -{int __retres1;}-> N41
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+	(int)P_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[!(((int)P_1_ev) == 1)]}-> N47
+	(int)P_1_ev == 2
+none:	N47 -{}-> N45
+none:	N45 -{}-> N42
+src/kundu1.cil/kundu1.cil.c, line 86:	N42 -{__retres1 = 0;}-> N50
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 87:	N50 -{Label: return_label}-> N51
+src/kundu1.cil/kundu1.cil.c, line 88:	N51 -{return __retres1;}-> N38
+	__retres1 = 0
+src/kundu1.cil/kundu1.cil.c, line 340:	N38 -{Return edge from is_P_1_triggered to activate_threads: tmp = is_P_1_triggered();}-> N227
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+	tmp == 0;
+none:	N230 -{}-> N228
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+none:	N101 -{Function start dummy edge}-> N102
+src/kundu1.cil/kundu1.cil.c, line 155:	N102 -{int __retres1;}-> N103
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[((int)C_1_pc) == 1]}-> N105
+	(int)C_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 159:	N105 -{[((int)e) == 1]}-> N108
+	(int)e == 1
+src/kundu1.cil/kundu1.cil.c, line 160:	N108 -{__retres1 = 1;}-> N110
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 161:	N110 -{Goto: return_label}-> N121
+src/kundu1.cil/kundu1.cil.c, line 180:	N121 -{return __retres1;}-> N100
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 348:	N100 -{Return edge from is_C_1_triggered to activate_threads: tmp___1 = is_C_1_triggered();}-> N232
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[!(tmp___1 == 0)]}-> N234
+	tmp___1 == 1;
+	tmp___1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 351:	N234 -{C_1_st = 0;}-> N236
+	C_1_st == 0;
+none:	N236 -{}-> N233
+src/kundu1.cil/kundu1.cil.c, line 356:	N233 -{return;}-> N221
+src/kundu1.cil/kundu1.cil.c, line 417:	N221 -{Return edge from activate_threads to start_simulation: activate_threads();}-> N279
+src/kundu1.cil/kundu1.cil.c, line 418:	N279 -{reset_delta_events()}-> N200
+none:	N200 -{Function start dummy edge}-> N201
+src/kundu1.cil/kundu1.cil.c, line 298:	N201 -{return;}-> N199
+src/kundu1.cil/kundu1.cil.c, line 418:	N199 -{Return edge from reset_delta_events to start_simulation: reset_delta_events();}-> N280
+src/kundu1.cil/kundu1.cil.c, line 421:	N280 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 218:	N151 -{__retres1 = 1;}-> N153
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 219:	N153 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 421:	N141 -{Return edge from exists_runnable_thread to start_simulation: tmp = exists_runnable_thread();}-> N281
+src/kundu1.cil/kundu1.cil.c, line 423:	N281 -{[!(tmp == 0)]}-> N284
+	tmp == 1;
+	tmp == 1;
+none:	N284 -{}-> N282
+src/kundu1.cil/kundu1.cil.c, line 434:	N282 -{stop_simulation()}-> N244
+none:	N244 -{Function start dummy edge}-> N245
+src/kundu1.cil/kundu1.cil.c, line 371:	N245 -{int tmp;}-> N246
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 372:	N246 -{int __retres2;}-> N247
+src/kundu1.cil/kundu1.cil.c, line 376:	N247 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 218:	N151 -{__retres1 = 1;}-> N153
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 219:	N153 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 376:	N141 -{Return edge from exists_runnable_thread to stop_simulation: tmp = exists_runnable_thread();}-> N248
+src/kundu1.cil/kundu1.cil.c, line 378:	N248 -{[!(tmp == 0)]}-> N250
+	tmp == 1;
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 379:	N250 -{__retres2 = 0;}-> N252
+	__retres2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 380:	N252 -{Goto: return_label}-> N255
+src/kundu1.cil/kundu1.cil.c, line 386:	N255 -{return __retres2;}-> N243
+	__retres2 = 0
+src/kundu1.cil/kundu1.cil.c, line 434:	N243 -{Return edge from stop_simulation to start_simulation: tmp___0 = stop_simulation();}-> N289
+src/kundu1.cil/kundu1.cil.c, line 436:	N289 -{[tmp___0 == 0]}-> N292
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N292 -{}-> N290
+none:	N290 -{}-> N269
+src/kundu1.cil/kundu1.cil.c, line 404:	N269 -{}-> N270
+src/kundu1.cil/kundu1.cil.c, line 405:	N270 -{Label: while_4_continue}-> N272
+src/kundu1.cil/kundu1.cil.c, line 407:	N272 -{kernel_st = 1;}-> N273
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+none:	N159 -{Function start dummy edge}-> N160
+src/kundu1.cil/kundu1.cil.c, line 231:	N160 -{int tmp;}-> N161
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 232:	N161 -{int tmp___0;}-> N162
+src/kundu1.cil/kundu1.cil.c, line 233:	N162 -{int tmp___1;}-> N163
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 238:	N165 -{}-> N166
+src/kundu1.cil/kundu1.cil.c, line 239:	N166 -{Label: while_3_continue}-> N168
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+none:	N142 -{Function start dummy edge}-> N143
+src/kundu1.cil/kundu1.cil.c, line 210:	N143 -{int __retres1;}-> N144
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+	(int)P_1_st == 2
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 218:	N151 -{__retres1 = 1;}-> N153
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 219:	N153 -{Goto: return_label}-> N156
+src/kundu1.cil/kundu1.cil.c, line 227:	N156 -{return __retres1;}-> N141
+	__retres1 = 1
+src/kundu1.cil/kundu1.cil.c, line 241:	N141 -{Return edge from exists_runnable_thread to eval: tmp___2 = exists_runnable_thread();}-> N169
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+	tmp___2 == 1;
+none:	N171 -{}-> N170
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[!(((int)P_1_st) == 0)]}-> N176
+	(int)P_1_st == 2
+none:	N176 -{}-> N174
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+	(int)C_1_st == 0
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	tmp___1 == 2;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 269:	N188 -{C_1_st = 1;}-> N190
+	C_1_st == 1;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+none:	N54 -{Function start dummy edge}-> N55
+src/kundu1.cil/kundu1.cil.c, line 97:	N55 -{char c;}-> N56
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[!(((int)C_1_pc) == 0)]}-> N59
+	(int)C_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 103:	N59 -{[((int)C_1_pc) == 1]}-> N62
+	(int)C_1_pc == 1
+src/kundu1.cil/kundu1.cil.c, line 104:	N62 -{Goto: C_1_WAIT_1_LOC}-> N82
+src/kundu1.cil/kundu1.cil.c, line 124:	N82 -{Label: C_1_WAIT_1_LOC}-> N83
+none:	N83 -{}-> N74
+src/kundu1.cil/kundu1.cil.c, line 128:	N74 -{num = num - 1;}-> N84
+	num == -1;
+src/kundu1.cil/kundu1.cil.c, line 129:	N84 -{[!(num >= 0)]}-> N86
+	num == -1;
+	num == -1;
+src/kundu1.cil/kundu1.cil.c, line 131:	N86 -{error()}-> N5
+none:	N5 -{Function start dummy edge}-> N6
+src/kundu1.cil/kundu1.cil.c, line 19:	N6 -{Label: ERROR}-> N7

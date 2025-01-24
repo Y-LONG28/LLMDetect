@@ -1,0 +1,727 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "db3a44c9-b3d1-3157-9199-8804b92a4733"
+    creation_time: "2025-01-24T02:23:10+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec4_productSimulator.cil_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec4_productSimulator.cil_dc_fix.c: "6b7c1e3b5e7444ae7962efe1ba91cdf7978f6aba12c37876b2fb767f7eb62a6e"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c: "ab474e754a4a939924931431d170d2f4984dfa580e4fb8602081ccc35d3076c5"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(choice == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1068
+          column: 3
+          function: "select_one"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 140
+          column: 3
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 543
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 551
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 551
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec4_productSimulator.cil_dc_fix.c"
+          line: 17
+          column: 3
+          function: "waterRise"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___0 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 561
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 561
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 990
+          column: 3
+          function: "changeMethaneLevel"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___2 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___1 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 583
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 583
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 214
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 350
+          column: 3
+          function: "processEnvironment"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 325
+          column: 3
+          function: "processEnvironment__role__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 307
+          column: 3
+          function: "processEnvironment__before__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 264
+          column: 3
+          function: "processEnvironment__before__lowWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 239
+          column: 3
+          function: "processEnvironment__role__highWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 1043
+          column: 3
+          function: "isHighWaterSensorDry"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 478
+          column: 3
+          function: "isHighWaterLevel"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 243
+          column: 5
+          function: "processEnvironment__role__highWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 392
+          column: 3
+          function: "activatePump"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 543
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 551
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___0 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 561
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 561
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 990
+          column: 3
+          function: "changeMethaneLevel"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___2 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 572
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 207
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec4_productSimulator.cil_dc_fix.c"
+          line: 7
+          column: 3
+          function: "lowerWaterLevel"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 214
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 350
+          column: 3
+          function: "processEnvironment"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 325
+          column: 3
+          function: "processEnvironment__role__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 329
+          column: 5
+          function: "processEnvironment__role__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 307
+          column: 3
+          function: "processEnvironment__before__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 264
+          column: 3
+          function: "processEnvironment__before__lowWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 239
+          column: 3
+          function: "processEnvironment__role__highWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 543
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 551
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___0 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 561
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___2 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 571
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 572
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 207
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/minepump_spec4_productSimulator.cil_dc_fix.c"
+          line: 7
+          column: 3
+          function: "lowerWaterLevel"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 214
+          column: 3
+          function: "timeShift"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 350
+          column: 3
+          function: "processEnvironment"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 325
+          column: 3
+          function: "processEnvironment__role__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 329
+          column: 5
+          function: "processEnvironment__role__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 307
+          column: 3
+          function: "processEnvironment__before__methaneAlarm"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 264
+          column: 3
+          function: "processEnvironment__before__lowWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 239
+          column: 3
+          function: "processEnvironment__role__highWaterSensor"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 173
+          column: 3
+          function: "src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 177
+          column: 5
+          function: "src_minepump_spec4_productSimulator_cil_minepump_spec4_productSimulator_cil_c__utac_acc__Specification4_spec__1"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/minepump_spec4_productSimulator.cil/minepump_spec4_productSimulator.cil.c"
+          line: 612
+          column: 3
+          function: "__automaton_fail"

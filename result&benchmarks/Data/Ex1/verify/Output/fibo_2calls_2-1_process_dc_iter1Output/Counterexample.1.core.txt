@@ -1,0 +1,24 @@
+line 51:	N74 -{int iVar1;}-> N75
+line 55:	N77 -{fibo1(2)}-> N37
+	n == 2;
+line 17:	N41 -{[!(n < 1)]}-> N44
+	n == 2;
+line 20:	N44 -{[!(n == 1)]}-> N48
+	n == 2;
+line 24:	N48 -{fibo2(n - 1)}-> N55
+	n == 1;
+line 36:	N59 -{[!(n < 1)]}-> N62
+	n == 1;
+line 39:	N62 -{[n == 1]}-> N65
+	iVar2 == 1;
+	n == 1;
+line 25:	N50 -{fibo2(n - 2)}-> N55
+	iVar2 == 1;
+	n == 0;
+line 36:	N59 -{[n < 1]}-> N61
+	iVar2 == 1;
+	iVar2 == 0;
+	n == 0;
+line 56:	N78 -{[iVar1 == 1]}-> N80
+	iVar1 == 1;
+line 57:	N89 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 1\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/fibo_2calls_2-1_process_dc_iter1.c", 57, "__PRETTY_FUNCTION__");}-> N370

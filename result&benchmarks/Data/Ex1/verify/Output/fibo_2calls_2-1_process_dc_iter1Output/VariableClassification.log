@@ -1,0 +1,48 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_2, fibo1::n_local, __bswap_32::__bsx, __bswap_64::__bsx, main::x, main::__retval__, main::result, fibo2::n_local, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[fibo1::__retval__, fibo2::__retval__, main::iVar1, fibo2::n, fibo1::iVar1, fibo1::iVar2, fibo1::n, fibo2::iVar1, fibo2::iVar2]
+
+IntOverflow
+
+[fibo1::__retval__, fibo2::__retval__, main::iVar1, fibo2::n, fibo1::iVar1, fibo1::n, fibo1::iVar2, fibo2::iVar1, fibo2::iVar2]
+
+ALL
+
+[main::iVar1, __bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, assume::cond, main::__CPAchecker_TMP_2, fibo1::n_local, fibo2::n, main::x, __bswap_64::__CPAchecker_TMP_0, main::result, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, fibo2::n_local, fibo1::__retval__, fibo2::__retval__, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, fibo1::iVar1, fibo1::iVar2, fibo1::n, __bswap_16::__retval__, __uint16_identity::__retval__, fibo2::iVar1, fibo2::iVar2]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[fibo1::__retval__, fibo1::iVar1, fibo1::iVar2, fibo2::__retval__, fibo2::iVar1, fibo2::iVar2, main::iVar1] --> [0, 1],
+[fibo1::n_local] --> [],
+[fibo1::n, fibo2::n] --> [1, 2],
+[fibo2::n_local] --> [],
+[main::result] --> [],
+[main::x] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[assume::cond, fibo1::__retval__, fibo2::__retval__, main::iVar1, fibo2::n, fibo1::iVar1, fibo1::n, fibo1::iVar2, fibo2::iVar1, fibo2::iVar2]
+
+RELEVANT FIELDS
+
+{}

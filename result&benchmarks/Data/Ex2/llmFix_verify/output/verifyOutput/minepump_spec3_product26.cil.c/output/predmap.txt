@@ -1,0 +1,17 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__utac_acc__Specification3_spec__1::tmp___1| () (_ BitVec 32))
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+
+__utac_acc__Specification3_spec__1:
+(assert (let ((.def_207 (= |__utac_acc__Specification3_spec__1::tmp___1| (_ bv0 32)))).def_207))
+
+__automaton_fail N458:
+(assert false)
+
+test N569:
+(assert (let ((.def_221 (= waterLevel (_ bv2 32)))).def_221))
+(assert (let ((.def_224 (= systemActive (_ bv0 32)))).def_224))
+(assert (let ((.def_227 (= pumpRunning (_ bv0 32)))).def_227))
+

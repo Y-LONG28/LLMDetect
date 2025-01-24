@@ -1,0 +1,39 @@
+line 19:	N40 -{int *a;}-> N41
+line 22:	N42 -{SIZE = (int)((size_t )a);}-> N43
+line 23:	N43 -{[1 < ((int)((size_t )a))]}-> N46
+line 23:	N46 -{[((int)((size_t )a)) < 100000]}-> N45
+lines 25-27:	N48 -{i = 0;}-> N49
+	i == 0;
+line 25:	N49 -{[i < SIZE]}-> N51
+	i == 0;
+lines 25-27:	N50 -{i = i + 1;}-> N49
+	i == 1;
+line 25:	N49 -{[i < SIZE]}-> N51
+	i == 1;
+lines 25-27:	N50 -{i = i + 1;}-> N49
+	i == 2;
+line 25:	N49 -{[!(i < SIZE)]}-> N52
+	i == 2;
+line 28:	N52 -{[(SIZE & 1U) == 0]}-> N55
+line 29:	N55 -{assume((uint )((SIZE & 1U) == 0))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+lines 30-37:	N57 -{i = 1;}-> N58
+	i == 1;
+line 30:	N58 -{[i <= (SIZE / 2)]}-> N60
+	i == 1;
+line 31:	N60 -{[!(i < (*((int *)(((((long)(i * 2)) * 4) + -8) + ((long)pvVar1)))))]}-> N62
+	i == 1;
+line 34:	N62 -{[!(i < (*((int *)(((((long)(i * 2)) * 4) + -4) + ((long)pvVar1)))))]}-> N65
+	i == 1;
+lines 30-37:	N59 -{i = i + 1;}-> N58
+	i == 2;
+line 30:	N58 -{[!(i <= (SIZE / 2))]}-> N61
+	i == 2;
+lines 38-42:	N68 -{i = 0;}-> N69
+	i == 0;
+line 38:	N69 -{[i < SIZE]}-> N71
+	i == 0;
+line 39:	N71 -{[i < (*((int *)((((long)i) * 4) + ((long)pvVar1))))]}-> N74
+	__CPAchecker_TMP_2 == 0;
+	i == 0;
+line 40:	N83 -{__assert_fail("0 && \"a[i] <= i\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/skippedu_process_dc_iter2.c", 40, "__PRETTY_FUNCTION__");}-> N390

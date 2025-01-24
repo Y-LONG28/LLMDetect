@@ -1,0 +1,26 @@
+line 8:	N368 -{int b = 0;}-> N369
+	p1 == 8LL;
+	p2 == 0LL;
+	p1 == 0LL;
+	b == 0;
+line 35:	N49 -{p2 = &b;}-> N50
+	b == 1;
+	p2 == 28LL;
+line 37:	N51 -{a = 4;}-> N52
+	a == 4;
+line 38:	N52 -{f()}-> N37
+line 24:	N39 -{bVar1 = (((*p2) + (*p1)) - a) == 1;}-> N40
+	bVar1 == 1;
+line 25:	N40 -{[!(bVar1 == 0)]}-> N42
+	bVar1 == 1;
+line 26:	N42 -{p1 = p2;}-> N43
+	p1 == 28LL;
+	(*p1) == 1;
+line 39:	N53 -{[!(a == 0)]}-> N57
+	a == 1;
+line 39:	N57 -{[!(p1 != p2)]}-> N56
+	p1 == 28LL;
+	(*p1) == 1;
+	p2 == 28LL;
+	(*p2) == 1;
+line 43:	N68 -{__assert_fail("0 && \"Assertion failed: main\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test08_process_dc_iter2.c", 43, "__PRETTY_FUNCTION__");}-> N376

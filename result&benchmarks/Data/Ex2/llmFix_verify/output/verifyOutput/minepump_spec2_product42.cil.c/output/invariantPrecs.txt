@@ -1,0 +1,21 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun methAndRunningLastTime () (_ BitVec 32))
+(declare-fun methaneLevelCritical () (_ BitVec 32))
+(declare-fun |test::splverifierCounter| () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+
+__utac__exception__cf_handler_free N77:
+(assert false)
+
+__utac__exception__cf_handler_reset N127:
+(assert false)
+
+__utac__error_stack_mgt N199:
+(assert false)
+
+test N322:
+(assert (let ((.def_1235 (= pumpRunning (_ bv0 32))))(let ((.def_1350 (not .def_1235)))(let ((.def_929 (= |test::splverifierCounter| (_ bv0 32))))(let ((.def_1351 (and .def_929 .def_1350)))(let ((.def_496 (= methaneLevelCritical (_ bv0 32))))(let ((.def_832 (not .def_496)))(let ((.def_1352 (and .def_832 .def_1351)))(let ((.def_247 (= methAndRunningLastTime (_ bv0 32))))(let ((.def_1354 (or .def_247 .def_1352)))(let ((.def_1240 (and .def_929 .def_1235)))(let ((.def_1318 (or .def_496 .def_1240)))(let ((.def_1317 (or .def_832 .def_929)))(let ((.def_1319 (and .def_1317 .def_1318)))(let ((.def_494 (not .def_247)))(let ((.def_1353 (or .def_494 .def_1319)))(let ((.def_1355 (and .def_1353 .def_1354))).def_1355)))))))))))))))))
+
+cleanup N504:
+(assert false)
+

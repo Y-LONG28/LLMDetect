@@ -1,0 +1,5 @@
+line 17:	N41 -{uint x;}-> N42
+	x == 1U;
+line 19:	N43 -{[!((x % 2) == 0)]}-> N45
+line 19:	N48 -{[!((x % 2) == 0)]}-> N51
+line 19:	N51 -{__assert_fail("!(x % 2) && \"Assertion failed: x should be even\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/simple_4-1_abstracted_process_dc_iter1.c", 19, "__PRETTY_FUNCTION__");}-> N354

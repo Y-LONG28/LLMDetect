@@ -1,0 +1,985 @@
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 51:	N2539 -{int __SELECTED_FEATURE_Base = 0;}-> N2540
+	__SELECTED_FEATURE_Base == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 52:	N2540 -{int __SELECTED_FEATURE_Keys = 0;}-> N2541
+	__SELECTED_FEATURE_Encrypt == 0;
+	__SELECTED_FEATURE_Keys == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 54:	N2542 -{int __SELECTED_FEATURE_AutoResponder = 0;}-> N2543
+	__SELECTED_FEATURE_AutoResponder == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 55:	N2543 -{int __SELECTED_FEATURE_AddressBook = 0;}-> N2544
+	__SELECTED_FEATURE_AddressBook == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 56:	N2544 -{int __SELECTED_FEATURE_Sign = 0;}-> N2545
+	__SELECTED_FEATURE_Sign == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 57:	N2545 -{int __SELECTED_FEATURE_Forward = 0;}-> N2546
+	__SELECTED_FEATURE_Forward == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 58:	N2546 -{int __SELECTED_FEATURE_Verify = 0;}-> N2547
+	__SELECTED_FEATURE_Verify == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 59:	N2547 -{int __SELECTED_FEATURE_Decrypt = 0;}-> N2548
+	__SELECTED_FEATURE_Decrypt == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 62:	N2550 -{int mail_is_sensitive = -1;}-> N2551
+	__ste_ClientKeyring_size2 == 0;
+	__ste_ClientKeyring_size1 == 0;
+	__ste_ClientKeyring_size0 == 0;
+	__ste_client_privateKey2 == 0;
+	__ste_client_privateKey1 == 0;
+	__ste_client_privateKey0 == 0;
+	__ste_client_autoResponse2 == 0;
+	__ste_client_autoResponse1 == 0;
+	__ste_client_autoResponse0 == 0;
+	__ste_Client_AddressBook2_Address2 == 0;
+	__ste_Client_AddressBook2_Address1 == 0;
+	__ste_Client_AddressBook2_Address0 == 0;
+	__ste_Client_AddressBook1_Address2 == 0;
+	__ste_Client_AddressBook1_Address1 == 0;
+	__ste_Client_AddressBook1_Address0 == 0;
+	__ste_Client_AddressBook0_Address2 == 0;
+	__ste_Client_AddressBook0_Address1 == 0;
+	__ste_Client_AddressBook0_Address0 == 0;
+	__ste_Client_AddressBook2_Alias2 == 0;
+	__ste_Client_AddressBook2_Alias1 == 0;
+	__ste_Client_AddressBook2_Alias0 == 0;
+	__ste_Client_AddressBook1_Alias2 == 0;
+	__ste_Client_AddressBook1_Alias1 == 0;
+	__ste_Client_AddressBook1_Alias0 == 0;
+	__ste_Client_AddressBook0_Alias2 == 0;
+	__ste_Client_AddressBook0_Alias1 == 0;
+	__ste_Client_AddressBook0_Alias0 == 0;
+	__ste_ClientAddressBook_size2 == 0;
+	__ste_ClientAddressBook_size1 == 0;
+	__ste_ClientAddressBook_size0 == 0;
+	__ste_Client_counter == 0;
+	src_email_spec1_productSimulator_cil_email_spec1_productSimulator_cil_chead == 0LL;
+	chuck == 0;
+	rjh == 0;
+	bob == 0;
+	__ste_email_isSignatureVerified1 == 0;
+	__ste_email_isSignatureVerified0 == 0;
+	__ste_email_signKey1 == 0;
+	__ste_email_signKey0 == 0;
+	__ste_email_isSigned1 == 0;
+	__ste_email_isSigned0 == 0;
+	__ste_email_encryptionKey1 == 0;
+	__ste_email_encryptionKey0 == 0;
+	__ste_email_isEncrypted1 == 0;
+	__ste_email_isEncrypted0 == 0;
+	__ste_email_to1 == 0;
+	__ste_email_to0 == 0;
+	__ste_email_from1 == 0;
+	__ste_email_from0 == 0;
+	__ste_email_id1 == 0;
+	__ste_email_id0 == 0;
+	__ste_Email_counter == 0;
+	queued_client == 0;
+	queued_message == 0;
+	queue_empty == 1;
+	mail_is_sensitive == -1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2954:	N2747 -{int __ste_Client_Keyring0_User0 = 0;}-> N2748
+	__ste_Client_Keyring0_User0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2955:	N2748 -{int __ste_Client_Keyring0_User1 = 0;}-> N2749
+	__ste_client_idCounter2 == 0;
+	__ste_client_idCounter1 == 0;
+	__ste_client_idCounter0 == 0;
+	__ste_client_forwardReceiver2 == 0;
+	__ste_client_forwardReceiver1 == 0;
+	__ste_client_forwardReceiver0 == 0;
+	__ste_Client_Keyring2_PublicKey1 == 0;
+	__ste_Client_Keyring2_PublicKey0 == 0;
+	__ste_Client_Keyring1_PublicKey1 == 0;
+	__ste_Client_Keyring1_PublicKey0 == 0;
+	__ste_Client_Keyring0_PublicKey1 == 0;
+	__ste_Client_Keyring0_PublicKey0 == 0;
+	__ste_Client_Keyring2_User1 == 0;
+	__ste_Client_Keyring2_User0 == 0;
+	__ste_Client_Keyring1_User1 == 0;
+	__ste_Client_Keyring1_User0 == 0;
+	__ste_Client_Keyring0_User1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1718:	N1129 -{int tmp;}-> N1130
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1722:	N1130 -{select_helpers()}-> N2442
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1723:	N1131 -{select_features()}-> N2429
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3334:	N2430 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3335:	N2431 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3336:	N2432 -{__SELECTED_FEATURE_Encrypt = 1;}-> N2433
+	__SELECTED_FEATURE_Encrypt == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3337:	N2433 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3338:	N2434 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3339:	N2435 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3340:	N2436 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3341:	N2437 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3342:	N2438 -{select_one()}-> N2420
+	retValue_acc == 2;
+	choice == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1724:	N1132 -{valid_product()}-> N2447
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3360:	N2450 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N2453
+	__SELECTED_FEATURE_Encrypt == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3363:	N2453 -{[!(__SELECTED_FEATURE_Decrypt == 0)]}-> N2456
+	__SELECTED_FEATURE_Decrypt == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3365:	N2458 -{[!(__SELECTED_FEATURE_Decrypt == 0)]}-> N2461
+	__SELECTED_FEATURE_Decrypt == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3368:	N2461 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N2464
+	__SELECTED_FEATURE_Encrypt == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3370:	N2466 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N2469
+	__SELECTED_FEATURE_Encrypt == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3373:	N2469 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N2472
+	__SELECTED_FEATURE_Keys == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3375:	N2474 -{[!(__SELECTED_FEATURE_Sign == 0)]}-> N2477
+	__SELECTED_FEATURE_Sign == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3378:	N2477 -{[!(__SELECTED_FEATURE_Verify == 0)]}-> N2480
+	__SELECTED_FEATURE_Verify == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3380:	N2482 -{[!(__SELECTED_FEATURE_Verify == 0)]}-> N2485
+	__SELECTED_FEATURE_Verify == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3383:	N2485 -{[!(__SELECTED_FEATURE_Sign == 0)]}-> N2488
+	__SELECTED_FEATURE_Sign == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3385:	N2490 -{[!(__SELECTED_FEATURE_Sign == 0)]}-> N2493
+	__SELECTED_FEATURE_Sign == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3388:	N2493 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N2496
+	__SELECTED_FEATURE_Keys == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3390:	N2498 -{[!(__SELECTED_FEATURE_Base == 0)]}-> N2500
+	retValue_acc == 1;
+	tmp == 1;
+	__SELECTED_FEATURE_Base == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1726:	N1133 -{[!(tmp == 0)]}-> N1135
+	tmp == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1728:	N1135 -{setup()}-> N1108
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1700:	N1112 -{bob = 1;}-> N1113
+	bob == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1701:	N1113 -{setup_bob(bob)}-> N1034
+	bob___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1570:	N1035 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N1037
+	__SELECTED_FEATURE_Keys == 2;
+	bob___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1572:	N1037 -{setup_bob__role__Keys(bob___0)}-> N1028
+	bob___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1560:	N1029 -{setup_bob__before__Keys(bob___0)}-> N1023
+	bob___0 == 1;
+	bob___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1550:	N1024 -{setClientId(bob___0, bob___0)}-> N2404
+	handle == 1;
+	value == 1;
+	bob___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3301:	N2405 -{[handle == 1]}-> N2407
+	__ste_client_idCounter0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1561:	N1030 -{setClientPrivateKey(bob___0, 123)}-> N2041
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2866:	N2042 -{[handle == 1]}-> N2044
+	__cil_tmp1 == 6LL;
+	__ste_client_privateKey0 == 123;
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1703:	N1115 -{printf(__cil_tmp1, bob);}-> N1116
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1704:	N1116 -{rjh = 2;}-> N1117
+	rjh == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1705:	N1117 -{setup_rjh(rjh)}-> N1055
+	rjh___0 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1608:	N1056 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N1058
+	__SELECTED_FEATURE_Keys == 2;
+	rjh___0 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1610:	N1058 -{setup_rjh__role__Keys(rjh___0)}-> N1049
+	rjh___0 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1598:	N1050 -{setup_rjh__before__Keys(rjh___0)}-> N1044
+	rjh___0 == 2;
+	rjh___0 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1588:	N1045 -{setClientId(rjh___0, rjh___0)}-> N2404
+	handle == 2;
+	value == 2;
+	rjh___0 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3301:	N2405 -{[!(handle == 1)]}-> N2408
+	handle == 2;
+	value == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3304:	N2408 -{[handle == 2]}-> N2411
+	__ste_client_idCounter1 == 2;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1599:	N1051 -{setClientPrivateKey(rjh___0, 456)}-> N2041
+	handle == 2;
+	value == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2866:	N2042 -{[!(handle == 1)]}-> N2045
+	handle == 2;
+	value == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2869:	N2045 -{[handle == 2]}-> N2048
+	__cil_tmp2 == 7LL;
+	__ste_client_privateKey1 == 456;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1707:	N1119 -{printf(__cil_tmp2, rjh);}-> N1120
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1708:	N1120 -{chuck = 3;}-> N1121
+	chuck == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1709:	N1121 -{setup_chuck(chuck)}-> N1076
+	chuck___0 == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1646:	N1077 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N1079
+	__SELECTED_FEATURE_Keys == 2;
+	chuck___0 == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1648:	N1079 -{setup_chuck__role__Keys(chuck___0)}-> N1070
+	chuck___0 == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1636:	N1071 -{setup_chuck__before__Keys(chuck___0)}-> N1065
+	chuck___0 == 3;
+	chuck___0 == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1626:	N1066 -{setClientId(chuck___0, chuck___0)}-> N2404
+	handle == 3;
+	value == 3;
+	chuck___0 == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3301:	N2405 -{[!(handle == 1)]}-> N2408
+	handle == 3;
+	value == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3304:	N2408 -{[!(handle == 2)]}-> N2412
+	handle == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3307:	N2412 -{[handle == 3]}-> N2415
+	__ste_client_idCounter2 == 3;
+	handle == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1637:	N1072 -{setClientPrivateKey(chuck___0, 789)}-> N2041
+	handle == 3;
+	value == 789;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2866:	N2042 -{[!(handle == 1)]}-> N2045
+	handle == 3;
+	value == 789;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2869:	N2045 -{[!(handle == 2)]}-> N2049
+	handle == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2872:	N2049 -{[handle == 3]}-> N2052
+	__cil_tmp3 == 8LL;
+	__ste_client_privateKey2 == 789;
+	handle == 3;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1711:	N1123 -{printf(__cil_tmp3, chuck);}-> N1124
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1729:	N1137 -{test()}-> N42
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 127:	N66 -{op1 = 0;}-> N67
+	op1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 128:	N67 -{op2 = 0;}-> N68
+	op2 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 129:	N68 -{op3 = 0;}-> N69
+	op3 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 130:	N69 -{op4 = 0;}-> N70
+	op4 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 131:	N70 -{op5 = 0;}-> N71
+	op5 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 132:	N71 -{op6 = 0;}-> N72
+	op6 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 133:	N72 -{op7 = 0;}-> N73
+	op7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 134:	N73 -{op8 = 0;}-> N74
+	op8 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 135:	N74 -{op9 = 0;}-> N75
+	op9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 136:	N75 -{op10 = 0;}-> N76
+	op10 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 137:	N76 -{op11 = 0;}-> N77
+	op11 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 138:	N77 -{splverifierCounter = 0;}-> N78
+	splverifierCounter == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 140:	N78 -{while}-> N79
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 142:	N82 -{[splverifierCounter < 4]}-> N84
+	splverifierCounter == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 147:	N83 -{splverifierCounter = splverifierCounter + 1;}-> N87
+	splverifierCounter == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 148:	N87 -{[op1 == 0]}-> N89
+	op1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 150:	N89 -{tmp___9 = __VERIFIER_nondet_int();}-> N91
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 152:	N91 -{[tmp___9 == 0]}-> N94
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 166:	N101 -{[op2 == 0]}-> N103
+	op2 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 168:	N103 -{tmp___8 = __VERIFIER_nondet_int();}-> N105
+	tmp___8 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 170:	N105 -{[tmp___8 == 0]}-> N108
+	tmp___8 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 184:	N115 -{[op3 == 0]}-> N117
+	op3 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 186:	N117 -{tmp___7 = __VERIFIER_nondet_int();}-> N119
+	tmp___7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 188:	N119 -{[tmp___7 == 0]}-> N122
+	tmp___7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 202:	N129 -{[op4 == 0]}-> N131
+	op4 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 204:	N131 -{tmp___6 = __VERIFIER_nondet_int();}-> N133
+	tmp___6 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 206:	N133 -{[!(tmp___6 == 0)]}-> N135
+	tmp___6 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 207:	N135 -{[!(__SELECTED_FEATURE_Keys == 0)]}-> N138
+	__SELECTED_FEATURE_Keys == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 209:	N138 -{rjhKeyAdd()}-> N1159
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1764:	N1160 -{createClientKeyringEntry(rjh)}-> N2095
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2932:	N2098 -{int tmp;}-> N2099
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2937:	N2100 -{getClientKeyringSize(handle)}-> N2057
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2889:	N2059 -{[!(handle == 1)]}-> N2062
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2893:	N2062 -{[handle == 2]}-> N2066
+	retValue_acc == 0;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2938:	N2101 -{size = tmp;}-> N2102
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2940:	N2102 -{[size < 2]}-> N2104
+	__cil_tmp5 == 1;
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2943:	N2106 -{setClientKeyringSize(handle, __cil_tmp5)}-> N2079
+	handle == 2;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2913:	N2080 -{[!(handle == 1)]}-> N2083
+	handle == 2;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2916:	N2083 -{[handle == 2]}-> N2086
+	__ste_ClientKeyring_size1 == 1;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1765:	N1161 -{setClientKeyringUser(rjh, 0, 1)}-> N2166
+	handle == 2;
+	index == 0;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3021:	N2167 -{[!(handle == 1)]}-> N2170
+	handle == 2;
+	index == 0;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3032:	N2170 -{[handle == 2]}-> N2180
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3033:	N2180 -{[index == 0]}-> N2183
+	index == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3034:	N2183 -{__ste_Client_Keyring1_User0 = value;}-> N2185
+	__ste_Client_Keyring1_User0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1766:	N1162 -{setClientKeyringPublicKey(rjh, 0, 123)}-> N2307
+	handle == 2;
+	index == 0;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3182:	N2308 -{[!(handle == 1)]}-> N2311
+	handle == 2;
+	index == 0;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3193:	N2311 -{[handle == 2]}-> N2321
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3194:	N2321 -{[index == 0]}-> N2324
+	__ste_Client_Keyring1_PublicKey0 == 123;
+	index == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 214:	N137 -{op4 = 1;}-> N141
+	op4 == 1;
+none:	N88 -{}-> N79
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 142:	N82 -{[splverifierCounter < 4]}-> N84
+	splverifierCounter == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 147:	N83 -{splverifierCounter = splverifierCounter + 1;}-> N87
+	splverifierCounter == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 148:	N87 -{[op1 == 0]}-> N89
+	op1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 150:	N89 -{tmp___9 = __VERIFIER_nondet_int();}-> N91
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 152:	N91 -{[tmp___9 == 0]}-> N94
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 166:	N101 -{[op2 == 0]}-> N103
+	op2 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 168:	N103 -{tmp___8 = __VERIFIER_nondet_int();}-> N105
+	tmp___8 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 170:	N105 -{[!(tmp___8 == 0)]}-> N107
+	tmp___8 == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 171:	N107 -{[!(__SELECTED_FEATURE_AutoResponder == 0)]}-> N110
+	__SELECTED_FEATURE_AutoResponder == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 173:	N110 -{rjhSetAutoRespond()}-> N1209
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1854:	N1210 -{setClientAutoResponse(rjh, 1)}-> N2003
+	handle == 2;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2819:	N2004 -{[!(handle == 1)]}-> N2007
+	handle == 2;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2822:	N2007 -{[handle == 2]}-> N2010
+	__ste_client_autoResponse1 == 1;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 178:	N109 -{op2 = 1;}-> N113
+	op2 == 1;
+none:	N88 -{}-> N79
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 142:	N82 -{[splverifierCounter < 4]}-> N84
+	splverifierCounter == 3;
+	splverifierCounter == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 148:	N87 -{[op1 == 0]}-> N89
+	op1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 150:	N89 -{tmp___9 = __VERIFIER_nondet_int();}-> N91
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 152:	N91 -{[tmp___9 == 0]}-> N94
+	tmp___9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 166:	N101 -{[!(op2 == 0)]}-> N104
+	op2 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 184:	N115 -{[op3 == 0]}-> N117
+	op3 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 186:	N117 -{tmp___7 = __VERIFIER_nondet_int();}-> N119
+	tmp___7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 188:	N119 -{[tmp___7 == 0]}-> N122
+	tmp___7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 202:	N129 -{[!(op4 == 0)]}-> N132
+	op4 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 220:	N143 -{[op5 == 0]}-> N145
+	op5 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 222:	N145 -{tmp___5 = __VERIFIER_nondet_int();}-> N147
+	tmp___5 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 224:	N147 -{[tmp___5 == 0]}-> N150
+	tmp___5 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 238:	N157 -{[op6 == 0]}-> N159
+	op6 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 240:	N159 -{tmp___4 = __VERIFIER_nondet_int();}-> N161
+	tmp___4 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 242:	N161 -{[tmp___4 == 0]}-> N164
+	tmp___4 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 256:	N171 -{[op7 == 0]}-> N173
+	op7 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 258:	N173 -{tmp___3 = __VERIFIER_nondet_int();}-> N175
+	tmp___3 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 260:	N175 -{[tmp___3 == 0]}-> N178
+	tmp___3 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 274:	N185 -{[op8 == 0]}-> N187
+	op8 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 276:	N187 -{tmp___2 = __VERIFIER_nondet_int();}-> N189
+	tmp___2 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 278:	N189 -{[tmp___2 == 0]}-> N192
+	tmp___2 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 292:	N199 -{[op9 == 0]}-> N201
+	op9 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 294:	N201 -{tmp___1 = __VERIFIER_nondet_int();}-> N203
+	tmp___1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 296:	N203 -{[tmp___1 == 0]}-> N206
+	tmp___1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 310:	N213 -{[op10 == 0]}-> N215
+	op10 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 312:	N215 -{tmp___0 = __VERIFIER_nondet_int();}-> N217
+	tmp___0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 314:	N217 -{[tmp___0 == 0]}-> N220
+	tmp___0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 328:	N227 -{[op11 == 0]}-> N229
+	op11 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 330:	N229 -{tmp = __VERIFIER_nondet_int();}-> N231
+	tmp == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 332:	N231 -{[tmp == 0]}-> N234
+	tmp == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 361:	N243 -{bobToRjh()}-> N1086
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1660:	N1087 -{int tmp;}-> N1088
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1661:	N1088 -{int tmp___0;}-> N1089
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1662:	N1089 -{int tmp___1;}-> N1090
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1666:	N1090 -{puts("Please enter a subject and a message body.\n");}-> N1091
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1667:	N1091 -{sendEmail(bob, rjh)}-> N614
+	sender == 1;
+	receiver == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 969:	N616 -{int tmp;}-> N617
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 973:	N617 -{createEmail(0, receiver)}-> N381
+	from == 0;
+	to == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 574:	N384 -{msg = 1;}-> N385
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 575:	N385 -{setEmailFrom(msg, from)}-> N13
+	handle == 1;
+	value == 0;
+output/email_spec1_productSimulator.cil_dc_fix.c, line 18:	N14 -{[handle == 1]}-> N16
+	__ste_email_from0 == 0;
+	handle == 1;
+	value == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 576:	N386 -{setEmailTo(msg, to)}-> N804
+	handle == 1;
+	value == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1244:	N805 -{[handle == 1]}-> N807
+	retValue_acc == 1;
+	__ste_email_to0 == 2;
+	handle == 1;
+	value == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 974:	N618 -{email = tmp;}-> N619
+	email == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 975:	N619 -{outgoing(sender, email)}-> N486
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 760:	N487 -{[!(__SELECTED_FEATURE_Sign == 0)]}-> N489
+	__SELECTED_FEATURE_Sign == 2;
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 762:	N489 -{outgoing__role__Sign(client, msg)}-> N480
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 750:	N481 -{sign(client, msg)}-> N691
+	client == 1;
+	msg == 1;
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1076:	N693 -{int tmp;}-> N694
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1080:	N694 -{getClientPrivateKey(client)}-> N2019
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2842:	N2021 -{[handle == 1]}-> N2023
+	retValue_acc == 123;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1081:	N695 -{privkey = tmp;}-> N696
+	privkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1083:	N696 -{[!(privkey == 0)]}-> N699
+	privkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1089:	N697 -{setEmailIsSigned(msg, 1)}-> N953
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1433:	N954 -{[handle == 1]}-> N956
+	__ste_email_isSigned0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1090:	N701 -{setEmailSignKey(msg, privkey)}-> N982
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1470:	N983 -{[handle == 1]}-> N985
+	__ste_email_signKey0 == 123;
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 751:	N482 -{outgoing__before__Sign(client, msg)}-> N470
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 732:	N471 -{[!(__SELECTED_FEATURE_AddressBook == 0)]}-> N473
+	__SELECTED_FEATURE_AddressBook == 2;
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 734:	N473 -{outgoing__role__AddressBook(client, msg)}-> N441
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 693:	N443 -{int tmp;}-> N444
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 702:	N449 -{getClientAddressBookSize(client)}-> N1625
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2386:	N1627 -{[handle == 1]}-> N1629
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 703:	N450 -{size = tmp;}-> N451
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 705:	N451 -{[size == 0]}-> N454
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 722:	N454 -{outgoing__before__AddressBook(client, msg)}-> N431
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 678:	N432 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N434
+	__SELECTED_FEATURE_Encrypt == 1;
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 680:	N434 -{outgoing__role__Encrypt(client, msg)}-> N413
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 649:	N415 -{int tmp;}-> N416
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 651:	N417 -{int tmp___0;}-> N418
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 655:	N418 -{getEmailTo(msg)}-> N787
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1225:	N789 -{[handle == 1]}-> N791
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 656:	N419 -{receiver = tmp;}-> N420
+	receiver == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 657:	N420 -{findPublicKey(client, receiver)}-> N2255
+	handle == 1;
+	userid == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3128:	N2257 -{[handle == 1]}-> N2259
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3129:	N2259 -{[!(userid == __ste_Client_Keyring0_User0)]}-> N2263
+	userid == 2;
+	__ste_Client_Keyring0_User0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3133:	N2263 -{[!(userid == __ste_Client_Keyring0_User1)]}-> N2268
+	retValue_acc == 0;
+	userid == 2;
+	__ste_Client_Keyring0_User1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 658:	N421 -{pubkey = tmp___0;}-> N422
+	pubkey == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 660:	N422 -{[pubkey == 0]}-> N425
+	pubkey == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 669:	N423 -{outgoing__before__Encrypt(client, msg)}-> N405
+	client == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 640:	N407 -{getClientId(client)}-> N2382
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3277:	N2384 -{[handle == 1]}-> N2386
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 641:	N408 -{setEmailFrom(msg, tmp)}-> N13
+	handle == 1;
+	value == 1;
+output/email_spec1_productSimulator.cil_dc_fix.c, line 18:	N14 -{[handle == 1]}-> N16
+	__ste_email_from0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 642:	N409 -{mail(client, msg)}-> N392
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 621:	N395 -{int tmp;}-> N396
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 626:	N397 -{__utac__ad__arg2 = msg;}-> N398
+	__utac__ad__arg2 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 627:	N398 -{src_email_spec1_productSimulator_cil_email_spec1_productSimulator_cil_c__utac_acc__AddressBookEncrypt_spec__1(__utac__ad__arg1, __utac__ad__arg2)}-> N27
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 68:	N29 -{puts("before mail\n");}-> N30
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 70:	N30 -{[mail_is_sensitive == -1]}-> N32
+	mail_is_sensitive == -1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 72:	N32 -{isEncrypted(msg)}-> N878
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1340:	N880 -{[handle == 1]}-> N882
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 628:	N399 -{puts("mail sent");}-> N400
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 629:	N400 -{getEmailTo(msg)}-> N787
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1225:	N789 -{[handle == 1]}-> N791
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 630:	N401 -{incoming(tmp, msg)}-> N593
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 939:	N594 -{[!(__SELECTED_FEATURE_Decrypt == 0)]}-> N596
+	__SELECTED_FEATURE_Decrypt == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 941:	N596 -{incoming__role__Decrypt(client, msg)}-> N567
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 896:	N569 -{int tmp;}-> N570
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 897:	N570 -{int tmp___0;}-> N571
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 903:	N573 -{getClientPrivateKey(client)}-> N2019
+	retValue_acc == 123;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2842:	N2021 -{[!(handle == 1)]}-> N2024
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2846:	N2024 -{[handle == 2]}-> N2028
+	retValue_acc == 456;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 904:	N574 -{privkey = tmp;}-> N575
+	privkey == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 906:	N575 -{[!(privkey == 0)]}-> N577
+	privkey == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 908:	N577 -{isEncrypted(msg)}-> N878
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1340:	N880 -{[handle == 1]}-> N882
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 910:	N579 -{[tmp___0 == 0]}-> N582
+	tmp___0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 930:	N576 -{incoming__before__Decrypt(client, msg)}-> N557
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 881:	N558 -{[!(__SELECTED_FEATURE_Verify == 0)]}-> N560
+	__SELECTED_FEATURE_Verify == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 883:	N560 -{incoming__role__Verify(client, msg)}-> N551
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 871:	N552 -{verify(client, msg)}-> N712
+	client == 2;
+	msg == 1;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1108:	N713 -{int tmp;}-> N714
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1109:	N714 -{int tmp___0;}-> N715
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1111:	N716 -{int tmp___1;}-> N717
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1112:	N717 -{int tmp___2;}-> N718
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1113:	N718 -{int tmp___3;}-> N719
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1114:	N719 -{int tmp___4;}-> N720
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1118:	N720 -{isReadable(msg)}-> N362
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 545:	N364 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N366
+	__SELECTED_FEATURE_Encrypt == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 547:	N366 -{isReadable__role__Encrypt(msg)}-> N348
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 523:	N350 -{int tmp;}-> N351
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 527:	N351 -{isEncrypted(msg)}-> N878
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1340:	N880 -{[handle == 1]}-> N882
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 529:	N352 -{[tmp == 0]}-> N355
+	tmp == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 534:	N355 -{isReadable__before__Encrypt(msg)}-> N341
+	retValue_acc == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1120:	N721 -{[!(tmp == 0)]}-> N723
+	tmp == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1122:	N723 -{isSigned(msg)}-> N936
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1414:	N938 -{[handle == 1]}-> N940
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1124:	N725 -{[!(tmp___0 == 0)]}-> N727
+	tmp___0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1133:	N722 -{getEmailFrom(msg)}-> N1
+	handle == 1;
+output/email_spec1_productSimulator.cil_dc_fix.c, line 7:	N2 -{[handle == 1]}-> N4
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1134:	N731 -{findPublicKey(client, tmp___1)}-> N2255
+	retValue_acc == 0;
+	handle == 2;
+	userid == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3128:	N2257 -{[!(handle == 1)]}-> N2260
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3142:	N2260 -{[handle == 2]}-> N2274
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3143:	N2274 -{[userid == __ste_Client_Keyring1_User0]}-> N2277
+	retValue_acc == 123;
+	userid == 1;
+	__ste_Client_Keyring1_User0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1135:	N732 -{pubkey = tmp___2;}-> N733
+	pubkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1137:	N733 -{[!(pubkey == 0)]}-> N735
+	pubkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1139:	N735 -{getEmailSignKey(msg)}-> N965
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1451:	N967 -{[handle == 1]}-> N969
+	retValue_acc == 123;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1140:	N737 -{isKeyPairValid(tmp___3, pubkey)}-> N651
+	__cil_tmp4 == 4LL;
+	publicKey == 123;
+	privateKey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1024:	N655 -{printf(__cil_tmp4, publicKey, privateKey);}-> N656
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1026:	N656 -{[!(publicKey == 0)]}-> N659
+	publicKey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1030:	N659 -{[!(privateKey == 0)]}-> N664
+	retValue_acc == 1;
+	privateKey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1142:	N738 -{[!(tmp___4 == 0)]}-> N740
+	tmp___4 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1144:	N740 -{setEmailIsSignatureVerified(msg, 1)}-> N1011
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1507:	N1012 -{[handle == 1]}-> N1014
+	__ste_email_isSignatureVerified0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 872:	N553 -{incoming__before__Verify(client, msg)}-> N541
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 853:	N542 -{[!(__SELECTED_FEATURE_Forward == 0)]}-> N544
+	__SELECTED_FEATURE_Forward == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 855:	N544 -{incoming__role__Forward(client, msg)}-> N527
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 830:	N529 -{int tmp;}-> N530
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 834:	N530 -{incoming__before__Forward(client, msg)}-> N517
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 815:	N518 -{[!(__SELECTED_FEATURE_AutoResponder == 0)]}-> N520
+	__SELECTED_FEATURE_AutoResponder == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 817:	N520 -{incoming__role__AutoResponder(client, msg)}-> N506
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 794:	N507 -{int tmp;}-> N508
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 798:	N508 -{incoming__before__AutoResponder(client, msg)}-> N501
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 788:	N502 -{deliver(client, msg)}-> N496
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 778:	N497 -{puts("mail delivered\n");}-> N498
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 799:	N509 -{getClientAutoResponse(client)}-> N1981
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2795:	N1983 -{[!(handle == 1)]}-> N1986
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2799:	N1986 -{[handle == 2]}-> N1990
+	retValue_acc == 1;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 801:	N510 -{[!(tmp == 0)]}-> N512
+	tmp == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 803:	N512 -{autoRespond(client, msg)}-> N676
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1058:	N679 -{puts("sending autoresponse\n");}-> N680
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1059:	N680 -{getEmailFrom(msg)}-> N1
+	handle == 1;
+output/email_spec1_productSimulator.cil_dc_fix.c, line 7:	N2 -{[handle == 1]}-> N4
+	sender == 1;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1061:	N682 -{setEmailTo(msg, sender)}-> N804
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1244:	N805 -{[handle == 1]}-> N807
+	__ste_email_to0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1062:	N683 -{queue(client, msg)}-> N623
+	queued_client == 2;
+	queued_message == 1;
+	queue_empty == 0;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 835:	N531 -{getClientForwardReceiver(client)}-> N2344
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3230:	N2346 -{[!(handle == 1)]}-> N2349
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3234:	N2349 -{[handle == 2]}-> N2353
+	retValue_acc == 0;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 836:	N532 -{fwreceiver = tmp;}-> N533
+	fwreceiver == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 838:	N533 -{[fwreceiver == 0]}-> N536
+	fwreceiver == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1668:	N1092 -{is_queue_empty()}-> N630
+	retValue_acc == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1670:	N1093 -{[tmp___1 == 0]}-> N1096
+	tmp___1 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1674:	N1096 -{get_queued_email()}-> N644
+	retValue_acc == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1675:	N1097 -{get_queued_client()}-> N637
+	retValue_acc == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1676:	N1098 -{outgoing(tmp___0, tmp)}-> N486
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 760:	N487 -{[!(__SELECTED_FEATURE_Sign == 0)]}-> N489
+	__SELECTED_FEATURE_Sign == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 762:	N489 -{outgoing__role__Sign(client, msg)}-> N480
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 750:	N481 -{sign(client, msg)}-> N691
+	privkey == 123;
+	client == 2;
+	msg == 1;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1076:	N693 -{int tmp;}-> N694
+	tmp == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1080:	N694 -{getClientPrivateKey(client)}-> N2019
+	retValue_acc == 456;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2842:	N2021 -{[!(handle == 1)]}-> N2024
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2846:	N2024 -{[handle == 2]}-> N2028
+	retValue_acc == 456;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1081:	N695 -{privkey = tmp;}-> N696
+	privkey == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1083:	N696 -{[!(privkey == 0)]}-> N699
+	privkey == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1089:	N697 -{setEmailIsSigned(msg, 1)}-> N953
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1433:	N954 -{[handle == 1]}-> N956
+	__ste_email_isSigned0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1090:	N701 -{setEmailSignKey(msg, privkey)}-> N982
+	handle == 1;
+	value == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1470:	N983 -{[handle == 1]}-> N985
+	__ste_email_signKey0 == 456;
+	handle == 1;
+	value == 456;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 751:	N482 -{outgoing__before__Sign(client, msg)}-> N470
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 732:	N471 -{[!(__SELECTED_FEATURE_AddressBook == 0)]}-> N473
+	__SELECTED_FEATURE_AddressBook == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 734:	N473 -{outgoing__role__AddressBook(client, msg)}-> N441
+	size == 0;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 693:	N443 -{int tmp;}-> N444
+	tmp == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 702:	N449 -{getClientAddressBookSize(client)}-> N1625
+	retValue_acc == 0;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2386:	N1627 -{[!(handle == 1)]}-> N1630
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 2390:	N1630 -{[handle == 2]}-> N1634
+	retValue_acc == 0;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 703:	N450 -{size = tmp;}-> N451
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 705:	N451 -{[size == 0]}-> N454
+	size == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 722:	N454 -{outgoing__before__AddressBook(client, msg)}-> N431
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 678:	N432 -{[!(__SELECTED_FEATURE_Encrypt == 0)]}-> N434
+	__SELECTED_FEATURE_Encrypt == 1;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 680:	N434 -{outgoing__role__Encrypt(client, msg)}-> N413
+	receiver == 2;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 649:	N415 -{int tmp;}-> N416
+	pubkey == 0;
+	tmp == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 651:	N417 -{int tmp___0;}-> N418
+	tmp___0 == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 655:	N418 -{getEmailTo(msg)}-> N787
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1225:	N789 -{[handle == 1]}-> N791
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 656:	N419 -{receiver = tmp;}-> N420
+	receiver == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 657:	N420 -{findPublicKey(client, receiver)}-> N2255
+	retValue_acc == 123;
+	handle == 2;
+	userid == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3128:	N2257 -{[!(handle == 1)]}-> N2260
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3142:	N2260 -{[handle == 2]}-> N2274
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3143:	N2274 -{[userid == __ste_Client_Keyring1_User0]}-> N2277
+	retValue_acc == 123;
+	userid == 1;
+	__ste_Client_Keyring1_User0 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 658:	N421 -{pubkey = tmp___0;}-> N422
+	pubkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 660:	N422 -{[!(pubkey == 0)]}-> N424
+	pubkey == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 662:	N424 -{setEmailEncryptionKey(msg, pubkey)}-> N924
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1396:	N925 -{[handle == 1]}-> N927
+	__ste_email_encryptionKey0 == 123;
+	handle == 1;
+	value == 123;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 663:	N426 -{setEmailIsEncrypted(msg, 1)}-> N895
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1359:	N896 -{[handle == 1]}-> N898
+	__ste_email_isEncrypted0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 669:	N423 -{outgoing__before__Encrypt(client, msg)}-> N405
+	tmp == 1;
+	client == 2;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 640:	N407 -{getClientId(client)}-> N2382
+	retValue_acc == 1;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3277:	N2384 -{[!(handle == 1)]}-> N2387
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 3281:	N2387 -{[handle == 2]}-> N2391
+	retValue_acc == 2;
+	handle == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 641:	N408 -{setEmailFrom(msg, tmp)}-> N13
+	handle == 1;
+	value == 2;
+output/email_spec1_productSimulator.cil_dc_fix.c, line 18:	N14 -{[handle == 1]}-> N16
+	__ste_email_from0 == 2;
+	handle == 1;
+	value == 2;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 642:	N409 -{mail(client, msg)}-> N392
+	tmp == 2;
+	__utac__ad__arg2 == 1;
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 626:	N397 -{__utac__ad__arg2 = msg;}-> N398
+	__utac__ad__arg2 == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 627:	N398 -{src_email_spec1_productSimulator_cil_email_spec1_productSimulator_cil_c__utac_acc__AddressBookEncrypt_spec__1(__utac__ad__arg1, __utac__ad__arg2)}-> N27
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 64:	N28 -{int tmp;}-> N29
+	msg == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 68:	N29 -{puts("before mail\n");}-> N30
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 70:	N30 -{[!(mail_is_sensitive == -1)]}-> N33
+	mail_is_sensitive == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 76:	N33 -{isEncrypted(msg)}-> N878
+	retValue_acc == 0;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 1340:	N880 -{[handle == 1]}-> N882
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 78:	N35 -{[mail_is_sensitive != tmp]}-> N37
+	mail_is_sensitive == 0;
+src/email_spec1_productSimulator.cil/email_spec1_productSimulator.cil.c, line 80:	N37 -{__automaton_fail()}-> N1227

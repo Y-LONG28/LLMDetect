@@ -1,0 +1,83 @@
+line 12:	N470 -{int counter = 0;}-> N471
+	counter == 0;
+line 16:	N38 -{uint local_2c;}-> N39
+line 18:	N40 -{uint tmp_var_2_uint;}-> N41
+line 26:	N47 -{assume(local_2c != 0)}-> N31
+line 9:	N32 -{[!(cond == 0)]}-> N33
+line 27:	N48 -{p = tmp_var_2_uint;}-> N49
+line 28:	N49 -{q = local_2c;}-> N50
+line 29:	N50 -{tmp_var_1_uint = 1;}-> N51
+	tmp_var_1_uint == 1U;
+line 30:	N51 -{A = 0;}-> N52
+	tmp_var_1_uint == 1U;
+	A == 0U;
+line 32:	N52 -{while}-> N53
+line 32:	N53 -{[counter < 50]}-> N54
+	counter == 0;
+line 33:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 36:	N56 -{[!(tmp_var_2_uint < q)]}-> N69
+line 37:	N69 -{q = q << 1;}-> N72
+line 38:	N72 -{tmp_var_1_uint = tmp_var_1_uint << 1;}-> N73
+	__CPAchecker_TMP_3 == 0;
+	tmp_var_1_uint == 2U;
+line 39:	N74 -{counter = counter + 1;}-> N75
+	tmp_var_1_uint == 2U;
+	__CPAchecker_TMP_3 == 0;
+	counter == 1;
+none:	N76 -{}-> N53
+line 32:	N53 -{[counter < 50]}-> N54
+	counter == 1;
+line 33:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 36:	N56 -{[!(tmp_var_2_uint < q)]}-> N69
+line 37:	N69 -{q = q << 1;}-> N72
+line 38:	N72 -{tmp_var_1_uint = tmp_var_1_uint << 1;}-> N73
+	__CPAchecker_TMP_3 == 1;
+	tmp_var_1_uint == 4U;
+line 39:	N74 -{counter = counter + 1;}-> N75
+	tmp_var_1_uint == 4U;
+	__CPAchecker_TMP_3 == 1;
+	counter == 2;
+none:	N76 -{}-> N53
+line 32:	N53 -{[counter < 50]}-> N54
+	counter == 2;
+line 33:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 36:	N56 -{[tmp_var_2_uint < q]}-> N70
+line 43:	N80 -{[!(counter > 49)]}-> N81
+	counter == 2;
+line 52:	N81 -{[!(tmp_var_2_uint != ((A * local_2c) + p))]}-> N110
+line 55:	N110 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N123
+line 58:	N123 -{[!(tmp_var_1_uint == 1)]}-> N136
+	tmp_var_1_uint == 4U;
+line 67:	N136 -{q = q >> 1;}-> N165
+line 68:	N165 -{tmp_var_1_uint = tmp_var_1_uint >> 1;}-> N166
+	tmp_var_1_uint == 2U;
+line 69:	N166 -{[q <= p]}-> N168
+line 70:	N168 -{p = p - q;}-> N169
+line 71:	N169 -{A = tmp_var_1_uint + A;}-> N170
+	__CPAchecker_TMP_22 == 2;
+	A == 2U;
+line 73:	N171 -{counter = counter + 1;}-> N172
+	counter == 3;
+none:	N173 -{}-> N77
+line 43:	N80 -{[!(counter > 49)]}-> N81
+	counter == 3;
+line 52:	N81 -{[!(tmp_var_2_uint != ((A * local_2c) + p))]}-> N110
+line 55:	N110 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N123
+line 58:	N123 -{[!(tmp_var_1_uint == 1)]}-> N136
+	tmp_var_1_uint == 2U;
+line 67:	N136 -{q = q >> 1;}-> N165
+line 68:	N165 -{tmp_var_1_uint = tmp_var_1_uint >> 1;}-> N166
+	tmp_var_1_uint == 1U;
+line 69:	N166 -{[q <= p]}-> N168
+line 70:	N168 -{p = p - q;}-> N169
+line 71:	N169 -{A = tmp_var_1_uint + A;}-> N170
+	__CPAchecker_TMP_22 == 3;
+	A == 3U;
+line 73:	N171 -{counter = counter + 1;}-> N172
+	counter == 4;
+none:	N173 -{}-> N77
+line 43:	N80 -{[!(counter > 49)]}-> N81
+	counter == 4;
+line 52:	N81 -{[tmp_var_2_uint != ((A * local_2c) + p)]}-> N111
+	__CPAchecker_TMP_12 == 0;
+line 53:	N120 -{__assert_fail("0 && \"Assertion failed: A == q*B + r\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-u_unwindbound50_process_dc_iter1.c", 53, "__PRETTY_FUNCTION__");}-> N477

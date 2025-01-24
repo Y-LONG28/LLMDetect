@@ -1,0 +1,24 @@
+line 35:	N53 -{piVar1 = malloc(16);}-> N54
+	piVar1 == 1073741824LL;
+line 36:	N54 -{[!(piVar1 == ((int *)0))]}-> N55
+	piVar1 == 1073741824LL;
+line 39:	N55 -{a._4_4_ = 0;}-> N58
+	piStack_18 == 1073741824LL;
+	(a._4_4_) == 0;
+line 41:	N59 -{while}-> N60
+line 41:	N60 -{[(a._4_4_) < 30]}-> N63
+	(a._4_4_) == 0;
+line 41:	N63 -{[!((t._4_4_) != 0)]}-> N62
+	(piStack_18[3]) == 0;
+	(piStack_18[2]) == 0;
+	(*piStack_18) == 0;
+	(t._4_4_) == 0;
+lines 54-58:	N75 -{piStack_18 = piVar1;}-> N76
+	piStack_18 == 1073741824LL;
+	(*piStack_18) == 0;
+line 54:	N76 -{[piStack_18 != ((int *)0)]}-> N78
+	piStack_18 == 1073741824LL;
+	(*piStack_18) == 0;
+line 55:	N78 -{[(*piStack_18) != 1]}-> N81
+	(*piStack_18) == 0;
+line 56:	N90 -{__assert_fail("0 && \"Assertion failed: *piStack_18 should be 1\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/simple-ext_process_dc_iter1.c", 56, "__PRETTY_FUNCTION__");}-> N382

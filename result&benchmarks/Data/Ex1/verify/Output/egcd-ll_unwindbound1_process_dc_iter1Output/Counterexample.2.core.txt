@@ -1,0 +1,66 @@
+line 15:	N40 -{int local_4c;}-> N41
+	local_4c == 1071644674;
+line 17:	N42 -{int tmp_var_2_int;}-> N43
+	tmp_var_2_int == 1071644673;
+line 29:	N53 -{assume((uint )(0 < tmp_var_2_int))}-> N31
+	cond == 1;
+line 9:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 30:	N54 -{assume((uint )(0 < local_4c))}-> N31
+	cond == 1;
+line 9:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+line 31:	N55 -{b = (long long)tmp_var_2_int;}-> N56
+	b == 1071644673LL;
+line 32:	N56 -{p = (long long)local_4c;}-> N57
+	p == 1071644674LL;
+line 33:	N57 -{q = 1;}-> N58
+	q == 1LL;
+line 34:	N58 -{r = 0;}-> N59
+	r == 0LL;
+line 35:	N59 -{s = 0;}-> N60
+	s == 0LL;
+line 36:	N60 -{_x = 1;}-> N61
+	_x == 1;
+line 37:	N61 -{counter = 0;}-> N62
+	counter == 0;
+line 39:	N62 -{while}-> N63
+line 39:	N66 -{iVar2 = counter + 1;}-> N67
+	iVar2 == 1;
+line 39:	N67 -{bVar1 = counter < 1;}-> N68
+	bVar1 == 1;
+line 39:	N68 -{counter = iVar2;}-> N69
+	counter == 1;
+line 39:	N69 -{__CPAchecker_TMP_0 = bVar1;}-> N70
+	__CPAchecker_TMP_0 == 1;
+line 39:	N70 -{[!(__CPAchecker_TMP_0 == 0)]}-> N64
+	__CPAchecker_TMP_0 == 1;
+line 40:	N64 -{[!(((q * _x) - (s * r)) != 1)]}-> N71
+line 43:	N71 -{[!(b != ((tmp_var_2_int * q) + (local_4c * s)))]}-> N84
+	b == 1071644673LL;
+line 46:	N84 -{[!(p != ((local_4c * _x) + (tmp_var_2_int * r)))]}-> N97
+	p == 1071644674LL;
+line 49:	N97 -{[!(b == p)]}-> N110
+	b == 1071644673LL;
+	p == 1071644674LL;
+line 50:	N110 -{[!(p < b)]}-> N115
+	p == 1071644674LL;
+	b == 1071644673LL;
+line 55:	N115 -{p = p - b;}-> N119
+	_x == 1;
+	r == -1LL;
+	p == 1LL;
+none:	N113 -{}-> N63
+	iVar2 == 2;
+	__CPAchecker_TMP_0 == 1;
+line 39:	N67 -{bVar1 = counter < 1;}-> N68
+	counter == 2;
+	bVar1 == 0;
+line 39:	N69 -{__CPAchecker_TMP_0 = bVar1;}-> N70
+	__CPAchecker_TMP_0 == 0;
+line 39:	N70 -{[__CPAchecker_TMP_0 == 0]}-> N65
+	__CPAchecker_TMP_0 == 0;
+line 61:	N65 -{[b != p]}-> N123
+	b == 1071644673LL;
+	p == 1LL;
+line 62:	N132 -{__assert_fail("0 && \"a - b == 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/egcd-ll_unwindbound1_process_dc_iter1.c", 62, "__PRETTY_FUNCTION__");}-> N477

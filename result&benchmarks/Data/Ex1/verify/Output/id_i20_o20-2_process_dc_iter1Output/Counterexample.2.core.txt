@@ -1,0 +1,109 @@
+line 29:	N50 -{int iVar1;}-> N51
+line 33:	N53 -{id(20)}-> N31
+	x == 20;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 20;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 19;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 19;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 18;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 18;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 17;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 17;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 16;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 16;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 15;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 15;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 14;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 14;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 13;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 13;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 12;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 12;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 11;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 11;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 10;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 10;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 9;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 9;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 8;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 8;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 7;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 7;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 6;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 6;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 5;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 5;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 4;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 4;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 3;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 3;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 2;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 2;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 1;
+line 13:	N34 -{[!(x == 0)]}-> N37
+	x == 1;
+line 16:	N37 -{id(x - 1)}-> N31
+	x == 0;
+line 13:	N34 -{[x == 0]}-> N36
+	iVar1 == 20;
+	iVar1 == 19;
+	iVar1 == 18;
+	iVar1 == 17;
+	iVar1 == 16;
+	iVar1 == 15;
+	iVar1 == 14;
+	iVar1 == 13;
+	iVar1 == 12;
+	iVar1 == 11;
+	iVar1 == 10;
+	iVar1 == 9;
+	iVar1 == 8;
+	iVar1 == 7;
+	iVar1 == 6;
+	iVar1 == 5;
+	iVar1 == 4;
+	iVar1 == 3;
+	iVar1 == 2;
+	iVar1 == 1;
+	iVar1 == 0;
+	x == 0;
+line 34:	N54 -{[iVar1 == 20]}-> N56
+	iVar1 == 20;
+line 35:	N65 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 0x14\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id_i20_o20-2_process_dc_iter1.c", 35, "__PRETTY_FUNCTION__");}-> N345

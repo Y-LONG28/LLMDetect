@@ -1,0 +1,1031 @@
+none:	N508 -{INIT GLOBAL VARS}-> N515
+output/token_ring.03.cil-1_dc_fix.c, line 2:	N515 -{int m_st = 0;}-> N516
+	m_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 3:	N516 -{int t1_st = 0;}-> N517
+	t1_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 4:	N517 -{int t2_st = 0;}-> N518
+	t2_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 5:	N518 -{int t3_st = 0;}-> N519
+	t3_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 6:	N519 -{int m_i = 0;}-> N520
+	m_i == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 7:	N520 -{int t1_i = 0;}-> N521
+	t1_i == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 8:	N521 -{int t2_i = 0;}-> N522
+	t2_i == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 9:	N522 -{int t3_i = 0;}-> N523
+	t3_i == 0;
+output/token_ring.03.cil-1_dc_fix.c, lines 12-33:	N523 -{void init_threads();}-> N524
+output/token_ring.03.cil-1_dc_fix.c, lines 36-42:	N524 -{int exists_runnable_thread();}-> N525
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 9:	N525 -{void abort();}-> N526
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 10:	N526 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N527
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 11:	N527 -{void reach_error();}-> N528
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 16-23:	N528 -{void error();}-> N529
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 24:	N529 -{int m_pc = 0;}-> N530
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 25:	N530 -{int t1_pc = 0;}-> N531
+	t1_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 26:	N531 -{int t2_pc = 0;}-> N532
+	t2_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 27:	N532 -{int t3_pc = 0;}-> N533
+	t3_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 36:	N533 -{int M_E = 2;}-> N534
+	M_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 37:	N534 -{int T1_E = 2;}-> N535
+	T1_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 38:	N535 -{int T2_E = 2;}-> N536
+	T2_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 39:	N536 -{int T3_E = 2;}-> N537
+	T3_E == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 40:	N537 -{int E_M = 2;}-> N538
+	E_M == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 41:	N538 -{int E_1 = 2;}-> N539
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 42:	N539 -{int E_2 = 2;}-> N540
+	E_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 43:	N540 -{int E_3 = 2;}-> N541
+	E_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 44:	N541 -{int is_master_triggered();}-> N542
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 45:	N542 -{int is_transmit1_triggered();}-> N543
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 46:	N543 -{int is_transmit2_triggered();}-> N544
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 47:	N544 -{int is_transmit3_triggered();}-> N545
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 48:	N545 -{void immediate_notify();}-> N546
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 49:	N546 -{int token = 0;}-> N547
+	token == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 50:	N547 -{int __VERIFIER_nondet_int();}-> N548
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 51:	N548 -{int local = 0;}-> N549
+	local == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 52-107:	N549 -{void master();}-> N550
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 108-143:	N550 -{void transmit1();}-> N551
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 144-179:	N551 -{void transmit2();}-> N552
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 180-215:	N552 -{void transmit3();}-> N553
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 292-299:	N553 -{void update_channels();}-> N554
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 303-381:	N554 -{void eval();}-> N555
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 382-429:	N555 -{void fire_delta_events();}-> N556
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 430-477:	N556 -{void reset_delta_events();}-> N557
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 478-520:	N557 -{void activate_threads();}-> N558
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 532-540:	N558 -{void fire_time_events();}-> N559
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 541-588:	N559 -{void reset_time_events();}-> N560
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 589-600:	N560 -{void init_model();}-> N561
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 601-619:	N561 -{int stop_simulation();}-> N562
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 620-678:	N562 -{void start_simulation();}-> N563
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 679-690:	N563 -{int main();}-> N564
+none:	N564 -{Function start dummy edge}-> N509
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 680:	N509 -{int __retres1;}-> N510
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 684:	N510 -{init_model()}-> N446
+none:	N446 -{Function start dummy edge}-> N447
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 593:	N447 -{m_i = 1;}-> N448
+	m_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 594:	N448 -{t1_i = 1;}-> N449
+	t1_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 595:	N449 -{t2_i = 1;}-> N450
+	t2_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 596:	N450 -{t3_i = 1;}-> N451
+	m_i == 1;
+	t1_i == 1;
+	t2_i == 1;
+	t3_i == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 598:	N451 -{return;}-> N445
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 684:	N445 -{Return edge from init_model to main: init_model();}-> N511
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 685:	N511 -{start_simulation()}-> N468
+none:	N468 -{Function start dummy edge}-> N469
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 621:	N469 -{int kernel_st;}-> N470
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 622:	N470 -{int tmp;}-> N471
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 623:	N471 -{int tmp___0;}-> N472
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 627:	N472 -{kernel_st = 0;}-> N473
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 628:	N473 -{update_channels()}-> N240
+none:	N240 -{Function start dummy edge}-> N241
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 297:	N241 -{return;}-> N239
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 628:	N239 -{Return edge from update_channels to start_simulation: update_channels();}-> N474
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 629:	N474 -{init_threads()}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+output/token_ring.03.cil-1_dc_fix.c, line 13:	N2 -{[m_i == 1]}-> N4
+	m_i == 1;
+	m_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 14:	N4 -{m_st = 0;}-> N6
+	m_st == 0;
+none:	N6 -{}-> N3
+output/token_ring.03.cil-1_dc_fix.c, line 18:	N3 -{[t1_i == 1]}-> N9
+	t1_i == 1;
+	t1_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 19:	N9 -{t1_st = 0;}-> N11
+	t1_st == 0;
+none:	N11 -{}-> N8
+output/token_ring.03.cil-1_dc_fix.c, line 23:	N8 -{[t2_i == 1]}-> N14
+	t2_i == 1;
+	t2_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 24:	N14 -{t2_st = 0;}-> N16
+	t2_st == 0;
+none:	N16 -{}-> N13
+output/token_ring.03.cil-1_dc_fix.c, line 28:	N13 -{[t3_i == 1]}-> N19
+	t3_i == 1;
+	t3_i == 1;
+output/token_ring.03.cil-1_dc_fix.c, line 29:	N19 -{t3_st = 0;}-> N21
+	t3_st == 0;
+none:	N21 -{}-> N18
+none:	N18 -{default return}-> N0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 629:	N0 -{Return edge from init_threads to start_simulation: init_threads();}-> N475
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 630:	N475 -{fire_delta_events()}-> N300
+none:	N300 -{Function start dummy edge}-> N301
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 386:	N301 -{[!(M_E == 0)]}-> N304
+	M_E == 2;
+	M_E == 2;
+none:	N304 -{}-> N302
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 391:	N302 -{[!(T1_E == 0)]}-> N308
+	T1_E == 2;
+	T1_E == 2;
+none:	N308 -{}-> N306
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 396:	N306 -{[!(T2_E == 0)]}-> N312
+	T2_E == 2;
+	T2_E == 2;
+none:	N312 -{}-> N310
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 401:	N310 -{[!(T3_E == 0)]}-> N316
+	T3_E == 2;
+	T3_E == 2;
+none:	N316 -{}-> N314
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 406:	N314 -{[!(E_M == 0)]}-> N320
+	E_M == 2;
+	E_M == 2;
+none:	N320 -{}-> N318
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 411:	N318 -{[!(E_1 == 0)]}-> N324
+	E_1 == 2;
+	E_1 == 2;
+none:	N324 -{}-> N322
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 416:	N322 -{[!(E_2 == 0)]}-> N328
+	E_2 == 2;
+	E_2 == 2;
+none:	N328 -{}-> N326
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 421:	N326 -{[!(E_3 == 0)]}-> N332
+	E_3 == 2;
+	E_3 == 2;
+none:	N332 -{}-> N330
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 427:	N330 -{return;}-> N299
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 630:	N299 -{Return edge from fire_delta_events to start_simulation: fire_delta_events();}-> N476
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 631:	N476 -{activate_threads()}-> N372
+none:	N372 -{Function start dummy edge}-> N373
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+none:	N180 -{Function start dummy edge}-> N181
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 217:	N181 -{int __retres1;}-> N182
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[!(m_pc == 1)]}-> N185
+	m_pc == 0;
+	m_pc == 0;
+none:	N185 -{}-> N183
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 230:	N183 -{__retres1 = 0;}-> N191
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 231:	N191 -{Label: return_label}-> N192
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 232:	N192 -{return __retres1;}-> N179
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N179 -{Return edge from is_master_triggered to activate_threads: tmp = is_master_triggered();}-> N378
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+	tmp == 0;
+none:	N381 -{}-> N379
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+none:	N195 -{Function start dummy edge}-> N196
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 236:	N196 -{int __retres1;}-> N197
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[!(t1_pc == 1)]}-> N200
+	t1_pc == 0;
+	t1_pc == 0;
+none:	N200 -{}-> N198
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 249:	N198 -{__retres1 = 0;}-> N206
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 250:	N206 -{Label: return_label}-> N207
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 251:	N207 -{return __retres1;}-> N194
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N194 -{Return edge from is_transmit1_triggered to activate_threads: tmp___0 = is_transmit1_triggered();}-> N383
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N386 -{}-> N384
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 255:	N211 -{int __retres1;}-> N212
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[!(t2_pc == 1)]}-> N215
+	t2_pc == 0;
+	t2_pc == 0;
+none:	N215 -{}-> N213
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 268:	N213 -{__retres1 = 0;}-> N221
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 269:	N221 -{Label: return_label}-> N222
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 270:	N222 -{return __retres1;}-> N209
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N209 -{Return edge from is_transmit2_triggered to activate_threads: tmp___1 = is_transmit2_triggered();}-> N388
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N391 -{}-> N389
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+none:	N225 -{Function start dummy edge}-> N226
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 274:	N226 -{int __retres1;}-> N227
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[!(t3_pc == 1)]}-> N230
+	t3_pc == 0;
+	t3_pc == 0;
+none:	N230 -{}-> N228
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 287:	N228 -{__retres1 = 0;}-> N236
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 288:	N236 -{Label: return_label}-> N237
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 289:	N237 -{return __retres1;}-> N224
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N224 -{Return edge from is_transmit3_triggered to activate_threads: tmp___2 = is_transmit3_triggered();}-> N393
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+	tmp___2 == 0;
+none:	N396 -{}-> N394
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 518:	N394 -{return;}-> N371
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 631:	N371 -{Return edge from activate_threads to start_simulation: activate_threads();}-> N477
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 632:	N477 -{reset_delta_events()}-> N336
+none:	N336 -{Function start dummy edge}-> N337
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 434:	N337 -{[!(M_E == 1)]}-> N340
+	M_E == 2;
+	M_E == 2;
+none:	N340 -{}-> N338
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 439:	N338 -{[!(T1_E == 1)]}-> N344
+	T1_E == 2;
+	T1_E == 2;
+none:	N344 -{}-> N342
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 444:	N342 -{[!(T2_E == 1)]}-> N348
+	T2_E == 2;
+	T2_E == 2;
+none:	N348 -{}-> N346
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 449:	N346 -{[!(T3_E == 1)]}-> N352
+	T3_E == 2;
+	T3_E == 2;
+none:	N352 -{}-> N350
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 454:	N350 -{[!(E_M == 1)]}-> N356
+	E_M == 2;
+	E_M == 2;
+none:	N356 -{}-> N354
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 459:	N354 -{[!(E_1 == 1)]}-> N360
+	E_1 == 2;
+	E_1 == 2;
+none:	N360 -{}-> N358
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 464:	N358 -{[!(E_2 == 1)]}-> N364
+	E_2 == 2;
+	E_2 == 2;
+none:	N364 -{}-> N362
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 469:	N362 -{[!(E_3 == 1)]}-> N368
+	E_3 == 2;
+	E_3 == 2;
+none:	N368 -{}-> N366
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 475:	N366 -{return;}-> N335
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 632:	N335 -{Return edge from reset_delta_events to start_simulation: reset_delta_events();}-> N478
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 635:	N478 -{while}-> N479
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 635:	N479 -{}-> N480
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 636:	N480 -{Label: while_5_continue}-> N482
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 638:	N482 -{kernel_st = 1;}-> N483
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 639:	N483 -{eval()}-> N244
+none:	N244 -{Function start dummy edge}-> N245
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 305:	N245 -{int tmp;}-> N246
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 309:	N246 -{while}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 309:	N247 -{}-> N248
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 310:	N248 -{Label: while_4_continue}-> N250
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+none:	N24 -{Function start dummy edge}-> N25
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+	m_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 38:	N27 -{return 1;}-> N23
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N23 -{Return edge from exists_runnable_thread to eval: tmp = exists_runnable_thread();}-> N251
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+	tmp == 1;
+none:	N253 -{}-> N252
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	m_st == 0;
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 320:	N257 -{int tmp_ndt_1;}-> N259
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[tmp_ndt_1 == 0]}-> N263
+	tmp_ndt_1 == 0;
+	tmp_ndt_1 == 0;
+none:	N263 -{}-> N261
+none:	N261 -{}-> N256
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 333:	N256 -{[t1_st == 0]}-> N267
+	t1_st == 0;
+	t1_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 334:	N267 -{int tmp_ndt_2;}-> N269
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 335:	N269 -{tmp_ndt_2 = __VERIFIER_nondet_int();}-> N270
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 336:	N270 -{[!(tmp_ndt_2 == 0)]}-> N272
+	tmp_ndt_2 == 2;
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 338:	N272 -{t1_st = 1;}-> N274
+	t1_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N274 -{transmit1()}-> N93
+none:	N93 -{Function start dummy edge}-> N94
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 112:	N94 -{[t1_pc == 0]}-> N96
+	t1_pc == 0;
+	t1_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 113:	N96 -{Goto: T1_ENTRY}-> N103
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 123:	N103 -{while}-> N104
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 123:	N104 -{}-> N105
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 124:	N105 -{Label: while_1_continue}-> N107
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 125:	N107 -{t1_pc = 1;}-> N108
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 126:	N108 -{t1_st = 2;}-> N109
+	t1_pc == 1;
+	t1_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 128:	N109 -{Goto: return_label}-> N119
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 141:	N119 -{return;}-> N92
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N92 -{Return edge from transmit1 to eval: transmit1();}-> N275
+none:	N275 -{}-> N271
+none:	N271 -{}-> N266
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 347:	N266 -{[t2_st == 0]}-> N277
+	t2_st == 0;
+	t2_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 348:	N277 -{int tmp_ndt_3;}-> N279
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 349:	N279 -{tmp_ndt_3 = __VERIFIER_nondet_int();}-> N280
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 350:	N280 -{[!(tmp_ndt_3 == 0)]}-> N282
+	tmp_ndt_3 == 2;
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 352:	N282 -{t2_st = 1;}-> N284
+	t2_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N284 -{transmit2()}-> N122
+none:	N122 -{Function start dummy edge}-> N123
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 148:	N123 -{[t2_pc == 0]}-> N125
+	t2_pc == 0;
+	t2_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 149:	N125 -{Goto: T2_ENTRY}-> N132
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 159:	N132 -{while}-> N133
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 159:	N133 -{}-> N134
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 160:	N134 -{Label: while_2_continue}-> N136
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 161:	N136 -{t2_pc = 1;}-> N137
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 162:	N137 -{t2_st = 2;}-> N138
+	t2_pc == 1;
+	t2_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 164:	N138 -{Goto: return_label}-> N148
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 177:	N148 -{return;}-> N121
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N121 -{Return edge from transmit2 to eval: transmit2();}-> N285
+none:	N285 -{}-> N281
+none:	N281 -{}-> N276
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 361:	N276 -{[t3_st == 0]}-> N287
+	t3_st == 0;
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 362:	N287 -{int tmp_ndt_4;}-> N289
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 363:	N289 -{tmp_ndt_4 = __VERIFIER_nondet_int();}-> N290
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 364:	N290 -{[!(tmp_ndt_4 == 0)]}-> N292
+	tmp_ndt_4 == 2;
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 366:	N292 -{t3_st = 1;}-> N294
+	t3_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N294 -{transmit3()}-> N151
+none:	N151 -{Function start dummy edge}-> N152
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 184:	N152 -{[t3_pc == 0]}-> N154
+	t3_pc == 0;
+	t3_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 185:	N154 -{Goto: T3_ENTRY}-> N161
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 195:	N161 -{while}-> N162
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 195:	N162 -{}-> N163
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 196:	N163 -{Label: while_3_continue}-> N165
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 197:	N165 -{t3_pc = 1;}-> N166
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 198:	N166 -{t3_st = 2;}-> N167
+	t3_pc == 1;
+	t3_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 200:	N167 -{Goto: return_label}-> N177
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 213:	N177 -{return;}-> N150
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N150 -{Return edge from transmit3 to eval: transmit3();}-> N295
+none:	N295 -{}-> N291
+none:	N291 -{}-> N286
+none:	N286 -{}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 309:	N247 -{}-> N248
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 310:	N248 -{Label: while_4_continue}-> N250
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+none:	N24 -{Function start dummy edge}-> N25
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+	m_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 38:	N27 -{return 1;}-> N23
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N23 -{Return edge from exists_runnable_thread to eval: tmp = exists_runnable_thread();}-> N251
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+	tmp == 1;
+none:	N253 -{}-> N252
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	m_st == 0;
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 320:	N257 -{int tmp_ndt_1;}-> N259
+	tmp_ndt_1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[!(tmp_ndt_1 == 0)]}-> N262
+	tmp_ndt_1 == 2;
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 324:	N262 -{m_st = 1;}-> N264
+	m_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 325:	N264 -{master()}-> N46
+none:	N46 -{Function start dummy edge}-> N47
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 54:	N47 -{int tmp_var;}-> N48
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 54:	N48 -{tmp_var = __VERIFIER_nondet_int();}-> N49
+	tmp_var == 7;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 56:	N49 -{[m_pc == 0]}-> N51
+	m_pc == 0;
+	m_pc == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 57:	N51 -{Goto: M_ENTRY}-> N58
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 67:	N58 -{while}-> N59
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 67:	N59 -{}-> N60
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 68:	N60 -{Label: while_0_continue}-> N62
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 70:	N62 -{token = __VERIFIER_nondet_int();}-> N63
+	token == 3;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 71:	N63 -{local = token;}-> N64
+	local == 3;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 72:	N64 -{E_1 = 1;}-> N65
+	token == 3;
+	local == 3;
+	E_1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 73:	N65 -{immediate_notify()}-> N400
+none:	N400 -{Function start dummy edge}-> N401
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+none:	N372 -{Function start dummy edge}-> N373
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+none:	N180 -{Function start dummy edge}-> N181
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 217:	N181 -{int __retres1;}-> N182
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[!(m_pc == 1)]}-> N185
+	m_pc == 0;
+	m_pc == 0;
+none:	N185 -{}-> N183
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 230:	N183 -{__retres1 = 0;}-> N191
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 231:	N191 -{Label: return_label}-> N192
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 232:	N192 -{return __retres1;}-> N179
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N179 -{Return edge from is_master_triggered to activate_threads: tmp = is_master_triggered();}-> N378
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+	tmp == 0;
+none:	N381 -{}-> N379
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+none:	N195 -{Function start dummy edge}-> N196
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 236:	N196 -{int __retres1;}-> N197
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[E_1 == 1]}-> N202
+	E_1 == 1;
+	E_1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 241:	N202 -{__retres1 = 1;}-> N204
+	__retres1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 242:	N204 -{Goto: return_label}-> N207
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 251:	N207 -{return __retres1;}-> N194
+	__retres1 = 1
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N194 -{Return edge from is_transmit1_triggered to activate_threads: tmp___0 = is_transmit1_triggered();}-> N383
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[!(tmp___0 == 0)]}-> N385
+	tmp___0 == 1;
+	tmp___0 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 497:	N385 -{t1_st = 0;}-> N387
+	t1_st == 0;
+none:	N387 -{}-> N384
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 255:	N211 -{int __retres1;}-> N212
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	E_2 == 2;
+	E_2 == 2;
+none:	N218 -{}-> N216
+none:	N216 -{}-> N213
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 268:	N213 -{__retres1 = 0;}-> N221
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 269:	N221 -{Label: return_label}-> N222
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 270:	N222 -{return __retres1;}-> N209
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N209 -{Return edge from is_transmit2_triggered to activate_threads: tmp___1 = is_transmit2_triggered();}-> N388
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N391 -{}-> N389
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+none:	N225 -{Function start dummy edge}-> N226
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 274:	N226 -{int __retres1;}-> N227
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	E_3 == 2;
+	E_3 == 2;
+none:	N233 -{}-> N231
+none:	N231 -{}-> N228
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 287:	N228 -{__retres1 = 0;}-> N236
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 288:	N236 -{Label: return_label}-> N237
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 289:	N237 -{return __retres1;}-> N224
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N224 -{Return edge from is_transmit3_triggered to activate_threads: tmp___2 = is_transmit3_triggered();}-> N393
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+	tmp___2 == 0;
+none:	N396 -{}-> N394
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 518:	N394 -{return;}-> N371
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N371 -{Return edge from activate_threads to immediate_notify: activate_threads();}-> N402
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 529:	N402 -{return;}-> N399
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 73:	N399 -{Return edge from immediate_notify to master: immediate_notify();}-> N66
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 74:	N66 -{E_1 = 2;}-> N67
+	E_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 75:	N67 -{m_pc = 1;}-> N68
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 76:	N68 -{m_st = 2;}-> N69
+	E_1 == 2;
+	m_pc == 1;
+	m_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 79:	N69 -{Goto: return_label}-> N90
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 105:	N90 -{return;}-> N45
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 325:	N45 -{Return edge from master to eval: master();}-> N265
+none:	N265 -{}-> N261
+none:	N261 -{}-> N256
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 333:	N256 -{[t1_st == 0]}-> N267
+	t1_st == 0;
+	t1_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 334:	N267 -{int tmp_ndt_2;}-> N269
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 335:	N269 -{tmp_ndt_2 = __VERIFIER_nondet_int();}-> N270
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 336:	N270 -{[!(tmp_ndt_2 == 0)]}-> N272
+	tmp_ndt_2 == 2;
+	tmp_ndt_2 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 338:	N272 -{t1_st = 1;}-> N274
+	t1_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N274 -{transmit1()}-> N93
+none:	N93 -{Function start dummy edge}-> N94
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 112:	N94 -{[!(t1_pc == 0)]}-> N97
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 115:	N97 -{[t1_pc == 1]}-> N100
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 116:	N100 -{Goto: T1_WAIT}-> N111
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 129:	N111 -{Label: T1_WAIT}-> N112
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 131:	N112 -{token = token + 1;}-> N113
+	token == 4;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 132:	N113 -{E_2 = 1;}-> N114
+	token == 4;
+	E_2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 133:	N114 -{immediate_notify()}-> N400
+none:	N400 -{Function start dummy edge}-> N401
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+none:	N372 -{Function start dummy edge}-> N373
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+none:	N180 -{Function start dummy edge}-> N181
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 217:	N181 -{int __retres1;}-> N182
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[!(E_M == 1)]}-> N188
+	E_M == 2;
+	E_M == 2;
+none:	N188 -{}-> N186
+none:	N186 -{}-> N183
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 230:	N183 -{__retres1 = 0;}-> N191
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 231:	N191 -{Label: return_label}-> N192
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 232:	N192 -{return __retres1;}-> N179
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N179 -{Return edge from is_master_triggered to activate_threads: tmp = is_master_triggered();}-> N378
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+	tmp == 0;
+none:	N381 -{}-> N379
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+none:	N195 -{Function start dummy edge}-> N196
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 236:	N196 -{int __retres1;}-> N197
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	E_1 == 2;
+	E_1 == 2;
+none:	N203 -{}-> N201
+none:	N201 -{}-> N198
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 249:	N198 -{__retres1 = 0;}-> N206
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 250:	N206 -{Label: return_label}-> N207
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 251:	N207 -{return __retres1;}-> N194
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N194 -{Return edge from is_transmit1_triggered to activate_threads: tmp___0 = is_transmit1_triggered();}-> N383
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N386 -{}-> N384
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 255:	N211 -{int __retres1;}-> N212
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[E_2 == 1]}-> N217
+	E_2 == 1;
+	E_2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 260:	N217 -{__retres1 = 1;}-> N219
+	__retres1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 261:	N219 -{Goto: return_label}-> N222
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 270:	N222 -{return __retres1;}-> N209
+	__retres1 = 1
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N209 -{Return edge from is_transmit2_triggered to activate_threads: tmp___1 = is_transmit2_triggered();}-> N388
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[!(tmp___1 == 0)]}-> N390
+	tmp___1 == 1;
+	tmp___1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 505:	N390 -{t2_st = 0;}-> N392
+	t2_st == 0;
+none:	N392 -{}-> N389
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+none:	N225 -{Function start dummy edge}-> N226
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 274:	N226 -{int __retres1;}-> N227
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	E_3 == 2;
+	E_3 == 2;
+none:	N233 -{}-> N231
+none:	N231 -{}-> N228
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 287:	N228 -{__retres1 = 0;}-> N236
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 288:	N236 -{Label: return_label}-> N237
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 289:	N237 -{return __retres1;}-> N224
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N224 -{Return edge from is_transmit3_triggered to activate_threads: tmp___2 = is_transmit3_triggered();}-> N393
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+	tmp___2 == 0;
+none:	N396 -{}-> N394
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 518:	N394 -{return;}-> N371
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N371 -{Return edge from activate_threads to immediate_notify: activate_threads();}-> N402
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 529:	N402 -{return;}-> N399
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 133:	N399 -{Return edge from immediate_notify to transmit1: immediate_notify();}-> N115
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 134:	N115 -{E_2 = 2;}-> N116
+	E_2 == 2;
+none:	N116 -{}-> N104
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 123:	N104 -{}-> N105
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 124:	N105 -{Label: while_1_continue}-> N107
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 125:	N107 -{t1_pc = 1;}-> N108
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 126:	N108 -{t1_st = 2;}-> N109
+	t1_pc == 1;
+	t1_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 128:	N109 -{Goto: return_label}-> N119
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 141:	N119 -{return;}-> N92
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 339:	N92 -{Return edge from transmit1 to eval: transmit1();}-> N275
+none:	N275 -{}-> N271
+none:	N271 -{}-> N266
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 347:	N266 -{[t2_st == 0]}-> N277
+	t2_st == 0;
+	t2_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 348:	N277 -{int tmp_ndt_3;}-> N279
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 349:	N279 -{tmp_ndt_3 = __VERIFIER_nondet_int();}-> N280
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 350:	N280 -{[!(tmp_ndt_3 == 0)]}-> N282
+	tmp_ndt_3 == 2;
+	tmp_ndt_3 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 352:	N282 -{t2_st = 1;}-> N284
+	t2_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N284 -{transmit2()}-> N122
+none:	N122 -{Function start dummy edge}-> N123
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 148:	N123 -{[!(t2_pc == 0)]}-> N126
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 151:	N126 -{[t2_pc == 1]}-> N129
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 152:	N129 -{Goto: T2_WAIT}-> N140
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 165:	N140 -{Label: T2_WAIT}-> N141
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 167:	N141 -{token = token + 1;}-> N142
+	token == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 168:	N142 -{E_3 = 1;}-> N143
+	token == 5;
+	E_3 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 169:	N143 -{immediate_notify()}-> N400
+none:	N400 -{Function start dummy edge}-> N401
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+none:	N372 -{Function start dummy edge}-> N373
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+none:	N180 -{Function start dummy edge}-> N181
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 217:	N181 -{int __retres1;}-> N182
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[!(E_M == 1)]}-> N188
+	E_M == 2;
+	E_M == 2;
+none:	N188 -{}-> N186
+none:	N186 -{}-> N183
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 230:	N183 -{__retres1 = 0;}-> N191
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 231:	N191 -{Label: return_label}-> N192
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 232:	N192 -{return __retres1;}-> N179
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N179 -{Return edge from is_master_triggered to activate_threads: tmp = is_master_triggered();}-> N378
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[tmp == 0]}-> N381
+	tmp == 0;
+	tmp == 0;
+none:	N381 -{}-> N379
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+none:	N195 -{Function start dummy edge}-> N196
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 236:	N196 -{int __retres1;}-> N197
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	E_1 == 2;
+	E_1 == 2;
+none:	N203 -{}-> N201
+none:	N201 -{}-> N198
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 249:	N198 -{__retres1 = 0;}-> N206
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 250:	N206 -{Label: return_label}-> N207
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 251:	N207 -{return __retres1;}-> N194
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N194 -{Return edge from is_transmit1_triggered to activate_threads: tmp___0 = is_transmit1_triggered();}-> N383
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N386 -{}-> N384
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 255:	N211 -{int __retres1;}-> N212
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	E_2 == 2;
+	E_2 == 2;
+none:	N218 -{}-> N216
+none:	N216 -{}-> N213
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 268:	N213 -{__retres1 = 0;}-> N221
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 269:	N221 -{Label: return_label}-> N222
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 270:	N222 -{return __retres1;}-> N209
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N209 -{Return edge from is_transmit2_triggered to activate_threads: tmp___1 = is_transmit2_triggered();}-> N388
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N391 -{}-> N389
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+none:	N225 -{Function start dummy edge}-> N226
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 274:	N226 -{int __retres1;}-> N227
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[E_3 == 1]}-> N232
+	E_3 == 1;
+	E_3 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 279:	N232 -{__retres1 = 1;}-> N234
+	__retres1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 280:	N234 -{Goto: return_label}-> N237
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 289:	N237 -{return __retres1;}-> N224
+	__retres1 = 1
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N224 -{Return edge from is_transmit3_triggered to activate_threads: tmp___2 = is_transmit3_triggered();}-> N393
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[!(tmp___2 == 0)]}-> N395
+	tmp___2 == 1;
+	tmp___2 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 513:	N395 -{t3_st = 0;}-> N397
+	t3_st == 0;
+none:	N397 -{}-> N394
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 518:	N394 -{return;}-> N371
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N371 -{Return edge from activate_threads to immediate_notify: activate_threads();}-> N402
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 529:	N402 -{return;}-> N399
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 169:	N399 -{Return edge from immediate_notify to transmit2: immediate_notify();}-> N144
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 170:	N144 -{E_3 = 2;}-> N145
+	E_3 == 2;
+none:	N145 -{}-> N133
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 159:	N133 -{}-> N134
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 160:	N134 -{Label: while_2_continue}-> N136
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 161:	N136 -{t2_pc = 1;}-> N137
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 162:	N137 -{t2_st = 2;}-> N138
+	t2_pc == 1;
+	t2_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 164:	N138 -{Goto: return_label}-> N148
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 177:	N148 -{return;}-> N121
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 353:	N121 -{Return edge from transmit2 to eval: transmit2();}-> N285
+none:	N285 -{}-> N281
+none:	N281 -{}-> N276
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 361:	N276 -{[t3_st == 0]}-> N287
+	t3_st == 0;
+	t3_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 362:	N287 -{int tmp_ndt_4;}-> N289
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 363:	N289 -{tmp_ndt_4 = __VERIFIER_nondet_int();}-> N290
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 364:	N290 -{[!(tmp_ndt_4 == 0)]}-> N292
+	tmp_ndt_4 == 2;
+	tmp_ndt_4 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 366:	N292 -{t3_st = 1;}-> N294
+	t3_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N294 -{transmit3()}-> N151
+none:	N151 -{Function start dummy edge}-> N152
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 184:	N152 -{[!(t3_pc == 0)]}-> N155
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 187:	N155 -{[t3_pc == 1]}-> N158
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 188:	N158 -{Goto: T3_WAIT}-> N169
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 201:	N169 -{Label: T3_WAIT}-> N170
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 203:	N170 -{token = token + 1;}-> N171
+	token == 6;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 204:	N171 -{E_M = 1;}-> N172
+	token == 6;
+	E_M == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 205:	N172 -{immediate_notify()}-> N400
+none:	N400 -{Function start dummy edge}-> N401
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N401 -{activate_threads()}-> N372
+none:	N372 -{Function start dummy edge}-> N373
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 479:	N373 -{int tmp;}-> N374
+	tmp == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 480:	N374 -{int tmp___0;}-> N375
+	tmp___0 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 481:	N375 -{int tmp___1;}-> N376
+	tmp___1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 482:	N376 -{int tmp___2;}-> N377
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N377 -{is_master_triggered()}-> N180
+none:	N180 -{Function start dummy edge}-> N181
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 217:	N181 -{int __retres1;}-> N182
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 220:	N182 -{[m_pc == 1]}-> N184
+	m_pc == 1;
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 221:	N184 -{[E_M == 1]}-> N187
+	E_M == 1;
+	E_M == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 222:	N187 -{__retres1 = 1;}-> N189
+	__retres1 == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 223:	N189 -{Goto: return_label}-> N192
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 232:	N192 -{return __retres1;}-> N179
+	__retres1 = 1
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 486:	N179 -{Return edge from is_master_triggered to activate_threads: tmp = is_master_triggered();}-> N378
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 488:	N378 -{[!(tmp == 0)]}-> N380
+	tmp == 1;
+	tmp == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 489:	N380 -{m_st = 0;}-> N382
+	m_st == 0;
+none:	N382 -{}-> N379
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N379 -{is_transmit1_triggered()}-> N195
+none:	N195 -{Function start dummy edge}-> N196
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 236:	N196 -{int __retres1;}-> N197
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 239:	N197 -{[t1_pc == 1]}-> N199
+	t1_pc == 1;
+	t1_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 240:	N199 -{[!(E_1 == 1)]}-> N203
+	E_1 == 2;
+	E_1 == 2;
+none:	N203 -{}-> N201
+none:	N201 -{}-> N198
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 249:	N198 -{__retres1 = 0;}-> N206
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 250:	N206 -{Label: return_label}-> N207
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 251:	N207 -{return __retres1;}-> N194
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 494:	N194 -{Return edge from is_transmit1_triggered to activate_threads: tmp___0 = is_transmit1_triggered();}-> N383
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 496:	N383 -{[tmp___0 == 0]}-> N386
+	tmp___0 == 0;
+	tmp___0 == 0;
+none:	N386 -{}-> N384
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N384 -{is_transmit2_triggered()}-> N210
+none:	N210 -{Function start dummy edge}-> N211
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 255:	N211 -{int __retres1;}-> N212
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 258:	N212 -{[t2_pc == 1]}-> N214
+	t2_pc == 1;
+	t2_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 259:	N214 -{[!(E_2 == 1)]}-> N218
+	E_2 == 2;
+	E_2 == 2;
+none:	N218 -{}-> N216
+none:	N216 -{}-> N213
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 268:	N213 -{__retres1 = 0;}-> N221
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 269:	N221 -{Label: return_label}-> N222
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 270:	N222 -{return __retres1;}-> N209
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 502:	N209 -{Return edge from is_transmit2_triggered to activate_threads: tmp___1 = is_transmit2_triggered();}-> N388
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 504:	N388 -{[tmp___1 == 0]}-> N391
+	tmp___1 == 0;
+	tmp___1 == 0;
+none:	N391 -{}-> N389
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N389 -{is_transmit3_triggered()}-> N225
+none:	N225 -{Function start dummy edge}-> N226
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 274:	N226 -{int __retres1;}-> N227
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 277:	N227 -{[t3_pc == 1]}-> N229
+	t3_pc == 1;
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 278:	N229 -{[!(E_3 == 1)]}-> N233
+	E_3 == 2;
+	E_3 == 2;
+none:	N233 -{}-> N231
+none:	N231 -{}-> N228
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 287:	N228 -{__retres1 = 0;}-> N236
+	__retres1 == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 288:	N236 -{Label: return_label}-> N237
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 289:	N237 -{return __retres1;}-> N224
+	__retres1 = 0
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 510:	N224 -{Return edge from is_transmit3_triggered to activate_threads: tmp___2 = is_transmit3_triggered();}-> N393
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 512:	N393 -{[tmp___2 == 0]}-> N396
+	tmp___2 == 0;
+	tmp___2 == 0;
+none:	N396 -{}-> N394
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 518:	N394 -{return;}-> N371
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 526:	N371 -{Return edge from activate_threads to immediate_notify: activate_threads();}-> N402
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 529:	N402 -{return;}-> N399
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 205:	N399 -{Return edge from immediate_notify to transmit3: immediate_notify();}-> N173
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 206:	N173 -{E_M = 2;}-> N174
+	E_M == 2;
+none:	N174 -{}-> N162
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 195:	N162 -{}-> N163
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 196:	N163 -{Label: while_3_continue}-> N165
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 197:	N165 -{t3_pc = 1;}-> N166
+	t3_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 198:	N166 -{t3_st = 2;}-> N167
+	t3_pc == 1;
+	t3_st == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 200:	N167 -{Goto: return_label}-> N177
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 213:	N177 -{return;}-> N150
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 367:	N150 -{Return edge from transmit3 to eval: transmit3();}-> N295
+none:	N295 -{}-> N291
+none:	N291 -{}-> N286
+none:	N286 -{}-> N247
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 309:	N247 -{}-> N248
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 310:	N248 -{Label: while_4_continue}-> N250
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N250 -{exists_runnable_thread()}-> N24
+none:	N24 -{Function start dummy edge}-> N25
+output/token_ring.03.cil-1_dc_fix.c, line 37:	N25 -{[m_st == 0]}-> N27
+	m_st == 0;
+	m_st == 0;
+output/token_ring.03.cil-1_dc_fix.c, line 38:	N27 -{return 1;}-> N23
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 312:	N23 -{Return edge from exists_runnable_thread to eval: tmp = exists_runnable_thread();}-> N251
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 314:	N251 -{[!(tmp == 0)]}-> N253
+	tmp == 1;
+	tmp == 1;
+none:	N253 -{}-> N252
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 319:	N252 -{[m_st == 0]}-> N257
+	m_st == 0;
+	m_st == 0;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 320:	N257 -{int tmp_ndt_1;}-> N259
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 321:	N259 -{tmp_ndt_1 = __VERIFIER_nondet_int();}-> N260
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 322:	N260 -{[!(tmp_ndt_1 == 0)]}-> N262
+	tmp_ndt_1 == 2;
+	tmp_ndt_1 == 2;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 324:	N262 -{m_st = 1;}-> N264
+	m_st == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 325:	N264 -{master()}-> N46
+none:	N46 -{Function start dummy edge}-> N47
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 54:	N47 -{int tmp_var;}-> N48
+	tmp_var == 7;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 54:	N48 -{tmp_var = __VERIFIER_nondet_int();}-> N49
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 56:	N49 -{[!(m_pc == 0)]}-> N52
+	m_pc == 1;
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 59:	N52 -{[m_pc == 1]}-> N55
+	m_pc == 1;
+	m_pc == 1;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 60:	N55 -{Goto: M_WAIT}-> N71
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 80:	N71 -{Label: M_WAIT}-> N72
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 81:	N72 -{[!(token != (local + 3))]}-> N75
+	token == 6;
+	token == 6;
+local + 3 == 6
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, lines 86-87:	N75 -{skipped unnecessary edges}-> N77
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 92:	N77 -{[tmp_var <= 5]}-> N82
+	tmp_var == 5;
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 93:	N82 -{[tmp_var >= 5]}-> N84
+	tmp_var == 5;
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 94:	N84 -{[tmp_var == 5]}-> N86
+	tmp_var == 5;
+	tmp_var == 5;
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 95:	N86 -{error()}-> N39
+none:	N39 -{Function start dummy edge}-> N40
+src/token_ring.03.cil-1/token_ring.03.cil-1.c, line 20:	N40 -{Label: ERROR}-> N41

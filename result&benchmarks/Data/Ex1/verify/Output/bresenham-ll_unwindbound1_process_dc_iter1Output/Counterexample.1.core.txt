@@ -1,0 +1,32 @@
+line 17:	N408 -{int counter = 0;}-> N409
+	counter == 0;
+line 24:	N42 -{longlong yx;}-> N43
+	yx == 0LL;
+line 26:	N44 -{int tmp_var_2_int;}-> N45
+	tmp_var_2_int == 0;
+line 27:	N45 -{int X;}-> N46
+	X == -2147483648U;
+line 34:	N50 -{v = 0;}-> N51
+	v == 0LL;
+line 35:	N51 -{y = 0;}-> N52
+	counter == 0;
+	yx == 0LL;
+	tmp_var_2_int == 0;
+	X == -2147483648U;
+	v == 0LL;
+	y == 0LL;
+line 38:	N52 -{while}-> N53
+	iVar2 == 1;
+line 38:	N57 -{bVar1 = counter < 1;}-> N58
+	counter == 1;
+	bVar1 == 1;
+line 38:	N59 -{__CPAchecker_TMP_0 = bVar1;}-> N60
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 1;
+	bVar1 == 1;
+	counter == 1;
+line 38:	N60 -{[!(__CPAchecker_TMP_0 == 0)]}-> N54
+	__CPAchecker_TMP_0 == 1;
+line 39:	N54 -{[X != ((((long)yx) * 2) + ((((y * yx) - (v * tmp_var_2_int)) * 2) - ((long)tmp_var_2_int)))]}-> N62
+	X == -2147483648U;
+line 40:	N71 -{__assert_fail("0 && \"2*yx - 2*xy - X + (long long) 2*Y - v == 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/bresenham-ll_unwindbound1_process_dc_iter1.c", 40, "__PRETTY_FUNCTION__");}-> N413

@@ -1,0 +1,65 @@
+line 13:	N471 -{int counter = 0;}-> N472
+	_x == 0LL;
+	counter == 0;
+line 33:	N49 -{int tmp_var_2_int;}-> N50
+line 38:	N51 -{assume((uint )(0 < tmp_var_2_int))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 39:	N52 -{assume((uint )(0 < (xy._4_4_)))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 41:	N54 -{p = (longlong )(xy._4_4_);}-> N55
+line 42:	N55 -{q = 1;}-> N56
+	q == 1LL;
+line 43:	N56 -{r = 0;}-> N57
+	r == 0LL;
+line 44:	N57 -{s = 0;}-> N58
+	s == 0LL;
+line 45:	N58 -{c = 1;}-> N59
+	c == 1LL;
+line 46:	N59 -{assume((uint )((((long)tmp_var_2_int) * ((long)(xy._4_4_))) < 2147483647))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 47:	N60 -{assume((uint )((((long)(xy._4_4_)) * ((long)(xy._4_4_))) < 2147483647))}-> N31
+line 10:	N32 -{[!(cond == 0)]}-> N33
+line 50:	N65 -{lVar4 = q;}-> N66
+	lVar4 == 1LL;
+line 51:	N66 -{lVar3 = s;}-> N67
+	lVar3 == 0LL;
+line 52:	N67 -{iVar2 = counter + 1;}-> N68
+	iVar2 == 1;
+line 53:	N68 -{[!(0 < counter)]}-> N71
+	counter == 0;
+line 53:	N71 -{[!(p == 0)]}-> N69
+line 64:	N100 -{_x = 0;}-> N101
+	_x == 0LL;
+line 65:	N101 -{counter = iVar2;}-> N102
+	counter == 1;
+line 66:	N102 -{while}-> N103
+line 66:	N106 -{iVar2 = counter + 1;}-> N107
+	iVar2 == 2;
+line 66:	N107 -{bVar1 = counter < 1;}-> N108
+	bVar1 == 0;
+line 66:	N108 -{counter = iVar2;}-> N109
+	counter == 2;
+line 66:	N109 -{__CPAchecker_TMP_6 = bVar1;}-> N110
+	__CPAchecker_TMP_6 == 0;
+line 66:	N110 -{[__CPAchecker_TMP_6 == 0]}-> N105
+	__CPAchecker_TMP_6 == 0;
+line 84:	N105 -{b = p;}-> N168
+line 86:	N169 -{q = r;}-> N170
+	q == 0LL;
+line 87:	N170 -{r = lVar4 - (r * _x);}-> N171
+	r == 1LL;
+line 88:	N171 -{s = c;}-> N172
+	s == 1LL;
+line 89:	N172 -{c = lVar3 - (c * _x);}-> N173
+	c == 0LL;
+none:	N173 -{}-> N62
+	iVar2 == 3;
+	lVar3 == 1LL;
+	lVar4 == 0LL;
+line 53:	N68 -{[0 < counter]}-> N70
+	counter == 3;
+	counter == 2;
+line 55:	N72 -{[!((((xy._4_4_) * c) + (tmp_var_2_int * r)) != 0)]}-> N73
+line 58:	N73 -{[b != (((xy._4_4_) * s) + (tmp_var_2_int * q))]}-> N87
+	__CPAchecker_TMP_5 == 0;
+line 59:	N96 -{__assert_fail("0 && \"p*x + r*y == a\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/egcd2-ll_unwindbound1_process_dc_iter2.c", 59, "__PRETTY_FUNCTION__");}-> N481

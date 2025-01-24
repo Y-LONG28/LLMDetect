@@ -1,0 +1,1161 @@
+
+Selection Algorithm statistics
+------------------------------
+Size of preliminary analysis reached set:      0
+Used algorithm property:                       /opt/cpachecker/config/components/multipleLoopsConfig.properties
+Program containing only relevant bools:        0
+Relevant boolean vars / relevant vars ratio:   0.0909
+Requires alias handling:                       0
+Requires loop handling:                        1
+Has a single loop:                             0
+Requires composite-type handling:              0
+Requires array handling:                       0
+Requires float handling:                       0
+Requires recursion handling:                   0
+Relevant addressed vars / relevant vars ratio: 0.0000
+Program containing external functions:         true
+Number of all righthand side functions:        1
+
+
+Restart Algorithm statistics
+----------------------------
+Number of algorithms provided:    3
+Number of algorithms used:        3
+Last algorithm used:        /opt/cpachecker/config/components/concurrency.properties
+Total time for algorithm 3:     1.117s
+
+Parallel Algorithm statistics
+-----------------------------
+Number of algorithms used:        5
+Successful analysis: /opt/cpachecker/config/components/parallel-predicateAnalysis.properties
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-symbolicExecution.properties
+=======================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-symbolicExecution.properties:     0.104s
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     8.32 (sum: 316, count: 38, min: 0, max: 13)
+Number of global variables per state:              0.00 (sum: 0, count: 38, min: 0, max: 0)
+Number of assumptions:                                   16
+Number of deterministic assumptions:                      4
+Level of Determinism:                              25%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                      37
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.001s
+Total time for path thresholds:                        0.000s
+
+SymbolicValueAnalysisPrecisionAdjustment statistics
+---------------------------------------------------
+Symbolic values before refinement:                      263 (count: 37, min: 0, max: 10, avg: 7.11)
+Symbolic values after refinement:                       263 (count: 37, min: 0, max: 10, avg: 7.11)
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+ConstraintsCPA statistics
+-------------------------
+
+Time for solving constraints:                          0.303s
+  Time for SMT check:                                  0.244s
+  Time for resolving definites:                        0.006s
+
+Cache lookups:                                           16
+Direct cache hits:                                        3
+Direct cache lookup time:                              0.001s
+
+Number of removed outdated constraints:                   0 (count: 14, min: 0, max: 0, avg: 0.00)
+Time for outdated constraint removal:                  0.002s
+
+Constraints after refinement in state:                   81 (count: 37, min: 0, max: 4, avg: 2.19)
+Constraints before refinement in state:                  81 (count: 37, min: 0, max: 4, avg: 2.19)
+Time for constraints adjustment:                       0.000s
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.002s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.002s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            31
+Max size of waitlist:            7
+Average size of waitlist:        4
+Number of computed successors:   37
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.347s (Max:     0.347s)
+  Time for choose from waitlist:      0.000s
+  Time for precision adjustment:      0.005s
+  Time for transfer relation:         0.342s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.000s
+
+Counterexample-Check Algorithm statistics
+-----------------------------------------
+Number of counterexample checks:    1
+Number of infeasible paths:         0 (0%)
+Time for counterexample checks:         0.183s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-valueAnalysis-Cegar.properties
+=========================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-valueAnalysis-Cegar.properties:     0.103s
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     0.00 (sum: 0, count: 37, min: 0, max: 0)
+Number of global variables per state:              0.00 (sum: 0, count: 37, min: 0, max: 0)
+Number of assumptions:                                   16
+Number of deterministic assumptions:                      0
+Level of Determinism:                              0%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                      42
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.000s
+Total time for path thresholds:                        0.000s
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.005s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            35
+Max size of waitlist:            5
+Average size of waitlist:        3
+Number of computed successors:   42
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         6
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.035s (Max:     0.035s)
+  Time for choose from waitlist:      0.002s
+  Time for precision adjustment:      0.000s
+  Time for transfer relation:         0.031s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.002s
+
+ValueAnalysisRefiner statistics
+-------------------------------
+Number of refinements:                                    1
+Number of targets found:                                  1 (count: 1, min: 1, max: 1, avg: 1.00)
+Time for completing refinement:                        0.276s
+Number of root relocations:                               0
+Number of similar, repeated refinements:                  0
+Number of unique precision increments:             0
+
+PathExtractor statistics
+------------------------
+Total number of targets found:            0
+
+ValueAnalysisPathInterpolator statistics
+----------------------------------------
+  Time for interpolation:                              0.000s
+  Number of interpolations:                               0
+  Number of interpolation queries:                        0 (count: 0, min: 0, max: 0, avg: 0.00)
+  Size of interpolant:                             0.00 (sum: 0, count: 0, min: 0, max: 0)
+  Number of sliced prefixes:                              0 (count: 0, min: 0, max: 0, avg: 0.00)
+  Extracting infeasible sliced prefixes:               0.000s
+  Selecting infeasible sliced prefixes:                0.000s
+
+CEGAR algorithm statistics
+--------------------------
+Number of CEGAR refinements:          1
+Number of successful refinements:     0
+Number of failed refinements:         0
+Max. size of reached set before ref.: 37
+Max. size of reached set after ref.:  0
+Avg. size of reached set before ref.: 37.00
+Avg. size of reached set after ref.:  NaN
+
+Total time for CEGAR algorithm:       0.323s
+Time for refinements:                 0.288s
+Average time for refinement:          0.288s
+Max time for refinement:              0.288s
+
+Counterexample-Check Algorithm statistics
+-----------------------------------------
+Number of counterexample checks:    1
+Number of infeasible paths:         0 (0%)
+Time for counterexample checks:         0.201s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-predicateAnalysis.properties
+=======================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-predicateAnalysis.properties:     0.016s
+
+PredicateCPA statistics
+-----------------------
+Number of abstractions:            2 (1% of all post computations)
+  Times abstraction was reused:    0
+  Because of function entry/exit:  0 (0%)
+  Because of loop head:            1 (50%)
+  Because of join nodes:           0 (0%)
+  Because of threshold:            0 (0%)
+  Because of target state:         1 (50%)
+  Times precision was empty:       2 (100%)
+  Times precision was {false}:     0 (0%)
+  Times result was cached:         0 (0%)
+  Times cartesian abs was used:    0 (0%)
+  Times boolean abs was used:      0 (0%)
+  Times result was 'false':        0 (0%)
+Number of strengthen sat checks:   0
+Number of coverage checks:         0
+  BDD entailment checks:           0
+Number of SMT sat checks:          0
+  trivial:                         0
+  cached:                          0
+
+Max ABE block size:                       15
+Avg ABE block size:                                9.00 (sum: 18, count: 2, min: 3, max: 15)
+Number of predicates discovered:          0
+
+Time for post operator:                                0.290s
+  Time for path formula creation:                      0.287s
+Time for strengthen operator:                          0.006s
+Time for prec operator:                                0.002s
+  Time for abstraction:                  0.001s (Max:     0.001s, Count: 2)
+    Solving time:                        0.000s (Max:     0.000s)
+    Model enumeration time:              0.000s
+    Time for BDD construction:           0.000s (Max:     0.000s)
+Time for coverage checks:                              0.000s
+Total time for SMT solver (w/o itp):     0.000s
+
+Number of path formula cache hits:   320 (48%)
+
+Inside post operator:                  
+  Inside path formula creation:        
+    Time for path formula computation:     0.284s
+
+Total number of created targets for pointer analysis: 0
+
+
+Number of BDD nodes:                               202
+Size of BDD node table:                            55949
+Size of BDD cache:                                 5623
+Size of BDD node cleanup queue:                    0.00 (sum: 0, count: 19, min: 0, max: 0)
+Time for BDD node cleanup:                             0.000s
+Time for BDD garbage collection:                       0.000s (in 0 runs)
+
+KeyValue statistics
+-------------------
+Init. function predicates:                         0
+Init. global predicates:                           0
+Init. location predicates:                         0
+
+Invariant Generation statistics
+-------------------------------
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            11
+Max size of waitlist:            5
+Average size of waitlist:        2
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 5, min: 0, max: 0)
+CallstackSortedWaitlist:                           6.00 (sum: 6, count: 1, min: 6, max: 6)
+Number of computed successors:   15
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.307s (Max:     0.307s)
+  Time for choose from waitlist:      0.000s
+  Time for precision adjustment:      0.002s
+  Time for transfer relation:         0.305s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.000s
+
+Static Predicate Refiner statistics
+-----------------------------------
+Number of predicates found statically:                    0 (count: 0, min: 0, max: 0, avg: 0.00)
+
+Total time for static refinement:                      0.026s
+  Time for path feasibility check:                     0.004s
+  Error-path post-processing:                          0.022s
+
+PredicateCPARefiner statistics
+------------------------------
+Number of predicate refinements:                   0
+  Counterexample analysis:                             0.003s (Max:     0.003s, Calls: 1)
+    Refinement sat check:                              0.001s
+    Interpolant computation:                           0.000s
+    Error-path creation:                               0.001s
+
+Predicate-Abstraction Refiner statistics
+----------------------------------------
+  Predicate creation:                                  0.000s
+  Precision update:                                    0.000s
+  ARG update:                                          0.000s
+
+Length of refined path (in blocks):                0.00 (sum: 0, count: 0, min: 0, max: 0)
+Number of affected states:                                0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp 'true':                  0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp non-trivial itp:         0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp 'false':                 0 (count: 0, min: 0, max: 0, avg: 0.00)
+Different non-trivial interpolants along paths:           0 (count: 0, min: 0, max: 0, avg: 0.00)
+Equal non-trivial interpolants along paths:               0 (count: 0, min: 0, max: 0, avg: 0.00)
+Number of refs with location-based cutoff:                0
+
+CEGAR algorithm statistics
+--------------------------
+Number of CEGAR refinements:          1
+Number of successful refinements:     0
+Number of failed refinements:         0
+Max. size of reached set before ref.: 16
+Max. size of reached set after ref.:  0
+Avg. size of reached set before ref.: 16.00
+Avg. size of reached set after ref.:  NaN
+
+Total time for CEGAR algorithm:       0.333s
+Time for refinements:                 0.026s
+Average time for refinement:          0.026s
+Max time for refinement:              0.026s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-dataFlow.properties
+==============================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-dataFlow.properties:     0.095s
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            324
+Max size of waitlist:            4
+Average size of waitlist:        1
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 1, min: 0, max: 0)
+Number of computed successors:   327
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.053s (Max:     0.053s)
+  Time for choose from waitlist:      0.001s
+  Time for precision adjustment:      0.002s
+  Time for transfer relation:         0.043s
+  Time for stop operator:             0.002s
+  Time for adding to reached set:     0.004s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-kInduction.properties
+================================================================================
+
+PredicateCPA statistics
+-----------------------
+Number of abstractions:            0 (0% of all post computations)
+Number of strengthen sat checks:   0
+Number of coverage checks:         0
+  BDD entailment checks:           0
+Number of SMT sat checks:          0
+  trivial:                         0
+  cached:                          0
+
+Max ABE block size:                       0
+Avg ABE block size:                                0.00 (sum: 0, count: 0, min: 0, max: 0)
+Number of predicates discovered:          0
+
+Time for post operator:                                0.012s
+  Time for path formula creation:                      0.010s
+Time for strengthen operator:                          0.003s
+Time for prec operator:                                0.002s
+Time for coverage checks:                              0.000s
+Total time for SMT solver (w/o itp):     0.000s
+
+Total number of created targets for pointer analysis: 0
+
+
+
+KeyValue statistics
+-------------------
+Init. function predicates:                         0
+Init. global predicates:                           0
+Init. location predicates:                         0
+
+Invariant Generation statistics
+-------------------------------
+
+Bounds CPA statistics
+---------------------
+Bound k:                                           1
+Maximum loop iteration reached:                    0
+
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     0.03 (sum: 11, count: 317, min: 0, max: 1)
+Number of global variables per state:              0.00 (sum: 0, count: 317, min: 0, max: 0)
+Number of assumptions:                                    2
+Number of deterministic assumptions:                      0
+Level of Determinism:                              0%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                     316
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.002s
+Total time for path thresholds:                        0.000s
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            316
+Max size of waitlist:            2
+Average size of waitlist:        1
+LoopstackSortedWaitlist:                           0.00 (sum: 0, count: 315, min: 0, max: 0)
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 315, min: 0, max: 0)
+LoopIterationSortedWaitlist:                       0.00 (sum: 0, count: 315, min: 0, max: 0)
+CallstackSortedWaitlist:                           1.00 (sum: 1, count: 1, min: 1, max: 1)
+Number of computed successors:   317
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.310s (Max:     0.310s)
+  Time for choose from waitlist:      0.008s
+  Time for precision adjustment:      0.014s
+  Time for transfer relation:         0.281s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.007s
+
+BMC algorithm statistics
+------------------------
+Time for BMC formula creation:                       0.311s
+
+
+Other statistics
+================
+
+Parallel Algorithm statistics
+-----------------------------
+Number of algorithms used:        5
+Successful analysis: /opt/cpachecker/config/components/parallel-predicateAnalysis.properties
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-symbolicExecution.properties
+=======================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-symbolicExecution.properties:     0.104s
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     8.32 (sum: 316, count: 38, min: 0, max: 13)
+Number of global variables per state:              0.00 (sum: 0, count: 38, min: 0, max: 0)
+Number of assumptions:                                   16
+Number of deterministic assumptions:                      4
+Level of Determinism:                              25%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                      37
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.001s
+Total time for path thresholds:                        0.000s
+
+SymbolicValueAnalysisPrecisionAdjustment statistics
+---------------------------------------------------
+Symbolic values before refinement:                      263 (count: 37, min: 0, max: 10, avg: 7.11)
+Symbolic values after refinement:                       263 (count: 37, min: 0, max: 10, avg: 7.11)
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+ConstraintsCPA statistics
+-------------------------
+
+Time for solving constraints:                          0.303s
+  Time for SMT check:                                  0.244s
+  Time for resolving definites:                        0.006s
+
+Cache lookups:                                           16
+Direct cache hits:                                        3
+Direct cache lookup time:                              0.001s
+
+Number of removed outdated constraints:                   0 (count: 14, min: 0, max: 0, avg: 0.00)
+Time for outdated constraint removal:                  0.002s
+
+Constraints after refinement in state:                   81 (count: 37, min: 0, max: 4, avg: 2.19)
+Constraints before refinement in state:                  81 (count: 37, min: 0, max: 4, avg: 2.19)
+Time for constraints adjustment:                       0.000s
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.002s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.002s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 369, count: 369, min: 1, max: 1) [1 x 369]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            31
+Max size of waitlist:            7
+Average size of waitlist:        4
+Number of computed successors:   37
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.347s (Max:     0.347s)
+  Time for choose from waitlist:      0.000s
+  Time for precision adjustment:      0.005s
+  Time for transfer relation:         0.342s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.000s
+
+Counterexample-Check Algorithm statistics
+-----------------------------------------
+Number of counterexample checks:    1
+Number of infeasible paths:         0 (0%)
+Time for counterexample checks:         0.183s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-valueAnalysis-Cegar.properties
+=========================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-valueAnalysis-Cegar.properties:     0.103s
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     0.00 (sum: 0, count: 37, min: 0, max: 0)
+Number of global variables per state:              0.00 (sum: 0, count: 37, min: 0, max: 0)
+Number of assumptions:                                   16
+Number of deterministic assumptions:                      0
+Level of Determinism:                              0%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                      42
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.000s
+Total time for path thresholds:                        0.000s
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.005s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 371, count: 371, min: 1, max: 1) [1 x 371]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            35
+Max size of waitlist:            5
+Average size of waitlist:        3
+Number of computed successors:   42
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         6
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.035s (Max:     0.035s)
+  Time for choose from waitlist:      0.002s
+  Time for precision adjustment:      0.000s
+  Time for transfer relation:         0.031s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.002s
+
+ValueAnalysisRefiner statistics
+-------------------------------
+Number of refinements:                                    1
+Number of targets found:                                  1 (count: 1, min: 1, max: 1, avg: 1.00)
+Time for completing refinement:                        0.276s
+Number of root relocations:                               0
+Number of similar, repeated refinements:                  0
+Number of unique precision increments:             0
+
+PathExtractor statistics
+------------------------
+Total number of targets found:            0
+
+ValueAnalysisPathInterpolator statistics
+----------------------------------------
+  Time for interpolation:                              0.000s
+  Number of interpolations:                               0
+  Number of interpolation queries:                        0 (count: 0, min: 0, max: 0, avg: 0.00)
+  Size of interpolant:                             0.00 (sum: 0, count: 0, min: 0, max: 0)
+  Number of sliced prefixes:                              0 (count: 0, min: 0, max: 0, avg: 0.00)
+  Extracting infeasible sliced prefixes:               0.000s
+  Selecting infeasible sliced prefixes:                0.000s
+
+CEGAR algorithm statistics
+--------------------------
+Number of CEGAR refinements:          1
+Number of successful refinements:     0
+Number of failed refinements:         0
+Max. size of reached set before ref.: 37
+Max. size of reached set after ref.:  0
+Avg. size of reached set before ref.: 37.00
+Avg. size of reached set after ref.:  NaN
+
+Total time for CEGAR algorithm:       0.323s
+Time for refinements:                 0.288s
+Average time for refinement:          0.288s
+Max time for refinement:              0.288s
+
+Counterexample-Check Algorithm statistics
+-----------------------------------------
+Number of counterexample checks:    1
+Number of infeasible paths:         0 (0%)
+Time for counterexample checks:         0.201s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-predicateAnalysis.properties
+=======================================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-predicateAnalysis.properties:     0.016s
+
+PredicateCPA statistics
+-----------------------
+Number of abstractions:            2 (1% of all post computations)
+  Times abstraction was reused:    0
+  Because of function entry/exit:  0 (0%)
+  Because of loop head:            1 (50%)
+  Because of join nodes:           0 (0%)
+  Because of threshold:            0 (0%)
+  Because of target state:         1 (50%)
+  Times precision was empty:       2 (100%)
+  Times precision was {false}:     0 (0%)
+  Times result was cached:         0 (0%)
+  Times cartesian abs was used:    0 (0%)
+  Times boolean abs was used:      0 (0%)
+  Times result was 'false':        0 (0%)
+Number of strengthen sat checks:   0
+Number of coverage checks:         0
+  BDD entailment checks:           0
+Number of SMT sat checks:          0
+  trivial:                         0
+  cached:                          0
+
+Max ABE block size:                       15
+Avg ABE block size:                                9.00 (sum: 18, count: 2, min: 3, max: 15)
+Number of predicates discovered:          0
+
+Time for post operator:                                0.290s
+  Time for path formula creation:                      0.287s
+Time for strengthen operator:                          0.006s
+Time for prec operator:                                0.002s
+  Time for abstraction:                  0.001s (Max:     0.001s, Count: 2)
+    Solving time:                        0.000s (Max:     0.000s)
+    Model enumeration time:              0.000s
+    Time for BDD construction:           0.000s (Max:     0.000s)
+Time for coverage checks:                              0.000s
+Total time for SMT solver (w/o itp):     0.000s
+
+Number of path formula cache hits:   320 (48%)
+
+Inside post operator:                  
+  Inside path formula creation:        
+    Time for path formula computation:     0.284s
+
+Total number of created targets for pointer analysis: 0
+
+
+Number of BDD nodes:                               202
+Size of BDD node table:                            55949
+Size of BDD cache:                                 5623
+Size of BDD node cleanup queue:                    0.00 (sum: 0, count: 35, min: 0, max: 0)
+Time for BDD node cleanup:                             0.000s
+Time for BDD garbage collection:                       0.000s (in 0 runs)
+
+KeyValue statistics
+-------------------
+Init. function predicates:                         0
+Init. global predicates:                           0
+Init. location predicates:                         0
+
+Invariant Generation statistics
+-------------------------------
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 332, count: 332, min: 1, max: 1) [1 x 332]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            11
+Max size of waitlist:            5
+Average size of waitlist:        2
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 5, min: 0, max: 0)
+CallstackSortedWaitlist:                           6.00 (sum: 6, count: 1, min: 6, max: 6)
+Number of computed successors:   15
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         1
+
+Total time for CPA algorithm:         0.307s (Max:     0.307s)
+  Time for choose from waitlist:      0.000s
+  Time for precision adjustment:      0.002s
+  Time for transfer relation:         0.305s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.000s
+
+Static Predicate Refiner statistics
+-----------------------------------
+Number of predicates found statically:                    0 (count: 0, min: 0, max: 0, avg: 0.00)
+
+Total time for static refinement:                      0.026s
+  Time for path feasibility check:                     0.004s
+  Error-path post-processing:                          0.022s
+
+PredicateCPARefiner statistics
+------------------------------
+Number of predicate refinements:                   0
+  Counterexample analysis:                             0.003s (Max:     0.003s, Calls: 1)
+    Refinement sat check:                              0.001s
+    Interpolant computation:                           0.000s
+    Error-path creation:                               0.001s
+
+Predicate-Abstraction Refiner statistics
+----------------------------------------
+  Predicate creation:                                  0.000s
+  Precision update:                                    0.000s
+  ARG update:                                          0.000s
+
+Length of refined path (in blocks):                0.00 (sum: 0, count: 0, min: 0, max: 0)
+Number of affected states:                                0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp 'true':                  0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp non-trivial itp:         0 (count: 0, min: 0, max: 0, avg: 0.00)
+Length (states) of path with itp 'false':                 0 (count: 0, min: 0, max: 0, avg: 0.00)
+Different non-trivial interpolants along paths:           0 (count: 0, min: 0, max: 0, avg: 0.00)
+Equal non-trivial interpolants along paths:               0 (count: 0, min: 0, max: 0, avg: 0.00)
+Number of refs with location-based cutoff:                0
+
+CEGAR algorithm statistics
+--------------------------
+Number of CEGAR refinements:          1
+Number of successful refinements:     0
+Number of failed refinements:         0
+Max. size of reached set before ref.: 16
+Max. size of reached set after ref.:  0
+Avg. size of reached set before ref.: 16.00
+Avg. size of reached set after ref.:  NaN
+
+Total time for CEGAR algorithm:       0.333s
+Time for refinements:                 0.026s
+Average time for refinement:          0.026s
+Max time for refinement:              0.026s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-dataFlow.properties
+==============================================================================
+Time spent in analysis thread /opt/cpachecker/config/components/parallel-dataFlow.properties:     0.095s
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 327, count: 327, min: 1, max: 1) [1 x 327]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            324
+Max size of waitlist:            4
+Average size of waitlist:        1
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 1, min: 0, max: 0)
+Number of computed successors:   327
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.053s (Max:     0.053s)
+  Time for choose from waitlist:      0.001s
+  Time for precision adjustment:      0.002s
+  Time for transfer relation:         0.043s
+  Time for stop operator:             0.002s
+  Time for adding to reached set:     0.004s
+
+
+Statistics for: /opt/cpachecker/config/components/parallel-kInduction.properties
+================================================================================
+
+PredicateCPA statistics
+-----------------------
+Number of abstractions:            0 (0% of all post computations)
+Number of strengthen sat checks:   0
+Number of coverage checks:         0
+  BDD entailment checks:           0
+Number of SMT sat checks:          0
+  trivial:                         0
+  cached:                          0
+
+Max ABE block size:                       0
+Avg ABE block size:                                0.00 (sum: 0, count: 0, min: 0, max: 0)
+Number of predicates discovered:          0
+
+Time for post operator:                                0.012s
+  Time for path formula creation:                      0.010s
+Time for strengthen operator:                          0.003s
+Time for prec operator:                                0.002s
+Time for coverage checks:                              0.000s
+Total time for SMT solver (w/o itp):     0.000s
+
+Total number of created targets for pointer analysis: 0
+
+
+
+KeyValue statistics
+-------------------
+Init. function predicates:                         0
+Init. global predicates:                           0
+Init. location predicates:                         0
+
+Invariant Generation statistics
+-------------------------------
+
+Bounds CPA statistics
+---------------------
+Bound k:                                           1
+Maximum loop iteration reached:                    0
+
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     0.03 (sum: 11, count: 317, min: 0, max: 1)
+Number of global variables per state:              0.00 (sum: 0, count: 317, min: 0, max: 0)
+Number of assumptions:                                    2
+Number of deterministic assumptions:                      0
+Level of Determinism:                              0%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                     316
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.002s
+Total time for path thresholds:                        0.000s
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 317, count: 317, min: 1, max: 1) [1 x 317]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            316
+Max size of waitlist:            2
+Average size of waitlist:        1
+LoopstackSortedWaitlist:                           0.00 (sum: 0, count: 315, min: 0, max: 0)
+ReversePostorderSortedWaitlist:                    0.00 (sum: 0, count: 315, min: 0, max: 0)
+LoopIterationSortedWaitlist:                       0.00 (sum: 0, count: 315, min: 0, max: 0)
+CallstackSortedWaitlist:                           1.00 (sum: 1, count: 1, min: 1, max: 1)
+Number of computed successors:   317
+Max successors for one state:    2
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.310s (Max:     0.310s)
+  Time for choose from waitlist:      0.008s
+  Time for precision adjustment:      0.014s
+  Time for transfer relation:         0.281s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.007s
+
+BMC algorithm statistics
+------------------------
+Time for BMC formula creation:                       0.311s
+
+
+Other statistics
+================
+
+Code Coverage
+-----------------------------
+  Function coverage:      0.222
+  Visited lines:          389
+  Total lines:            405
+  Line coverage:          0.960
+  Visited conditions:     8
+  Total conditions:       16
+  Condition coverage:     0.500
+
+CPAchecker general statistics
+-----------------------------
+Number of program locations:                       381
+Number of CFA edges (per node):                         378 (count: 381, min: 0, max: 2, avg: 0.99)
+Number of relevant variables:                      11
+Number of functions:                               9
+Number of loops (and loop nodes):                         2 (sum: 12, min: 3, max: 9, avg: 6.00)
+Size of reached set:             16
+  Number of reached locations:   16 (4%)
+    Avg states per location:     1
+    Max states per location:     1 (at node N37)
+  Number of reached functions:   2 (22%)
+  Number of target states:       1
+  Size of final wait list:       5
+
+Time for analysis setup:          1.367s
+  Time for loading CPAs:          0.410s
+  Time for loading parser:        0.269s
+  Time for CFA construction:      0.660s
+    Time for parsing file(s):     0.245s
+    Time for AST to CFA:          0.212s
+    Time for CFA sanity check:    0.019s
+    Time for post-processing:     0.103s
+    Time for loop structure:      0.004s
+    Time for AST structure:       0.000s
+    Time for CFA export:          0.390s
+      Time for function pointers resolving:            0.002s
+        Function calls via function pointers:             0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Instrumented function pointer calls:              0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Function calls with function pointer arguments:        0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Instrumented function pointer arguments:          0 (count: 1, min: 0, max: 0, avg: 0.00)
+      Time for classifying variables:                  0.052s
+        Time for collecting variables:                 0.023s
+        Time for solving dependencies:                 0.000s
+        Time for building hierarchy:                   0.000s
+        Time for building classification:              0.019s
+        Time for exporting data:                       0.010s
+Time for Analysis:                1.132s
+CPU time for analysis:            3.910s
+Time for analyzing result:        0.001s
+Total time for CPAchecker:        2.500s
+Total CPU time for CPAchecker:    7.650s
+Time for statistics:              0.083s
+
+Time for Garbage Collector:       0.373s (in 6 runs)
+Garbage Collector(s) used:    PS MarkSweep, PS Scavenge
+Used heap memory:                 79MB (    75 MiB) max;     43MB (    41 MiB) avg;     98MB (    94 MiB) peak
+Used non-heap memory:             55MB (    53 MiB) max;     33MB (    32 MiB) avg;     57MB (    54 MiB) peak
+Used in PS Old Gen pool:          22MB (    21 MiB) max;      9MB (     9 MiB) avg;     22MB (    21 MiB) peak
+Allocated heap memory:           251MB (   240 MiB) max;    251MB (   240 MiB) avg
+Allocated non-heap memory:        58MB (    55 MiB) max;     37MB (    35 MiB) avg
+Total process virtual memory:   5462MB (  5209 MiB) max;   4610MB (  4397 MiB) avg
+
+Verification result: FALSE. Property violation (assertion in line 29: Condition "0 && \"Assertion failed: expr_tmp_var_47_int should not be less than 2\"" failed in "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/trex01-1_process_dc_iter2.c", line 29) found by chosen configuration.
+More details about the verification run can be found in the directory "/home/zyl/biVerify/CPA_DATA2/C/F/verify/realOutput/trex01-1_process_dc_iter2Output".

@@ -1,0 +1,5 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun global@2 () (_ BitVec 32))
+(declare-fun __ADDRESS_OF_env_buffer@ () (_ BitVec 32))
+(declare-fun |main::iVar1@3| () (_ BitVec 32))
+(assert (let ((.def_24 (= |main::iVar1@3| (_ bv0 32))))(let ((.def_15 (bvurem __ADDRESS_OF_env_buffer@ (_ bv4 32))))(let ((.def_16 (= .def_15 (_ bv0 32))))(let ((.def_14 (bvslt (_ bv0 32) __ADDRESS_OF_env_buffer@)))(let ((.def_20 (and .def_14 .def_16)))(let ((.def_18 (bvadd (_ bv164 32) __ADDRESS_OF_env_buffer@)))(let ((.def_19 (bvslt (_ bv0 32) .def_18)))(let ((.def_21 (and .def_19 .def_20)))(let ((.def_11 (= global@2 (_ bv0 32))))(let ((.def_22 (and .def_11 .def_21)))(let ((.def_25 (and .def_22 .def_24)))(let ((.def_28 (and .def_11 .def_25))).def_28)))))))))))))

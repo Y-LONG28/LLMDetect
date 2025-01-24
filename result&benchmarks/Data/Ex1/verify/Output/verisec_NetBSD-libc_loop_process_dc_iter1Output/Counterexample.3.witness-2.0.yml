@@ -1,0 +1,49 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "90cce58a-efa5-3b1e-94d8-b0b69128e94e"
+    creation_time: "2025-01-15T14:12:05+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c: "6685d2b3250a1b89e7d35bcf503d3f1706db7a11b10f618f384cbc355cd8263c"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c"
+          line: 15
+          column: 5
+          function: "glob2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c"
+          line: 16
+          column: 9
+          function: "glob2"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/verisec_NetBSD-libc_loop_process_dc_iter1.c"
+          line: 17
+          column: 21
+          function: "glob2"

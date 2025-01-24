@@ -1,0 +1,7 @@
+line 16:	N41 -{eval()}-> N31
+line 9:	N32 -{x = 1;}-> N33
+	x == 1;
+none:	N42 -{}-> N38
+lines 15-17:	N38 -{[!(x == 0)]}-> N40
+	x == 1;
+line 19:	N51 -{__assert_fail("0 && \"Assertion failed: Infinite loop detected\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/while_infinite_loop_4_process_dc_iter2.c", 19, "__PRETTY_FUNCTION__");}-> N336

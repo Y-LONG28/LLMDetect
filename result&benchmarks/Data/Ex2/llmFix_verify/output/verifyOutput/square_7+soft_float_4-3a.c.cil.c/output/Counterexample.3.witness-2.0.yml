@@ -1,0 +1,198 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "441bb116-c250-3e84-b706-357fde106cb8"
+    creation_time: "2025-01-24T02:23:32+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c: "51afc9b9842c9754931a610ac5bb9f0e422eb4443963167ae089e09b43da37d9"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c: "0c04a402e3c161c4836659f7c558675bdd2a95759337d598b668c68a40e985bb"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 252
+          column: 3
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(ma == 8388608U)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 214
+          column: 3
+          function: "main2"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(ea == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 215
+          column: 3
+          function: "main2"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(mb == 16777216U)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 217
+          column: 3
+          function: "main2"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(eb == 31)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 218
+          column: 3
+          function: "main2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 10
+          column: 5
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 10
+          column: 5
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 15
+          column: 9
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 17
+          column: 17
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 10
+          column: 5
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 15
+          column: 9
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/square_7+soft_float_4-3a.c.cil_dc_fix.c"
+          line: 24
+          column: 13
+          function: "base2flt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 80
+          column: 3
+          function: "addflt"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 59
+          column: 3
+          function: "__VERIFIER_assert"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 59
+          column: 3
+          function: "__VERIFIER_assert"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/square_7+soft_float_4-3a.c.cil/square_7+soft_float_4-3a.c.cil.c"
+          line: 60
+          column: 5
+          function: "__VERIFIER_assert"

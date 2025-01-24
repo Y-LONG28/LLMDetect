@@ -1,0 +1,251 @@
+
+Selection Algorithm statistics
+------------------------------
+Size of preliminary analysis reached set:      0
+Used algorithm property:                       /opt/cpachecker/config/components/configselection-restart-bmc-fallbacks.properties
+Program containing only relevant bools:        0
+Relevant boolean vars / relevant vars ratio:   0.0476
+Requires alias handling:                       0
+Requires loop handling:                        0
+Has a single loop:                             0
+Requires composite-type handling:              1
+Requires array handling:                       0
+Requires float handling:                       1
+Requires recursion handling:                   0
+Relevant addressed vars / relevant vars ratio: 0.0000
+Program containing external functions:         true
+Number of all righthand side functions:        1
+
+
+Restart Algorithm statistics
+----------------------------
+Number of algorithms provided:    4
+Number of algorithms used:        3
+Last algorithm used:        /opt/cpachecker/config/components/concurrency.properties
+Total time for algorithm 3:     0.733s
+
+PredicateCPA statistics
+-----------------------
+Number of abstractions:            1 (0% of all post computations)
+  Times abstraction was reused:    0
+  Because of function entry/exit:  0 (0%)
+  Because of loop head:            0 (0%)
+  Because of join nodes:           0 (0%)
+  Because of threshold:            0 (0%)
+  Because of target state:         1 (100%)
+  Times precision was empty:       1 (100%)
+  Times precision was {false}:     0 (0%)
+  Times result was cached:         0 (0%)
+  Times cartesian abs was used:    0 (0%)
+  Times boolean abs was used:      0 (0%)
+  Times result was 'false':        0 (0%)
+Number of strengthen sat checks:   0
+Number of coverage checks:         64
+  BDD entailment checks:           0
+Number of SMT sat checks:          0
+  trivial:                         0
+  cached:                          0
+
+Max ABE block size:                       74
+Avg ABE block size:                                74.00 (sum: 74, count: 1, min: 74, max: 74)
+Number of predicates discovered:          0
+
+Time for post operator:                                0.084s
+  Time for path formula creation:                      0.083s
+Time for strengthen operator:                          0.002s
+Time for prec operator:                                0.004s
+  Time for abstraction:                  0.000s (Max:     0.000s, Count: 1)
+    Solving time:                        0.000s (Max:     0.000s)
+    Model enumeration time:              0.000s
+    Time for BDD construction:           0.000s (Max:     0.000s)
+Time for merge operator:                               0.012s
+Time for coverage checks:                              0.000s
+Total time for SMT solver (w/o itp):     0.000s
+
+Total number of created targets for pointer analysis: 0
+
+
+
+KeyValue statistics
+-------------------
+Init. function predicates:                         0
+Init. global predicates:                           0
+Init. location predicates:                         0
+
+Invariant Generation statistics
+-------------------------------
+
+Bounds CPA statistics
+---------------------
+Bound k:                                           1
+Maximum loop iteration reached:                    0
+
+
+ValueAnalysisCPA statistics
+---------------------------
+Number of variables per state:                     0.11 (sum: 46, count: 423, min: 0, max: 2)
+Number of global variables per state:              0.00 (sum: 0, count: 423, min: 0, max: 0)
+Number of assumptions:                                   66
+Number of deterministic assumptions:                      0
+Level of Determinism:                              0%
+
+ValueAnalysisPrecisionAdjustment statistics
+-------------------------------------------
+Number of abstraction computations:                     454
+Total time for liveness abstraction:                   0.000s
+Total time for abstraction computation:                0.000s
+Total time for path thresholds:                        0.000s
+
+ConstraintsStrengthenOperator statistics
+----------------------------------------
+Total time for strengthening by ConstraintsCPA:     0.000s
+Replaced symbolic expressions: 0
+
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.004s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 454, count: 454, min: 1, max: 1) [1 x 454]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.002s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 454, count: 454, min: 1, max: 1) [1 x 454]
+Number of states with assumption transitions:      0
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                     1.00 (sum: 454, count: 454, min: 1, max: 1) [1 x 454]
+Number of states with assumption transitions:      0
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            423
+Max size of waitlist:            7
+Average size of waitlist:        1
+LoopstackSortedWaitlist:                           0.03 (sum: 12, count: 356, min: 0, max: 12)
+ReversePostorderSortedWaitlist:                    0.00 (sum: 1, count: 356, min: 0, max: 1)
+LoopIterationSortedWaitlist:                       0.03 (sum: 12, count: 356, min: 0, max: 12)
+CallstackSortedWaitlist:                           67.00 (sum: 67, count: 1, min: 67, max: 67)
+Number of computed successors:   454
+Max successors for one state:    2
+Number of times merged:          32
+Number of times stopped:         32
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.215s (Max:     0.215s)
+  Time for choose from waitlist:      0.007s
+  Time for precision adjustment:      0.030s
+  Time for transfer relation:         0.133s
+  Time for merge operator:            0.016s
+  Time for stop operator:             0.004s
+  Time for adding to reached set:     0.013s
+
+BMC algorithm statistics
+------------------------
+Time for BMC formula creation:                       0.219s
+Time for final sat check:                            0.040s
+Time for error-path creation:                        0.022s
+Time for error-path post-processing:                 0.086s
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            423
+Max size of waitlist:            7
+Average size of waitlist:        1
+LoopstackSortedWaitlist:                           0.03 (sum: 12, count: 356, min: 0, max: 12)
+ReversePostorderSortedWaitlist:                    0.00 (sum: 1, count: 356, min: 0, max: 1)
+LoopIterationSortedWaitlist:                       0.03 (sum: 12, count: 356, min: 0, max: 12)
+CallstackSortedWaitlist:                           67.00 (sum: 67, count: 1, min: 67, max: 67)
+Number of computed successors:   454
+Max successors for one state:    2
+Number of times merged:          32
+Number of times stopped:         32
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.215s (Max:     0.215s)
+  Time for choose from waitlist:      0.007s
+  Time for precision adjustment:      0.030s
+  Time for transfer relation:         0.133s
+  Time for merge operator:            0.016s
+  Time for stop operator:             0.004s
+  Time for adding to reached set:     0.013s
+
+BMC algorithm statistics
+------------------------
+Time for BMC formula creation:                       0.219s
+Time for final sat check:                            0.040s
+Time for error-path creation:                        0.022s
+Time for error-path post-processing:                 0.086s
+
+Code Coverage
+-----------------------------
+  Function coverage:      0.333
+  Visited lines:          420
+  Total lines:            430
+  Line coverage:          0.977
+  Visited conditions:     36
+  Total conditions:       38
+  Condition coverage:     0.947
+
+CPAchecker general statistics
+-----------------------------
+Number of program locations:                       422
+Number of CFA edges (per node):                         429 (count: 422, min: 0, max: 2, avg: 1.02)
+Number of relevant variables:                      21
+Number of functions:                               12
+Number of loops (and loop nodes):                         0 (sum: 0, min: 0, max: 0, avg: 0.00)
+Size of reached set:             423
+  Number of reached locations:   386 (91%)
+    Avg states per location:     1
+    Max states per location:     2 (at node N35)
+  Number of reached functions:   4 (33%)
+  Number of target states:       1
+
+Time for analysis setup:          1.390s
+  Time for loading CPAs:          0.405s
+  Time for loading parser:        0.175s
+  Time for CFA construction:      0.784s
+    Time for parsing file(s):     0.256s
+    Time for AST to CFA:          0.312s
+    Time for CFA sanity check:    0.023s
+    Time for post-processing:     0.119s
+    Time for loop structure:      0.002s
+    Time for AST structure:       0.000s
+    Time for CFA export:          0.374s
+      Time for function pointers resolving:            0.008s
+        Function calls via function pointers:             0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Instrumented function pointer calls:              0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Function calls with function pointer arguments:        0 (count: 1, min: 0, max: 0, avg: 0.00)
+        Instrumented function pointer arguments:          0 (count: 1, min: 0, max: 0, avg: 0.00)
+      Time for classifying variables:                  0.067s
+        Time for collecting variables:                 0.037s
+        Time for solving dependencies:                 0.001s
+        Time for building hierarchy:                   0.000s
+        Time for building classification:              0.019s
+        Time for exporting data:                       0.010s
+Time for Analysis:                0.757s
+CPU time for analysis:            1.840s
+Time for analyzing result:        0.001s
+Total time for CPAchecker:        2.148s
+Total CPU time for CPAchecker:    5.480s
+Time for statistics:              0.072s
+
+Time for Garbage Collector:       0.079s (in 5 runs)
+Garbage Collector(s) used:    PS MarkSweep, PS Scavenge
+Used heap memory:                 77MB (    73 MiB) max;     41MB (    39 MiB) avg;     91MB (    87 MiB) peak
+Used non-heap memory:             52MB (    49 MiB) max;     32MB (    31 MiB) avg;     54MB (    51 MiB) peak
+Used in PS Old Gen pool:          14MB (    13 MiB) max;      8MB (     8 MiB) avg;     14MB (    13 MiB) peak
+Allocated heap memory:           252MB (   240 MiB) max;    251MB (   240 MiB) avg
+Allocated non-heap memory:        54MB (    51 MiB) max;     35MB (    34 MiB) avg
+Total process virtual memory:   4920MB (  4692 MiB) max;   4618MB (  4404 MiB) avg
+
+Verification result: FALSE. Property violation (assertion in line 86: Condition "0 && \"Assertion failed: extraout_fa0 should be 0.0 or signbit should be 1\"" failed in "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/double_req_bl_1232b_process_dc_iter1.c", line 86) found by chosen configuration.
+More details about the verification run can be found in the directory "/home/zyl/biVerify/CPA_DATA2/C/F/verify/realOutput/double_req_bl_1232b_process_dc_iter1Output".

@@ -1,0 +1,13 @@
+line 15:	N38 -{ushort local_16;}-> N39
+	local_16 == 0U;
+line 18:	N41 -{uint x;}-> N42
+	local_16 == 0U;
+	x == 1U;
+lines 20-21:	N43 -{local_14 = 0;}-> N44
+	local_14 == 0U;
+line 20:	N44 -{[!(local_14 < local_16)]}-> N47
+	local_14 == 0U;
+	local_16 == 0U;
+line 24:	N48 -{[!((x % 2) == 0)]}-> N50
+line 24:	N53 -{[!((x % 2) == 0)]}-> N56
+line 24:	N56 -{__assert_fail("x % 2 == 0 && \"Assertion failed: x % 2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/simple_3-1_process_dc_iter1.c", 24, "__PRETTY_FUNCTION__");}-> N359

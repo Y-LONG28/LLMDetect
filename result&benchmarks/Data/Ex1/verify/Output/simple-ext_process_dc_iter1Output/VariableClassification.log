@@ -1,0 +1,54 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_2, __bswap_32::__bsx, main::i, __bswap_64::__bsx, main::expr_tmp_var_43_int, main::__retval__, __bswap_16::__bsx]
+
+IntEq
+
+[myexit::s]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[main::__CPAchecker_TMP_3, main::piVar1, main::piStack_18, main::a._4_4_]
+
+ALL
+
+[myexit::s, main::t._4_4_, __bswap_32::__bsx, main::a._4_4_, main::expr_tmp_var_43_int, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::pvVar2, main::a, main::p, assume::cond, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_2, main::piStack_18[2], main::piStack_18, main::i, main::tmp, __bswap_64::__CPAchecker_TMP_0, main::t, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, main::piStack_18[3], main::piVar1, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__, main::*((void **)(piStack_18 + 2))]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::__CPAchecker_TMP_3, main::a._4_4_, main::piStack_18, main::piVar1] --> [0, 1, 2, 30],
+[main::*((void **)(piStack_18 + 2)), main::pvVar2] --> [0],
+[main::tmp] --> [],
+[main::t] --> [],
+[main::expr_tmp_var_43_int] --> [],
+[main::a] --> [],
+[main::i] --> [],
+[main::p] --> [],
+[myexit::s] --> [1],
+[main::t._4_4_] --> [0],
+[main::piStack_18[2]] --> [0],
+[main::piStack_18[3]] --> [0],
+[main::__CPAchecker_TMP_2] --> [0],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[main::__CPAchecker_TMP_3, assume::cond, main::piVar1, main::piStack_18, main::pvVar2, main::t, main::a]
+
+RELEVANT FIELDS
+
+{struct List=[_4_4_]}

@@ -1,0 +1,17 @@
+line 14:	N38 -{uint local_1c;}-> N39
+	local_1c == 0U;
+line 20:	N43 -{local_18 = 0;}-> N44
+	local_1c == 0U;
+	local_18 == 0U;
+line 21:	N44 -{assume(local_18 == 0)}-> N31
+	cond == 1;
+line 9:	N32 -{[!(cond == 0)]}-> N33
+	cond == 1;
+lines 24-26:	N46 -{n = local_1c;}-> N47
+	n == 0U;
+line 24:	N47 -{[!(n != 0)]}-> N50
+	n == 0U;
+line 29:	N50 -{[local_18 == local_1c]}-> N53
+	local_18 == 0U;
+	local_1c == 0U;
+line 30:	N62 -{__assert_fail("0 && \"Assertion failed: local_18 should not equal local_1c\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/count_up_down-2_process_dc_iter1.c", 30, "__PRETTY_FUNCTION__");}-> N365

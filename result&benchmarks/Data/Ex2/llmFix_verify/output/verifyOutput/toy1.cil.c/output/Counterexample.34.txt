@@ -1,0 +1,863 @@
+none:	N504 -{INIT GLOBAL VARS}-> N527
+output/toy1.cil_dc_fix.c, lines 1-9:	N527 -{void write_back(int *wb_pc, int *wb_st, int *c_t, int *data, int *c_req_up, int *processed);}-> N528
+src/toy1.cil/toy1.cil.c, line 9:	N528 -{void abort();}-> N529
+src/toy1.cil/toy1.cil.c, line 10:	N529 -{void __assert_fail(const char *, const char *, unsigned int, const char *);}-> N530
+src/toy1.cil/toy1.cil.c, line 11:	N530 -{void reach_error();}-> N531
+src/toy1.cil/toy1.cil.c, line 13:	N531 -{int __VERIFIER_nondet_int();}-> N532
+src/toy1.cil/toy1.cil.c, lines 19-26:	N532 -{void error();}-> N533
+src/toy1.cil/toy1.cil.c, line 28:	N533 -{int c = 0;}-> N534
+	c == 0;
+src/toy1.cil/toy1.cil.c, line 29:	N534 -{int c_t = 0;}-> N535
+	c_t == 0;
+src/toy1.cil/toy1.cil.c, line 30:	N535 -{int c_req_up = 0;}-> N536
+	c_req_up == 0;
+src/toy1.cil/toy1.cil.c, line 31:	N536 -{int p_in = 0;}-> N537
+src/toy1.cil/toy1.cil.c, line 32:	N537 -{int p_out = 0;}-> N538
+src/toy1.cil/toy1.cil.c, line 33:	N538 -{int wl_st = 0;}-> N539
+	wl_st == 0;
+src/toy1.cil/toy1.cil.c, line 34:	N539 -{int c1_st = 0;}-> N540
+	c1_st == 0;
+src/toy1.cil/toy1.cil.c, line 35:	N540 -{int c2_st = 0;}-> N541
+	c2_st == 0;
+src/toy1.cil/toy1.cil.c, line 36:	N541 -{int wb_st = 0;}-> N542
+	wb_st == 0;
+src/toy1.cil/toy1.cil.c, line 37:	N542 -{int r_st = 0;}-> N543
+	r_st == 0;
+src/toy1.cil/toy1.cil.c, line 38:	N543 -{int wl_i = 0;}-> N544
+	wl_i == 0;
+src/toy1.cil/toy1.cil.c, line 39:	N544 -{int c1_i = 0;}-> N545
+	c1_i == 0;
+src/toy1.cil/toy1.cil.c, line 40:	N545 -{int c2_i = 0;}-> N546
+	c2_i == 0;
+src/toy1.cil/toy1.cil.c, line 41:	N546 -{int wb_i = 0;}-> N547
+	wb_i == 0;
+src/toy1.cil/toy1.cil.c, line 42:	N547 -{int r_i = 0;}-> N548
+	r_i == 0;
+src/toy1.cil/toy1.cil.c, line 43:	N548 -{int wl_pc = 0;}-> N549
+	wl_pc == 0;
+src/toy1.cil/toy1.cil.c, line 44:	N549 -{int c1_pc = 0;}-> N550
+	c1_pc == 0;
+src/toy1.cil/toy1.cil.c, line 45:	N550 -{int c2_pc = 0;}-> N551
+	c2_pc == 0;
+src/toy1.cil/toy1.cil.c, line 46:	N551 -{int wb_pc = 0;}-> N552
+	wb_pc == 0;
+src/toy1.cil/toy1.cil.c, line 47:	N552 -{int e_e = 0;}-> N553
+	e_e == 0;
+src/toy1.cil/toy1.cil.c, line 48:	N553 -{int e_f = 0;}-> N554
+	e_f == 0;
+src/toy1.cil/toy1.cil.c, line 49:	N554 -{int e_g = 0;}-> N555
+	e_g == 0;
+src/toy1.cil/toy1.cil.c, line 50:	N555 -{int e_c = 0;}-> N556
+	e_c == 0;
+src/toy1.cil/toy1.cil.c, line 51:	N556 -{int e_p_in = 0;}-> N557
+src/toy1.cil/toy1.cil.c, line 52:	N557 -{int e_wl = 0;}-> N558
+	e_wl == 0;
+src/toy1.cil/toy1.cil.c, line 53:	N558 -{void write_loop();}-> N559
+src/toy1.cil/toy1.cil.c, line 54:	N559 -{void compute1();}-> N560
+src/toy1.cil/toy1.cil.c, line 55:	N560 -{void compute2();}-> N561
+src/toy1.cil/toy1.cil.c, line 57:	N561 -{void read();}-> N562
+src/toy1.cil/toy1.cil.c, line 58:	N562 -{int d = 0;}-> N563
+	d == 0;
+src/toy1.cil/toy1.cil.c, line 59:	N563 -{int data = 0;}-> N564
+	data == 0;
+src/toy1.cil/toy1.cil.c, line 60:	N564 -{int processed = 0;}-> N565
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 61:	N565 -{int src_toy1_cil_toy1_cil_ct_b = 0;}-> N566
+	src_toy1_cil_toy1_cil_ct_b == 0;
+src/toy1.cil/toy1.cil.c, lines 265-378:	N566 -{void eval();}-> N567
+src/toy1.cil/toy1.cil.c, lines 379-667:	N567 -{void start_simulation();}-> N568
+src/toy1.cil/toy1.cil.c, lines 668-695:	N568 -{int main();}-> N569
+none:	N569 -{Function start dummy edge}-> N505
+src/toy1.cil/toy1.cil.c, line 669:	N505 -{int __retres1;}-> N506
+src/toy1.cil/toy1.cil.c, line 673:	N506 -{e_wl = 2;}-> N507
+	e_wl == 2;
+src/toy1.cil/toy1.cil.c, line 674:	N507 -{e_c = e_wl;}-> N508
+	e_c == 2;
+src/toy1.cil/toy1.cil.c, line 675:	N508 -{e_g = e_c;}-> N509
+	e_g == 2;
+src/toy1.cil/toy1.cil.c, line 676:	N509 -{e_f = e_g;}-> N510
+	e_f == 2;
+src/toy1.cil/toy1.cil.c, line 677:	N510 -{e_e = e_f;}-> N511
+	e_e == 2;
+src/toy1.cil/toy1.cil.c, line 678:	N511 -{wl_pc = 0;}-> N512
+	wl_pc == 0;
+src/toy1.cil/toy1.cil.c, line 679:	N512 -{c1_pc = 0;}-> N513
+	c1_pc == 0;
+src/toy1.cil/toy1.cil.c, line 680:	N513 -{c2_pc = 0;}-> N514
+	c2_pc == 0;
+src/toy1.cil/toy1.cil.c, line 681:	N514 -{wb_pc = 0;}-> N515
+	wb_pc == 0;
+src/toy1.cil/toy1.cil.c, line 682:	N515 -{wb_i = 1;}-> N516
+	wb_i == 1;
+src/toy1.cil/toy1.cil.c, line 683:	N516 -{c2_i = wb_i;}-> N517
+	c2_i == 1;
+src/toy1.cil/toy1.cil.c, line 684:	N517 -{c1_i = c2_i;}-> N518
+	c1_i == 1;
+src/toy1.cil/toy1.cil.c, line 685:	N518 -{wl_i = c1_i;}-> N519
+	wl_i == 1;
+src/toy1.cil/toy1.cil.c, line 686:	N519 -{r_i = 0;}-> N520
+	r_i == 0;
+src/toy1.cil/toy1.cil.c, line 687:	N520 -{c_req_up = 0;}-> N521
+	c_req_up == 0;
+src/toy1.cil/toy1.cil.c, line 688:	N521 -{d = 0;}-> N522
+	d == 0;
+src/toy1.cil/toy1.cil.c, line 689:	N522 -{c = 0;}-> N523
+	c == 0;
+src/toy1.cil/toy1.cil.c, line 690:	N523 -{start_simulation()}-> N267
+none:	N267 -{Function start dummy edge}-> N268
+src/toy1.cil/toy1.cil.c, line 380:	N268 -{int kernel_st;}-> N269
+src/toy1.cil/toy1.cil.c, line 383:	N269 -{kernel_st = 0;}-> N270
+src/toy1.cil/toy1.cil.c, line 384:	N270 -{[!(((int)c_req_up) == 1)]}-> N273
+	(int)c_req_up == 0
+none:	N273 -{}-> N271
+src/toy1.cil/toy1.cil.c, line 395:	N271 -{[((int)wl_i) == 1]}-> N281
+	(int)wl_i == 1
+src/toy1.cil/toy1.cil.c, line 396:	N281 -{wl_st = 0;}-> N283
+	wl_st == 0;
+none:	N283 -{}-> N280
+src/toy1.cil/toy1.cil.c, line 400:	N280 -{[((int)c1_i) == 1]}-> N286
+	(int)c1_i == 1
+src/toy1.cil/toy1.cil.c, line 401:	N286 -{c1_st = 0;}-> N288
+	c1_st == 0;
+none:	N288 -{}-> N285
+src/toy1.cil/toy1.cil.c, line 405:	N285 -{[((int)c2_i) == 1]}-> N291
+	(int)c2_i == 1
+src/toy1.cil/toy1.cil.c, line 406:	N291 -{c2_st = 0;}-> N293
+	c2_st == 0;
+none:	N293 -{}-> N290
+src/toy1.cil/toy1.cil.c, line 410:	N290 -{[((int)wb_i) == 1]}-> N296
+	(int)wb_i == 1
+src/toy1.cil/toy1.cil.c, line 411:	N296 -{wb_st = 0;}-> N298
+	wb_st == 0;
+none:	N298 -{}-> N295
+src/toy1.cil/toy1.cil.c, line 415:	N295 -{[!(((int)r_i) == 1)]}-> N302
+	(int)r_i == 0
+src/toy1.cil/toy1.cil.c, line 418:	N302 -{r_st = 2;}-> N304
+	r_st == 2;
+none:	N304 -{}-> N300
+src/toy1.cil/toy1.cil.c, line 420:	N300 -{[!(((int)e_f) == 0)]}-> N307
+	(int)e_f == 2
+none:	N307 -{}-> N305
+src/toy1.cil/toy1.cil.c, line 425:	N305 -{[!(((int)e_g) == 0)]}-> N311
+	(int)e_g == 2
+none:	N311 -{}-> N309
+src/toy1.cil/toy1.cil.c, line 430:	N309 -{[!(((int)e_e) == 0)]}-> N315
+	(int)e_e == 2
+none:	N315 -{}-> N313
+src/toy1.cil/toy1.cil.c, line 435:	N313 -{[!(((int)e_c) == 0)]}-> N319
+	(int)e_c == 2
+none:	N319 -{}-> N317
+src/toy1.cil/toy1.cil.c, line 440:	N317 -{[!(((int)e_wl) == 0)]}-> N323
+	(int)e_wl == 2
+none:	N323 -{}-> N321
+src/toy1.cil/toy1.cil.c, line 445:	N321 -{[!(((int)wl_pc) == 1)]}-> N327
+	(int)wl_pc == 0
+src/toy1.cil/toy1.cil.c, line 452:	N327 -{Label: _L}-> N333
+src/toy1.cil/toy1.cil.c, line 453:	N333 -{[!(((int)wl_pc) == 2)]}-> N336
+	(int)wl_pc == 0
+none:	N336 -{}-> N325
+src/toy1.cil/toy1.cil.c, line 463:	N325 -{[!(((int)c1_pc) == 1)]}-> N343
+	(int)c1_pc == 0
+none:	N343 -{}-> N341
+src/toy1.cil/toy1.cil.c, line 472:	N341 -{[!(((int)c2_pc) == 1)]}-> N350
+	(int)c2_pc == 0
+none:	N350 -{}-> N348
+src/toy1.cil/toy1.cil.c, line 481:	N348 -{[!(((int)wb_pc) == 1)]}-> N357
+	(int)wb_pc == 0
+none:	N357 -{}-> N355
+src/toy1.cil/toy1.cil.c, line 490:	N355 -{[!(((int)e_c) == 1)]}-> N364
+	(int)e_c == 2
+none:	N364 -{}-> N362
+src/toy1.cil/toy1.cil.c, line 495:	N362 -{[!(((int)e_e) == 1)]}-> N368
+	(int)e_e == 2
+none:	N368 -{}-> N366
+src/toy1.cil/toy1.cil.c, line 500:	N366 -{[!(((int)e_f) == 1)]}-> N372
+	(int)e_f == 2
+none:	N372 -{}-> N370
+src/toy1.cil/toy1.cil.c, line 505:	N370 -{[!(((int)e_g) == 1)]}-> N376
+	(int)e_g == 2
+none:	N376 -{}-> N374
+src/toy1.cil/toy1.cil.c, line 510:	N374 -{[!(((int)e_c) == 1)]}-> N380
+	(int)e_c == 2
+none:	N380 -{}-> N378
+src/toy1.cil/toy1.cil.c, line 515:	N378 -{[!(((int)e_wl) == 1)]}-> N384
+	(int)e_wl == 2
+none:	N384 -{}-> N382
+src/toy1.cil/toy1.cil.c, line 521:	N382 -{while}-> N386
+src/toy1.cil/toy1.cil.c, line 521:	N386 -{}-> N387
+src/toy1.cil/toy1.cil.c, line 522:	N387 -{Label: while_5_continue}-> N389
+src/toy1.cil/toy1.cil.c, line 524:	N389 -{kernel_st = 1;}-> N390
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+none:	N191 -{Function start dummy edge}-> N192
+src/toy1.cil/toy1.cil.c, line 266:	N192 -{int tmp;}-> N193
+src/toy1.cil/toy1.cil.c, line 267:	N193 -{int tmp___0;}-> N194
+src/toy1.cil/toy1.cil.c, line 268:	N194 -{int tmp___1;}-> N195
+src/toy1.cil/toy1.cil.c, line 269:	N195 -{int tmp___2;}-> N196
+src/toy1.cil/toy1.cil.c, line 270:	N196 -{int tmp___3;}-> N197
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+	(int)wl_st == 0
+none:	N203 -{}-> N202
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+	(int)wl_st == 0
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	tmp == 2;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 303:	N223 -{wl_st = 1;}-> N225
+	wl_st == 1;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+none:	N23 -{Function start dummy edge}-> N24
+src/toy1.cil/toy1.cil.c, line 63:	N24 -{int t;}-> N25
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[((int)wl_pc) == 0]}-> N27
+	(int)wl_pc == 0
+src/toy1.cil/toy1.cil.c, line 67:	N27 -{Goto: WL_ENTRY_LOC}-> N38
+src/toy1.cil/toy1.cil.c, line 80:	N38 -{wl_st = 2;}-> N39
+	wl_st == 2;
+src/toy1.cil/toy1.cil.c, line 81:	N39 -{wl_pc = 1;}-> N40
+	wl_pc == 1;
+src/toy1.cil/toy1.cil.c, line 82:	N40 -{e_wl = 0;}-> N41
+	e_wl == 0;
+src/toy1.cil/toy1.cil.c, line 84:	N41 -{Goto: return_label}-> N88
+src/toy1.cil/toy1.cil.c, line 142:	N88 -{return;}-> N22
+src/toy1.cil/toy1.cil.c, line 304:	N22 -{Return edge from write_loop to eval: write_loop();}-> N226
+none:	N226 -{}-> N222
+none:	N222 -{}-> N218
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[((int)c1_st) == 0]}-> N228
+	(int)c1_st == 0
+src/toy1.cil/toy1.cil.c, line 314:	N228 -{tmp___0 = __VERIFIER_nondet_int();}-> N230
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 316:	N230 -{[!(tmp___0 == 0)]}-> N232
+	tmp___0 == 2;
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 318:	N232 -{c1_st = 1;}-> N234
+	c1_st == 1;
+src/toy1.cil/toy1.cil.c, line 319:	N234 -{compute1()}-> N91
+none:	N91 -{Function start dummy edge}-> N92
+src/toy1.cil/toy1.cil.c, line 149:	N92 -{[((int)c1_pc) == 0]}-> N94
+	(int)c1_pc == 0
+src/toy1.cil/toy1.cil.c, line 150:	N94 -{Goto: C1_ENTRY_LOC}-> N101
+src/toy1.cil/toy1.cil.c, line 160:	N101 -{while}-> N102
+src/toy1.cil/toy1.cil.c, line 160:	N102 -{}-> N103
+src/toy1.cil/toy1.cil.c, line 161:	N103 -{Label: while_1_continue}-> N105
+src/toy1.cil/toy1.cil.c, line 162:	N105 -{c1_st = 2;}-> N106
+	c1_st == 2;
+src/toy1.cil/toy1.cil.c, line 163:	N106 -{c1_pc = 1;}-> N107
+	c1_pc == 1;
+src/toy1.cil/toy1.cil.c, line 165:	N107 -{Goto: return_label}-> N126
+src/toy1.cil/toy1.cil.c, line 187:	N126 -{return;}-> N90
+src/toy1.cil/toy1.cil.c, line 319:	N90 -{Return edge from compute1 to eval: compute1();}-> N235
+none:	N235 -{}-> N231
+none:	N231 -{}-> N227
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[((int)c2_st) == 0]}-> N237
+	(int)c2_st == 0
+src/toy1.cil/toy1.cil.c, line 329:	N237 -{tmp___1 = __VERIFIER_nondet_int();}-> N239
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 331:	N239 -{[!(tmp___1 == 0)]}-> N241
+	tmp___1 == 2;
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 333:	N241 -{c2_st = 1;}-> N243
+	c2_st == 1;
+src/toy1.cil/toy1.cil.c, line 334:	N243 -{compute2()}-> N129
+none:	N129 -{Function start dummy edge}-> N130
+src/toy1.cil/toy1.cil.c, line 194:	N130 -{[((int)c2_pc) == 0]}-> N132
+	(int)c2_pc == 0
+src/toy1.cil/toy1.cil.c, line 195:	N132 -{Goto: C2_ENTRY_LOC}-> N139
+src/toy1.cil/toy1.cil.c, line 205:	N139 -{while}-> N140
+src/toy1.cil/toy1.cil.c, line 205:	N140 -{}-> N141
+src/toy1.cil/toy1.cil.c, line 206:	N141 -{Label: while_2_continue}-> N143
+src/toy1.cil/toy1.cil.c, line 207:	N143 -{c2_st = 2;}-> N144
+	c2_st == 2;
+src/toy1.cil/toy1.cil.c, line 208:	N144 -{c2_pc = 1;}-> N145
+	c2_pc == 1;
+src/toy1.cil/toy1.cil.c, line 210:	N145 -{Goto: return_label}-> N164
+src/toy1.cil/toy1.cil.c, line 232:	N164 -{return;}-> N128
+src/toy1.cil/toy1.cil.c, line 334:	N128 -{Return edge from compute2 to eval: compute2();}-> N244
+none:	N244 -{}-> N240
+none:	N240 -{}-> N236
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[((int)wb_st) == 0]}-> N246
+	(int)wb_st == 0
+src/toy1.cil/toy1.cil.c, line 344:	N246 -{tmp___2 = __VERIFIER_nondet_int();}-> N248
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 346:	N248 -{[!(tmp___2 == 0)]}-> N250
+	tmp___2 == 2;
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 348:	N250 -{wb_st = 1;}-> N252
+	wb_st == 1;
+src/toy1.cil/toy1.cil.c, line 349:	N252 -{write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed)}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+	wb_pc == 52LL;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	c_req_up == 12LL;
+	processed == 68LL;
+output/toy1.cil_dc_fix.c, line 2:	N2 -{[!((*wb_pc) != 0)]}-> N3
+	wb_pc == 52LL;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	c_req_up == 12LL;
+	processed == 68LL;
+output/toy1.cil_dc_fix.c, line 7:	N3 -{*wb_st = 2;}-> N9
+	(*wb_st) == 2;
+output/toy1.cil_dc_fix.c, line 8:	N9 -{*wb_pc = 1;}-> N10
+	(*wb_pc) == 1;
+none:	N10 -{default return}-> N0
+src/toy1.cil/toy1.cil.c, line 349:	N0 -{Return edge from write_back to eval: write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed);}-> N253
+none:	N253 -{}-> N249
+none:	N249 -{}-> N245
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[!(((int)r_st) == 0)]}-> N256
+	(int)r_st == 2
+none:	N256 -{}-> N254
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+	(int)wl_st == 2
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+	(int)c1_st == 2
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+	(int)c2_st == 2
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+	(int)wb_st == 2
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[!(((int)r_st) == 0)]}-> N216
+	(int)r_st == 2
+src/toy1.cil/toy1.cil.c, line 291:	N216 -{Goto: while_4_break}-> N263
+src/toy1.cil/toy1.cil.c, line 373:	N263 -{Label: while_4_break}-> N264
+src/toy1.cil/toy1.cil.c, line 376:	N264 -{return;}-> N190
+src/toy1.cil/toy1.cil.c, line 525:	N190 -{Return edge from eval to start_simulation: eval();}-> N391
+src/toy1.cil/toy1.cil.c, line 527:	N391 -{kernel_st = 2;}-> N392
+src/toy1.cil/toy1.cil.c, line 528:	N392 -{[!(((int)c_req_up) == 1)]}-> N395
+none:	N395 -{}-> N393
+src/toy1.cil/toy1.cil.c, line 539:	N393 -{kernel_st = 3;}-> N402
+src/toy1.cil/toy1.cil.c, line 540:	N402 -{[!(((int)e_f) == 0)]}-> N405
+	(int)e_f == 2
+none:	N405 -{}-> N403
+src/toy1.cil/toy1.cil.c, line 545:	N403 -{[!(((int)e_g) == 0)]}-> N409
+	(int)e_g == 2
+none:	N409 -{}-> N407
+src/toy1.cil/toy1.cil.c, line 550:	N407 -{[!(((int)e_e) == 0)]}-> N413
+	(int)e_e == 2
+none:	N413 -{}-> N411
+src/toy1.cil/toy1.cil.c, line 555:	N411 -{[!(((int)e_c) == 0)]}-> N417
+	(int)e_c == 2
+none:	N417 -{}-> N415
+src/toy1.cil/toy1.cil.c, line 560:	N415 -{[((int)e_wl) == 0]}-> N420
+	(int)e_wl == 0
+src/toy1.cil/toy1.cil.c, line 561:	N420 -{e_wl = 1;}-> N422
+	e_wl == 1;
+none:	N422 -{}-> N419
+src/toy1.cil/toy1.cil.c, line 565:	N419 -{[((int)wl_pc) == 1]}-> N424
+	(int)wl_pc == 1
+src/toy1.cil/toy1.cil.c, line 566:	N424 -{[((int)e_wl) == 1]}-> N427
+	(int)e_wl == 1
+src/toy1.cil/toy1.cil.c, line 567:	N427 -{wl_st = 0;}-> N429
+	wl_st == 0;
+none:	N429 -{}-> N426
+none:	N426 -{}-> N423
+src/toy1.cil/toy1.cil.c, line 583:	N423 -{[((int)c1_pc) == 1]}-> N440
+	(int)c1_pc == 1
+src/toy1.cil/toy1.cil.c, line 584:	N440 -{[!(((int)e_f) == 1)]}-> N444
+	(int)e_f == 2
+none:	N444 -{}-> N442
+none:	N442 -{}-> N439
+src/toy1.cil/toy1.cil.c, line 592:	N439 -{[((int)c2_pc) == 1]}-> N447
+	(int)c2_pc == 1
+src/toy1.cil/toy1.cil.c, line 593:	N447 -{[!(((int)e_f) == 1)]}-> N451
+	(int)e_f == 2
+none:	N451 -{}-> N449
+none:	N449 -{}-> N446
+src/toy1.cil/toy1.cil.c, line 601:	N446 -{[((int)wb_pc) == 1]}-> N454
+	(int)wb_pc == 1
+src/toy1.cil/toy1.cil.c, line 602:	N454 -{[!(((int)e_g) == 1)]}-> N458
+	(int)e_g == 2
+none:	N458 -{}-> N456
+none:	N456 -{}-> N453
+src/toy1.cil/toy1.cil.c, line 610:	N453 -{[!(((int)e_c) == 1)]}-> N462
+	(int)e_c == 2
+none:	N462 -{}-> N460
+src/toy1.cil/toy1.cil.c, line 615:	N460 -{[!(((int)e_e) == 1)]}-> N466
+	(int)e_e == 2
+none:	N466 -{}-> N464
+src/toy1.cil/toy1.cil.c, line 620:	N464 -{[!(((int)e_f) == 1)]}-> N470
+	(int)e_f == 2
+none:	N470 -{}-> N468
+src/toy1.cil/toy1.cil.c, line 625:	N468 -{[!(((int)e_g) == 1)]}-> N474
+	(int)e_g == 2
+none:	N474 -{}-> N472
+src/toy1.cil/toy1.cil.c, line 630:	N472 -{[!(((int)e_c) == 1)]}-> N478
+	(int)e_c == 2
+none:	N478 -{}-> N476
+src/toy1.cil/toy1.cil.c, line 635:	N476 -{[((int)e_wl) == 1]}-> N481
+	(int)e_wl == 1
+src/toy1.cil/toy1.cil.c, line 636:	N481 -{e_wl = 2;}-> N483
+	e_wl == 2;
+none:	N483 -{}-> N480
+src/toy1.cil/toy1.cil.c, line 640:	N480 -{[((int)wl_st) == 0]}-> N485
+	(int)wl_st == 0
+none:	N485 -{}-> N484
+none:	N484 -{}-> N386
+src/toy1.cil/toy1.cil.c, line 521:	N386 -{}-> N387
+src/toy1.cil/toy1.cil.c, line 522:	N387 -{Label: while_5_continue}-> N389
+src/toy1.cil/toy1.cil.c, line 524:	N389 -{kernel_st = 1;}-> N390
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+none:	N191 -{Function start dummy edge}-> N192
+src/toy1.cil/toy1.cil.c, line 266:	N192 -{int tmp;}-> N193
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 267:	N193 -{int tmp___0;}-> N194
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 268:	N194 -{int tmp___1;}-> N195
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 269:	N195 -{int tmp___2;}-> N196
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 270:	N196 -{int tmp___3;}-> N197
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+	(int)wl_st == 0
+none:	N203 -{}-> N202
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+	(int)wl_st == 0
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	tmp == 2;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 303:	N223 -{wl_st = 1;}-> N225
+	wl_st == 1;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+none:	N23 -{Function start dummy edge}-> N24
+src/toy1.cil/toy1.cil.c, line 63:	N24 -{int t;}-> N25
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[!(((int)wl_pc) == 0)]}-> N28
+	(int)wl_pc == 1
+src/toy1.cil/toy1.cil.c, line 69:	N28 -{[!(((int)wl_pc) == 2)]}-> N32
+	(int)wl_pc == 1
+src/toy1.cil/toy1.cil.c, line 72:	N32 -{[((int)wl_pc) == 1]}-> N35
+	(int)wl_pc == 1
+src/toy1.cil/toy1.cil.c, line 73:	N35 -{Goto: WL_WAIT_1_LOC}-> N43
+src/toy1.cil/toy1.cil.c, line 85:	N43 -{Label: WL_WAIT_1_LOC}-> N44
+src/toy1.cil/toy1.cil.c, line 87:	N44 -{while}-> N45
+src/toy1.cil/toy1.cil.c, line 87:	N45 -{}-> N46
+src/toy1.cil/toy1.cil.c, line 88:	N46 -{Label: while_0_continue}-> N48
+src/toy1.cil/toy1.cil.c, line 89:	N48 -{t = d;}-> N49
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 90:	N49 -{data = d;}-> N50
+	data == 0;
+src/toy1.cil/toy1.cil.c, line 91:	N50 -{processed = 0;}-> N51
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 92:	N51 -{e_f = 1;}-> N52
+	e_f == 1;
+src/toy1.cil/toy1.cil.c, line 93:	N52 -{[((int)c1_pc) == 1]}-> N54
+	(int)c1_pc == 1
+src/toy1.cil/toy1.cil.c, line 94:	N54 -{[((int)e_f) == 1]}-> N57
+	(int)e_f == 1
+src/toy1.cil/toy1.cil.c, line 95:	N57 -{c1_st = 0;}-> N59
+	c1_st == 0;
+none:	N59 -{}-> N56
+none:	N56 -{}-> N53
+src/toy1.cil/toy1.cil.c, line 102:	N53 -{[((int)c2_pc) == 1]}-> N61
+	(int)c2_pc == 1
+src/toy1.cil/toy1.cil.c, line 103:	N61 -{[((int)e_f) == 1]}-> N64
+	(int)e_f == 1
+src/toy1.cil/toy1.cil.c, line 104:	N64 -{c2_st = 0;}-> N66
+	c2_st == 0;
+none:	N66 -{}-> N63
+none:	N63 -{}-> N60
+src/toy1.cil/toy1.cil.c, line 111:	N60 -{e_f = 2;}-> N67
+	e_f == 2;
+src/toy1.cil/toy1.cil.c, line 112:	N67 -{wl_st = 2;}-> N68
+	wl_st == 2;
+src/toy1.cil/toy1.cil.c, line 113:	N68 -{wl_pc = 2;}-> N69
+	wl_pc == 2;
+src/toy1.cil/toy1.cil.c, line 114:	N69 -{src_toy1_cil_toy1_cil_ct_b = t;}-> N70
+	src_toy1_cil_toy1_cil_ct_b == 0;
+src/toy1.cil/toy1.cil.c, line 116:	N70 -{Goto: return_label}-> N88
+src/toy1.cil/toy1.cil.c, line 142:	N88 -{return;}-> N22
+src/toy1.cil/toy1.cil.c, line 304:	N22 -{Return edge from write_loop to eval: write_loop();}-> N226
+none:	N226 -{}-> N222
+none:	N222 -{}-> N218
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[((int)c1_st) == 0]}-> N228
+	(int)c1_st == 0
+src/toy1.cil/toy1.cil.c, line 314:	N228 -{tmp___0 = __VERIFIER_nondet_int();}-> N230
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 316:	N230 -{[!(tmp___0 == 0)]}-> N232
+	tmp___0 == 2;
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 318:	N232 -{c1_st = 1;}-> N234
+	c1_st == 1;
+src/toy1.cil/toy1.cil.c, line 319:	N234 -{compute1()}-> N91
+none:	N91 -{Function start dummy edge}-> N92
+src/toy1.cil/toy1.cil.c, line 149:	N92 -{[!(((int)c1_pc) == 0)]}-> N95
+	(int)c1_pc == 1
+src/toy1.cil/toy1.cil.c, line 152:	N95 -{[((int)c1_pc) == 1]}-> N98
+	(int)c1_pc == 1
+src/toy1.cil/toy1.cil.c, line 153:	N98 -{Goto: C1_WAIT_LOC}-> N109
+src/toy1.cil/toy1.cil.c, line 166:	N109 -{Label: C1_WAIT_LOC}-> N110
+src/toy1.cil/toy1.cil.c, line 167:	N110 -{[processed == 0]}-> N112
+	processed == 0;
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 168:	N112 -{data = data + 1;}-> N114
+	data == 1;
+src/toy1.cil/toy1.cil.c, line 169:	N114 -{e_g = 1;}-> N115
+	e_g == 1;
+src/toy1.cil/toy1.cil.c, line 170:	N115 -{[((int)wb_pc) == 1]}-> N117
+	(int)wb_pc == 1
+src/toy1.cil/toy1.cil.c, line 171:	N117 -{[((int)e_g) == 1]}-> N120
+	(int)e_g == 1
+src/toy1.cil/toy1.cil.c, line 172:	N120 -{wb_st = 0;}-> N122
+	wb_st == 0;
+none:	N122 -{}-> N119
+none:	N119 -{}-> N116
+src/toy1.cil/toy1.cil.c, line 179:	N116 -{e_g = 2;}-> N123
+	e_g == 2;
+none:	N123 -{}-> N111
+none:	N111 -{}-> N102
+src/toy1.cil/toy1.cil.c, line 160:	N102 -{}-> N103
+src/toy1.cil/toy1.cil.c, line 161:	N103 -{Label: while_1_continue}-> N105
+src/toy1.cil/toy1.cil.c, line 162:	N105 -{c1_st = 2;}-> N106
+	c1_st == 2;
+src/toy1.cil/toy1.cil.c, line 163:	N106 -{c1_pc = 1;}-> N107
+	c1_pc == 1;
+src/toy1.cil/toy1.cil.c, line 165:	N107 -{Goto: return_label}-> N126
+src/toy1.cil/toy1.cil.c, line 187:	N126 -{return;}-> N90
+src/toy1.cil/toy1.cil.c, line 319:	N90 -{Return edge from compute1 to eval: compute1();}-> N235
+none:	N235 -{}-> N231
+none:	N231 -{}-> N227
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[((int)c2_st) == 0]}-> N237
+	(int)c2_st == 0
+src/toy1.cil/toy1.cil.c, line 329:	N237 -{tmp___1 = __VERIFIER_nondet_int();}-> N239
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 331:	N239 -{[!(tmp___1 == 0)]}-> N241
+	tmp___1 == 2;
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 333:	N241 -{c2_st = 1;}-> N243
+	c2_st == 1;
+src/toy1.cil/toy1.cil.c, line 334:	N243 -{compute2()}-> N129
+none:	N129 -{Function start dummy edge}-> N130
+src/toy1.cil/toy1.cil.c, line 194:	N130 -{[!(((int)c2_pc) == 0)]}-> N133
+	(int)c2_pc == 1
+src/toy1.cil/toy1.cil.c, line 197:	N133 -{[((int)c2_pc) == 1]}-> N136
+	(int)c2_pc == 1
+src/toy1.cil/toy1.cil.c, line 198:	N136 -{Goto: C2_WAIT_LOC}-> N147
+src/toy1.cil/toy1.cil.c, line 211:	N147 -{Label: C2_WAIT_LOC}-> N148
+src/toy1.cil/toy1.cil.c, line 212:	N148 -{[processed == 0]}-> N150
+	processed == 0;
+	processed == 0;
+src/toy1.cil/toy1.cil.c, line 213:	N150 -{data = data + 1;}-> N152
+	data == 2;
+src/toy1.cil/toy1.cil.c, line 214:	N152 -{e_g = 1;}-> N153
+	e_g == 1;
+src/toy1.cil/toy1.cil.c, line 215:	N153 -{[((int)wb_pc) == 1]}-> N155
+	(int)wb_pc == 1
+src/toy1.cil/toy1.cil.c, line 216:	N155 -{[((int)e_g) == 1]}-> N158
+	(int)e_g == 1
+src/toy1.cil/toy1.cil.c, line 217:	N158 -{wb_st = 0;}-> N160
+	wb_st == 0;
+none:	N160 -{}-> N157
+none:	N157 -{}-> N154
+src/toy1.cil/toy1.cil.c, line 224:	N154 -{e_g = 2;}-> N161
+	e_g == 2;
+none:	N161 -{}-> N149
+none:	N149 -{}-> N140
+src/toy1.cil/toy1.cil.c, line 205:	N140 -{}-> N141
+src/toy1.cil/toy1.cil.c, line 206:	N141 -{Label: while_2_continue}-> N143
+src/toy1.cil/toy1.cil.c, line 207:	N143 -{c2_st = 2;}-> N144
+	c2_st == 2;
+src/toy1.cil/toy1.cil.c, line 208:	N144 -{c2_pc = 1;}-> N145
+	c2_pc == 1;
+src/toy1.cil/toy1.cil.c, line 210:	N145 -{Goto: return_label}-> N164
+src/toy1.cil/toy1.cil.c, line 232:	N164 -{return;}-> N128
+src/toy1.cil/toy1.cil.c, line 334:	N128 -{Return edge from compute2 to eval: compute2();}-> N244
+none:	N244 -{}-> N240
+none:	N240 -{}-> N236
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[((int)wb_st) == 0]}-> N246
+	(int)wb_st == 0
+src/toy1.cil/toy1.cil.c, line 344:	N246 -{tmp___2 = __VERIFIER_nondet_int();}-> N248
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 346:	N248 -{[!(tmp___2 == 0)]}-> N250
+	tmp___2 == 2;
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 348:	N250 -{wb_st = 1;}-> N252
+	wb_st == 1;
+src/toy1.cil/toy1.cil.c, line 349:	N252 -{write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed)}-> N1
+none:	N1 -{Function start dummy edge}-> N2
+	wb_pc == 52LL;
+	(*wb_pc) == 1;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	(*data) == 2;
+	c_req_up == 12LL;
+	processed == 68LL;
+	(*processed) == 0;
+output/toy1.cil_dc_fix.c, line 2:	N2 -{[(*wb_pc) != 0]}-> N5
+	(*wb_pc) == 1;
+	wb_pc == 52LL;
+	(*wb_pc) == 1;
+	wb_st == 32LL;
+	(*wb_st) == 1;
+	c_t == 4LL;
+	data == 60LL;
+	(*data) == 2;
+	c_req_up == 12LL;
+	processed == 68LL;
+	(*processed) == 0;
+	(*wb_pc) == 1;
+output/toy1.cil_dc_fix.c, line 2:	N5 -{[(*wb_pc) == 1]}-> N4
+	(*wb_pc) == 1;
+	(*wb_pc) == 1;
+output/toy1.cil_dc_fix.c, line 3:	N4 -{*c_t = *data;}-> N6
+	(*c_t) == 2;
+output/toy1.cil_dc_fix.c, line 4:	N6 -{*c_req_up = 1;}-> N7
+	(*c_req_up) == 1;
+output/toy1.cil_dc_fix.c, line 5:	N7 -{*processed = 1;}-> N8
+	(*processed) == 1;
+none:	N8 -{}-> N3
+output/toy1.cil_dc_fix.c, line 7:	N3 -{*wb_st = 2;}-> N9
+	(*wb_st) == 2;
+output/toy1.cil_dc_fix.c, line 8:	N9 -{*wb_pc = 1;}-> N10
+	(*wb_pc) == 1;
+none:	N10 -{default return}-> N0
+src/toy1.cil/toy1.cil.c, line 349:	N0 -{Return edge from write_back to eval: write_back(&wb_pc, &wb_st, &c_t, &data, &c_req_up, &processed);}-> N253
+none:	N253 -{}-> N249
+none:	N249 -{}-> N245
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[!(((int)r_st) == 0)]}-> N256
+	(int)r_st == 2
+none:	N256 -{}-> N254
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+	(int)wl_st == 2
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+	(int)c1_st == 2
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+	(int)c2_st == 2
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+	(int)wb_st == 2
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[!(((int)r_st) == 0)]}-> N216
+	(int)r_st == 2
+src/toy1.cil/toy1.cil.c, line 291:	N216 -{Goto: while_4_break}-> N263
+src/toy1.cil/toy1.cil.c, line 373:	N263 -{Label: while_4_break}-> N264
+src/toy1.cil/toy1.cil.c, line 376:	N264 -{return;}-> N190
+src/toy1.cil/toy1.cil.c, line 525:	N190 -{Return edge from eval to start_simulation: eval();}-> N391
+src/toy1.cil/toy1.cil.c, line 527:	N391 -{kernel_st = 2;}-> N392
+src/toy1.cil/toy1.cil.c, line 528:	N392 -{[((int)c_req_up) == 1]}-> N394
+	(int)c_req_up == 1
+src/toy1.cil/toy1.cil.c, line 529:	N394 -{[c != c_t]}-> N397
+	c == 0;
+	c_t == 2;
+	c == 0;
+c_t == 2;
+src/toy1.cil/toy1.cil.c, line 530:	N397 -{c = c_t;}-> N399
+	c == 2;
+src/toy1.cil/toy1.cil.c, line 531:	N399 -{e_c = 0;}-> N400
+	e_c == 0;
+none:	N400 -{}-> N396
+src/toy1.cil/toy1.cil.c, line 535:	N396 -{c_req_up = 0;}-> N401
+	c_req_up == 0;
+none:	N401 -{}-> N393
+src/toy1.cil/toy1.cil.c, line 539:	N393 -{kernel_st = 3;}-> N402
+src/toy1.cil/toy1.cil.c, line 540:	N402 -{[!(((int)e_f) == 0)]}-> N405
+	(int)e_f == 2
+none:	N405 -{}-> N403
+src/toy1.cil/toy1.cil.c, line 545:	N403 -{[!(((int)e_g) == 0)]}-> N409
+	(int)e_g == 2
+none:	N409 -{}-> N407
+src/toy1.cil/toy1.cil.c, line 550:	N407 -{[!(((int)e_e) == 0)]}-> N413
+	(int)e_e == 2
+none:	N413 -{}-> N411
+src/toy1.cil/toy1.cil.c, line 555:	N411 -{[((int)e_c) == 0]}-> N416
+	(int)e_c == 0
+src/toy1.cil/toy1.cil.c, line 556:	N416 -{e_c = 1;}-> N418
+	e_c == 1;
+none:	N418 -{}-> N415
+src/toy1.cil/toy1.cil.c, line 560:	N415 -{[!(((int)e_wl) == 0)]}-> N421
+	(int)e_wl == 2
+none:	N421 -{}-> N419
+src/toy1.cil/toy1.cil.c, line 565:	N419 -{[!(((int)wl_pc) == 1)]}-> N425
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 572:	N425 -{Label: _L___0}-> N431
+src/toy1.cil/toy1.cil.c, line 573:	N431 -{[((int)wl_pc) == 2]}-> N433
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 574:	N433 -{[!(((int)e_e) == 1)]}-> N437
+	(int)e_e == 2
+none:	N437 -{}-> N435
+none:	N435 -{}-> N423
+src/toy1.cil/toy1.cil.c, line 583:	N423 -{[((int)c1_pc) == 1]}-> N440
+	(int)c1_pc == 1
+src/toy1.cil/toy1.cil.c, line 584:	N440 -{[!(((int)e_f) == 1)]}-> N444
+	(int)e_f == 2
+none:	N444 -{}-> N442
+none:	N442 -{}-> N439
+src/toy1.cil/toy1.cil.c, line 592:	N439 -{[((int)c2_pc) == 1]}-> N447
+	(int)c2_pc == 1
+src/toy1.cil/toy1.cil.c, line 593:	N447 -{[!(((int)e_f) == 1)]}-> N451
+	(int)e_f == 2
+none:	N451 -{}-> N449
+none:	N449 -{}-> N446
+src/toy1.cil/toy1.cil.c, line 601:	N446 -{[((int)wb_pc) == 1]}-> N454
+	(int)wb_pc == 1
+src/toy1.cil/toy1.cil.c, line 602:	N454 -{[!(((int)e_g) == 1)]}-> N458
+	(int)e_g == 2
+none:	N458 -{}-> N456
+none:	N456 -{}-> N453
+src/toy1.cil/toy1.cil.c, line 610:	N453 -{[((int)e_c) == 1]}-> N461
+	(int)e_c == 1
+src/toy1.cil/toy1.cil.c, line 611:	N461 -{r_st = 0;}-> N463
+	r_st == 0;
+none:	N463 -{}-> N460
+src/toy1.cil/toy1.cil.c, line 615:	N460 -{[!(((int)e_e) == 1)]}-> N466
+	(int)e_e == 2
+none:	N466 -{}-> N464
+src/toy1.cil/toy1.cil.c, line 620:	N464 -{[!(((int)e_f) == 1)]}-> N470
+	(int)e_f == 2
+none:	N470 -{}-> N468
+src/toy1.cil/toy1.cil.c, line 625:	N468 -{[!(((int)e_g) == 1)]}-> N474
+	(int)e_g == 2
+none:	N474 -{}-> N472
+src/toy1.cil/toy1.cil.c, line 630:	N472 -{[((int)e_c) == 1]}-> N477
+	(int)e_c == 1
+src/toy1.cil/toy1.cil.c, line 631:	N477 -{e_c = 2;}-> N479
+	e_c == 2;
+none:	N479 -{}-> N476
+src/toy1.cil/toy1.cil.c, line 635:	N476 -{[!(((int)e_wl) == 1)]}-> N482
+	(int)e_wl == 2
+none:	N482 -{}-> N480
+src/toy1.cil/toy1.cil.c, line 640:	N480 -{[!(((int)wl_st) == 0)]}-> N486
+	(int)wl_st == 2
+src/toy1.cil/toy1.cil.c, line 643:	N486 -{[!(((int)c1_st) == 0)]}-> N489
+	(int)c1_st == 2
+src/toy1.cil/toy1.cil.c, line 646:	N489 -{[!(((int)c2_st) == 0)]}-> N492
+	(int)c2_st == 2
+src/toy1.cil/toy1.cil.c, line 649:	N492 -{[!(((int)wb_st) == 0)]}-> N495
+	(int)wb_st == 2
+src/toy1.cil/toy1.cil.c, line 652:	N495 -{[((int)r_st) == 0]}-> N497
+	(int)r_st == 0
+none:	N497 -{}-> N484
+none:	N484 -{}-> N386
+src/toy1.cil/toy1.cil.c, line 521:	N386 -{}-> N387
+src/toy1.cil/toy1.cil.c, line 522:	N387 -{Label: while_5_continue}-> N389
+src/toy1.cil/toy1.cil.c, line 524:	N389 -{kernel_st = 1;}-> N390
+src/toy1.cil/toy1.cil.c, line 525:	N390 -{eval()}-> N191
+none:	N191 -{Function start dummy edge}-> N192
+src/toy1.cil/toy1.cil.c, line 266:	N192 -{int tmp;}-> N193
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 267:	N193 -{int tmp___0;}-> N194
+	tmp___0 == 2;
+src/toy1.cil/toy1.cil.c, line 268:	N194 -{int tmp___1;}-> N195
+	tmp___1 == 2;
+src/toy1.cil/toy1.cil.c, line 269:	N195 -{int tmp___2;}-> N196
+	tmp___2 == 2;
+src/toy1.cil/toy1.cil.c, line 270:	N196 -{int tmp___3;}-> N197
+src/toy1.cil/toy1.cil.c, line 274:	N197 -{while}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[!(((int)wl_st) == 0)]}-> N204
+	(int)wl_st == 2
+src/toy1.cil/toy1.cil.c, line 279:	N204 -{[!(((int)c1_st) == 0)]}-> N207
+	(int)c1_st == 2
+src/toy1.cil/toy1.cil.c, line 282:	N207 -{[!(((int)c2_st) == 0)]}-> N210
+	(int)c2_st == 2
+src/toy1.cil/toy1.cil.c, line 285:	N210 -{[!(((int)wb_st) == 0)]}-> N213
+	(int)wb_st == 2
+src/toy1.cil/toy1.cil.c, line 288:	N213 -{[((int)r_st) == 0]}-> N215
+	(int)r_st == 0
+none:	N215 -{}-> N202
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[!(((int)wl_st) == 0)]}-> N220
+	(int)wl_st == 2
+none:	N220 -{}-> N218
+src/toy1.cil/toy1.cil.c, line 312:	N218 -{[!(((int)c1_st) == 0)]}-> N229
+	(int)c1_st == 2
+none:	N229 -{}-> N227
+src/toy1.cil/toy1.cil.c, line 327:	N227 -{[!(((int)c2_st) == 0)]}-> N238
+	(int)c2_st == 2
+none:	N238 -{}-> N236
+src/toy1.cil/toy1.cil.c, line 342:	N236 -{[!(((int)wb_st) == 0)]}-> N247
+	(int)wb_st == 2
+none:	N247 -{}-> N245
+src/toy1.cil/toy1.cil.c, line 357:	N245 -{[((int)r_st) == 0]}-> N255
+	(int)r_st == 0
+src/toy1.cil/toy1.cil.c, line 359:	N255 -{tmp___3 = __VERIFIER_nondet_int();}-> N257
+	tmp___3 == 2;
+src/toy1.cil/toy1.cil.c, line 361:	N257 -{[!(tmp___3 == 0)]}-> N259
+	tmp___3 == 2;
+	tmp___3 == 2;
+src/toy1.cil/toy1.cil.c, line 363:	N259 -{r_st = 1;}-> N261
+	r_st == 1;
+src/toy1.cil/toy1.cil.c, line 364:	N261 -{read()}-> N167
+none:	N167 -{Function start dummy edge}-> N168
+src/toy1.cil/toy1.cil.c, line 239:	N168 -{d = c;}-> N169
+	d == 2;
+src/toy1.cil/toy1.cil.c, line 240:	N169 -{e_e = 1;}-> N170
+	e_e == 1;
+src/toy1.cil/toy1.cil.c, line 241:	N170 -{[!(((int)wl_pc) == 1)]}-> N173
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 248:	N173 -{Label: _L}-> N179
+src/toy1.cil/toy1.cil.c, line 249:	N179 -{[((int)wl_pc) == 2]}-> N181
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 250:	N181 -{[((int)e_e) == 1]}-> N184
+	(int)e_e == 1
+src/toy1.cil/toy1.cil.c, line 251:	N184 -{wl_st = 0;}-> N186
+	wl_st == 0;
+none:	N186 -{}-> N183
+none:	N183 -{}-> N171
+src/toy1.cil/toy1.cil.c, line 259:	N171 -{e_e = 2;}-> N187
+	e_e == 2;
+src/toy1.cil/toy1.cil.c, line 260:	N187 -{r_st = 2;}-> N188
+	r_st == 2;
+src/toy1.cil/toy1.cil.c, line 262:	N188 -{return;}-> N166
+src/toy1.cil/toy1.cil.c, line 364:	N166 -{Return edge from read to eval: read();}-> N262
+none:	N262 -{}-> N258
+none:	N258 -{}-> N254
+none:	N254 -{}-> N198
+src/toy1.cil/toy1.cil.c, line 274:	N198 -{}-> N199
+src/toy1.cil/toy1.cil.c, line 275:	N199 -{Label: while_4_continue}-> N201
+src/toy1.cil/toy1.cil.c, line 276:	N201 -{[((int)wl_st) == 0]}-> N203
+	(int)wl_st == 0
+none:	N203 -{}-> N202
+src/toy1.cil/toy1.cil.c, line 297:	N202 -{[((int)wl_st) == 0]}-> N219
+	(int)wl_st == 0
+src/toy1.cil/toy1.cil.c, line 299:	N219 -{tmp = __VERIFIER_nondet_int();}-> N221
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 301:	N221 -{[!(tmp == 0)]}-> N223
+	tmp == 2;
+	tmp == 2;
+src/toy1.cil/toy1.cil.c, line 303:	N223 -{wl_st = 1;}-> N225
+	wl_st == 1;
+src/toy1.cil/toy1.cil.c, line 304:	N225 -{write_loop()}-> N23
+none:	N23 -{Function start dummy edge}-> N24
+src/toy1.cil/toy1.cil.c, line 63:	N24 -{int t;}-> N25
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 66:	N25 -{[!(((int)wl_pc) == 0)]}-> N28
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 69:	N28 -{[((int)wl_pc) == 2]}-> N31
+	(int)wl_pc == 2
+src/toy1.cil/toy1.cil.c, line 70:	N31 -{Goto: WL_WAIT_2_LOC}-> N72
+src/toy1.cil/toy1.cil.c, line 117:	N72 -{Label: WL_WAIT_2_LOC}-> N73
+src/toy1.cil/toy1.cil.c, line 118:	N73 -{t = src_toy1_cil_toy1_cil_ct_b;}-> N74
+	t == 0;
+src/toy1.cil/toy1.cil.c, line 119:	N74 -{[!(d == (t + 1))]}-> N77
+	d == 2;
+	d == 2;
+t + 1 == 1
+src/toy1.cil/toy1.cil.c, line 122:	N77 -{[d == (t + 2)]}-> N79
+	d == 2;
+	d == 2;
+t + 2 == 2
+none:	N79 -{}-> N75
+src/toy1.cil/toy1.cil.c, line 130:	N75 -{[!(d == (t + 1))]}-> N84
+	d == 2;
+	d == 2;
+t + 1 == 1
+src/toy1.cil/toy1.cil.c, line 134:	N84 -{error()}-> N16
+none:	N16 -{Function start dummy edge}-> N17
+src/toy1.cil/toy1.cil.c, line 23:	N17 -{Label: ERROR}-> N18

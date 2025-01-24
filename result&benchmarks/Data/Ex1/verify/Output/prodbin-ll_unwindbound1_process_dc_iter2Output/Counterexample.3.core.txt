@@ -1,0 +1,26 @@
+line 17:	N40 -{int local_34;}-> N41
+	local_34 == 2;
+line 18:	N41 -{int tmp_var_2_int;}-> N42
+	tmp_var_2_int == -2147483648U;
+line 22:	N45 -{int counter;}-> N46
+	counter == 2;
+line 24:	N46 -{assume((uint )(0 < local_34))}-> N31
+	cond == 1;
+line 10:	N32 -{[!(cond == 0)]}-> N33
+	z == 2LL;
+	y == -2147483648LL;
+	cond == 1;
+line 27:	N49 -{_a = 0;}-> N50
+	_a == 0LL;
+line 28:	N50 -{while}-> N51
+	iVar2 == 3;
+line 28:	N55 -{bVar1 = counter < 1;}-> N56
+	counter == 3;
+	bVar1 == 0;
+line 28:	N57 -{__CPAchecker_TMP_0 = bVar1;}-> N58
+	__CPAchecker_TMP_0 == 0;
+line 28:	N58 -{[__CPAchecker_TMP_0 == 0]}-> N53
+	__CPAchecker_TMP_0 == 0;
+line 40:	N53 -{[_a != (((long long)tmp_var_2_int) * ((long long)local_34))]}-> N82
+	_a == 0LL;
+line 41:	N91 -{__assert_fail("0 && \"Assertion failed: z == (long long) a * b\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/prodbin-ll_unwindbound1_process_dc_iter2.c", 41, "__PRETTY_FUNCTION__");}-> N394

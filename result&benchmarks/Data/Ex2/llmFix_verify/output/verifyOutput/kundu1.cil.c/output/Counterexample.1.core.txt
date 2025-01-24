@@ -1,0 +1,333 @@
+output/kundu1.cil_dc_fix.c, line 4:	N323 -{int P_1_ev = 0;}-> N324
+	num == 0;
+	max_loop == 0;
+	i == 0;
+	P_1_ev == 0;
+src/kundu1.cil/kundu1.cil.c, line 28:	N333 -{extern int e;}-> N334
+	C_1_i == 0;
+	C_1_st == 0;
+	C_1_pc == 0;
+	e == 1;
+src/kundu1.cil/kundu1.cil.c, line 94:	N342 -{int C_1_ev = 0;}-> N343
+	C_1_ev == 0;
+src/kundu1.cil/kundu1.cil.c, line 464:	N307 -{num = 0;}-> N308
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 465:	N308 -{i = 0;}-> N309
+	i == 0;
+src/kundu1.cil/kundu1.cil.c, line 466:	N309 -{max_loop = 2;}-> N310
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 469:	N312 -{P_1_pc = 0;}-> N313
+	P_1_pc == 0;
+src/kundu1.cil/kundu1.cil.c, line 470:	N313 -{C_1_pc = 0;}-> N314
+	P_1_pc == 0;
+	P_1_st == 0;
+	P_1_i == 0;
+	P_1_ev == 0;
+	i == 0;
+	max_loop == 2;
+	num == 0;
+	e == 1;
+	C_1_pc == 0;
+	C_1_st == 0;
+	C_1_i == 0;
+	C_1_ev == 0;
+src/kundu1.cil/kundu1.cil.c, line 473:	N315 -{init_model()}-> N298
+src/kundu1.cil/kundu1.cil.c, line 452:	N299 -{P_1_i = 1;}-> N300
+	P_1_i == 1;
+src/kundu1.cil/kundu1.cil.c, line 453:	N300 -{C_1_i = 1;}-> N301
+	P_1_i == 1;
+	C_1_i == 1;
+src/kundu1.cil/kundu1.cil.c, line 474:	N316 -{start_simulation()}-> N258
+src/kundu1.cil/kundu1.cil.c, line 391:	N260 -{int tmp;}-> N261
+src/kundu1.cil/kundu1.cil.c, line 392:	N261 -{int tmp___0;}-> N262
+src/kundu1.cil/kundu1.cil.c, line 397:	N263 -{update_channels()}-> N124
+src/kundu1.cil/kundu1.cil.c, line 398:	N264 -{init_threads()}-> N128
+src/kundu1.cil/kundu1.cil.c, line 195:	N129 -{[((int)P_1_i) == 1]}-> N131
+src/kundu1.cil/kundu1.cil.c, line 196:	N131 -{P_1_st = 0;}-> N133
+	P_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 200:	N130 -{[((int)C_1_i) == 1]}-> N136
+src/kundu1.cil/kundu1.cil.c, line 201:	N136 -{C_1_st = 0;}-> N138
+	C_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 399:	N265 -{fire_delta_events()}-> N196
+src/kundu1.cil/kundu1.cil.c, line 400:	N266 -{activate_threads()}-> N222
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[!(((int)P_1_pc) == 1)]}-> N44
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[!(((int)C_1_pc) == 2)]}-> N114
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[tmp___1 == 0]}-> N235
+	tmp___1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 401:	N267 -{reset_delta_events()}-> N200
+src/kundu1.cil/kundu1.cil.c, line 404:	N268 -{while}-> N269
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[!(tmp == 0)]}-> N179
+	P_1_st == 1;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 255:	N181 -{P_1()}-> N12
+src/kundu1.cil/kundu1.cil.c, line 41:	N13 -{[((int)P_1_pc) == 0]}-> N15
+src/kundu1.cil/kundu1.cil.c, line 52:	N22 -{while}-> N23
+src/kundu1.cil/kundu1.cil.c, line 52:	N23 -{[i < max_loop]}-> N24
+	i == 0;
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 55:	N26 -{write_data(num, 'A');}-> N27
+src/kundu1.cil/kundu1.cil.c, line 56:	N27 -{num = num + 1;}-> N28
+	num == 1;
+src/kundu1.cil/kundu1.cil.c, line 57:	N28 -{P_1_pc = 1;}-> N29
+	P_1_pc == 1;
+src/kundu1.cil/kundu1.cil.c, line 58:	N29 -{P_1_st = 2;}-> N30
+	num == 1;
+	P_1_pc == 1;
+	P_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	C_1_st == 1;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[((int)C_1_pc) == 0]}-> N58
+src/kundu1.cil/kundu1.cil.c, line 115:	N69 -{while}-> N70
+src/kundu1.cil/kundu1.cil.c, line 115:	N70 -{[i < max_loop]}-> N71
+	i == 0;
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 117:	N73 -{[!(num == 0)]}-> N76
+	num == 1;
+src/kundu1.cil/kundu1.cil.c, line 128:	N74 -{num = num - 1;}-> N84
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 129:	N84 -{[num >= 0]}-> N87
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 138:	N89 -{i = i + 1;}-> N90
+	i == 1;
+src/kundu1.cil/kundu1.cil.c, line 139:	N90 -{C_1_pc = 2;}-> N91
+	C_1_pc == 2;
+src/kundu1.cil/kundu1.cil.c, line 140:	N91 -{C_1_st = 2;}-> N92
+	i == 1;
+	C_1_pc == 2;
+	C_1_st == 2;
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[tmp___2 == 0]}-> N172
+	tmp___2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 412:	N275 -{update_channels()}-> N124
+src/kundu1.cil/kundu1.cil.c, line 416:	N277 -{fire_delta_events()}-> N196
+src/kundu1.cil/kundu1.cil.c, line 417:	N278 -{activate_threads()}-> N222
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[!(((int)P_1_ev) == 1)]}-> N47
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[((int)C_1_pc) == 2]}-> N113
+src/kundu1.cil/kundu1.cil.c, line 169:	N113 -{[!(((int)C_1_ev) == 1)]}-> N117
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[tmp___1 == 0]}-> N235
+	tmp___1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 418:	N279 -{reset_delta_events()}-> N200
+src/kundu1.cil/kundu1.cil.c, line 421:	N280 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 423:	N281 -{[tmp == 0]}-> N283
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 426:	N285 -{fire_time_events()}-> N204
+src/kundu1.cil/kundu1.cil.c, line 305:	N205 -{C_1_ev = 1;}-> N206
+	C_1_ev == 1;
+src/kundu1.cil/kundu1.cil.c, line 307:	N206 -{P_1_ev = 1;}-> N207
+	C_1_ev == 1;
+	P_1_ev == 1;
+src/kundu1.cil/kundu1.cil.c, line 427:	N286 -{activate_threads()}-> N222
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[((int)P_1_ev) == 1]}-> N46
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[!(tmp == 0)]}-> N229
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 343:	N229 -{P_1_st = 0;}-> N231
+	P_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[!(((int)C_1_pc) == 1)]}-> N106
+src/kundu1.cil/kundu1.cil.c, line 168:	N104 -{[((int)C_1_pc) == 2]}-> N113
+src/kundu1.cil/kundu1.cil.c, line 169:	N113 -{[((int)C_1_ev) == 1]}-> N116
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[!(tmp___1 == 0)]}-> N234
+	tmp___1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 351:	N234 -{C_1_st = 0;}-> N236
+	C_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 428:	N287 -{reset_time_events()}-> N210
+src/kundu1.cil/kundu1.cil.c, line 319:	N211 -{[((int)P_1_ev) == 1]}-> N213
+src/kundu1.cil/kundu1.cil.c, line 320:	N213 -{P_1_ev = 2;}-> N215
+	P_1_ev == 2;
+src/kundu1.cil/kundu1.cil.c, line 324:	N212 -{[((int)C_1_ev) == 1]}-> N217
+	C_1_ev == 2;
+src/kundu1.cil/kundu1.cil.c, line 434:	N282 -{stop_simulation()}-> N244
+src/kundu1.cil/kundu1.cil.c, line 371:	N245 -{int tmp;}-> N246
+src/kundu1.cil/kundu1.cil.c, line 376:	N247 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 378:	N248 -{[!(tmp == 0)]}-> N250
+	__retres2 == 0;
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 436:	N289 -{[tmp___0 == 0]}-> N292
+	tmp___0 == 0;
+none:	N290 -{}-> N269
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+	tmp___1 == 2;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[tmp == 0]}-> N180
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	C_1_st == 1;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[!(((int)C_1_pc) == 0)]}-> N59
+src/kundu1.cil/kundu1.cil.c, line 103:	N59 -{[!(((int)C_1_pc) == 1)]}-> N63
+src/kundu1.cil/kundu1.cil.c, line 106:	N63 -{[((int)C_1_pc) == 2]}-> N66
+none:	N95 -{}-> N70
+src/kundu1.cil/kundu1.cil.c, line 115:	N70 -{[i < max_loop]}-> N71
+	i == 1;
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 117:	N73 -{[num == 0]}-> N75
+	num == 0;
+src/kundu1.cil/kundu1.cil.c, line 119:	N77 -{i = i + 1;}-> N78
+	i == 2;
+src/kundu1.cil/kundu1.cil.c, line 120:	N78 -{C_1_pc = 1;}-> N79
+	C_1_pc == 1;
+src/kundu1.cil/kundu1.cil.c, line 121:	N79 -{C_1_st = 2;}-> N80
+	i == 2;
+	C_1_pc == 1;
+	C_1_st == 2;
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[((int)P_1_st) == 0]}-> N146
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[((int)P_1_st) == 0]}-> N175
+src/kundu1.cil/kundu1.cil.c, line 250:	N175 -{tmp = __VERIFIER_nondet_int();}-> N177
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 252:	N177 -{[!(tmp == 0)]}-> N179
+	P_1_st == 1;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 255:	N181 -{P_1()}-> N12
+src/kundu1.cil/kundu1.cil.c, line 41:	N13 -{[!(((int)P_1_pc) == 0)]}-> N16
+src/kundu1.cil/kundu1.cil.c, line 44:	N16 -{[((int)P_1_pc) == 1]}-> N19
+none:	N33 -{}-> N23
+src/kundu1.cil/kundu1.cil.c, line 52:	N23 -{[!(i < max_loop)]}-> N25
+	i == 2;
+	max_loop == 2;
+src/kundu1.cil/kundu1.cil.c, line 66:	N34 -{P_1_st = 2;}-> N35
+	P_1_st == 2;
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[!(((int)C_1_st) == 0)]}-> N185
+none:	N183 -{}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[!(((int)C_1_st) == 0)]}-> N152
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[tmp___2 == 0]}-> N172
+	tmp___2 == 0;
+src/kundu1.cil/kundu1.cil.c, line 412:	N275 -{update_channels()}-> N124
+src/kundu1.cil/kundu1.cil.c, line 416:	N277 -{fire_delta_events()}-> N196
+src/kundu1.cil/kundu1.cil.c, line 417:	N278 -{activate_threads()}-> N222
+src/kundu1.cil/kundu1.cil.c, line 334:	N223 -{int tmp;}-> N224
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 336:	N225 -{int tmp___1;}-> N226
+src/kundu1.cil/kundu1.cil.c, line 340:	N226 -{is_P_1_triggered()}-> N39
+src/kundu1.cil/kundu1.cil.c, line 76:	N41 -{[((int)P_1_pc) == 1]}-> N43
+src/kundu1.cil/kundu1.cil.c, line 77:	N43 -{[!(((int)P_1_ev) == 1)]}-> N47
+	__retres1 == 0;
+src/kundu1.cil/kundu1.cil.c, line 342:	N227 -{[tmp == 0]}-> N230
+	tmp == 0;
+src/kundu1.cil/kundu1.cil.c, line 348:	N228 -{is_C_1_triggered()}-> N101
+src/kundu1.cil/kundu1.cil.c, line 158:	N103 -{[((int)C_1_pc) == 1]}-> N105
+src/kundu1.cil/kundu1.cil.c, line 159:	N105 -{[((int)e) == 1]}-> N108
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 350:	N232 -{[!(tmp___1 == 0)]}-> N234
+	tmp___1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 351:	N234 -{C_1_st = 0;}-> N236
+	C_1_st == 0;
+src/kundu1.cil/kundu1.cil.c, line 418:	N279 -{reset_delta_events()}-> N200
+src/kundu1.cil/kundu1.cil.c, line 421:	N280 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 423:	N281 -{[!(tmp == 0)]}-> N284
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 434:	N282 -{stop_simulation()}-> N244
+src/kundu1.cil/kundu1.cil.c, line 371:	N245 -{int tmp;}-> N246
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 376:	N247 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 378:	N248 -{[!(tmp == 0)]}-> N250
+	__retres2 == 0;
+	tmp == 1;
+src/kundu1.cil/kundu1.cil.c, line 436:	N289 -{[tmp___0 == 0]}-> N292
+	tmp___0 == 0;
+none:	N290 -{}-> N269
+src/kundu1.cil/kundu1.cil.c, line 408:	N273 -{eval()}-> N159
+	tmp___1 == 2;
+	tmp == 2;
+src/kundu1.cil/kundu1.cil.c, line 234:	N163 -{int tmp___2;}-> N164
+src/kundu1.cil/kundu1.cil.c, line 238:	N164 -{while}-> N165
+src/kundu1.cil/kundu1.cil.c, line 241:	N168 -{exists_runnable_thread()}-> N142
+src/kundu1.cil/kundu1.cil.c, line 213:	N144 -{[!(((int)P_1_st) == 0)]}-> N147
+src/kundu1.cil/kundu1.cil.c, line 217:	N147 -{[((int)C_1_st) == 0]}-> N151
+	__retres1 == 1;
+src/kundu1.cil/kundu1.cil.c, line 243:	N169 -{[!(tmp___2 == 0)]}-> N171
+	tmp___2 == 1;
+src/kundu1.cil/kundu1.cil.c, line 248:	N170 -{[!(((int)P_1_st) == 0)]}-> N176
+src/kundu1.cil/kundu1.cil.c, line 263:	N174 -{[((int)C_1_st) == 0]}-> N184
+src/kundu1.cil/kundu1.cil.c, line 265:	N184 -{tmp___1 = __VERIFIER_nondet_int();}-> N186
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 267:	N186 -{[!(tmp___1 == 0)]}-> N188
+	C_1_st == 1;
+	tmp___1 == 2;
+src/kundu1.cil/kundu1.cil.c, line 270:	N190 -{C_1()}-> N54
+src/kundu1.cil/kundu1.cil.c, line 100:	N56 -{[!(((int)C_1_pc) == 0)]}-> N59
+src/kundu1.cil/kundu1.cil.c, line 103:	N59 -{[((int)C_1_pc) == 1]}-> N62
+src/kundu1.cil/kundu1.cil.c, line 128:	N74 -{num = num - 1;}-> N84
+	num == -1;
+src/kundu1.cil/kundu1.cil.c, line 129:	N84 -{[!(num >= 0)]}-> N86
+	num == -1;
+src/kundu1.cil/kundu1.cil.c, line 131:	N86 -{error()}-> N5

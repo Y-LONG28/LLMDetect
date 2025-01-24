@@ -1,0 +1,38 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "558bf7bd-be0c-32c8-8971-43cb2f9b0c91"
+    creation_time: "2025-01-15T14:16:30+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_18-simple-else_unknown_2_pos_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_18-simple-else_unknown_2_pos_process_dc_iter1.c: "a0b7ca4979907400031c4776abb60ced4aea2b8767e2f55f1a6cc36e37c4c620"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_18-simple-else_unknown_2_pos_process_dc_iter1.c"
+          line: 32
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_18-simple-else_unknown_2_pos_process_dc_iter1.c"
+          line: 33
+          column: 17
+          function: "main"

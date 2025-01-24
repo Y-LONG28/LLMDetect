@@ -1,0 +1,53 @@
+IntBool
+
+[f::a_local, assume::cond, main::__CPAchecker_TMP_2, __bswap_32::__bsx, __bswap_64::__bsx, __bswap_16::__bsx, main::b, main::a]
+
+IntEq
+
+[main::iVar1, main::__retval__]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[f::p2, main::local_28, main::p1, main::p2, g::*p1, g::p1, f::p1, g::p2, g::piVar1]
+
+ALL
+
+[main::*((int *)(&p1)), main::iVar1, __bswap_32::__bsx, f::p1_local, main::p1, main::p2, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::b, main::a, f::p2, assume::cond, main::*((int *)(((long)(&p1)) + 4)), main::__CPAchecker_TMP_2, f::a, f::p2_local, __bswap_64::__CPAchecker_TMP_0, f::p1, f::a_local, f::__retval__, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, g::p1_local, g::*p1, g::p1, g::pq, g::p2, g::piVar1, __uint16_identity::__x, g::p2_local, main::local_28, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[f::__retval__, f::a, main::*((int *)(((long)(&p1)) + 4))] --> [4],
+[f::p2_local] --> [],
+[f::p1_local] --> [],
+[f::a_local] --> [],
+[f::p1, f::p2, g::*p1, g::p1, g::p2, g::piVar1, main::local_28, main::p1, main::p2] --> [0, 4],
+[g::p2_local] --> [],
+[g::p1_local] --> [],
+[g::pq] --> [],
+[main::__retval__, main::iVar1] --> [0, 1048576],
+[main::b] --> [],
+[main::a] --> [],
+[main::*((int *)(&p1))] --> [1],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[f::p2, assume::cond, f::__retval__, f::a, main::local_28, main::p1, main::p2, g::p1, g::piVar1, g::p2, f::p1]
+
+RELEVANT FIELDS
+
+{}

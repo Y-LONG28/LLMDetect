@@ -1,0 +1,23 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__utac_acc__Specification4_spec__1::tmp___0| () (_ BitVec 32))
+(declare-fun waterLevel () (_ BitVec 32))
+(declare-fun systemActive () (_ BitVec 32))
+(declare-fun pumpRunning () (_ BitVec 32))
+(declare-fun |test::splverifierCounter| () (_ BitVec 32))
+
+src_minepump_spec4_product46_cil_minepump_spec4_product46_cil_c__utac_acc__Specification4_spec__1:
+(assert (let ((.def_337 (= |__utac_acc__Specification4_spec__1::tmp___0| (_ bv0 32)))).def_337))
+
+cleanup N18:
+(assert false)
+
+__automaton_fail N394:
+(assert false)
+
+test N582:
+(assert (let ((.def_344 (= waterLevel (_ bv0 32)))).def_344))
+(assert (let ((.def_347 (= systemActive (_ bv0 32)))).def_347))
+(assert (let ((.def_350 (= pumpRunning (_ bv0 32)))).def_350))
+(assert (let ((.def_781 (= |test::splverifierCounter| (_ bv0 32)))).def_781))
+(assert (let ((.def_1683 (bvslt waterLevel (_ bv2 32)))).def_1683))
+

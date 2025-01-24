@@ -1,0 +1,96 @@
+line 30:	N42 -{int iVar1;}-> N43
+line 31:	N43 -{uint32_t extraout_var;}-> N44
+lines 39-42:	N51 -{local_18 = 0;}-> N52
+	local_18 == 0;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 0;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 1;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 1;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 2;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 2;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 3;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 3;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 4;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 4;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 5;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 5;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 6;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 6;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 7;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 7;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 8;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 8;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 9;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 9;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 10;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 10;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 11;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 11;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 12;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 12;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 13;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 13;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 14;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 14;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 15;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 15;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 16;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 16;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 17;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 17;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 18;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 18;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 19;
+line 39:	N52 -{[local_18 < 20]}-> N54
+	local_18 == 19;
+lines 39-42:	N53 -{local_18 = local_18 + 1;}-> N52
+	local_18 == 20;
+line 39:	N52 -{[!(local_18 < 20)]}-> N55
+	local_18 == 20;
+line 45:	N55 -{[-1 < (ad2->a)]}-> N60
+line 45:	N60 -{[(ad2->a) < 10]}-> N59
+line 46:	N59 -{((&dStack_d8)[ad2->a]).a = ad2->a;}-> N61
+lines 47-49:	N62 -{tmp_var_1_int = (((&dStack_d8)[ad2->a]).a) + 10;}-> N63
+line 47:	N63 -{[!(tmp_var_1_int < (((&dStack_d8)[ad2->a]).a))]}-> N66
+line 50:	N66 -{check(&dStack_d8, tmp_var_1_int)}-> N31
+line 51:	N67 -{[(extraout_var | iVar1) == 0]}-> N69
+	__CPAchecker_TMP_2 == 0;
+	iVar1 == 1048576;
+line 53:	N79 -{__assert_fail("0 && \"Assertion failed: check function returned 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test24-2_process_dc_iter2.c", 53, "__PRETTY_FUNCTION__");}-> N386

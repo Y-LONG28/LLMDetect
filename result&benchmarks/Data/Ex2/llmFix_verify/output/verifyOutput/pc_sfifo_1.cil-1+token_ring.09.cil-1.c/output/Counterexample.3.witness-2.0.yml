@@ -1,0 +1,118 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "d031d9df-831c-325b-873a-e61b81444fb6"
+    creation_time: "2025-01-24T02:23:15+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/pc_sfifo_1.cil-1+token_ring.09.cil-1_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/pc_sfifo_1.cil-1+token_ring.09.cil-1_dc_fix.c: "04cea419ae6b777b3d25c2c507bb9705cccfc121eee8716af5b2c58f1718140a"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c: "5ffa9c383126ba58d0c9650d65342d49355c5c455be88e93bcef375a3780c455"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 1821
+          column: 3
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 179
+          column: 3
+          function: "init_threads1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 184
+          column: 3
+          function: "init_threads1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 197
+          column: 3
+          function: "exists_runnable_thread1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 225
+          column: 5
+          function: "eval1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 230
+          column: 5
+          function: "eval1"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 234
+          column: 7
+          function: "eval1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 234
+          column: 7
+          function: "eval1"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/pc_sfifo_1.cil-1+token_ring.09.cil-1/pc_sfifo_1.cil-1+token_ring.09.cil-1.c"
+          line: 27
+          column: 3
+          function: "error1"

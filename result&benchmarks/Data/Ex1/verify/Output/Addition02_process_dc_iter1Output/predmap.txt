@@ -1,0 +1,34 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::result| () (_ BitVec 32))
+(declare-fun |addition::__retval__| () (_ BitVec 32))
+(declare-fun |main::local_18| () (_ BitVec 32))
+(declare-fun |addition::n__param__| () (_ BitVec 32))
+(declare-fun |addition::m__param__| () (_ BitVec 32))
+(declare-fun |main::iVar1| () (_ BitVec 32))
+
+addition N30:
+(assert (let ((.def_181 (= |main::result| |addition::__retval__|))).def_181))
+(assert (let ((.def_183 (= |main::local_18| (_ bv0 32)))).def_183))
+(assert (let ((.def_174 ((_ extract 31 31) |main::result|)))(let ((.def_175 (= .def_174 (_ bv1 1)))).def_175)))
+(assert (let ((.def_172 (bvslt (_ bv1073741823 32) |main::result|))).def_172))
+(assert (let ((.def_177 ((_ extract 31 31) |main::local_18|)))(let ((.def_178 (= .def_177 (_ bv1 1)))).def_178)))
+(assert (let ((.def_169 (bvslt (_ bv1073741823 32) |main::local_18|))).def_169))
+(assert (let ((.def_186 (bvslt |addition::n__param__| (_ bv1 32)))).def_186))
+(assert (let ((.def_188 (= |addition::n__param__| (_ bv0 32)))).def_188))
+(assert (let ((.def_191 (= |addition::__retval__| |addition::m__param__|))).def_191))
+
+main N69:
+(assert (let ((.def_169 (bvslt (_ bv1073741823 32) |main::local_18|))).def_169))
+(assert (let ((.def_172 (bvslt (_ bv1073741823 32) |main::result|))).def_172))
+(assert (let ((.def_174 ((_ extract 31 31) |main::result|)))(let ((.def_175 (= .def_174 (_ bv1 1)))).def_175)))
+(assert (let ((.def_177 ((_ extract 31 31) |main::local_18|)))(let ((.def_178 (= .def_177 (_ bv1 1)))).def_178)))
+
+main N72:
+(assert (let ((.def_172 (bvslt (_ bv1073741823 32) |main::result|))).def_172))
+(assert (let ((.def_174 ((_ extract 31 31) |main::result|)))(let ((.def_175 (= .def_174 (_ bv1 1)))).def_175)))
+(assert (let ((.def_183 (= |main::local_18| (_ bv0 32)))).def_183))
+(assert (let ((.def_194 (= |main::result| |main::iVar1|))).def_194))
+
+main N390:
+(assert false)
+

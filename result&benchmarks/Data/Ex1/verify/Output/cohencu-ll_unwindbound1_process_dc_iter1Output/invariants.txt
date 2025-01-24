@@ -1,0 +1,7 @@
+loop__main__1415:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::x| () (_ BitVec 64))
+(declare-fun |main::lStack_30| () (_ BitVec 32))
+(declare-fun |main::z| () (_ BitVec 64))
+(declare-fun |main::y| () (_ BitVec 64))
+(assert (let ((.def_194 (= |main::z| (_ bv1 64))))(let ((.def_391 (not .def_194)))(let ((.def_196 (= |main::lStack_30| (_ bv6 32))))(let ((.def_389 (not .def_196)))(let ((.def_249 (= |main::y| (_ bv0 64))))(let ((.def_388 (not .def_249)))(let ((.def_390 (and .def_388 .def_389)))(let ((.def_392 (and .def_390 .def_391)))(let ((.def_191 (= |main::x| (_ bv0 64))))(let ((.def_497 (or .def_191 .def_392)))(let ((.def_393 (not .def_191)))(let ((.def_254 (and .def_196 .def_249)))(let ((.def_255 (and .def_194 .def_254)))(let ((.def_496 (or .def_255 .def_393)))(let ((.def_498 (and .def_496 .def_497)))(let ((.def_114 ((_ sign_extend 32) |main::lStack_30|)))(let ((.def_111 (bvmul (_ bv6 64) |main::x|)))(let ((.def_112 (bvadd (_ bv6 64) .def_111)))(let ((.def_115 (= .def_112 .def_114)))(let ((.def_499 (and .def_115 .def_498))).def_499)))))))))))))))))))))

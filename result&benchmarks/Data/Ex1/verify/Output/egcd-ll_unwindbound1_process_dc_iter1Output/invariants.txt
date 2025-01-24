@@ -1,0 +1,11 @@
+loop__main__1417:
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::r| () (_ BitVec 64))
+(declare-fun |main::s| () (_ BitVec 64))
+(declare-fun |main::_x| () (_ BitVec 32))
+(declare-fun |main::q| () (_ BitVec 64))
+(declare-fun |main::b| () (_ BitVec 64))
+(declare-fun |main::tmp_var_2_int| () (_ BitVec 32))
+(declare-fun |main::p| () (_ BitVec 64))
+(declare-fun |main::local_4c| () (_ BitVec 32))
+(assert (let ((.def_337 (= |main::r| (_ bv0 64))))(let ((.def_517 (not .def_337)))(let ((.def_334 ((_ sign_extend 32) |main::local_4c|)))(let ((.def_335 (= |main::p| .def_334)))(let ((.def_632 (or .def_335 .def_517)))(let ((.def_248 (= |main::_x| (_ bv1 32))))(let ((.def_633 (and .def_248 .def_632)))(let ((.def_246 (= |main::s| (_ bv0 64))))(let ((.def_515 (not .def_246)))(let ((.def_634 (or .def_515 .def_633)))(let ((.def_345 (and .def_335 .def_337)))(let ((.def_346 (and .def_248 .def_345)))(let ((.def_520 (or .def_246 .def_346)))(let ((.def_635 (and .def_520 .def_634)))(let ((.def_243 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_244 (= |main::b| .def_243)))(let ((.def_522 (not .def_244)))(let ((.def_636 (or .def_522 .def_635)))(let ((.def_516 (and .def_346 .def_515)))(let ((.def_524 (or .def_244 .def_516)))(let ((.def_637 (and .def_524 .def_636)))(let ((.def_153 ((_ sign_extend 32) |main::_x|)))(let ((.def_156 (bvmul .def_153 |main::q|)))(let ((.def_150 (bvmul |main::r| |main::s|)))(let ((.def_151 (bvneg .def_150)))(let ((.def_158 (bvadd .def_151 .def_156)))(let ((.def_159 (= .def_158 (_ bv1 64))))(let ((.def_638 (and .def_159 .def_637))).def_638)))))))))))))))))))))))))))))

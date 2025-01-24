@@ -1,0 +1,45 @@
+src/bubble_sort-2/bubble_sort-2.c, line 31:	N713 -{struct list_head gl_list = { &gl_list, &gl_list };}-> N714
+	(&gl_list) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 824:	N690 -{src_bubble_sort_2_bubble_sort_2_cgl_read()}-> N547
+src/bubble_sort-2/bubble_sort-2.c, line 655:	N550 -{while}-> N551
+src/bubble_sort-2/bubble_sort-2.c, line 659:	N555 -{src_bubble_sort_2_bubble_sort_2_cgl_insert(tmp)}-> N500
+	value == 3;
+src/bubble_sort-2/bubble_sort-2.c, line 612:	N516 -{tmp = malloc(__cil_tmp4);}-> N517
+src/bubble_sort-2/bubble_sort-2.c, line 613:	N517 -{node = (struct node *)tmp;}-> N518
+	value == 3;
+src/bubble_sort-2/bubble_sort-2.c, line 615:	N518 -{[!(node == 0)]}-> N521
+src/bubble_sort-2/bubble_sort-2.c, line 627:	N526 -{src_bubble_sort_2_bubble_sort_2_clist_add(__cil_tmp7, &gl_list)}-> N479
+	new == 28LL;
+	head == 4LL;
+	(head->next) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 570:	N482 -{__list_add(new, head, __cil_tmp3)}-> N1
+	new == 28LL;
+	prev == 4LL;
+	next == 4LL;
+	(*((void **)next)) == 28LL;
+	(*((void **)(((char *)new) + 4))) == 4LL;
+	(*((void **)new)) == 4LL;
+	(*((void **)(((char *)prev) + 4))) == 28LL;
+src/bubble_sort-2/bubble_sort-2.c, line 630:	N527 -{while}-> N528
+src/bubble_sort-2/bubble_sort-2.c, line 660:	N556 -{tmp___0 = __VERIFIER_nondet_int();}-> N557
+src/bubble_sort-2/bubble_sort-2.c, line 662:	N557 -{[tmp___0 == 0]}-> N560
+src/bubble_sort-2/bubble_sort-2.c, line 825:	N691 -{__cil_tmp1 = (const struct list_head *)(&gl_list);}-> N692
+	__cil_tmp1 == 4LL;
+	(__cil_tmp1->next) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 826:	N692 -{src_bubble_sort_2_bubble_sort_2_cinspect(__cil_tmp1)}-> N33
+	head == 4LL;
+	(head->next) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 157:	N155 -{while}-> N156
+	head == 4LL;
+	(head->next) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 159:	N159 -{[!(head == 0)]}-> N162
+	head == 4LL;
+	(head->next) == 4LL;
+src/bubble_sort-2/bubble_sort-2.c, line 171:	N166 -{while}-> N167
+src/bubble_sort-2/bubble_sort-2.c, line 174:	N170 -{__cil_tmp3 = (unsigned int)head;}-> N171
+src/bubble_sort-2/bubble_sort-2.c, line 175:	N171 -{__cil_tmp4 = *((struct list_head * const *)head);}-> N172
+src/bubble_sort-2/bubble_sort-2.c, line 176:	N172 -{__cil_tmp5 = (unsigned int)__cil_tmp4;}-> N173
+src/bubble_sort-2/bubble_sort-2.c, line 177:	N173 -{__cil_tmp6 = __cil_tmp5 != __cil_tmp3;}-> N174
+src/bubble_sort-2/bubble_sort-2.c, line 178:	N174 -{[__cil_tmp6 == 0]}-> N176
+src/bubble_sort-2/bubble_sort-2.c, line 180:	N176 -{src_bubble_sort_2_bubble_sort_2_cfail()}-> N21
+src/bubble_sort-2/bubble_sort-2.c, line 27:	N22 -{Label: ERROR}-> N23

@@ -1,0 +1,61 @@
+line 27:	N50 -{uint uVar1;}-> N51
+line 28:	N51 -{uint local_14;}-> N52
+	local_14 == 10U;
+line 32:	N54 -{id(local_14)}-> N37
+	x == 10U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 10U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 9U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 9U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 8U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 8U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 7U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 7U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 6U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 6U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 5U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 5U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 4U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 4U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 3U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 3U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 2U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 2U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 1U;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 1U;
+line 20:	N43 -{id(x - 1)}-> N37
+	x == 0U;
+line 16:	N40 -{[x == 0]}-> N42
+	uVar1 == 10U;
+	uVar1 == 9U;
+	uVar1 == 8U;
+	uVar1 == 7U;
+	uVar1 == 6U;
+	uVar1 == 5U;
+	uVar1 == 4U;
+	uVar1 == 3U;
+	uVar1 == 2U;
+	uVar1 == 1U;
+	uVar1 == 0U;
+	x == 0U;
+line 33:	N55 -{[uVar1 == 10]}-> N57
+	uVar1 == 10U;
+line 34:	N66 -{__assert_fail("0 && \"Assertion failed: uVar1 should not equal 10\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id_o10_process_dc_iter1.c", 34, "__PRETTY_FUNCTION__");}-> N370

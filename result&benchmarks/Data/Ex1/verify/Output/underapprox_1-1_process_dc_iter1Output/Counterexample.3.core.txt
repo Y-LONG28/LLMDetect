@@ -1,0 +1,45 @@
+line 19:	N42 -{local_18 = 1;}-> N43
+	local_18 == 1;
+lines 20-22:	N44 -{local_14 = 0;}-> N45
+	local_14 == 0U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 0U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 2;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 1U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 1U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 4;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 2U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 2U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 8;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 3U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 3U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 16;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 4U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 4U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 32;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 5U;
+line 20:	N45 -{[local_14 < 6]}-> N47
+	local_14 == 5U;
+line 21:	N47 -{local_18 = local_18 << 1;}-> N49
+	local_18 == 64;
+lines 20-22:	N46 -{local_14 = local_14 + 1;}-> N45
+	local_14 == 6U;
+line 20:	N45 -{[!(local_14 < 6)]}-> N48
+	local_14 == 6U;
+line 23:	N48 -{[local_18 == 64]}-> N51
+	local_18 == 64;
+line 24:	N60 -{__assert_fail("0 && \"Assertion failed: y != 64\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/underapprox_1-1_process_dc_iter1.c", 24, "__PRETTY_FUNCTION__");}-> N363

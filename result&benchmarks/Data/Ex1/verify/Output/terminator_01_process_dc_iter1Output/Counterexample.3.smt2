@@ -1,0 +1,6 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |__ADDRESS_OF_main::local_1c@| () (_ BitVec 32))
+(declare-fun *int@1 () (Array (_ BitVec 32) (_ BitVec 32)))
+(declare-fun |main::local_1c@2| () (_ BitVec 32))
+(declare-fun |main::piStack_18@3| () (_ BitVec 32))
+(assert (let ((.def_20 (select *int@1 |__ADDRESS_OF_main::local_1c@|)))(let ((.def_28 (bvslt .def_20 (_ bv100 32))))(let ((.def_31 (not .def_28)))(let ((.def_24 (= |__ADDRESS_OF_main::local_1c@| |main::piStack_18@3|)))(let ((.def_22 (= .def_20 |main::local_1c@2|)))(let ((.def_25 (and .def_22 .def_24)))(let ((.def_12 (bvurem |__ADDRESS_OF_main::local_1c@| (_ bv4 32))))(let ((.def_13 (= .def_12 (_ bv0 32))))(let ((.def_11 (bvslt (_ bv0 32) |__ADDRESS_OF_main::local_1c@|)))(let ((.def_17 (and .def_11 .def_13)))(let ((.def_15 (bvadd (_ bv4 32) |__ADDRESS_OF_main::local_1c@|)))(let ((.def_16 (bvslt (_ bv0 32) .def_15)))(let ((.def_18 (and .def_16 .def_17)))(let ((.def_26 (and .def_18 .def_25)))(let ((.def_72 (and .def_26 .def_31))).def_72))))))))))))))))

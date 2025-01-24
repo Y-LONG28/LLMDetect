@@ -1,0 +1,7 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::n| () (_ BitVec 8))
+(declare-fun |main::tmp_var_1_uchar| () (_ BitVec 8))
+
+main N52:
+(assert (let ((.def_119 (= |main::tmp_var_1_uchar| (_ bv0 8))))(let ((.def_190 (not .def_119)))(let ((.def_121 (= |main::n| |main::tmp_var_1_uchar|)))(let ((.def_191 (or .def_121 .def_190)))(let ((.def_68 ((_ zero_extend 24) |main::n|)))(let ((.def_70 ((_ zero_extend 24) |main::tmp_var_1_uchar|)))(let ((.def_71 (bvslt .def_70 .def_68)))(let ((.def_194 (or .def_71 .def_191)))(let ((.def_192 (not .def_121)))(let ((.def_75 (not .def_71)))(let ((.def_193 (or .def_75 .def_192)))(let ((.def_195 (and .def_193 .def_194))).def_195)))))))))))))
+

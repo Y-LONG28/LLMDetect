@@ -1,0 +1,13 @@
+line 23:	N47 -{uint uVar1;}-> N48
+line 24:	N48 -{uint local_18;}-> N49
+	local_18 == 0U;
+line 25:	N49 -{uint result;}-> N50
+	result == 0U;
+line 29:	N52 -{sum(result, local_18)}-> N37
+	n == 0U;
+	m == 0U;
+line 16:	N40 -{[!(n != 0)]}-> N41
+	n == 0U;
+line 30:	N53 -{[uVar1 == (local_18 + result)]}-> N55
+	uVar1 == 0U;
+line 31:	N64 -{__assert_fail("0 && \"Assertion failed: uVar1 should not equal local_18 + result\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_non_eq-3_process_dc_iter1.c", 31, "__PRETTY_FUNCTION__");}-> N368

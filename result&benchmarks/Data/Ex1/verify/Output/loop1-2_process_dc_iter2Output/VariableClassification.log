@@ -1,0 +1,49 @@
+IntBool
+
+[assume::cond, __assert_func::__CPAchecker_TMP_2, main::local_28, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx]
+
+IntEq
+
+[__assert_func::line]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[main::count, _LC0, __assert_func::func, main::x, main::fVar1, main::tmp_var_1_int, main::result, __assert_func::file, __assert_func::msg]
+
+ALL
+
+[__assert_func::__CPAchecker_TMP_2, __bswap_32::__bsx, __assert_func::line, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, __assert_func::file, __assert_func::msg, assume::cond, main::x, __bswap_64::__CPAchecker_TMP_0, main::tmp_var_1_int, main::result, __bswap_16::__CPAchecker_TMP_0, main::count, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, main::local_28, __bswap_32::__CPAchecker_TMP_0, _LC0, __bswap_64::__bsx, __assert_func::func, __uint64_identity::__x, main::fVar1, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__assert_func::__CPAchecker_TMP_2] --> [0],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::count, main::fVar1, main::result, main::tmp_var_1_int, main::x] --> [1],
+[main::local_28] --> [0],
+[main::__retval__] --> [0],
+[__assert_func::file] --> [],
+[__assert_func::line] --> [34],
+[__assert_func::func] --> [],
+[__assert_func::msg] --> [],
+[_LC0] --> []]
+
+RELEVANT VARS
+
+[assume::cond, main::local_28, main::count, main::fVar1, main::x, main::tmp_var_1_int, main::result]
+
+RELEVANT FIELDS
+
+{}

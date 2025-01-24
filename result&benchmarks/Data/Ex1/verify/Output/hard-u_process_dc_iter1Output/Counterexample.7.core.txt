@@ -1,0 +1,54 @@
+line 13:	N38 -{uint local_2c;}-> N39
+line 15:	N40 -{uint tmp_var_2_uint;}-> N41
+line 23:	N47 -{assume(local_2c != 0)}-> N31
+line 9:	N32 -{[!(cond == 0)]}-> N33
+line 24:	N48 -{p = tmp_var_2_uint;}-> N49
+line 25:	N49 -{q = local_2c;}-> N50
+line 26:	N50 -{tmp_var_1_uint = 1;}-> N51
+	tmp_var_1_uint == 1U;
+line 27:	N51 -{A = 0;}-> N52
+	tmp_var_1_uint == 1U;
+	A == 0U;
+line 29:	N52 -{while}-> N53
+line 30:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 33:	N56 -{[!(tmp_var_2_uint < q)]}-> N69
+line 34:	N69 -{q = q << 1;}-> N72
+line 35:	N72 -{tmp_var_1_uint = tmp_var_1_uint << 1;}-> N73
+	tmp_var_1_uint == 2U;
+none:	N73 -{}-> N53
+line 30:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 33:	N56 -{[!(tmp_var_2_uint < q)]}-> N69
+line 34:	N69 -{q = q << 1;}-> N72
+line 35:	N72 -{tmp_var_1_uint = tmp_var_1_uint << 1;}-> N73
+	tmp_var_1_uint == 4U;
+none:	N73 -{}-> N53
+line 30:	N54 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N56
+line 33:	N56 -{[tmp_var_2_uint < q]}-> N70
+line 38:	N55 -{while}-> N74
+line 39:	N75 -{[!(tmp_var_2_uint != ((A * local_2c) + p))]}-> N77
+line 42:	N77 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N90
+line 45:	N90 -{[!(tmp_var_1_uint == 1)]}-> N103
+	tmp_var_1_uint == 4U;
+line 46:	N103 -{q = q >> 1;}-> N106
+line 47:	N106 -{tmp_var_1_uint = tmp_var_1_uint >> 1;}-> N107
+	tmp_var_1_uint == 2U;
+line 48:	N107 -{[q <= p]}-> N109
+line 49:	N109 -{p = p - q;}-> N110
+line 50:	N110 -{A = tmp_var_1_uint + A;}-> N111
+	A == 2U;
+none:	N108 -{}-> N74
+line 39:	N75 -{[!(tmp_var_2_uint != ((A * local_2c) + p))]}-> N77
+line 42:	N77 -{[!(q != (local_2c * tmp_var_1_uint))]}-> N90
+line 45:	N90 -{[!(tmp_var_1_uint == 1)]}-> N103
+	tmp_var_1_uint == 2U;
+line 46:	N103 -{q = q >> 1;}-> N106
+line 47:	N106 -{tmp_var_1_uint = tmp_var_1_uint >> 1;}-> N107
+	tmp_var_1_uint == 1U;
+line 48:	N107 -{[q <= p]}-> N109
+line 49:	N109 -{p = p - q;}-> N110
+line 50:	N110 -{A = tmp_var_1_uint + A;}-> N111
+	A == 3U;
+none:	N108 -{}-> N74
+line 39:	N75 -{[tmp_var_2_uint != ((A * local_2c) + p)]}-> N78
+	__CPAchecker_TMP_5 == 0;
+line 40:	N87 -{__assert_fail("0 && \"Assertion failed: A == q*B + r\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-u_process_dc_iter1.c", 40, "__PRETTY_FUNCTION__");}-> N441

@@ -1,0 +1,55 @@
+IntBool
+
+[__bswap_32::__bsx, __bswap_16::__bsx, main::dummy, main::__CPAchecker_TMP_2, main::var7, main::var6, main::var9, __bswap_64::__bsx, main::var8, main::var10, main::var3, main::var_for_abs, main::var2, main::tmp_var_1_int, main::var5, main::var4, main::var1, main::var0]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[main::tmp_var_3_int, main::uVar1, main::tmp_var_5_int, main::tmp_var_7_int, main::tmp_var_2_int, main::myvar0, main::tmp_var_11_int, assume::cond, main::tmp_var_10_int, main::tmp_var_9_int, main::tmp_var_6_int, main::tmp_var_4_int, main::tmp_var_8_int]
+
+ALL
+
+[__bswap_32::__bsx, main::tmp_var_5_int, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, assume::cond, main::tmp_var_10_int, main::tmp_var_9_int, main::__CPAchecker_TMP_2, main::tmp_var_6_int, __bswap_64::__CPAchecker_TMP_0, main::tmp_var_1_int, __bswap_16::__CPAchecker_TMP_0, main::uVar1, main::tmp_var_3_int, main::tmp_var_7_int, main::tmp_var_2_int, __bswap_64::__retval__, __uint64_identity::__retval__, __bswap_32::__retval__, main::myvar0, main::tmp_var_11_int, main::dummy, __uint16_identity::__x, main::var7, main::var6, __bswap_32::__CPAchecker_TMP_0, main::var9, __bswap_64::__bsx, main::var8, main::tmp_var_4_int, __uint64_identity::__x, main::var10, main::var3, main::var_for_abs, main::var2, main::var5, main::tmp_var_8_int, main::var4, __bswap_16::__retval__, __uint16_identity::__retval__, main::var1, main::var0]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond, main::myvar0, main::tmp_var_10_int, main::tmp_var_11_int, main::tmp_var_2_int, main::tmp_var_3_int, main::tmp_var_4_int, main::tmp_var_5_int, main::tmp_var_6_int, main::tmp_var_7_int, main::tmp_var_8_int, main::tmp_var_9_int, main::uVar1] --> [0, 6, 31],
+[main::var_for_abs] --> [],
+[main::var10] --> [],
+[main::var9] --> [],
+[main::var8] --> [],
+[main::var7] --> [],
+[main::var6] --> [],
+[main::var5] --> [],
+[main::var4] --> [],
+[main::var3] --> [],
+[main::var2] --> [],
+[main::var1] --> [],
+[main::var0] --> [],
+[main::tmp_var_1_int] --> [],
+[main::dummy] --> [],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[main::tmp_var_3_int, main::uVar1, main::tmp_var_5_int, main::tmp_var_7_int, main::tmp_var_2_int, main::myvar0, main::tmp_var_11_int, assume::cond, main::tmp_var_10_int, main::tmp_var_9_int, main::tmp_var_6_int, main::tmp_var_4_int, main::tmp_var_8_int]
+
+RELEVANT FIELDS
+
+{}

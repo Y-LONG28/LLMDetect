@@ -1,0 +1,80 @@
+line 14:	N38 -{int local_20;}-> N39
+	local_20 == 6;
+line 21:	N44 -{expr_tmp_var_20_uint = 10;}-> N45
+	expr_tmp_var_20_uint == 10U;
+line 22:	N45 -{n = 0;}-> N46
+	n == 0;
+line 24:	N46 -{[local_20 != 2147483647]}-> N48
+	local_20 == 6;
+lines 25-30:	N49 -{sn = 1;}-> N50
+	sn == 1;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 1;
+	local_20 == 6;
+line 26:	N52 -{[sn < ((int)expr_tmp_var_20_uint)]}-> N55
+	sn == 1;
+line 27:	N55 -{n = n + 2;}-> N56
+	n == 2;
+line 29:	N54 -{expr_tmp_var_20_uint = expr_tmp_var_20_uint - 1;}-> N57
+	expr_tmp_var_20_uint == 9U;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 2;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 2;
+	local_20 == 6;
+line 26:	N52 -{[sn < ((int)expr_tmp_var_20_uint)]}-> N55
+	sn == 2;
+line 27:	N55 -{n = n + 2;}-> N56
+	n == 4;
+line 29:	N54 -{expr_tmp_var_20_uint = expr_tmp_var_20_uint - 1;}-> N57
+	expr_tmp_var_20_uint == 8U;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 3;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 3;
+	local_20 == 6;
+line 26:	N52 -{[sn < ((int)expr_tmp_var_20_uint)]}-> N55
+	sn == 3;
+line 27:	N55 -{n = n + 2;}-> N56
+	n == 6;
+line 29:	N54 -{expr_tmp_var_20_uint = expr_tmp_var_20_uint - 1;}-> N57
+	expr_tmp_var_20_uint == 7U;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 4;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 4;
+	local_20 == 6;
+line 26:	N52 -{[sn < ((int)expr_tmp_var_20_uint)]}-> N55
+	sn == 4;
+line 27:	N55 -{n = n + 2;}-> N56
+	n == 8;
+line 29:	N54 -{expr_tmp_var_20_uint = expr_tmp_var_20_uint - 1;}-> N57
+	expr_tmp_var_20_uint == 6U;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 5;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 5;
+	local_20 == 6;
+line 26:	N52 -{[sn < ((int)expr_tmp_var_20_uint)]}-> N55
+	sn == 5;
+line 27:	N55 -{n = n + 2;}-> N56
+	n == 10;
+line 29:	N54 -{expr_tmp_var_20_uint = expr_tmp_var_20_uint - 1;}-> N57
+	expr_tmp_var_20_uint == 5U;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 6;
+line 25:	N50 -{[sn <= local_20]}-> N52
+	sn == 6;
+	local_20 == 6;
+line 26:	N52 -{[!(sn < ((int)expr_tmp_var_20_uint))]}-> N54
+	expr_tmp_var_20_uint == 4U;
+	sn == 6;
+lines 25-30:	N51 -{sn = sn + 1;}-> N50
+	sn == 7;
+line 25:	N50 -{[!(sn <= local_20)]}-> N53
+	sn == 7;
+	local_20 == 6;
+line 31:	N53 -{[((long)n) != (((long)local_20) << 1)]}-> N60
+line 31:	N60 -{[n != 0]}-> N59
+	n == 10;
+line 32:	N69 -{__assert_fail("0 && \"Assertion failed: sn==((long long) n)*a || sn == 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum01_bug02_process_dc_iter1.c", 32, "__PRETTY_FUNCTION__");}-> N372

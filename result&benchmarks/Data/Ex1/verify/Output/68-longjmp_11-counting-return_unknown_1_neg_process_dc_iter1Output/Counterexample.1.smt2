@@ -1,0 +1,5 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun __string__ (Int) (_ BitVec 32))
+(declare-fun __ADDRESS_OF_my_jump_buffer@ () (_ BitVec 32))
+(declare-fun |main::count_00@3| () (_ BitVec 32))
+(assert (let ((.def_35 (__string__ 1)))(let ((.def_36 (= .def_35 (_ bv0 32))))(let ((.def_37 (not .def_36)))(let ((.def_29 (__string__ 0)))(let ((.def_30 (= .def_29 (_ bv0 32))))(let ((.def_31 (not .def_30)))(let ((.def_48 (and .def_31 .def_37)))(let ((.def_42 (__string__ 2)))(let ((.def_43 (= .def_42 (_ bv0 32))))(let ((.def_44 (not .def_43)))(let ((.def_49 (and .def_44 .def_48)))(let ((.def_21 (= |main::count_00@3| (_ bv0 32))))(let ((.def_13 (bvurem __ADDRESS_OF_my_jump_buffer@ (_ bv4 32))))(let ((.def_14 (= .def_13 (_ bv0 32))))(let ((.def_11 (bvslt (_ bv0 32) __ADDRESS_OF_my_jump_buffer@)))(let ((.def_18 (and .def_11 .def_14)))(let ((.def_16 (bvadd (_ bv164 32) __ADDRESS_OF_my_jump_buffer@)))(let ((.def_17 (bvslt (_ bv0 32) .def_16)))(let ((.def_19 (and .def_17 .def_18)))(let ((.def_22 (and .def_19 .def_21)))(let ((.def_25 (and .def_21 .def_22)))(let ((.def_50 (and .def_25 .def_49))).def_50)))))))))))))))))))))))

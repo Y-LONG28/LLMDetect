@@ -1,0 +1,16 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::expr_tmp_var_61_uchar| () (_ BitVec 8))
+(declare-fun |main::expr_tmp_var_60_uchar| () (_ BitVec 8))
+(declare-fun |main::bVar1| () (_ BitVec 8))
+
+main:
+(assert (let ((.def_145 ((_ zero_extend 24) |main::expr_tmp_var_60_uchar|)))(let ((.def_143 ((_ zero_extend 24) |main::expr_tmp_var_61_uchar|)))(let ((.def_146 (= .def_143 .def_145))).def_146))))
+
+main N52:
+(assert (let ((.def_177 (= |main::bVar1| (_ bv0 8)))).def_177))
+(assert (let ((.def_145 ((_ zero_extend 24) |main::expr_tmp_var_60_uchar|)))(let ((.def_143 ((_ zero_extend 24) |main::expr_tmp_var_61_uchar|)))(let ((.def_146 (= .def_143 .def_145))).def_146))))
+
+main N394:
+(assert false)
+(assert (let ((.def_145 ((_ zero_extend 24) |main::expr_tmp_var_60_uchar|)))(let ((.def_143 ((_ zero_extend 24) |main::expr_tmp_var_61_uchar|)))(let ((.def_146 (= .def_143 .def_145))).def_146))))
+

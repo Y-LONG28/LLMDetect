@@ -1,0 +1,60 @@
+line 27:	N50 -{int iVar1;}-> N51
+line 32:	N54 -{sum(10, 0)}-> N31
+	n == 10;
+	m == 0;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 10;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 9;
+	m == 1;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 9;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 8;
+	m == 2;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 8;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 7;
+	m == 3;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 7;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 6;
+	m == 4;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 6;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 5;
+	m == 5;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 5;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 4;
+	m == 6;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 4;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 3;
+	m == 7;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 3;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 2;
+	m == 8;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 2;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 1;
+	m == 9;
+line 10:	N35 -{[!(n < 1)]}-> N38
+	n == 1;
+line 13:	N38 -{sum(n - 1, m + 1)}-> N31
+	n == 0;
+	m == 10;
+line 10:	N35 -{[n < 1]}-> N37
+	iVar1 == 10;
+	n == 0;
+line 33:	N55 -{[iVar1 == 10]}-> N57
+	iVar1 == 10;
+line 34:	N66 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 10\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_10x0-2_process_dc_iter1.c", 34, "__PRETTY_FUNCTION__");}-> N346

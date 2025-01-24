@@ -1,0 +1,24 @@
+line 31:	N60 -{int local_28;}-> N61
+line 32:	N61 -{int tmp_var_1_int;}-> N62
+line 37:	N65 -{count = 1U;}-> N66
+	count == 1U;
+line 38:	N66 -{x = 1.0;}-> N67
+	x == 1.0;
+line 39:	N67 -{result = 1.40129846432481707092372958328991613128026194187651577175706828388979108268586060148663818836212158203125E-45;}-> N68
+	result == 1.401298464324817E-45;
+line 40:	N68 -{fVar1 = 1.0 / (1.0 - ((float)tmp_var_1_int));}-> N69
+	_LC0 == 1.0;
+	result == 1.401298464324817E-45;
+	x == 1.0;
+	count == 1U;
+line 42:	N73 -{x = x * (((float)tmp_var_1_int) / ((float)((uint )result)));}-> N74
+line 43:	N74 -{count = (uint )(((float)count) + x);}-> N75
+	result == 1.0;
+none:	N76 -{}-> N70
+lines 41-45:	N70 -{[!(local_28 != 0)]}-> N72
+	local_28 == 0;
+line 46:	N72 -{[(fVar1 + fVar1) < ((float)count)]}-> N78
+line 47:	N78 -{__assert_func("/home/zyl/biVerify/CPA_DATA2/C/F/process/realOutput/loop1-2_process.c", 34, "main", "result >= exp")}-> N37
+	__CPAchecker_TMP_2 == 0;
+	line == 34;
+line 18:	N50 -{__assert_fail("0 && msg", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/loop1-2_process_dc_iter2.c", 18, "__PRETTY_FUNCTION__");}-> N381

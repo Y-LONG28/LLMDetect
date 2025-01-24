@@ -1,0 +1,48 @@
+IntBool
+
+[main::__CPAchecker_TMP_3, main::tmp_var_1_short, main::k, __bswap_32::__bsx, main::y, __bswap_64::__bsx, main::__retval__, main::__CPAchecker_TMP_9, __bswap_16::__bsx, main::__CPAchecker_TMP_6]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, counter]
+
+IntOverflow
+
+[assume::cond, main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, main::x, main::lStack_28, main::local_2a, counter, main::c]
+
+ALL
+
+[main::iVar2, __bswap_32::__bsx, main::lStack_28, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::c, assume::cond, main::__CPAchecker_TMP_3, main::__CPAchecker_TMP_0, main::k, main::x, __bswap_64::__CPAchecker_TMP_0, main::local_2a, main::__CPAchecker_TMP_9, main::__CPAchecker_TMP_6, __bswap_16::__CPAchecker_TMP_0, main::bVar1, main::y, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, counter, __uint16_identity::__x, main::tmp_var_1_short, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond, main::c, main::lStack_28, main::local_2a, main::x] --> [-5, -2, 0, 1, 3, 12, 257],
+[counter, main::__CPAchecker_TMP_0, main::bVar1, main::iVar2] --> [0, 1],
+[main::k] --> [],
+[main::tmp_var_1_short] --> [],
+[main::y] --> [],
+[main::__CPAchecker_TMP_3] --> [0],
+[main::__CPAchecker_TMP_6] --> [0],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_9] --> [0]]
+
+RELEVANT VARS
+
+[assume::cond, main::iVar2, main::__CPAchecker_TMP_0, main::bVar1, main::x, main::local_2a, main::lStack_28, counter, main::c]
+
+RELEVANT FIELDS
+
+{}

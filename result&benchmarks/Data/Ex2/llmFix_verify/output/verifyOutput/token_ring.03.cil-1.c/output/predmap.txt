@@ -1,0 +1,44 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun local () (_ BitVec 32))
+(declare-fun token () (_ BitVec 32))
+(declare-fun |master::tmp_var| () (_ BitVec 32))
+(declare-fun m_pc () (_ BitVec 32))
+(declare-fun t1_pc () (_ BitVec 32))
+(declare-fun t2_pc () (_ BitVec 32))
+(declare-fun t3_pc () (_ BitVec 32))
+(declare-fun m_st () (_ BitVec 32))
+
+*:
+(assert (let ((.def_524 (bvadd (_ bv3 32) local)))(let ((.def_526 (= .def_524 token))).def_526)))
+
+master:
+(assert (let ((.def_514 (= |master::tmp_var| (_ bv5 32)))).def_514))
+(assert (let ((.def_524 (bvadd (_ bv3 32) local)))(let ((.def_526 (= .def_524 token))).def_526)))
+
+error N41:
+(assert false)
+(assert (let ((.def_524 (bvadd (_ bv3 32) local)))(let ((.def_526 (= .def_524 token))).def_526)))
+
+eval N247:
+(assert (let ((.def_541 (= m_pc (_ bv0 32)))).def_541))
+(assert (let ((.def_543 (= m_pc (_ bv1 32)))).def_543))
+(assert (let ((.def_524 (bvadd (_ bv3 32) local)))(let ((.def_526 (= .def_524 token))).def_526)))
+(assert (let ((.def_1907 (= t1_pc (_ bv0 32)))).def_1907))
+(assert (let ((.def_1910 (= t2_pc (_ bv0 32)))).def_1910))
+(assert (let ((.def_1913 (= t3_pc (_ bv0 32)))).def_1913))
+(assert (let ((.def_1915 (= t1_pc (_ bv1 32)))).def_1915))
+(assert (let ((.def_1917 (= t2_pc (_ bv1 32)))).def_1917))
+(assert (let ((.def_1919 (= t3_pc (_ bv1 32)))).def_1919))
+(assert (let ((.def_1922 (= m_st (_ bv0 32)))).def_1922))
+
+start_simulation N479:
+(assert (let ((.def_541 (= m_pc (_ bv0 32)))).def_541))
+(assert (let ((.def_543 (= m_pc (_ bv1 32)))).def_543))
+(assert (let ((.def_524 (bvadd (_ bv3 32) local)))(let ((.def_526 (= .def_524 token))).def_526)))
+(assert (let ((.def_1907 (= t1_pc (_ bv0 32)))).def_1907))
+(assert (let ((.def_1910 (= t2_pc (_ bv0 32)))).def_1910))
+(assert (let ((.def_1913 (= t3_pc (_ bv0 32)))).def_1913))
+(assert (let ((.def_1915 (= t1_pc (_ bv1 32)))).def_1915))
+(assert (let ((.def_1917 (= t2_pc (_ bv1 32)))).def_1917))
+(assert (let ((.def_1919 (= t3_pc (_ bv1 32)))).def_1919))
+

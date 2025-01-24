@@ -1,0 +1,1619 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "1b66f3b3-d353-3a0d-9b9e-092cb94fe7cd"
+    creation_time: "2025-01-24T02:31:51+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+      - "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c: "c917a7067e123fda78eae0f0cb3a9b52856a0cc9af2087f440a224c07dd0e944"
+        /home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c: "b8612d0058f9fb0e6e9f818b17d143de5d149e68856b8859786c54540b0edfb6"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2882
+          column: 3
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2588
+          column: 3
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2153
+          column: 3
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2588
+          column: 3
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2591
+          column: 5
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2153
+          column: 3
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2156
+          column: 5
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2588
+          column: 3
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2591
+          column: 5
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2594
+          column: 7
+          function: "setClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2153
+          column: 3
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2156
+          column: 5
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2159
+          column: 7
+          function: "setClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 149
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 155
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___9 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 159
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 159
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2176
+          column: 3
+          function: "getClientKeyringSize"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2227
+          column: 3
+          function: "createClientKeyringEntry"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2200
+          column: 3
+          function: "setClientKeyringSize"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2308
+          column: 3
+          function: "setClientKeyringUser"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2309
+          column: 5
+          function: "setClientKeyringUser"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2469
+          column: 3
+          function: "setClientKeyringPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2470
+          column: 5
+          function: "setClientKeyringPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2254
+          column: 3
+          function: "getClientKeyringUser"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2255
+          column: 5
+          function: "getClientKeyringUser"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2361
+          column: 3
+          function: "getClientKeyringPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2362
+          column: 5
+          function: "getClientKeyringPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 149
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 155
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 169
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___8 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 173
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 173
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 183
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___7 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 187
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 187
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 197
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___6 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 201
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 201
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 211
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___5 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 215
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 215
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 225
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___4 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 229
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 229
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 236
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___3 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 240
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 240
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 250
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___2 == 2)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 254
+          column: 21
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 254
+          column: 21
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1697
+          column: 3
+          function: "setClientAddressBookSize"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1889
+          column: 3
+          function: "setClientAddressBookAlias"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1890
+          column: 5
+          function: "setClientAddressBookAlias"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2023
+          column: 3
+          function: "setClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2024
+          column: 5
+          function: "setClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2023
+          column: 3
+          function: "setClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2024
+          column: 5
+          function: "setClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2027
+          column: 7
+          function: "setClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 149
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 155
+          column: 5
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 169
+          column: 7
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___8 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 173
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 173
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 183
+          column: 9
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___7 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 187
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 187
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 197
+          column: 11
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___6 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 201
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 201
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 211
+          column: 13
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___5 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 215
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 215
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 225
+          column: 15
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___4 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 229
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 229
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 236
+          column: 17
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___3 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 240
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 240
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 250
+          column: 19
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 264
+          column: 21
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___1 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 268
+          column: 23
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 268
+          column: 23
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 278
+          column: 23
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp___0 == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 282
+          column: 25
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 282
+          column: 25
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 292
+          column: 25
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "assumption"
+        action: "follow"
+        constraint:
+          value: "(tmp == 0)"
+          format: "c_expression"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 296
+          column: 27
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 296
+          column: 27
+          function: "test"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 844
+          column: 3
+          function: "setEmailFrom"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 881
+          column: 3
+          function: "setEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2129
+          column: 3
+          function: "getClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1034
+          column: 3
+          function: "setEmailIsSigned"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1071
+          column: 3
+          function: "setEmailSignKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1673
+          column: 3
+          function: "getClientAddressBookSize"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 442
+          column: 3
+          function: "outgoing__wrappee__AddressBook"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 862
+          column: 3
+          function: "getEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1954
+          column: 3
+          function: "getClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1955
+          column: 5
+          function: "getClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1959
+          column: 7
+          function: "getClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 881
+          column: 3
+          function: "setEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 862
+          column: 3
+          function: "getEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2415
+          column: 3
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2416
+          column: 5
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2420
+          column: 7
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2564
+          column: 3
+          function: "getClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 844
+          column: 3
+          function: "setEmailFrom"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1130
+          column: 3
+          function: "__utac_acc__AddressBookEncrypt_spec__1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+          line: 8
+          column: 5
+          function: "isEncrypted"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 862
+          column: 3
+          function: "getEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2129
+          column: 3
+          function: "getClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2133
+          column: 5
+          function: "getClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2137
+          column: 7
+          function: "getClientPrivateKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 537
+          column: 3
+          function: "incoming"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+          line: 8
+          column: 5
+          function: "isEncrypted"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+          line: 8
+          column: 5
+          function: "isEncrypted"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2704
+          column: 3
+          function: "isReadable"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 722
+          column: 3
+          function: "verify"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1015
+          column: 3
+          function: "isSigned"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 726
+          column: 5
+          function: "verify"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 825
+          column: 3
+          function: "getEmailFrom"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2415
+          column: 3
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2429
+          column: 5
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2443
+          column: 7
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2444
+          column: 9
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2448
+          column: 11
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2082
+          column: 3
+          function: "getClientAutoResponse"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2086
+          column: 5
+          function: "getClientAutoResponse"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2090
+          column: 7
+          function: "getClientAutoResponse"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1954
+          column: 3
+          function: "getClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1955
+          column: 5
+          function: "getClientAddressBookAddress"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 881
+          column: 3
+          function: "setEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 862
+          column: 3
+          function: "getEmailTo"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2415
+          column: 3
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2416
+          column: 5
+          function: "findPublicKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 414
+          column: 3
+          function: "outgoing__wrappee__AutoResponder"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 997
+          column: 3
+          function: "setEmailEncryptionKey"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+          line: 20
+          column: 5
+          function: "setEmailIsEncrypted"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 2564
+          column: 3
+          function: "getClientId"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 844
+          column: 3
+          function: "setEmailFrom"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1130
+          column: 3
+          function: "__utac_acc__AddressBookEncrypt_spec__1"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/output/email_spec1_product32.cil_dc_fix.c"
+          line: 8
+          column: 5
+          function: "isEncrypted"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 1138
+          column: 5
+          function: "__utac_acc__AddressBookEncrypt_spec__1"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/hi/f/llmfix/src/email_spec1_product32.cil/email_spec1_product32.cil.c"
+          line: 3033
+          column: 3
+          function: "__automaton_fail"

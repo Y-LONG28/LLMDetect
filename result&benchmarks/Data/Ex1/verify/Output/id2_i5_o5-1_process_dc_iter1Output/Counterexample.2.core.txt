@@ -1,0 +1,34 @@
+line 39:	N62 -{int iVar1;}-> N63
+line 43:	N65 -{id(5)}-> N37
+	x == 5;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 5;
+line 19:	N43 -{id2(x - 1)}-> N49
+	x == 4;
+line 29:	N52 -{[!(x == 0)]}-> N55
+	x == 4;
+line 32:	N55 -{id(x - 1)}-> N37
+	x == 3;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 3;
+line 19:	N43 -{id2(x - 1)}-> N49
+	x == 2;
+line 29:	N52 -{[!(x == 0)]}-> N55
+	x == 2;
+line 32:	N55 -{id(x - 1)}-> N37
+	x == 1;
+line 16:	N40 -{[!(x == 0)]}-> N43
+	x == 1;
+line 19:	N43 -{id2(x - 1)}-> N49
+	x == 0;
+line 29:	N52 -{[x == 0]}-> N54
+	iVar1 == 5;
+	iVar1 == 4;
+	iVar1 == 3;
+	iVar1 == 2;
+	iVar1 == 1;
+	iVar1 == 0;
+	x == 0;
+line 44:	N66 -{[iVar1 == 5]}-> N68
+	iVar1 == 5;
+line 45:	N77 -{__assert_fail("0 && \"Assertion failed: iVar1 should not equal 5\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id2_i5_o5-1_process_dc_iter1.c", 45, "__PRETTY_FUNCTION__");}-> N358

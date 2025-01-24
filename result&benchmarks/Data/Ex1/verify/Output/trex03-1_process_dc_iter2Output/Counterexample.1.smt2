@@ -1,0 +1,8 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::expr_tmp_var_9_uint@2| () (_ BitVec 32))
+(declare-fun |main::x3@3| () (_ BitVec 32))
+(declare-fun |main::d1@2| () (_ BitVec 32))
+(declare-fun |main::uStack_18@3| () (_ BitVec 32))
+(declare-fun |main::d2@2| () (_ BitVec 32))
+(declare-fun |main::expr_tmp_var_7_uint@3| () (_ BitVec 32))
+(assert (let ((.def_22 (= |main::x3@3| (_ bv0 32))))(let ((.def_20 (= |main::d2@2| |main::expr_tmp_var_7_uint@3|)))(let ((.def_16 (= |main::d1@2| |main::uStack_18@3|)))(let ((.def_13 (= |main::expr_tmp_var_9_uint@2| |main::x3@3|)))(let ((.def_17 (and .def_13 .def_16)))(let ((.def_21 (and .def_17 .def_20)))(let ((.def_77 (and .def_21 .def_22)))(let ((.def_78 (and .def_22 .def_77)))(let ((.def_25 (= |main::uStack_18@3| (_ bv0 32))))(let ((.def_26 (not .def_25)))(let ((.def_79 (and .def_26 .def_78))).def_79))))))))))))

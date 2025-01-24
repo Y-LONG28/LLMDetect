@@ -1,0 +1,19 @@
+#include <stdbool.h>
+extern char st2;
+extern char nl2;
+extern char m2;
+extern char max2;
+extern char id2;
+extern char r2;
+extern char p32_old;
+extern char p21_new;
+extern bool mode2;
+extern bool ep21;
+extern bool ep32;
+extern bool ep12;
+extern char nomsg;
+extern bool newmax2;
+extern bool ep23;
+extern char p23_new;
+extern char p12_old;
+void node2(void) ;

@@ -1,0 +1,11 @@
+line 26:	N44 -{int local_14;}-> N45
+	local_14 == -2147483648U;
+line 31:	N48 -{x = local_14;}-> N49
+	x == -2147483648U;
+	local_14 == -2147483648U;
+line 32:	N49 -{while}-> N50
+line 32:	N50 -{[!(0 < x)]}-> N52
+	x == -2147483648U;
+line 39:	N52 -{[x != 0]}-> N59
+	x == -2147483648U;
+line 40:	N68 -{__assert_fail("0 && \"Assertion failed: x should be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/trex02-2_process_dc_iter1.c", 40, "__PRETTY_FUNCTION__");}-> N349

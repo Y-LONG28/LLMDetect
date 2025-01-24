@@ -1,0 +1,40 @@
+line 68:	N70 -{int iVar1;}-> N71
+line 70:	N72 -{dummy *s1;}-> N73
+line 71:	N73 -{dummy *s2;}-> N74
+line 72:	N74 -{uint32_t extraout_var;}-> N75
+line 76:	N77 -{init(in_a0)}-> N31
+	(d2.b) == 6;
+	(d2.a) == 5;
+	(d1.b) == 3;
+	(d1.a) == 2;
+	local_20 == 6U;
+	local_1c == 5U;
+	expr_tmp_var_33_int == 3;
+	expr_tmp_var_32_int == 2;
+line 77:	N78 -{get_dummy()}-> N45
+line 43:	N47 -{uint8_t local_11;}-> N48
+	local_11 == 0U;
+line 46:	N49 -{[local_11 == '\x0']}-> N51
+	lVar1 == 312L;
+	local_11 == 0U;
+line 78:	N79 -{get_dummy()}-> N45
+	lVar1 == 312L;
+line 43:	N47 -{uint8_t local_11;}-> N48
+	local_11 == 0U;
+line 46:	N49 -{[local_11 == '\x0']}-> N51
+	lVar1 == 312L;
+	local_11 == 0U;
+line 79:	N80 -{[!(s1 == ((dummy *)0))]}-> N85
+	s1 == 1048888LL;
+line 79:	N85 -{[!(s1 != s2)]}-> N84
+	s1 == 1048888LL;
+	s2 == 1048888LL;
+line 80:	N86 -{check(s1, s2)}-> N57
+	s1 == 1048888LL;
+	s2 == 1048888LL;
+line 80:	N87 -{__CPAchecker_TMP_0 = ((((uint64_t )extraout_var) << 32) | iVar1) != 0;}-> N88
+	__CPAchecker_TMP_0 == 0UL;
+lines 79-80:	N88 -{[__CPAchecker_TMP_0 == 0]}-> N83
+	iVar1 == 1048576;
+	__CPAchecker_TMP_0 == 0UL;
+line 84:	N99 -{__assert_fail("0 && \"Assertion failed: main\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test21-2_process_dc_iter1.c", 84, "__PRETTY_FUNCTION__");}-> N411

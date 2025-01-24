@@ -1,0 +1,15 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::n| () (_ BitVec 32))
+(declare-fun |main::tmp_var_1_int| () (_ BitVec 32))
+
+main:
+(assert (let ((.def_60 (= |main::n| (_ bv0 32)))).def_60))
+
+main N50:
+(assert (let ((.def_97 (= |main::tmp_var_1_int| (_ bv0 32)))).def_97))
+(assert (let ((.def_60 (= |main::n| (_ bv0 32)))).def_60))
+
+main N377:
+(assert false)
+(assert (let ((.def_60 (= |main::n| (_ bv0 32)))).def_60))
+

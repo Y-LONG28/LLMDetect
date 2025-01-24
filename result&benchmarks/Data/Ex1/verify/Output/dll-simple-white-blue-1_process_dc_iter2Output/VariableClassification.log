@@ -1,0 +1,54 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_2, main::local_28, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, main::expr_tmp_var_29_int]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[main::current->next, main::pTVar2->prev, __bswap_32::__bsx, main::current, main::current->next->prev, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::x->prev, main::pTVar2, main::x->next, main::pTVar3, assume::cond, main::__CPAchecker_TMP_2, main::y->data, main::x, __bswap_64::__CPAchecker_TMP_0, main::pTVar3->next, main::pTVar3->prev, __bswap_16::__CPAchecker_TMP_0, main::y, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, main::pTVar3->data, __uint16_identity::__x, main::x->data, main::local_28, __bswap_32::__CPAchecker_TMP_0, main::pSVar1->data, main::pSVar1->next, __bswap_64::__bsx, main::pSVar1->prev, __uint64_identity::__x, main::current->data, __bswap_16::__retval__, __uint16_identity::__retval__, main::expr_tmp_var_29_int, main::pSVar1]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::current, main::current->next, main::current->next->prev, main::pSVar1, main::pSVar1->next, main::pTVar2, main::pTVar2->prev, main::pTVar3, main::pTVar3->next, main::pTVar3->prev, main::x] --> [0],
+[main::y] --> [],
+[main::local_28] --> [0],
+[main::expr_tmp_var_29_int] --> [0],
+[main::x->next] --> [0],
+[main::x->prev] --> [0],
+[main::x->data] --> [0],
+[main::current->data] --> [0, 1],
+[main::y->data] --> [0],
+[main::pTVar3->data] --> [1],
+[main::pSVar1->data] --> [1],
+[main::pSVar1->prev] --> [0],
+[main::__CPAchecker_TMP_2] --> [0],
+[main::__retval__] --> [0]]
+
+RELEVANT VARS
+
+[assume::cond, main::local_28, main::current, main::y, main::x, main::expr_tmp_var_29_int, main::pTVar2, main::pSVar1, main::pTVar3]
+
+RELEVANT FIELDS
+
+{struct SLL=[data, next]}

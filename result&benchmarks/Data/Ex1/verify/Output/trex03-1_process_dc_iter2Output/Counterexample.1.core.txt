@@ -1,0 +1,21 @@
+line 17:	N43 -{uint d1;}-> N44
+	d1 == 2U;
+line 18:	N44 -{uint expr_tmp_var_9_uint;}-> N45
+	expr_tmp_var_9_uint == 0U;
+line 23:	N48 -{x3 = expr_tmp_var_9_uint;}-> N49
+	x3 == 0U;
+line 24:	N49 -{uStack_18 = d1;}-> N50
+	d2 == 1U;
+	d1 == 2U;
+	expr_tmp_var_9_uint == 0U;
+	expr_tmp_var_7_uint == 1U;
+	uStack_18 == 2U;
+	x3 == 0U;
+line 27:	N51 -{while}-> N52
+line 27:	N52 -{[!(x3 != 0)]}-> N54
+	x3 == 0U;
+line 41:	N54 -{[!(x3 != 0)]}-> N71
+	x3 == 0U;
+line 41:	N71 -{[uStack_18 != 0]}-> N69
+	uStack_18 == 2U;
+line 42:	N80 -{__assert_fail("0 && \"x1==0 && x2==0 && x3==0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/trex03-1_process_dc_iter2.c", 42, "__PRETTY_FUNCTION__");}-> N383

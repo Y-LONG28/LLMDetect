@@ -1,0 +1,13 @@
+line 25:	N70 -{f(4)}-> N31
+	n == 4;
+line 8:	N33 -{[2 < n]}-> N35
+	n == 4;
+line 9:	N35 -{f2(n - 1)}-> N50
+	n == 3;
+line 17:	N52 -{[2 < n]}-> N54
+	n == 3;
+line 18:	N54 -{f(n - 1)}-> N31
+	n == 2;
+line 8:	N33 -{[!(2 < n)]}-> N34
+	n == 2;
+line 19:	N64 -{__assert_fail("0 && \"Assertion failed in f2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c", 19, "__PRETTY_FUNCTION__");}-> N349

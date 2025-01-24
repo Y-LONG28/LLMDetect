@@ -1,0 +1,58 @@
+IntBool
+
+[assume::cond, __bswap_32::__bsx, optind, __bswap_64::__bsx, opterr, main::__retval__, optopt, l_open::flags, __bswap_16::__bsx]
+
+IntEq
+
+[globalState, __assert_func::line]
+
+IntAdd
+
+[main::fd, l_open::iVar1, read::__fd, l_read::fd, l_open::__retval__]
+
+IntOverflow
+
+[__assert_func::func, l_open::file, __assert_func::file, __assert_func::msg]
+
+ALL
+
+[globalState, malloc::__size, read::__buf, main::fd, __bswap_32::__bsx, optind, l_open::iVar1, __assert_func::line, main::cbuf_00, optarg, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, l_open::__retval__, l_open::file, __assert_func::file, __assert_func::msg, assume::cond, malloc::__retval__, l_read::sVar1, l_read::count, opterr, l_read::fd, __bswap_64::__CPAchecker_TMP_0, l_open::flags, read::__retval__, read::__nbytes, __bswap_16::__CPAchecker_TMP_0, l_read::cbuf, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, optopt, __bswap_32::__retval__, l_read::__retval__, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __assert_func::func, __bswap_64::__bsx, __uint64_identity::__x, read::__fd, __environ, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__assert_func::file] --> [],
+[__assert_func::line] --> [9],
+[__assert_func::func] --> [],
+[__assert_func::msg] --> [],
+[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[l_open::__retval__, l_open::iVar1, l_read::fd, main::fd, read::__fd] --> [0],
+[l_open::file] --> [],
+[l_open::flags] --> [0],
+[globalState] --> [0, 1],
+[l_read::__retval__, l_read::sVar1, read::__retval__] --> [-1],
+[l_read::cbuf, main::cbuf_00, malloc::__retval__, read::__buf] --> [0],
+[l_read::count, read::__nbytes] --> [99],
+[malloc::__size] --> [100],
+[main::__retval__] --> [0],
+[__environ] --> [],
+[optarg] --> [],
+[optind] --> [],
+[opterr] --> [],
+[optopt] --> []]
+
+RELEVANT VARS
+
+[globalState, assume::cond, l_open::flags, l_open::file, l_open::iVar1]
+
+RELEVANT FIELDS
+
+{}

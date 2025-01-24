@@ -1,0 +1,120 @@
+IntBool
+
+[eval1::tmp, eval2::tmp_ndt_7, eval2::tmp_ndt_8, eval2::tmp_ndt_9, eval2::tmp_ndt_3, eval2::tmp_ndt_4, eval2::tmp_ndt_5, q_ev, eval2::tmp_ndt_6, eval2::tmp_ndt_1, main2::__retres1, eval2::tmp_ndt_2, main1::__retval__, main2::__retval__, main::__CPAchecker_TMP_0, eval1::tmp___0, main1::__retres1]
+
+IntEq
+
+[activate_threads2::tmp___7, is_transmit4_triggered::__retval__, T4_E, activate_threads2::tmp___5, t6_st, activate_threads2::tmp___6, q_read_ev, activate_threads2::tmp___0, stop_simulation2::__retres2, activate_threads2::tmp___3, c_dr_st, activate_threads2::tmp___4, T8_E, c_dr_i, activate_threads2::tmp___1, activate_threads2::tmp___2, t7_pc, is_transmit3_triggered::__retval__, eval2::tmp, m_i, stop_simulation1::__retval__, stop_simulation2::__retval__, t3_st, t8_i, p_dw_pc, t4_i, start_simulation1::kernel_st, is_do_write_p_triggered::__retval__, is_transmit6_triggered::__retval__, activate_threads1::tmp___0, immediate_notify_threads::tmp, t4_pc, exists_runnable_thread1::__retres1, is_transmit5_triggered::__retval__, is_do_read_c_triggered::__retres1, m_pc, m_st, t8_st, T3_E, q_free, start_simulation2::tmp, src_pc_sfifo_2_cil_1_token_ring_08_cil_2_pc_sfifo_2_cil_1_token_ring_08_cil_2_ca_t, exists_runnable_thread1::__retval__, exists_runnable_thread2::__retval__, q_req_up, q_buf_0, T7_E, t1_pc, is_transmit7_triggered::__retval__, t7_i, do_read_c::a, t3_i, is_transmit2_triggered::__retval__, is_master_triggered::__retval__, t5_st, start_simulation2::tmp___0, activate_threads2::tmp, t6_pc, immediate_notify_threads::tmp___0, p_dw_st, c_last_read, t2_st, T2_E, t3_pc, stop_simulation2::tmp, T6_E, is_transmit5_triggered::__retres1, is_transmit4_triggered::__retres1, t6_i, eval1::tmp___1, t2_i, t7_st, stop_simulation1::tmp, is_transmit6_triggered::__retres1, p_dw_i, start_simulation1::tmp, c_dr_pc, t8_pc, is_transmit3_triggered::__retres1, E_1, E_3, E_2, E_5, t4_st, E_4, E_7, E_6, exists_runnable_thread2::__retres1, E_8, T5_E, T1_E, is_transmit8_triggered::__retval__, t5_pc, start_simulation2::kernel_st, is_master_triggered::__retres1, activate_threads1::tmp, M_E, E_M, t1_i, is_transmit7_triggered::__retres1, t1_st, is_transmit2_triggered::__retres1, q_write_ev, t5_i, is_transmit1_triggered::__retres1, t2_pc, is_transmit8_triggered::__retres1, is_do_read_c_triggered::__retval__, is_do_write_p_triggered::__retres1, is_transmit1_triggered::__retval__, p_last_write, stop_simulation1::__retres2]
+
+IntAdd
+
+[p_num_write, master::tmp_var, c_num_read, local, token]
+
+IntOverflow
+
+[p_num_write, c_num_read, local, token]
+
+ALL
+
+[activate_threads2::tmp___7, is_transmit4_triggered::__retval__, eval1::tmp, T4_E, activate_threads2::tmp___5, t6_st, activate_threads2::tmp___6, q_read_ev, activate_threads2::tmp___0, stop_simulation2::__retres2, q_ev, activate_threads2::tmp___3, c_dr_st, activate_threads2::tmp___4, T8_E, c_dr_i, activate_threads2::tmp___1, activate_threads2::tmp___2, main1::__retval__, t7_pc, main2::__retval__, is_transmit3_triggered::__retval__, eval2::tmp, m_i, stop_simulation1::__retval__, stop_simulation2::__retval__, t3_st, t8_i, p_dw_pc, t4_i, start_simulation1::kernel_st, is_do_write_p_triggered::__retval__, is_transmit6_triggered::__retval__, activate_threads1::tmp___0, immediate_notify_threads::tmp, t4_pc, exists_runnable_thread1::__retres1, is_transmit5_triggered::__retval__, is_do_read_c_triggered::__retres1, m_pc, c_num_read, m_st, t8_st, T3_E, q_free, start_simulation2::tmp, src_pc_sfifo_2_cil_1_token_ring_08_cil_2_pc_sfifo_2_cil_1_token_ring_08_cil_2_ca_t, exists_runnable_thread1::__retval__, exists_runnable_thread2::__retval__, q_req_up, q_buf_0, T7_E, local, t1_pc, main2::__retres1, p_num_write, is_transmit7_triggered::__retval__, t7_i, do_read_c::a, t3_i, is_transmit2_triggered::__retval__, is_master_triggered::__retval__, t5_st, eval2::tmp_ndt_7, start_simulation2::tmp___0, activate_threads2::tmp, eval2::tmp_ndt_8, eval2::tmp_ndt_9, eval2::tmp_ndt_3, eval2::tmp_ndt_4, eval2::tmp_ndt_5, eval2::tmp_ndt_6, t6_pc, eval2::tmp_ndt_1, eval2::tmp_ndt_2, immediate_notify_threads::tmp___0, token, p_dw_st, c_last_read, master::tmp_var, t2_st, T2_E, t3_pc, stop_simulation2::tmp, T6_E, is_transmit5_triggered::__retres1, is_transmit4_triggered::__retres1, main::__CPAchecker_TMP_0, t6_i, eval1::tmp___1, eval1::tmp___0, t2_i, main1::__retres1, t7_st, stop_simulation1::tmp, is_transmit6_triggered::__retres1, p_dw_i, start_simulation1::tmp, c_dr_pc, t8_pc, is_transmit3_triggered::__retres1, E_1, E_3, E_2, E_5, t4_st, E_4, E_7, E_6, exists_runnable_thread2::__retres1, E_8, T5_E, T1_E, is_transmit8_triggered::__retval__, t5_pc, start_simulation2::kernel_st, is_master_triggered::__retres1, activate_threads1::tmp, M_E, E_M, t1_i, is_transmit7_triggered::__retres1, t1_st, is_transmit2_triggered::__retres1, q_write_ev, t5_i, is_transmit1_triggered::__retres1, t2_pc, is_transmit8_triggered::__retres1, is_do_read_c_triggered::__retval__, is_do_write_p_triggered::__retres1, is_transmit1_triggered::__retval__, p_last_write, stop_simulation1::__retres2]
+
+DEPENDENCIES
+
+[[activate_threads1::tmp, immediate_notify_threads::tmp, is_do_write_p_triggered::__retres1, is_do_write_p_triggered::__retval__] --> [0, 1],
+[activate_threads1::tmp___0, immediate_notify_threads::tmp___0, is_do_read_c_triggered::__retres1, is_do_read_c_triggered::__retval__] --> [0, 1],
+[p_dw_st] --> [0, 1, 2],
+[c_dr_st] --> [0, 1, 2],
+[activate_threads2::tmp, is_master_triggered::__retres1, is_master_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___0, is_transmit1_triggered::__retres1, is_transmit1_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___1, is_transmit2_triggered::__retres1, is_transmit2_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___2, is_transmit3_triggered::__retres1, is_transmit3_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___3, is_transmit4_triggered::__retres1, is_transmit4_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___4, is_transmit5_triggered::__retres1, is_transmit5_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___5, is_transmit6_triggered::__retres1, is_transmit6_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___6, is_transmit7_triggered::__retres1, is_transmit7_triggered::__retval__] --> [0, 1],
+[activate_threads2::tmp___7, is_transmit8_triggered::__retres1, is_transmit8_triggered::__retval__] --> [0, 1],
+[m_st] --> [0, 1, 2],
+[t1_st] --> [0, 1, 2],
+[t2_st] --> [0, 1, 2],
+[t3_st] --> [0, 1, 2],
+[t4_st] --> [0, 1, 2],
+[t5_st] --> [0, 1, 2],
+[t6_st] --> [0, 1, 2],
+[t7_st] --> [0, 1, 2],
+[t8_st] --> [0, 1, 2],
+[c_last_read, do_read_c::a, p_last_write, q_buf_0, src_pc_sfifo_2_cil_1_token_ring_08_cil_2_pc_sfifo_2_cil_1_token_ring_08_cil_2_ca_t] --> [0],
+[c_dr_pc] --> [0, 1],
+[q_free] --> [0, 1],
+[c_num_read, p_num_write] --> [0, 1],
+[q_req_up] --> [0, 1],
+[p_dw_pc] --> [0, 1],
+[eval1::tmp] --> [0],
+[eval1::tmp___0] --> [0],
+[eval1::tmp___1, exists_runnable_thread1::__retres1, exists_runnable_thread1::__retval__, stop_simulation1::tmp] --> [0, 1],
+[eval2::tmp, exists_runnable_thread2::__retres1, exists_runnable_thread2::__retval__, start_simulation2::tmp, stop_simulation2::tmp] --> [0, 1],
+[eval2::tmp_ndt_1] --> [0],
+[eval2::tmp_ndt_2] --> [0],
+[eval2::tmp_ndt_3] --> [0],
+[eval2::tmp_ndt_4] --> [0],
+[eval2::tmp_ndt_5] --> [0],
+[eval2::tmp_ndt_6] --> [0],
+[eval2::tmp_ndt_7] --> [0],
+[eval2::tmp_ndt_8] --> [0],
+[eval2::tmp_ndt_9] --> [0],
+[q_read_ev, q_write_ev] --> [0, 1, 2],
+[M_E] --> [0, 1, 2],
+[T1_E] --> [0, 1, 2],
+[T2_E] --> [0, 1, 2],
+[T3_E] --> [0, 1, 2],
+[T4_E] --> [0, 1, 2],
+[T5_E] --> [0, 1, 2],
+[T6_E] --> [0, 1, 2],
+[T7_E] --> [0, 1, 2],
+[T8_E] --> [0, 1, 2],
+[E_M] --> [0, 1, 2],
+[E_1] --> [0, 1, 2],
+[E_2] --> [0, 1, 2],
+[E_3] --> [0, 1, 2],
+[E_4] --> [0, 1, 2],
+[E_5] --> [0, 1, 2],
+[E_6] --> [0, 1, 2],
+[E_7] --> [0, 1, 2],
+[E_8] --> [0, 1, 2],
+[p_dw_i] --> [0, 1],
+[c_dr_i] --> [0, 1],
+[m_i] --> [0, 1],
+[t1_i] --> [0, 1],
+[t2_i] --> [0, 1],
+[t3_i] --> [0, 1],
+[t4_i] --> [0, 1],
+[t5_i] --> [0, 1],
+[t6_i] --> [0, 1],
+[t7_i] --> [0, 1],
+[t8_i] --> [0, 1],
+[m_pc] --> [0, 1],
+[t1_pc] --> [0, 1],
+[t2_pc] --> [0, 1],
+[t3_pc] --> [0, 1],
+[t4_pc] --> [0, 1],
+[t5_pc] --> [0, 1],
+[t6_pc] --> [0, 1],
+[t7_pc] --> [0, 1],
+[t8_pc] --> [0, 1],
+[main::__CPAchecker_TMP_0] --> [0],
+[main1::__retres1, main1::__retval__] --> [0],
+[main2::__retres1, main2::__retval__] --> [0],
+[q_ev] --> [0],
+[local, token] --> [0, 1, 8],
+[master::tmp_var] --> [5],
+[start_simulation1::kernel_st] --> [0, 1, 2, 3],
+[start_simulation1::tmp, stop_simulation1::__retres2, stop_simulation1::__retval__] --> [0, 1],
+[start_simulation2::kernel_st] --> [0, 1, 2, 3, 4],
+[start_simulation2::tmp___0, stop_simulation2::__retres2, stop_simulation2::__retval__] --> [0, 1]]
+
+RELEVANT VARS
+
+[T4_E, eval1::tmp, activate_threads2::tmp___7, is_transmit4_triggered::__retval__, t6_st, activate_threads2::tmp___5, activate_threads2::tmp___6, q_read_ev, activate_threads2::tmp___0, stop_simulation2::__retres2, activate_threads2::tmp___3, T8_E, c_dr_i, c_dr_st, activate_threads2::tmp___4, activate_threads2::tmp___1, activate_threads2::tmp___2, t7_pc, is_transmit3_triggered::__retval__, m_i, eval2::tmp, stop_simulation1::__retval__, stop_simulation2::__retval__, t3_st, t8_i, p_dw_pc, t4_i, is_do_write_p_triggered::__retval__, is_transmit6_triggered::__retval__, activate_threads1::tmp___0, immediate_notify_threads::tmp, t4_pc, exists_runnable_thread1::__retres1, is_transmit5_triggered::__retval__, is_do_read_c_triggered::__retres1, m_pc, c_num_read, t8_st, m_st, T3_E, q_free, start_simulation2::tmp, src_pc_sfifo_2_cil_1_token_ring_08_cil_2_pc_sfifo_2_cil_1_token_ring_08_cil_2_ca_t, exists_runnable_thread1::__retval__, exists_runnable_thread2::__retval__, q_req_up, T7_E, local, q_buf_0, t1_pc, p_num_write, is_transmit7_triggered::__retval__, t7_i, do_read_c::a, t3_i, is_transmit2_triggered::__retval__, is_master_triggered::__retval__, t5_st, start_simulation2::tmp___0, eval2::tmp_ndt_7, eval2::tmp_ndt_8, activate_threads2::tmp, eval2::tmp_ndt_9, eval2::tmp_ndt_3, eval2::tmp_ndt_4, eval2::tmp_ndt_5, eval2::tmp_ndt_6, t6_pc, eval2::tmp_ndt_1, token, immediate_notify_threads::tmp___0, eval2::tmp_ndt_2, p_dw_st, master::tmp_var, c_last_read, t2_st, T2_E, t3_pc, stop_simulation2::tmp, T6_E, is_transmit5_triggered::__retres1, main::__CPAchecker_TMP_0, is_transmit4_triggered::__retres1, t6_i, eval1::tmp___1, t2_i, eval1::tmp___0, t7_st, stop_simulation1::tmp, is_transmit6_triggered::__retres1, p_dw_i, start_simulation1::tmp, t8_pc, c_dr_pc, is_transmit3_triggered::__retres1, E_1, E_3, E_2, E_5, E_4, t4_st, E_7, E_6, E_8, exists_runnable_thread2::__retres1, T5_E, T1_E, is_transmit8_triggered::__retval__, t5_pc, is_master_triggered::__retres1, activate_threads1::tmp, E_M, M_E, t1_i, is_transmit7_triggered::__retres1, t1_st, is_transmit2_triggered::__retres1, q_write_ev, t5_i, is_transmit1_triggered::__retres1, t2_pc, is_transmit8_triggered::__retres1, is_do_read_c_triggered::__retval__, is_do_write_p_triggered::__retres1, is_transmit1_triggered::__retval__, p_last_write, stop_simulation1::__retres2]
+
+RELEVANT FIELDS
+
+{}

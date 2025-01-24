@@ -1,0 +1,16 @@
+line 25:	N59 -{tmp_var_1_uint = 0;}-> N60
+	tmp_var_1_uint == 0U;
+line 26:	N60 -{while}-> N61
+line 26:	N61 -{[!((array[9999]) < 10000)]}-> N63
+line 31:	N63 -{[!(9999 < tmp_var_1_uint)]}-> N68
+	tmp_var_1_uint == 0U;
+line 31:	N68 -{[tmp_var_1_uint != (auStack_9c60[tmp_var_1_uint])]}-> N67
+	tmp_var_1_uint == 0U;
+none:	N72 -{__CPAchecker_TMP_0 = 0;}-> N73
+	__CPAchecker_TMP_0 == 0;
+line 32:	N73 -{__VERIFIER_assert(__CPAchecker_TMP_0)}-> N37
+	cond == 0;
+line 13:	N38 -{[cond == 0]}-> N40
+	__CPAchecker_TMP_2 == 0;
+	cond == 0;
+line 14:	N49 -{__assert_fail("0 && \"Assertion failed: __VERIFIER_assert\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/simple_array_index_value_1-2_process_dc_iter1.c", 14, "__PRETTY_FUNCTION__");}-> N375

@@ -1,0 +1,10 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::local_34| () (_ BitVec 32))
+(declare-fun |main::tmp_var_2_int| () (_ BitVec 32))
+(declare-fun |main::_a| () (_ BitVec 64))
+(declare-fun |main::z| () (_ BitVec 64))
+(declare-fun |main::y| () (_ BitVec 64))
+
+main:
+(assert (let ((.def_122 (bvmul |main::z| |main::y|)))(let ((.def_124 (bvadd |main::_a| .def_122)))(let ((.def_115 ((_ sign_extend 32) |main::tmp_var_2_int|)))(let ((.def_113 ((_ sign_extend 32) |main::local_34|)))(let ((.def_117 (bvmul .def_113 .def_115)))(let ((.def_125 (= .def_117 .def_124))).def_125)))))))
+

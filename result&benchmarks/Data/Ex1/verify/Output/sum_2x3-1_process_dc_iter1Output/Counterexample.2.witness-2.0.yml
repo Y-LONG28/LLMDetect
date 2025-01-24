@@ -1,0 +1,71 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "01d2334f-6b88-3e08-ac85-5cafc9bbe40f"
+    creation_time: "2025-01-15T14:11:58+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c: "88ba95741485a2d40bc9bfe30903d12f645b4be650d1094f93e9473c224c1b2e"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+          line: 35
+          column: 5
+          function: "sum"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+          line: 35
+          column: 5
+          function: "sum"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+          line: 35
+          column: 5
+          function: "sum"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+          line: 22
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/sum_2x3-1_process_dc_iter1.c"
+          line: 23
+          column: 17
+          function: "main"

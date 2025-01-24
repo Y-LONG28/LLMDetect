@@ -1,0 +1,61 @@
+line 12:	N422 -{int counter = 0;}-> N423
+	counter == 0;
+line 18:	N40 -{int B;}-> N41
+line 26:	N47 -{p = B;}-> N48
+line 27:	N48 -{q = 1;}-> N49
+	q == 1;
+line 28:	N49 -{tmp_var_1_int = 1;}-> N50
+	tmp_var_1_int == 1;
+line 29:	N50 -{A = 0;}-> N51
+	counter == 0;
+	A == 0;
+	tmp_var_1_int == 1;
+	q == 1;
+line 31:	N51 -{while}-> N52
+line 31:	N55 -{iVar2 = counter + 1;}-> N56
+	iVar2 == 1;
+line 31:	N56 -{bVar1 = counter < 1;}-> N57
+	bVar1 == 1;
+line 31:	N57 -{counter = iVar2;}-> N58
+	counter == 1;
+line 31:	N58 -{__CPAchecker_TMP_0 = bVar1;}-> N59
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 1;
+	bVar1 == 1;
+	counter == 1;
+line 31:	N59 -{[!(__CPAchecker_TMP_0 == 0)]}-> N53
+	__CPAchecker_TMP_0 == 1;
+line 32:	N53 -{[!(q != tmp_var_1_int)]}-> N60
+	q == 1;
+	tmp_var_1_int == 1;
+line 35:	N60 -{[!(B < q)]}-> N73
+	q == 1;
+line 36:	N73 -{q = q << 1;}-> N76
+	q == 2;
+	tmp_var_1_int == 2;
+none:	N77 -{}-> N52
+line 31:	N55 -{iVar2 = counter + 1;}-> N56
+	iVar2 == 2;
+line 31:	N56 -{bVar1 = counter < 1;}-> N57
+	bVar1 == 0;
+line 31:	N57 -{counter = iVar2;}-> N58
+	counter == 2;
+line 31:	N58 -{__CPAchecker_TMP_0 = bVar1;}-> N59
+	__CPAchecker_TMP_0 == 0;
+	iVar2 == 2;
+	bVar1 == 0;
+	counter == 2;
+line 31:	N59 -{[__CPAchecker_TMP_0 == 0]}-> N54
+	iVar2 == 3;
+	__CPAchecker_TMP_0 == 0;
+line 42:	N82 -{bVar1 = 0 < counter;}-> N83
+	iVar2 == 3;
+	bVar1 == 1;
+	counter == 3;
+line 44:	N84 -{[!(bVar1 == 0)]}-> N86
+	bVar1 == 1;
+line 46:	N87 -{[!(B != ((q * A) + p))]}-> N88
+line 49:	N88 -{[q != 1]}-> N102
+	__CPAchecker_TMP_9 == 0;
+	q == 2;
+line 50:	N111 -{__assert_fail("0 && \"Assertion failed: B == d\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard2_unwindbound1_process_dc_iter1.c", 50, "__PRETTY_FUNCTION__");}-> N426

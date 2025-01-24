@@ -1,0 +1,59 @@
+line 14:	N476 -{int counter = 0;}-> N477
+	counter == 0;
+line 19:	N40 -{uint local_3c;}-> N41
+line 21:	N42 -{uint tmp_var_2_uint;}-> N43
+line 29:	N49 -{assume(local_3c != 0)}-> N31
+line 11:	N32 -{[!(cond == 0)]}-> N33
+line 30:	N50 -{d = (longlong )tmp_var_2_uint;}-> N51
+line 31:	N51 -{p = (longlong )local_3c;}-> N52
+line 32:	N52 -{q = 1;}-> N53
+	q == 1LL;
+line 33:	N53 -{A = 0;}-> N54
+	q == 1LL;
+	A == 0U;
+line 35:	N54 -{while}-> N55
+line 35:	N58 -{iVar2 = counter + 1;}-> N59
+	iVar2 == 1;
+line 35:	N59 -{bVar1 = counter < 2;}-> N60
+	bVar1 == 1;
+line 35:	N60 -{counter = iVar2;}-> N61
+	counter == 1;
+line 35:	N61 -{__CPAchecker_TMP_0 = bVar1;}-> N62
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 1;
+	bVar1 == 1;
+	counter == 1;
+line 35:	N62 -{[!(__CPAchecker_TMP_0 == 0)]}-> N56
+	__CPAchecker_TMP_0 == 1;
+line 36:	N56 -{[!(p != (((ulonglong )local_3c) * q))]}-> N63
+line 39:	N63 -{[!(d < p)]}-> N76
+line 40:	N76 -{p = p << 1;}-> N79
+line 41:	N79 -{q = q << 1;}-> N80
+	q == 2LL;
+none:	N80 -{}-> N55
+line 35:	N58 -{iVar2 = counter + 1;}-> N59
+	iVar2 == 2;
+line 35:	N59 -{bVar1 = counter < 2;}-> N60
+	bVar1 == 1;
+line 35:	N60 -{counter = iVar2;}-> N61
+	counter == 2;
+line 35:	N61 -{__CPAchecker_TMP_0 = bVar1;}-> N62
+	__CPAchecker_TMP_0 == 1;
+	iVar2 == 2;
+	bVar1 == 1;
+	counter == 2;
+line 35:	N62 -{[!(__CPAchecker_TMP_0 == 0)]}-> N56
+	__CPAchecker_TMP_0 == 1;
+line 36:	N56 -{[!(p != (((ulonglong )local_3c) * q))]}-> N63
+line 39:	N63 -{[d < p]}-> N77
+	iVar2 == 3;
+line 46:	N85 -{bVar1 = 1 < counter;}-> N86
+	iVar2 == 3;
+	bVar1 == 1;
+	counter == 3;
+line 48:	N87 -{[!(bVar1 == 0)]}-> N89
+	bVar1 == 1;
+line 49:	N89 -{[!(((ulonglong )tmp_var_2_uint) != (d + (p * A)))]}-> N90
+line 52:	N90 -{[p != ((ulonglong )local_3c)]}-> N104
+	__CPAchecker_TMP_9 == 0;
+line 53:	N113 -{__assert_fail("0 && \"Assertion failed: B == d\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/hard-ll_unwindbound2_process_dc_iter1.c", 53, "__PRETTY_FUNCTION__");}-> N480

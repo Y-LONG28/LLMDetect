@@ -1,0 +1,8148 @@
+CONTROL AUTOMATON ErrorPath52
+
+INITIAL STATE ARG1;
+
+STATE USEFIRST ARG1 :
+    MATCH "" -> GOTO ARG726;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG726 :
+    MATCH "int M_E;" -> GOTO ARG730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG730 :
+    MATCH "int T1_E;" -> GOTO ARG732;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG732 :
+    MATCH "int T2_E;" -> GOTO ARG736;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG736 :
+    MATCH "int T3_E;" -> GOTO ARG740;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG740 :
+    MATCH "int T4_E;" -> GOTO ARG743;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG743 :
+    MATCH "int T5_E;" -> GOTO ARG748;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG748 :
+    MATCH "int T6_E;" -> GOTO ARG751;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG751 :
+    MATCH "int T7_E;" -> GOTO ARG756;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG756 :
+    MATCH "int T8_E;" -> GOTO ARG759;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG759 :
+    MATCH "int E_M;" -> GOTO ARG763;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG763 :
+    MATCH "int E_1;" -> GOTO ARG767;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG767 :
+    MATCH "int E_2;" -> GOTO ARG769;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG769 :
+    MATCH "int E_3;" -> GOTO ARG772;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG772 :
+    MATCH "int E_4;" -> GOTO ARG773;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG773 :
+    MATCH "int E_5;" -> GOTO ARG775;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG775 :
+    MATCH "int E_6;" -> GOTO ARG776;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG776 :
+    MATCH "int E_7;" -> GOTO ARG777;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG777 :
+    MATCH "int E_8;" -> GOTO ARG779;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG779 :
+    MATCH "void fire_time_events2(void)" -> GOTO ARG780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG780 :
+    MATCH "void reset_time_events2(void)" -> GOTO ARG781;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG781 :
+    MATCH "extern unsigned int __VERIFIER_nondet_uint();" -> GOTO ARG782;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG782 :
+    MATCH "extern char __VERIFIER_nondet_char();" -> GOTO ARG783;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG783 :
+    MATCH "extern int __VERIFIER_nondet_int();" -> GOTO ARG786;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG786 :
+    MATCH "extern long __VERIFIER_nondet_long();" -> GOTO ARG788;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG788 :
+    MATCH "extern unsigned long __VERIFIER_nondet_ulong();" -> GOTO ARG790;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG790 :
+    MATCH "extern float __VERIFIER_nondet_float();" -> GOTO ARG793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG793 :
+    MATCH "extern void exit(int);" -> GOTO ARG794;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG794 :
+    MATCH "extern void abort(void);" -> GOTO ARG795;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG795 :
+    MATCH "extern void __assert_fail(const char *, const char *, unsigned int, const char *) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));" -> GOTO ARG797;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG797 :
+    MATCH "void reach_error()" -> GOTO ARG799;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG799 :
+    MATCH "void error1(void)" -> GOTO ARG802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG802 :
+    MATCH "int q_buf_0 ;" -> ASSUME {q_buf_0 == (0);} GOTO ARG808;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG808 :
+    MATCH "int q_free ;" -> ASSUME {q_free == (0);} GOTO ARG811;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG811 :
+    MATCH "int q_read_ev ;" -> ASSUME {q_read_ev == (0);} GOTO ARG816;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG816 :
+    MATCH "int q_write_ev ;" -> ASSUME {q_write_ev == (0);} GOTO ARG823;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG823 :
+    MATCH "int q_req_up ;" -> ASSUME {q_req_up == (0);} GOTO ARG829;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG829 :
+    MATCH "int q_ev ;" -> GOTO ARG832;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG832 :
+    MATCH "void update_fifo_q(void)" -> GOTO ARG834;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG834 :
+    MATCH "int p_num_write ;" -> ASSUME {p_num_write == (0);} GOTO ARG842;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG842 :
+    MATCH "int p_last_write ;" -> ASSUME {p_last_write == (0);} GOTO ARG847;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG847 :
+    MATCH "int p_dw_st ;" -> ASSUME {p_dw_st == (0);} GOTO ARG853;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG853 :
+    MATCH "int p_dw_pc ;" -> ASSUME {p_dw_pc == (0);} GOTO ARG857;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG857 :
+    MATCH "int p_dw_i ;" -> ASSUME {p_dw_i == (0);} GOTO ARG860;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG860 :
+    MATCH "int c_num_read ;" -> ASSUME {c_num_read == (0);} GOTO ARG862;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG862 :
+    MATCH "int c_last_read ;" -> ASSUME {c_last_read == (0);} GOTO ARG867;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG867 :
+    MATCH "int c_dr_st ;" -> ASSUME {c_dr_st == (0);} GOTO ARG870;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG870 :
+    MATCH "int c_dr_pc ;" -> ASSUME {c_dr_pc == (0);} GOTO ARG873;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG873 :
+    MATCH "int c_dr_i ;" -> ASSUME {c_dr_i == (0);} GOTO ARG875;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG875 :
+    MATCH "int is_do_write_p_triggered(void)" -> GOTO ARG878;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG878 :
+    MATCH "int is_do_read_c_triggered(void)" -> GOTO ARG880;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG880 :
+    MATCH "void immediate_notify_threads(void)" -> GOTO ARG881;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG881 :
+    MATCH "void do_write_p(void)" -> GOTO ARG884;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG884 :
+    MATCH "static int a_t ;" -> ASSUME {a_t == (0);} GOTO ARG888;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG888 :
+    MATCH "void do_read_c(void)" -> GOTO ARG891;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG891 :
+    MATCH "void update_channels1(void)" -> GOTO ARG894;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG894 :
+    MATCH "void init_threads1(void)" -> GOTO ARG897;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG897 :
+    MATCH "int exists_runnable_thread1(void)" -> GOTO ARG900;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG900 :
+    MATCH "void fire_delta_events1(void)" -> GOTO ARG903;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG903 :
+    MATCH "void reset_delta_events1(void)" -> GOTO ARG905;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG905 :
+    MATCH "void activate_threads1(void)" -> GOTO ARG908;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG908 :
+    MATCH "void eval1(void)" -> GOTO ARG911;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG911 :
+    MATCH "int stop_simulation1(void)" -> GOTO ARG912;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG912 :
+    MATCH "void start_simulation1(void)" -> GOTO ARG915;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG915 :
+    MATCH "void init_model1(void)" -> GOTO ARG916;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG916 :
+    MATCH "int main1(void)" -> GOTO ARG917;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG917 :
+    MATCH "void error2(void)" -> GOTO ARG919;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG919 :
+    MATCH "int m_pc = 0;" -> ASSUME {m_pc == (0);} GOTO ARG923;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG923 :
+    MATCH "int t1_pc = 0;" -> ASSUME {t1_pc == (0);} GOTO ARG925;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG925 :
+    MATCH "int t2_pc = 0;" -> ASSUME {t2_pc == (0);} GOTO ARG928;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG928 :
+    MATCH "int t3_pc = 0;" -> ASSUME {t3_pc == (0);} GOTO ARG930;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG930 :
+    MATCH "int t4_pc = 0;" -> ASSUME {t4_pc == (0);} GOTO ARG935;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG935 :
+    MATCH "int t5_pc = 0;" -> ASSUME {t5_pc == (0);} GOTO ARG940;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG940 :
+    MATCH "int t6_pc = 0;" -> ASSUME {t6_pc == (0);} GOTO ARG942;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG942 :
+    MATCH "int t7_pc = 0;" -> ASSUME {t7_pc == (0);} GOTO ARG947;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG947 :
+    MATCH "int t8_pc = 0;" -> ASSUME {t8_pc == (0);} GOTO ARG949;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG949 :
+    MATCH "int m_st ;" -> ASSUME {m_st == (0);} GOTO ARG953;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG953 :
+    MATCH "int t1_st ;" -> ASSUME {t1_st == (0);} GOTO ARG959;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG959 :
+    MATCH "int t2_st ;" -> ASSUME {t2_st == (0);} GOTO ARG962;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG962 :
+    MATCH "int t3_st ;" -> ASSUME {t3_st == (0);} GOTO ARG971;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG971 :
+    MATCH "int t4_st ;" -> ASSUME {t4_st == (0);} GOTO ARG975;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG975 :
+    MATCH "int t5_st ;" -> ASSUME {t5_st == (0);} GOTO ARG980;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG980 :
+    MATCH "int t6_st ;" -> ASSUME {t6_st == (0);} GOTO ARG987;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG987 :
+    MATCH "int t7_st ;" -> ASSUME {t7_st == (0);} GOTO ARG994;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG994 :
+    MATCH "int t8_st ;" -> ASSUME {t8_st == (0);} GOTO ARG1001;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1001 :
+    MATCH "int m_i ;" -> ASSUME {m_i == (0);} GOTO ARG1005;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1005 :
+    MATCH "int t1_i ;" -> ASSUME {t1_i == (0);} GOTO ARG1010;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1010 :
+    MATCH "int t2_i ;" -> ASSUME {t2_i == (0);} GOTO ARG1015;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1015 :
+    MATCH "int t3_i ;" -> ASSUME {t3_i == (0);} GOTO ARG1021;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1021 :
+    MATCH "int t4_i ;" -> ASSUME {t4_i == (0);} GOTO ARG1029;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1029 :
+    MATCH "int t5_i ;" -> ASSUME {t5_i == (0);} GOTO ARG1031;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1031 :
+    MATCH "int t6_i ;" -> ASSUME {t6_i == (0);} GOTO ARG1032;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1032 :
+    MATCH "int t7_i ;" -> ASSUME {t7_i == (0);} GOTO ARG1033;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1033 :
+    MATCH "int t8_i ;" -> ASSUME {t8_i == (0);} GOTO ARG1034;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1034 :
+    MATCH "int M_E = 2;" -> ASSUME {M_E == (2);} GOTO ARG1035;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1035 :
+    MATCH "int T1_E = 2;" -> ASSUME {T1_E == (2);} GOTO ARG1036;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1036 :
+    MATCH "int T2_E = 2;" -> ASSUME {T2_E == (2);} GOTO ARG1037;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1037 :
+    MATCH "int T3_E = 2;" -> ASSUME {T3_E == (2);} GOTO ARG1038;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1038 :
+    MATCH "int T4_E = 2;" -> ASSUME {T4_E == (2);} GOTO ARG1039;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1039 :
+    MATCH "int T5_E = 2;" -> ASSUME {T5_E == (2);} GOTO ARG1040;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1040 :
+    MATCH "int T6_E = 2;" -> ASSUME {T6_E == (2);} GOTO ARG1043;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1043 :
+    MATCH "int T7_E = 2;" -> ASSUME {T7_E == (2);} GOTO ARG1045;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1045 :
+    MATCH "int T8_E = 2;" -> ASSUME {T8_E == (2);} GOTO ARG1047;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1047 :
+    MATCH "int E_M = 2;" -> ASSUME {E_M == (2);} GOTO ARG1050;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1050 :
+    MATCH "int E_1 = 2;" -> ASSUME {E_1 == (2);} GOTO ARG1052;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1052 :
+    MATCH "int E_2 = 2;" -> ASSUME {E_2 == (2);} GOTO ARG1056;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1056 :
+    MATCH "int E_3 = 2;" -> ASSUME {E_3 == (2);} GOTO ARG1061;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1061 :
+    MATCH "int E_4 = 2;" -> ASSUME {E_4 == (2);} GOTO ARG1063;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1063 :
+    MATCH "int E_5 = 2;" -> ASSUME {E_5 == (2);} GOTO ARG1067;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1067 :
+    MATCH "int E_6 = 2;" -> ASSUME {E_6 == (2);} GOTO ARG1071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1071 :
+    MATCH "int E_7 = 2;" -> ASSUME {E_7 == (2);} GOTO ARG1074;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1074 :
+    MATCH "int E_8 = 2;" -> ASSUME {E_8 == (2);} GOTO ARG1077;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1077 :
+    MATCH "int is_master_triggered(void) ;" -> GOTO ARG1080;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1080 :
+    MATCH "int is_transmit1_triggered(void) ;" -> GOTO ARG1082;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1082 :
+    MATCH "int is_transmit2_triggered(void) ;" -> GOTO ARG1085;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1085 :
+    MATCH "int is_transmit3_triggered(void) ;" -> GOTO ARG1086;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1086 :
+    MATCH "int is_transmit4_triggered(void) ;" -> GOTO ARG1087;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1087 :
+    MATCH "int is_transmit5_triggered(void) ;" -> GOTO ARG1088;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1088 :
+    MATCH "int is_transmit6_triggered(void) ;" -> GOTO ARG1089;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1089 :
+    MATCH "int is_transmit7_triggered(void) ;" -> GOTO ARG1090;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1090 :
+    MATCH "int is_transmit8_triggered(void) ;" -> GOTO ARG1091;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1091 :
+    MATCH "void immediate_notify(void) ;" -> GOTO ARG1092;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1092 :
+    MATCH "int token ;" -> ASSUME {token == (0);} GOTO ARG1095;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1095 :
+    MATCH "int local ;" -> ASSUME {local == (0);} GOTO ARG1098;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1098 :
+    MATCH "void master(void)" -> GOTO ARG1100;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1100 :
+    MATCH "void transmit1(void)" -> GOTO ARG1103;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1103 :
+    MATCH "void transmit2(void)" -> GOTO ARG1105;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1105 :
+    MATCH "void transmit3(void)" -> GOTO ARG1107;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1107 :
+    MATCH "void transmit4(void)" -> GOTO ARG1109;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1109 :
+    MATCH "void transmit5(void)" -> GOTO ARG1110;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1110 :
+    MATCH "void transmit6(void)" -> GOTO ARG1112;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1112 :
+    MATCH "void transmit7(void)" -> GOTO ARG1116;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1116 :
+    MATCH "void transmit8(void)" -> GOTO ARG1120;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1120 :
+    MATCH "void update_channels2(void)" -> GOTO ARG1122;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1122 :
+    MATCH "void init_threads2(void)" -> GOTO ARG1125;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1125 :
+    MATCH "int exists_runnable_thread2(void)" -> GOTO ARG1126;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1126 :
+    MATCH "void eval2(void)" -> GOTO ARG1127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1127 :
+    MATCH "void fire_delta_events2(void)" -> GOTO ARG1128;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1128 :
+    MATCH "void reset_delta_events2(void)" -> GOTO ARG1129;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1129 :
+    MATCH "void activate_threads2(void)" -> GOTO ARG1131;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1131 :
+    MATCH "void init_model2(void)" -> GOTO ARG1134;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1134 :
+    MATCH "int stop_simulation2(void)" -> GOTO ARG1136;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1136 :
+    MATCH "void start_simulation2(void)" -> GOTO ARG1137;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1137 :
+    MATCH "int main2(void)" -> GOTO ARG1139;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1139 :
+    MATCH "int main()" -> GOTO ARG1141;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1141 :
+    MATCH "" -> GOTO ARG1142;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1142 :
+    MATCH "__VERIFIER_nondet_int()" -> GOTO ARG1144;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1144 :
+    MATCH "__VERIFIER_nondet_int()" -> ASSUME {__CPAchecker_TMP_0 == (0);} GOTO ARG1147;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1147 :
+    MATCH "[!(__VERIFIER_nondet_int())]" -> ASSUME {__CPAchecker_TMP_0 == (0);} GOTO ARG1152;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1152 :
+    MATCH "main2();" -> GOTO ARG1656;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1656 :
+    MATCH "" -> GOTO ARG1657;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1657 :
+    MATCH "int __retres1 ;" -> GOTO ARG1658;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1658 :
+    MATCH "init_model2();" -> GOTO ARG1659;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1659 :
+    MATCH "" -> GOTO ARG1660;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1660 :
+    MATCH "m_i = 1;" -> ASSUME {m_i == (1);} GOTO ARG1661;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1661 :
+    MATCH "t1_i = 1;" -> ASSUME {t1_i == (1);} GOTO ARG1662;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1662 :
+    MATCH "t2_i = 1;" -> ASSUME {t2_i == (1);} GOTO ARG1665;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1665 :
+    MATCH "t3_i = 1;" -> ASSUME {t3_i == (1);} GOTO ARG1667;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1667 :
+    MATCH "t4_i = 1;" -> ASSUME {t4_i == (1);} GOTO ARG1670;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1670 :
+    MATCH "t5_i = 1;" -> ASSUME {t5_i == (1);} GOTO ARG1674;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1674 :
+    MATCH "t6_i = 1;" -> ASSUME {t6_i == (1);} GOTO ARG1679;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1679 :
+    MATCH "t7_i = 1;" -> ASSUME {t7_i == (1);} GOTO ARG1685;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1685 :
+    MATCH "t8_i = 1;" -> ASSUME {t8_i == (1);} GOTO ARG1690;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1690 :
+    MATCH "return;" -> GOTO ARG1694;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1694 :
+    MATCH "" -> GOTO ARG1698;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1698 :
+    MATCH "start_simulation2();" -> GOTO ARG1699;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1699 :
+    MATCH "" -> GOTO ARG1701;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1701 :
+    MATCH "int kernel_st ;" -> GOTO ARG1702;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1702 :
+    MATCH "int tmp ;" -> GOTO ARG1706;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1706 :
+    MATCH "int tmp___0 ;" -> GOTO ARG1709;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1709 :
+    MATCH "kernel_st = 0;" -> GOTO ARG1712;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1712 :
+    MATCH "update_channels2();" -> GOTO ARG1713;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1713 :
+    MATCH "" -> GOTO ARG1716;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1716 :
+    MATCH "return;" -> GOTO ARG1717;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1717 :
+    MATCH "" -> GOTO ARG1719;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1719 :
+    MATCH "init_threads2();" -> GOTO ARG1721;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1721 :
+    MATCH "" -> GOTO ARG1723;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1723 :
+    MATCH "[m_i == 1]" -> ASSUME {m_i == (1);} GOTO ARG1727;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1727 :
+    MATCH "m_st = 0;" -> ASSUME {m_st == (0);} GOTO ARG1738;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1738 :
+    MATCH "" -> GOTO ARG1740;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1740 :
+    MATCH "[t1_i == 1]" -> ASSUME {t1_i == (1);} GOTO ARG1760;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1760 :
+    MATCH "t1_st = 0;" -> ASSUME {t1_st == (0);} GOTO ARG1765;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1765 :
+    MATCH "" -> GOTO ARG1766;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1766 :
+    MATCH "[t2_i == 1]" -> ASSUME {t2_i == (1);} GOTO ARG1767;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1767 :
+    MATCH "t2_st = 0;" -> ASSUME {t2_st == (0);} GOTO ARG1768;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1768 :
+    MATCH "" -> GOTO ARG1769;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1769 :
+    MATCH "[t3_i == 1]" -> ASSUME {t3_i == (1);} GOTO ARG1770;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1770 :
+    MATCH "t3_st = 0;" -> ASSUME {t3_st == (0);} GOTO ARG1780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1780 :
+    MATCH "" -> GOTO ARG1781;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1781 :
+    MATCH "[t4_i == 1]" -> ASSUME {t4_i == (1);} GOTO ARG1782;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1782 :
+    MATCH "t4_st = 0;" -> ASSUME {t4_st == (0);} GOTO ARG1793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1793 :
+    MATCH "" -> GOTO ARG1798;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1798 :
+    MATCH "[t5_i == 1]" -> ASSUME {t5_i == (1);} GOTO ARG1814;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1814 :
+    MATCH "t5_st = 0;" -> ASSUME {t5_st == (0);} GOTO ARG1841;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1841 :
+    MATCH "" -> GOTO ARG1850;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1850 :
+    MATCH "[t6_i == 1]" -> ASSUME {t6_i == (1);} GOTO ARG1879;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1879 :
+    MATCH "t6_st = 0;" -> ASSUME {t6_st == (0);} GOTO ARG1898;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1898 :
+    MATCH "" -> GOTO ARG1908;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1908 :
+    MATCH "[t7_i == 1]" -> ASSUME {t7_i == (1);} GOTO ARG1934;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1934 :
+    MATCH "t7_st = 0;" -> ASSUME {t7_st == (0);} GOTO ARG1958;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1958 :
+    MATCH "" -> GOTO ARG1970;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG1970 :
+    MATCH "[t8_i == 1]" -> ASSUME {t8_i == (1);} GOTO ARG2000;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2000 :
+    MATCH "t8_st = 0;" -> ASSUME {t8_st == (0);} GOTO ARG2029;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2029 :
+    MATCH "" -> GOTO ARG2036;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2036 :
+    MATCH "return;" -> GOTO ARG2039;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2039 :
+    MATCH "" -> GOTO ARG2042;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2042 :
+    MATCH "fire_delta_events2();" -> GOTO ARG2044;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2044 :
+    MATCH "" -> GOTO ARG2046;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2046 :
+    MATCH "[!(M_E == 0)]" -> ASSUME {M_E == (2);} GOTO ARG2055;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2055 :
+    MATCH "" -> GOTO ARG2058;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2058 :
+    MATCH "[!(T1_E == 0)]" -> ASSUME {T1_E == (2);} GOTO ARG2065;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2065 :
+    MATCH "" -> GOTO ARG2067;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2067 :
+    MATCH "[!(T2_E == 0)]" -> ASSUME {T2_E == (2);} GOTO ARG2072;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2072 :
+    MATCH "" -> GOTO ARG2074;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2074 :
+    MATCH "[!(T3_E == 0)]" -> ASSUME {T3_E == (2);} GOTO ARG2078;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2078 :
+    MATCH "" -> GOTO ARG2080;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2080 :
+    MATCH "[!(T4_E == 0)]" -> ASSUME {T4_E == (2);} GOTO ARG2084;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2084 :
+    MATCH "" -> GOTO ARG2087;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2087 :
+    MATCH "[!(T5_E == 0)]" -> ASSUME {T5_E == (2);} GOTO ARG2094;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2094 :
+    MATCH "" -> GOTO ARG2095;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2095 :
+    MATCH "[!(T6_E == 0)]" -> ASSUME {T6_E == (2);} GOTO ARG2102;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2102 :
+    MATCH "" -> GOTO ARG2106;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2106 :
+    MATCH "[!(T7_E == 0)]" -> ASSUME {T7_E == (2);} GOTO ARG2115;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2115 :
+    MATCH "" -> GOTO ARG2117;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2117 :
+    MATCH "[!(T8_E == 0)]" -> ASSUME {T8_E == (2);} GOTO ARG2120;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2120 :
+    MATCH "" -> GOTO ARG2124;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2124 :
+    MATCH "[!(E_M == 0)]" -> ASSUME {E_M == (2);} GOTO ARG2134;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2134 :
+    MATCH "" -> GOTO ARG2138;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2138 :
+    MATCH "[!(E_1 == 0)]" -> ASSUME {E_1 == (2);} GOTO ARG2150;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2150 :
+    MATCH "" -> GOTO ARG2153;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2153 :
+    MATCH "[!(E_2 == 0)]" -> ASSUME {E_2 == (2);} GOTO ARG2167;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2167 :
+    MATCH "" -> GOTO ARG2171;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2171 :
+    MATCH "[!(E_3 == 0)]" -> ASSUME {E_3 == (2);} GOTO ARG2189;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2189 :
+    MATCH "" -> GOTO ARG2195;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2195 :
+    MATCH "[!(E_4 == 0)]" -> ASSUME {E_4 == (2);} GOTO ARG2209;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2209 :
+    MATCH "" -> GOTO ARG2215;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2215 :
+    MATCH "[!(E_5 == 0)]" -> ASSUME {E_5 == (2);} GOTO ARG2233;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2233 :
+    MATCH "" -> GOTO ARG2238;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2238 :
+    MATCH "[!(E_6 == 0)]" -> ASSUME {E_6 == (2);} GOTO ARG2251;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2251 :
+    MATCH "" -> GOTO ARG2255;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2255 :
+    MATCH "[!(E_7 == 0)]" -> ASSUME {E_7 == (2);} GOTO ARG2275;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2275 :
+    MATCH "" -> GOTO ARG2281;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2281 :
+    MATCH "[!(E_8 == 0)]" -> ASSUME {E_8 == (2);} GOTO ARG2298;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2298 :
+    MATCH "" -> GOTO ARG2303;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2303 :
+    MATCH "return;" -> GOTO ARG2307;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2307 :
+    MATCH "" -> GOTO ARG2317;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2317 :
+    MATCH "activate_threads2();" -> GOTO ARG2322;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2322 :
+    MATCH "" -> GOTO ARG2325;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2325 :
+    MATCH "int tmp ;" -> GOTO ARG2343;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2343 :
+    MATCH "int tmp___0 ;" -> GOTO ARG2352;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2352 :
+    MATCH "int tmp___1 ;" -> GOTO ARG2365;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2365 :
+    MATCH "int tmp___2 ;" -> GOTO ARG2372;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2372 :
+    MATCH "int tmp___3 ;" -> GOTO ARG2386;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2386 :
+    MATCH "int tmp___4 ;" -> GOTO ARG2402;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2402 :
+    MATCH "int tmp___5 ;" -> GOTO ARG2419;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2419 :
+    MATCH "int tmp___6 ;" -> GOTO ARG2434;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2434 :
+    MATCH "int tmp___7 ;" -> GOTO ARG2450;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2450 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG2459;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2459 :
+    MATCH "" -> GOTO ARG2464;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2464 :
+    MATCH "int __retres1 ;" -> GOTO ARG2484;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2484 :
+    MATCH "[!(m_pc == 1)]" -> ASSUME {m_pc == (0);} GOTO ARG2517;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2517 :
+    MATCH "" -> GOTO ARG2532;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2532 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2555 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2561;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2561 :
+    MATCH "return (__retres1);" -> GOTO ARG2574;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2574 :
+    MATCH "" -> GOTO ARG2580;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2580 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG2585;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2585 :
+    MATCH "" -> GOTO ARG2587;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2587 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG2591;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2591 :
+    MATCH "" -> GOTO ARG2593;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2593 :
+    MATCH "int __retres1 ;" -> GOTO ARG2598;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2598 :
+    MATCH "[!(t1_pc == 1)]" -> ASSUME {t1_pc == (0);} GOTO ARG2605;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2605 :
+    MATCH "" -> GOTO ARG2607;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2607 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2614;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2614 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2618;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2618 :
+    MATCH "return (__retres1);" -> GOTO ARG2677;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2677 :
+    MATCH "" -> GOTO ARG2680;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2680 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG2685;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2685 :
+    MATCH "" -> GOTO ARG2686;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2686 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG2689;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2689 :
+    MATCH "" -> GOTO ARG2690;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2690 :
+    MATCH "int __retres1 ;" -> GOTO ARG2693;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2693 :
+    MATCH "[!(t2_pc == 1)]" -> ASSUME {t2_pc == (0);} GOTO ARG2698;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2698 :
+    MATCH "" -> GOTO ARG2701;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2701 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2703;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2703 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2707;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2707 :
+    MATCH "return (__retres1);" -> GOTO ARG2724;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2724 :
+    MATCH "" -> GOTO ARG2753;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2753 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG2772;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2772 :
+    MATCH "" -> GOTO ARG2774;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2774 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG2776;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2776 :
+    MATCH "" -> GOTO ARG2778;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2778 :
+    MATCH "int __retres1 ;" -> GOTO ARG2782;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2782 :
+    MATCH "[!(t3_pc == 1)]" -> ASSUME {t3_pc == (0);} GOTO ARG2787;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2787 :
+    MATCH "" -> GOTO ARG2790;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2790 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2794;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2794 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2797;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2797 :
+    MATCH "return (__retres1);" -> GOTO ARG2802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2802 :
+    MATCH "" -> GOTO ARG2803;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2803 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG2808;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2808 :
+    MATCH "" -> GOTO ARG2810;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2810 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG2812;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2812 :
+    MATCH "" -> GOTO ARG2818;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2818 :
+    MATCH "int __retres1 ;" -> GOTO ARG2821;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2821 :
+    MATCH "[!(t4_pc == 1)]" -> ASSUME {t4_pc == (0);} GOTO ARG2828;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2828 :
+    MATCH "" -> GOTO ARG2829;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2829 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2831;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2831 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2832;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2832 :
+    MATCH "return (__retres1);" -> GOTO ARG2841;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2841 :
+    MATCH "" -> GOTO ARG2847;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2847 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG2852;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2852 :
+    MATCH "" -> GOTO ARG2853;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2853 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG2855;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2855 :
+    MATCH "" -> GOTO ARG2856;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2856 :
+    MATCH "int __retres1 ;" -> GOTO ARG2857;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2857 :
+    MATCH "[!(t5_pc == 1)]" -> ASSUME {t5_pc == (0);} GOTO ARG2864;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2864 :
+    MATCH "" -> GOTO ARG2872;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2872 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2885;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2885 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2890;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2890 :
+    MATCH "return (__retres1);" -> GOTO ARG2905;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2905 :
+    MATCH "" -> GOTO ARG2921;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2921 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG2931;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2931 :
+    MATCH "" -> GOTO ARG2934;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2934 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG2938;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2938 :
+    MATCH "" -> GOTO ARG2942;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2942 :
+    MATCH "int __retres1 ;" -> GOTO ARG2947;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2947 :
+    MATCH "[!(t6_pc == 1)]" -> ASSUME {t6_pc == (0);} GOTO ARG2954;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2954 :
+    MATCH "" -> GOTO ARG2956;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2956 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG2964;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2964 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG2968;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2968 :
+    MATCH "return (__retres1);" -> GOTO ARG2972;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2972 :
+    MATCH "" -> GOTO ARG2979;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2979 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG2997;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG2997 :
+    MATCH "" -> GOTO ARG3001;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3001 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG3006;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3006 :
+    MATCH "" -> GOTO ARG3007;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3007 :
+    MATCH "int __retres1 ;" -> GOTO ARG3017;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3017 :
+    MATCH "[!(t7_pc == 1)]" -> ASSUME {t7_pc == (0);} GOTO ARG3023;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3023 :
+    MATCH "" -> GOTO ARG3026;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3026 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG3034;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3034 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG3036;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3036 :
+    MATCH "return (__retres1);" -> GOTO ARG3041;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3041 :
+    MATCH "" -> GOTO ARG3049;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3049 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG3060;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3060 :
+    MATCH "" -> GOTO ARG3063;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3063 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG3071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3071 :
+    MATCH "" -> GOTO ARG3072;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3072 :
+    MATCH "int __retres1 ;" -> GOTO ARG3075;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3075 :
+    MATCH "[!(t8_pc == 1)]" -> ASSUME {t8_pc == (0);} GOTO ARG3081;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3081 :
+    MATCH "" -> GOTO ARG3084;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3084 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG3093;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3093 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG3095;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3095 :
+    MATCH "return (__retres1);" -> GOTO ARG3102;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3102 :
+    MATCH "" -> GOTO ARG3107;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3107 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG3117;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3117 :
+    MATCH "" -> GOTO ARG3120;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3120 :
+    MATCH "return;" -> GOTO ARG3123;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3123 :
+    MATCH "" -> GOTO ARG3127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3127 :
+    MATCH "reset_delta_events2();" -> GOTO ARG3130;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3130 :
+    MATCH "" -> GOTO ARG3134;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3134 :
+    MATCH "[!(M_E == 1)]" -> ASSUME {M_E == (2);} GOTO ARG3140;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3140 :
+    MATCH "" -> GOTO ARG3143;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3143 :
+    MATCH "[!(T1_E == 1)]" -> ASSUME {T1_E == (2);} GOTO ARG3145;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3145 :
+    MATCH "" -> GOTO ARG3146;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3146 :
+    MATCH "[!(T2_E == 1)]" -> ASSUME {T2_E == (2);} GOTO ARG3147;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3147 :
+    MATCH "" -> GOTO ARG3148;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3148 :
+    MATCH "[!(T3_E == 1)]" -> ASSUME {T3_E == (2);} GOTO ARG3149;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3149 :
+    MATCH "" -> GOTO ARG3150;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3150 :
+    MATCH "[!(T4_E == 1)]" -> ASSUME {T4_E == (2);} GOTO ARG3151;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3151 :
+    MATCH "" -> GOTO ARG3152;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3152 :
+    MATCH "[!(T5_E == 1)]" -> ASSUME {T5_E == (2);} GOTO ARG3154;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3154 :
+    MATCH "" -> GOTO ARG3156;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3156 :
+    MATCH "[!(T6_E == 1)]" -> ASSUME {T6_E == (2);} GOTO ARG3158;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3158 :
+    MATCH "" -> GOTO ARG3161;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3161 :
+    MATCH "[!(T7_E == 1)]" -> ASSUME {T7_E == (2);} GOTO ARG3163;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3163 :
+    MATCH "" -> GOTO ARG3164;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3164 :
+    MATCH "[!(T8_E == 1)]" -> ASSUME {T8_E == (2);} GOTO ARG3165;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3165 :
+    MATCH "" -> GOTO ARG3166;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3166 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG3168;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3168 :
+    MATCH "" -> GOTO ARG3170;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3170 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG3172;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3172 :
+    MATCH "" -> GOTO ARG3175;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3175 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG3179;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3179 :
+    MATCH "" -> GOTO ARG3181;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3181 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG3189;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3189 :
+    MATCH "" -> GOTO ARG3191;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3191 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG3195;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3195 :
+    MATCH "" -> GOTO ARG3197;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3197 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG3202;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3202 :
+    MATCH "" -> GOTO ARG3203;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3203 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG3205;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3205 :
+    MATCH "" -> GOTO ARG3206;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3206 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG3210;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3210 :
+    MATCH "" -> GOTO ARG3212;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3212 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG3216;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3216 :
+    MATCH "" -> GOTO ARG3219;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3219 :
+    MATCH "return;" -> GOTO ARG3220;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3220 :
+    MATCH "" -> GOTO ARG3222;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3222 :
+    MATCH "" -> GOTO ARG3223;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3223 :
+    MATCH "1" -> GOTO ARG3227;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3227 :
+    MATCH "while_10_continue: ;" -> GOTO ARG3228;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3228 :
+    MATCH "kernel_st = 1;" -> GOTO ARG3229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3229 :
+    MATCH "eval2();" -> GOTO ARG3230;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3230 :
+    MATCH "" -> GOTO ARG3231;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3231 :
+    MATCH "int tmp ;" -> GOTO ARG3232;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3232 :
+    MATCH "" -> GOTO ARG3233;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3233 :
+    MATCH "1" -> GOTO ARG3234;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3234 :
+    MATCH "while_9_continue: ;" -> GOTO ARG3235;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3235 :
+    MATCH "tmp = exists_runnable_thread2();" -> GOTO ARG3236;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3236 :
+    MATCH "" -> GOTO ARG3237;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3237 :
+    MATCH "int __retres1 ;" -> GOTO ARG3238;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3238 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG3239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3239 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG3240;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3240 :
+    MATCH "goto return_label;" -> GOTO ARG3241;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3241 :
+    MATCH "return (__retres1);" -> GOTO ARG3243;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3243 :
+    MATCH "" -> GOTO ARG3244;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3244 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG3245;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3245 :
+    MATCH "" -> GOTO ARG3246;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3246 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG3247;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3247 :
+    MATCH "int tmp_ndt_1;" -> GOTO ARG3249;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3249 :
+    MATCH "tmp_ndt_1 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_1 == (0);} GOTO ARG3250;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3250 :
+    MATCH "[!(tmp_ndt_1)]" -> ASSUME {tmp_ndt_1 == (0);} GOTO ARG3251;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3251 :
+    MATCH "" -> GOTO ARG3550;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3550 :
+    MATCH "" -> GOTO ARG3551;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3551 :
+    MATCH "[t1_st == 0]" -> ASSUME {t1_st == (0);} GOTO ARG3552;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3552 :
+    MATCH "int tmp_ndt_2;" -> GOTO ARG3554;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3554 :
+    MATCH "tmp_ndt_2 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_2 == (2);} GOTO ARG3555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3555 :
+    MATCH "[tmp_ndt_2]" -> ASSUME {tmp_ndt_2 == (2);} GOTO ARG3557;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3557 :
+    MATCH "t1_st = 1;" -> ASSUME {t1_st == (1);} GOTO ARG3558;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3558 :
+    MATCH "transmit1();" -> GOTO ARG3559;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3559 :
+    MATCH "" -> GOTO ARG3560;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3560 :
+    MATCH "[t1_pc == 0]" -> ASSUME {t1_pc == (0);} GOTO ARG3564;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3564 :
+    MATCH "goto T1_ENTRY;" -> GOTO ARG3568;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3568 :
+    MATCH "" -> GOTO ARG3570;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3570 :
+    MATCH "1" -> GOTO ARG3572;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3572 :
+    MATCH "while_1_continue: ;" -> GOTO ARG3574;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3574 :
+    MATCH "t1_pc = 1;" -> ASSUME {t1_pc == (1);} GOTO ARG3580;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3580 :
+    MATCH "t1_st = 2;" -> ASSUME {t1_st == (2);} GOTO ARG3585;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3585 :
+    MATCH "goto return_label;" -> GOTO ARG3589;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3589 :
+    MATCH "return;" -> GOTO ARG3590;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3590 :
+    MATCH "" -> GOTO ARG3592;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3592 :
+    MATCH "" -> GOTO ARG3602;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3602 :
+    MATCH "" -> GOTO ARG3605;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3605 :
+    MATCH "[t2_st == 0]" -> ASSUME {t2_st == (0);} GOTO ARG3613;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3613 :
+    MATCH "int tmp_ndt_3;" -> GOTO ARG3620;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3620 :
+    MATCH "tmp_ndt_3 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_3 == (2);} GOTO ARG3639;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3639 :
+    MATCH "[tmp_ndt_3]" -> ASSUME {tmp_ndt_3 == (2);} GOTO ARG3651;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3651 :
+    MATCH "t2_st = 1;" -> ASSUME {t2_st == (1);} GOTO ARG3659;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3659 :
+    MATCH "transmit2();" -> GOTO ARG3663;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3663 :
+    MATCH "" -> GOTO ARG3666;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3666 :
+    MATCH "[t2_pc == 0]" -> ASSUME {t2_pc == (0);} GOTO ARG3674;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3674 :
+    MATCH "goto T2_ENTRY;" -> GOTO ARG3675;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3675 :
+    MATCH "" -> GOTO ARG3676;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3676 :
+    MATCH "1" -> GOTO ARG3677;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3677 :
+    MATCH "while_2_continue: ;" -> GOTO ARG3679;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3679 :
+    MATCH "t2_pc = 1;" -> ASSUME {t2_pc == (1);} GOTO ARG3680;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3680 :
+    MATCH "t2_st = 2;" -> ASSUME {t2_st == (2);} GOTO ARG3681;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3681 :
+    MATCH "goto return_label;" -> GOTO ARG3682;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3682 :
+    MATCH "return;" -> GOTO ARG3684;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3684 :
+    MATCH "" -> GOTO ARG3685;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3685 :
+    MATCH "" -> GOTO ARG3688;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3688 :
+    MATCH "" -> GOTO ARG3689;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3689 :
+    MATCH "[t3_st == 0]" -> ASSUME {t3_st == (0);} GOTO ARG3692;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3692 :
+    MATCH "int tmp_ndt_4;" -> GOTO ARG3701;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3701 :
+    MATCH "tmp_ndt_4 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_4 == (2);} GOTO ARG3713;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3713 :
+    MATCH "[tmp_ndt_4]" -> ASSUME {tmp_ndt_4 == (2);} GOTO ARG3724;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3724 :
+    MATCH "t3_st = 1;" -> ASSUME {t3_st == (1);} GOTO ARG3738;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3738 :
+    MATCH "transmit3();" -> GOTO ARG3743;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3743 :
+    MATCH "" -> GOTO ARG3748;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3748 :
+    MATCH "[t3_pc == 0]" -> ASSUME {t3_pc == (0);} GOTO ARG3767;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3767 :
+    MATCH "goto T3_ENTRY;" -> GOTO ARG3771;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3771 :
+    MATCH "" -> GOTO ARG3773;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3773 :
+    MATCH "1" -> GOTO ARG3775;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3775 :
+    MATCH "while_3_continue: ;" -> GOTO ARG3777;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3777 :
+    MATCH "t3_pc = 1;" -> ASSUME {t3_pc == (1);} GOTO ARG3780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3780 :
+    MATCH "t3_st = 2;" -> ASSUME {t3_st == (2);} GOTO ARG3781;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3781 :
+    MATCH "goto return_label;" -> GOTO ARG3782;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3782 :
+    MATCH "return;" -> GOTO ARG3783;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3783 :
+    MATCH "" -> GOTO ARG3784;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3784 :
+    MATCH "" -> GOTO ARG3787;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3787 :
+    MATCH "" -> GOTO ARG3788;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3788 :
+    MATCH "[t4_st == 0]" -> ASSUME {t4_st == (0);} GOTO ARG3791;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3791 :
+    MATCH "int tmp_ndt_5;" -> GOTO ARG3793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3793 :
+    MATCH "tmp_ndt_5 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_5 == (2);} GOTO ARG3799;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3799 :
+    MATCH "[tmp_ndt_5]" -> ASSUME {tmp_ndt_5 == (2);} GOTO ARG3817;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3817 :
+    MATCH "t4_st = 1;" -> ASSUME {t4_st == (1);} GOTO ARG3828;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3828 :
+    MATCH "transmit4();" -> GOTO ARG3830;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3830 :
+    MATCH "" -> GOTO ARG3835;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3835 :
+    MATCH "[t4_pc == 0]" -> ASSUME {t4_pc == (0);} GOTO ARG3847;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3847 :
+    MATCH "goto T4_ENTRY;" -> GOTO ARG3851;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3851 :
+    MATCH "" -> GOTO ARG3854;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3854 :
+    MATCH "1" -> GOTO ARG3856;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3856 :
+    MATCH "while_4_continue: ;" -> GOTO ARG3858;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3858 :
+    MATCH "t4_pc = 1;" -> ASSUME {t4_pc == (1);} GOTO ARG3861;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3861 :
+    MATCH "t4_st = 2;" -> ASSUME {t4_st == (2);} GOTO ARG3865;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3865 :
+    MATCH "goto return_label;" -> GOTO ARG3867;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3867 :
+    MATCH "return;" -> GOTO ARG3869;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3869 :
+    MATCH "" -> GOTO ARG3870;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3870 :
+    MATCH "" -> GOTO ARG3875;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3875 :
+    MATCH "" -> GOTO ARG3877;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3877 :
+    MATCH "[t5_st == 0]" -> ASSUME {t5_st == (0);} GOTO ARG3879;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3879 :
+    MATCH "int tmp_ndt_6;" -> GOTO ARG3882;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3882 :
+    MATCH "tmp_ndt_6 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_6 == (2);} GOTO ARG3885;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3885 :
+    MATCH "[tmp_ndt_6]" -> ASSUME {tmp_ndt_6 == (2);} GOTO ARG3891;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3891 :
+    MATCH "t5_st = 1;" -> ASSUME {t5_st == (1);} GOTO ARG3895;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3895 :
+    MATCH "transmit5();" -> GOTO ARG3896;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3896 :
+    MATCH "" -> GOTO ARG3898;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3898 :
+    MATCH "[t5_pc == 0]" -> ASSUME {t5_pc == (0);} GOTO ARG3901;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3901 :
+    MATCH "goto T5_ENTRY;" -> GOTO ARG3902;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3902 :
+    MATCH "" -> GOTO ARG3903;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3903 :
+    MATCH "1" -> GOTO ARG3904;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3904 :
+    MATCH "while_5_continue: ;" -> GOTO ARG3906;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3906 :
+    MATCH "t5_pc = 1;" -> ASSUME {t5_pc == (1);} GOTO ARG3910;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3910 :
+    MATCH "t5_st = 2;" -> ASSUME {t5_st == (2);} GOTO ARG3917;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3917 :
+    MATCH "goto return_label;" -> GOTO ARG3919;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3919 :
+    MATCH "return;" -> GOTO ARG3922;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3922 :
+    MATCH "" -> GOTO ARG3925;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3925 :
+    MATCH "" -> GOTO ARG3934;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3934 :
+    MATCH "" -> GOTO ARG3937;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3937 :
+    MATCH "[t6_st == 0]" -> ASSUME {t6_st == (0);} GOTO ARG3944;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3944 :
+    MATCH "int tmp_ndt_7;" -> GOTO ARG3950;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3950 :
+    MATCH "tmp_ndt_7 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_7 == (2);} GOTO ARG3957;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3957 :
+    MATCH "[tmp_ndt_7]" -> ASSUME {tmp_ndt_7 == (2);} GOTO ARG3966;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3966 :
+    MATCH "t6_st = 1;" -> ASSUME {t6_st == (1);} GOTO ARG3974;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3974 :
+    MATCH "transmit6();" -> GOTO ARG3978;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3978 :
+    MATCH "" -> GOTO ARG3981;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3981 :
+    MATCH "[t6_pc == 0]" -> ASSUME {t6_pc == (0);} GOTO ARG3987;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3987 :
+    MATCH "goto T6_ENTRY;" -> GOTO ARG3990;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3990 :
+    MATCH "" -> GOTO ARG3993;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3993 :
+    MATCH "1" -> GOTO ARG3995;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3995 :
+    MATCH "while_6_continue: ;" -> GOTO ARG3997;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG3997 :
+    MATCH "t6_pc = 1;" -> ASSUME {t6_pc == (1);} GOTO ARG4004;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4004 :
+    MATCH "t6_st = 2;" -> ASSUME {t6_st == (2);} GOTO ARG4013;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4013 :
+    MATCH "goto return_label;" -> GOTO ARG4015;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4015 :
+    MATCH "return;" -> GOTO ARG4019;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4019 :
+    MATCH "" -> GOTO ARG4024;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4024 :
+    MATCH "" -> GOTO ARG4028;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4028 :
+    MATCH "" -> GOTO ARG4029;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4029 :
+    MATCH "[t7_st == 0]" -> ASSUME {t7_st == (0);} GOTO ARG4040;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4040 :
+    MATCH "int tmp_ndt_8;" -> GOTO ARG4044;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4044 :
+    MATCH "tmp_ndt_8 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_8 == (2);} GOTO ARG4048;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4048 :
+    MATCH "[tmp_ndt_8]" -> ASSUME {tmp_ndt_8 == (2);} GOTO ARG4056;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4056 :
+    MATCH "t7_st = 1;" -> ASSUME {t7_st == (1);} GOTO ARG4060;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4060 :
+    MATCH "transmit7();" -> GOTO ARG4061;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4061 :
+    MATCH "" -> GOTO ARG4063;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4063 :
+    MATCH "[t7_pc == 0]" -> ASSUME {t7_pc == (0);} GOTO ARG4068;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4068 :
+    MATCH "goto T7_ENTRY;" -> GOTO ARG4071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4071 :
+    MATCH "" -> GOTO ARG4075;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4075 :
+    MATCH "1" -> GOTO ARG4078;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4078 :
+    MATCH "while_7_continue: ;" -> GOTO ARG4082;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4082 :
+    MATCH "t7_pc = 1;" -> ASSUME {t7_pc == (1);} GOTO ARG4097;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4097 :
+    MATCH "t7_st = 2;" -> ASSUME {t7_st == (2);} GOTO ARG4108;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4108 :
+    MATCH "goto return_label;" -> GOTO ARG4111;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4111 :
+    MATCH "return;" -> GOTO ARG4117;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4117 :
+    MATCH "" -> GOTO ARG4122;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4122 :
+    MATCH "" -> GOTO ARG4139;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4139 :
+    MATCH "" -> GOTO ARG4146;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4146 :
+    MATCH "[t8_st == 0]" -> ASSUME {t8_st == (0);} GOTO ARG4160;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4160 :
+    MATCH "int tmp_ndt_9;" -> GOTO ARG4172;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4172 :
+    MATCH "tmp_ndt_9 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_9 == (2);} GOTO ARG4190;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4190 :
+    MATCH "[tmp_ndt_9]" -> ASSUME {tmp_ndt_9 == (2);} GOTO ARG4211;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4211 :
+    MATCH "t8_st = 1;" -> ASSUME {t8_st == (1);} GOTO ARG4229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4229 :
+    MATCH "transmit8();" -> GOTO ARG4239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4239 :
+    MATCH "" -> GOTO ARG4245;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4245 :
+    MATCH "[t8_pc == 0]" -> ASSUME {t8_pc == (0);} GOTO ARG4267;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4267 :
+    MATCH "goto T8_ENTRY;" -> GOTO ARG4273;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4273 :
+    MATCH "" -> GOTO ARG4278;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4278 :
+    MATCH "1" -> GOTO ARG4285;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4285 :
+    MATCH "while_8_continue: ;" -> GOTO ARG4291;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4291 :
+    MATCH "t8_pc = 1;" -> ASSUME {t8_pc == (1);} GOTO ARG4305;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4305 :
+    MATCH "t8_st = 2;" -> ASSUME {t8_st == (2);} GOTO ARG4316;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4316 :
+    MATCH "goto return_label;" -> GOTO ARG4320;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4320 :
+    MATCH "return;" -> GOTO ARG4326;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4326 :
+    MATCH "" -> GOTO ARG4330;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4330 :
+    MATCH "" -> GOTO ARG4344;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4344 :
+    MATCH "" -> GOTO ARG4348;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG4348 :
+    MATCH "" -> GOTO ARG125590;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125590 :
+    MATCH "1" -> GOTO ARG125591;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125591 :
+    MATCH "while_9_continue: ;" -> GOTO ARG125592;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125592 :
+    MATCH "tmp = exists_runnable_thread2();" -> GOTO ARG125593;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125593 :
+    MATCH "" -> GOTO ARG125594;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125594 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG125595;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125595 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG125596;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125596 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG125668;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125668 :
+    MATCH "goto return_label;" -> GOTO ARG125670;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125670 :
+    MATCH "return (__retres1);" -> GOTO ARG125671;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125671 :
+    MATCH "" -> GOTO ARG125672;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125672 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG125674;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125674 :
+    MATCH "" -> GOTO ARG125675;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125675 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG125676;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125676 :
+    MATCH "int tmp_ndt_1;" -> ASSUME {tmp_ndt_1 == (0);} GOTO ARG125679;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125679 :
+    MATCH "tmp_ndt_1 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_1 == (2);} GOTO ARG125680;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125680 :
+    MATCH "[tmp_ndt_1]" -> ASSUME {tmp_ndt_1 == (2);} GOTO ARG125682;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125682 :
+    MATCH "m_st = 1;" -> ASSUME {m_st == (1);} GOTO ARG125683;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125683 :
+    MATCH "master();" -> GOTO ARG125684;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125684 :
+    MATCH "" -> GOTO ARG125685;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125685 :
+    MATCH "int tmp_var = __VERIFIER_nondet_int();" -> GOTO ARG125687;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125687 :
+    MATCH "int tmp_var = __VERIFIER_nondet_int();" -> ASSUME {tmp_var == (12);} GOTO ARG125688;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125688 :
+    MATCH "[m_pc == 0]" -> ASSUME {m_pc == (0);} GOTO ARG125689;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125689 :
+    MATCH "goto M_ENTRY;" -> GOTO ARG125728;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125728 :
+    MATCH "" -> GOTO ARG125730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125730 :
+    MATCH "1" -> GOTO ARG125732;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125732 :
+    MATCH "while_0_continue: ;" -> GOTO ARG125733;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125733 :
+    MATCH "token = __VERIFIER_nondet_int();" -> ASSUME {token == (3);} GOTO ARG125737;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125737 :
+    MATCH "local = token;" -> ASSUME {local == (3);} GOTO ARG125739;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125739 :
+    MATCH "E_1 = 1;" -> ASSUME {E_1 == (1);} GOTO ARG125741;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125741 :
+    MATCH "immediate_notify();" -> GOTO ARG125743;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125743 :
+    MATCH "" -> GOTO ARG125745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125745 :
+    MATCH "activate_threads2();" -> GOTO ARG125746;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125746 :
+    MATCH "" -> GOTO ARG125747;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125747 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG125748;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125748 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG125749;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125749 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG125750;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125750 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG125751;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125751 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG125752;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125752 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG125753;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125753 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG125754;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125754 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG125755;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125755 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG125756;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125756 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG125757;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125757 :
+    MATCH "" -> GOTO ARG125758;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125758 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125761;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125761 :
+    MATCH "[!(m_pc == 1)]" -> ASSUME {m_pc == (0);} GOTO ARG125766;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125766 :
+    MATCH "" -> GOTO ARG125775;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125775 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125776;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125776 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125777;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125777 :
+    MATCH "return (__retres1);" -> GOTO ARG125778;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125778 :
+    MATCH "" -> GOTO ARG125779;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125779 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG125780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125780 :
+    MATCH "" -> GOTO ARG125781;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125781 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG125782;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125782 :
+    MATCH "" -> GOTO ARG125783;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125783 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125784;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125784 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG125785;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125785 :
+    MATCH "[E_1 == 1]" -> ASSUME {E_1 == (1);} GOTO ARG125788;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125788 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG125791;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125791 :
+    MATCH "goto return_label;" -> GOTO ARG125793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125793 :
+    MATCH "return (__retres1);" -> GOTO ARG125794;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125794 :
+    MATCH "" -> GOTO ARG125795;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125795 :
+    MATCH "[tmp___0]" -> ASSUME {tmp___0 == (1);} GOTO ARG125797;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125797 :
+    MATCH "t1_st = 0;" -> ASSUME {t1_st == (0);} GOTO ARG125798;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125798 :
+    MATCH "" -> GOTO ARG125801;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125801 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG125802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125802 :
+    MATCH "" -> GOTO ARG125803;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125803 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125804;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125804 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG125805;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125805 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG125808;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125808 :
+    MATCH "" -> GOTO ARG125809;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125809 :
+    MATCH "" -> GOTO ARG125811;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125811 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125812;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125812 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125813;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125813 :
+    MATCH "return (__retres1);" -> GOTO ARG125814;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125814 :
+    MATCH "" -> GOTO ARG125815;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125815 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG125816;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125816 :
+    MATCH "" -> GOTO ARG125817;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125817 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG125818;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125818 :
+    MATCH "" -> GOTO ARG125821;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125821 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125822;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125822 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG125829;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125829 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG125837;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125837 :
+    MATCH "" -> GOTO ARG125839;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125839 :
+    MATCH "" -> GOTO ARG125846;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125846 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125852;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125852 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125857;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125857 :
+    MATCH "return (__retres1);" -> GOTO ARG125864;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125864 :
+    MATCH "" -> GOTO ARG125869;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125869 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG125873;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125873 :
+    MATCH "" -> GOTO ARG125875;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125875 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG125876;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125876 :
+    MATCH "" -> GOTO ARG125878;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125878 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125879;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125879 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG125880;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125880 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG125883;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125883 :
+    MATCH "" -> GOTO ARG125885;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125885 :
+    MATCH "" -> GOTO ARG125888;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125888 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125895;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125895 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125897;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125897 :
+    MATCH "return (__retres1);" -> GOTO ARG125900;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125900 :
+    MATCH "" -> GOTO ARG125903;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125903 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG125906;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125906 :
+    MATCH "" -> GOTO ARG125908;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125908 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG125909;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125909 :
+    MATCH "" -> GOTO ARG125910;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125910 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125912;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125912 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG125914;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125914 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG125919;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125919 :
+    MATCH "" -> GOTO ARG125921;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125921 :
+    MATCH "" -> GOTO ARG125924;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125924 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125927;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125927 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125929;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125929 :
+    MATCH "return (__retres1);" -> GOTO ARG125931;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125931 :
+    MATCH "" -> GOTO ARG125934;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125934 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG125937;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125937 :
+    MATCH "" -> GOTO ARG125939;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125939 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG125942;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125942 :
+    MATCH "" -> GOTO ARG125943;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125943 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG125944;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125944 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG125946;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125946 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG125950;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125950 :
+    MATCH "" -> GOTO ARG125952;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125952 :
+    MATCH "" -> GOTO ARG125956;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125956 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG125959;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125959 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG125961;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125961 :
+    MATCH "return (__retres1);" -> GOTO ARG125962;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125962 :
+    MATCH "" -> GOTO ARG125964;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG125964 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG126001;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126001 :
+    MATCH "" -> GOTO ARG126003;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126003 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG126005;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126005 :
+    MATCH "" -> GOTO ARG126006;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126006 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126011;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126011 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG126013;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126013 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG126017;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126017 :
+    MATCH "" -> GOTO ARG126019;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126019 :
+    MATCH "" -> GOTO ARG126022;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126022 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126024;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126024 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126025;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126025 :
+    MATCH "return (__retres1);" -> GOTO ARG126026;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126026 :
+    MATCH "" -> GOTO ARG126028;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126028 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG126029;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126029 :
+    MATCH "" -> GOTO ARG126030;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126030 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG126032;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126032 :
+    MATCH "" -> GOTO ARG126033;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126033 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126034;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126034 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG126037;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126037 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG126042;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126042 :
+    MATCH "" -> GOTO ARG126044;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126044 :
+    MATCH "" -> GOTO ARG126048;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126048 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126049;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126049 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126050;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126050 :
+    MATCH "return (__retres1);" -> GOTO ARG126051;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126051 :
+    MATCH "" -> GOTO ARG126054;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126054 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG126056;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126056 :
+    MATCH "" -> GOTO ARG126057;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126057 :
+    MATCH "return;" -> GOTO ARG126058;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126058 :
+    MATCH "" -> GOTO ARG126059;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126059 :
+    MATCH "return;" -> GOTO ARG126061;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126061 :
+    MATCH "" -> GOTO ARG126062;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126062 :
+    MATCH "E_1 = 2;" -> ASSUME {E_1 == (2);} GOTO ARG126063;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126063 :
+    MATCH "m_pc = 1;" -> ASSUME {m_pc == (1);} GOTO ARG126065;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126065 :
+    MATCH "m_st = 2;" -> ASSUME {m_st == (2);} GOTO ARG126066;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126066 :
+    MATCH "goto return_label;" -> GOTO ARG126067;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126067 :
+    MATCH "return;" -> GOTO ARG126069;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126069 :
+    MATCH "" -> GOTO ARG126071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126071 :
+    MATCH "" -> GOTO ARG126076;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126076 :
+    MATCH "" -> GOTO ARG126080;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126080 :
+    MATCH "[t1_st == 0]" -> ASSUME {t1_st == (0);} GOTO ARG126081;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126081 :
+    MATCH "int tmp_ndt_2;" -> ASSUME {tmp_ndt_2 == (2);} GOTO ARG126085;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126085 :
+    MATCH "tmp_ndt_2 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_2 == (2);} GOTO ARG126090;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126090 :
+    MATCH "[tmp_ndt_2]" -> ASSUME {tmp_ndt_2 == (2);} GOTO ARG126094;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126094 :
+    MATCH "t1_st = 1;" -> ASSUME {t1_st == (1);} GOTO ARG126096;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126096 :
+    MATCH "transmit1();" -> GOTO ARG126098;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126098 :
+    MATCH "" -> GOTO ARG126099;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126099 :
+    MATCH "[!(t1_pc == 0)]" -> ASSUME {t1_pc == (1);} GOTO ARG126102;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126102 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG126105;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126105 :
+    MATCH "goto T1_WAIT;" -> GOTO ARG126110;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126110 :
+    MATCH "T1_WAIT:\n    {\n    token += 1;\n    E_2 = 1;\n    immediate_notify();\n    E_2 = 2;\n    }" -> GOTO ARG126112;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126112 :
+    MATCH "token += 1;" -> ASSUME {token == (4);} GOTO ARG126115;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126115 :
+    MATCH "E_2 = 1;" -> ASSUME {E_2 == (1);} GOTO ARG126117;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126117 :
+    MATCH "immediate_notify();" -> GOTO ARG126119;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126119 :
+    MATCH "" -> GOTO ARG126120;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126120 :
+    MATCH "activate_threads2();" -> GOTO ARG126121;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126121 :
+    MATCH "" -> GOTO ARG126123;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126123 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG126125;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126125 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (1);} GOTO ARG126127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126127 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG126130;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126130 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG126132;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126132 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG126133;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126133 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG126134;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126134 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG126135;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126135 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG126136;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126136 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG126138;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126138 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG126140;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126140 :
+    MATCH "" -> GOTO ARG126141;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126141 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126143;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126143 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG126146;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126146 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG126155;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126155 :
+    MATCH "" -> GOTO ARG126157;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126157 :
+    MATCH "" -> GOTO ARG126162;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126162 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126164;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126164 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126167;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126167 :
+    MATCH "return (__retres1);" -> GOTO ARG126172;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126172 :
+    MATCH "" -> GOTO ARG126175;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126175 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG126180;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126180 :
+    MATCH "" -> GOTO ARG126182;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126182 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG126183;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126183 :
+    MATCH "" -> GOTO ARG126184;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126184 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG126185;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126185 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG126187;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126187 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG126188;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126188 :
+    MATCH "" -> GOTO ARG126189;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126189 :
+    MATCH "" -> GOTO ARG126191;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126191 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126193;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126193 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126194;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126194 :
+    MATCH "return (__retres1);" -> GOTO ARG126196;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126196 :
+    MATCH "" -> GOTO ARG126199;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126199 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG126203;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126203 :
+    MATCH "" -> GOTO ARG126204;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126204 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG126205;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126205 :
+    MATCH "" -> GOTO ARG126206;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126206 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126207;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126207 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG126210;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126210 :
+    MATCH "[E_2 == 1]" -> ASSUME {E_2 == (1);} GOTO ARG126214;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126214 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG126217;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126217 :
+    MATCH "goto return_label;" -> GOTO ARG126219;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126219 :
+    MATCH "return (__retres1);" -> GOTO ARG126221;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126221 :
+    MATCH "" -> GOTO ARG126222;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126222 :
+    MATCH "[tmp___1]" -> ASSUME {tmp___1 == (1);} GOTO ARG126224;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126224 :
+    MATCH "t2_st = 0;" -> ASSUME {t2_st == (0);} GOTO ARG126225;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126225 :
+    MATCH "" -> GOTO ARG126229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126229 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG126230;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126230 :
+    MATCH "" -> GOTO ARG126231;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126231 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126232;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126232 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG126236;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126236 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG126239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126239 :
+    MATCH "" -> GOTO ARG126240;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126240 :
+    MATCH "" -> GOTO ARG126243;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126243 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126244;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126244 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126245;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126245 :
+    MATCH "return (__retres1);" -> GOTO ARG126246;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126246 :
+    MATCH "" -> GOTO ARG126249;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126249 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG126251;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126251 :
+    MATCH "" -> GOTO ARG126252;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126252 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG126253;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126253 :
+    MATCH "" -> GOTO ARG126254;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126254 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126255;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126255 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG126257;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126257 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG126263;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126263 :
+    MATCH "" -> GOTO ARG126264;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126264 :
+    MATCH "" -> GOTO ARG126268;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126268 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126273;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126273 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126274;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126274 :
+    MATCH "return (__retres1);" -> GOTO ARG126275;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126275 :
+    MATCH "" -> GOTO ARG126276;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126276 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG126280;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126280 :
+    MATCH "" -> GOTO ARG126281;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126281 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG126282;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126282 :
+    MATCH "" -> GOTO ARG126283;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126283 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126285;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126285 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG126286;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126286 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG126290;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126290 :
+    MATCH "" -> GOTO ARG126291;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126291 :
+    MATCH "" -> GOTO ARG126293;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126293 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126296;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126296 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126298;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126298 :
+    MATCH "return (__retres1);" -> GOTO ARG126299;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126299 :
+    MATCH "" -> GOTO ARG126301;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126301 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG126302;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126302 :
+    MATCH "" -> GOTO ARG126303;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126303 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG126304;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126304 :
+    MATCH "" -> GOTO ARG126305;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126305 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126307;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126307 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG126309;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126309 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG126312;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126312 :
+    MATCH "" -> GOTO ARG126314;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126314 :
+    MATCH "" -> GOTO ARG126317;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126317 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126320;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126320 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126322;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126322 :
+    MATCH "return (__retres1);" -> GOTO ARG126323;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126323 :
+    MATCH "" -> GOTO ARG126324;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126324 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG126326;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126326 :
+    MATCH "" -> GOTO ARG126327;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126327 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG126328;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126328 :
+    MATCH "" -> GOTO ARG126329;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126329 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126331;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126331 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG126332;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126332 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG126335;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126335 :
+    MATCH "" -> GOTO ARG126336;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126336 :
+    MATCH "" -> GOTO ARG126339;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126339 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126340;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126340 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126341;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126341 :
+    MATCH "return (__retres1);" -> GOTO ARG126343;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126343 :
+    MATCH "" -> GOTO ARG126346;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126346 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG126347;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126347 :
+    MATCH "" -> GOTO ARG126348;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126348 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG126350;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126350 :
+    MATCH "" -> GOTO ARG126351;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126351 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126354;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126354 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG126357;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126357 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG126360;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126360 :
+    MATCH "" -> GOTO ARG126361;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126361 :
+    MATCH "" -> GOTO ARG126363;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126363 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126364;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126364 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126366;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126366 :
+    MATCH "return (__retres1);" -> GOTO ARG126369;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126369 :
+    MATCH "" -> GOTO ARG126370;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126370 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG126371;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126371 :
+    MATCH "" -> GOTO ARG126372;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126372 :
+    MATCH "return;" -> GOTO ARG126373;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126373 :
+    MATCH "" -> GOTO ARG126374;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126374 :
+    MATCH "return;" -> GOTO ARG126375;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126375 :
+    MATCH "" -> GOTO ARG126376;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126376 :
+    MATCH "E_2 = 2;" -> ASSUME {E_2 == (2);} GOTO ARG126377;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126377 :
+    MATCH "" -> GOTO ARG126387;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126387 :
+    MATCH "1" -> GOTO ARG126388;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126388 :
+    MATCH "while_1_continue: ;" -> GOTO ARG126389;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126389 :
+    MATCH "t1_pc = 1;" -> ASSUME {t1_pc == (1);} GOTO ARG126390;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126390 :
+    MATCH "t1_st = 2;" -> ASSUME {t1_st == (2);} GOTO ARG126393;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126393 :
+    MATCH "goto return_label;" -> GOTO ARG126394;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126394 :
+    MATCH "return;" -> GOTO ARG126395;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126395 :
+    MATCH "" -> GOTO ARG126396;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126396 :
+    MATCH "" -> GOTO ARG126400;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126400 :
+    MATCH "" -> GOTO ARG126403;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126403 :
+    MATCH "[t2_st == 0]" -> ASSUME {t2_st == (0);} GOTO ARG126405;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126405 :
+    MATCH "int tmp_ndt_3;" -> ASSUME {tmp_ndt_3 == (2);} GOTO ARG126412;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126412 :
+    MATCH "tmp_ndt_3 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_3 == (2);} GOTO ARG126414;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126414 :
+    MATCH "[tmp_ndt_3]" -> ASSUME {tmp_ndt_3 == (2);} GOTO ARG126418;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126418 :
+    MATCH "t2_st = 1;" -> ASSUME {t2_st == (1);} GOTO ARG126419;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126419 :
+    MATCH "transmit2();" -> GOTO ARG126421;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126421 :
+    MATCH "" -> GOTO ARG126423;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126423 :
+    MATCH "[!(t2_pc == 0)]" -> ASSUME {t2_pc == (1);} GOTO ARG126428;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126428 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG126431;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126431 :
+    MATCH "goto T2_WAIT;" -> GOTO ARG126435;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126435 :
+    MATCH "T2_WAIT:\n    {\n    token += 1;\n    E_3 = 1;\n    immediate_notify();\n    E_3 = 2;\n    }" -> GOTO ARG126436;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126436 :
+    MATCH "token += 1;" -> ASSUME {token == (5);} GOTO ARG126438;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126438 :
+    MATCH "E_3 = 1;" -> ASSUME {E_3 == (1);} GOTO ARG126439;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126439 :
+    MATCH "immediate_notify();" -> GOTO ARG126441;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126441 :
+    MATCH "" -> GOTO ARG126443;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126443 :
+    MATCH "activate_threads2();" -> GOTO ARG126444;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126444 :
+    MATCH "" -> GOTO ARG126445;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126445 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG126446;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126446 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG126447;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126447 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (1);} GOTO ARG126450;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126450 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG126451;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126451 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG126453;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126453 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG126455;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126455 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG126460;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126460 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG126461;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126461 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG126463;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126463 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG126465;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126465 :
+    MATCH "" -> GOTO ARG126466;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126466 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126468;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126468 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG126470;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126470 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG126473;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126473 :
+    MATCH "" -> GOTO ARG126474;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126474 :
+    MATCH "" -> GOTO ARG126476;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126476 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126477;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126477 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126478;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126478 :
+    MATCH "return (__retres1);" -> GOTO ARG126479;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126479 :
+    MATCH "" -> GOTO ARG126480;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126480 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG126481;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126481 :
+    MATCH "" -> GOTO ARG126482;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126482 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG126483;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126483 :
+    MATCH "" -> GOTO ARG126484;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126484 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126485;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126485 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG126486;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126486 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG126489;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126489 :
+    MATCH "" -> GOTO ARG126490;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126490 :
+    MATCH "" -> GOTO ARG126492;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126492 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126493;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126493 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126494;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126494 :
+    MATCH "return (__retres1);" -> GOTO ARG126495;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126495 :
+    MATCH "" -> GOTO ARG126496;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126496 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG126497;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126497 :
+    MATCH "" -> GOTO ARG126498;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126498 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG126499;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126499 :
+    MATCH "" -> GOTO ARG126500;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126500 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG126501;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126501 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG126502;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126502 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG126504;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126504 :
+    MATCH "" -> GOTO ARG126505;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126505 :
+    MATCH "" -> GOTO ARG126506;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126506 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126507;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126507 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126508;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126508 :
+    MATCH "return (__retres1);" -> GOTO ARG126509;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126509 :
+    MATCH "" -> GOTO ARG126510;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126510 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG126511;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126511 :
+    MATCH "" -> GOTO ARG126512;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126512 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG126513;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126513 :
+    MATCH "" -> GOTO ARG126514;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126514 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126515;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126515 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG126516;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126516 :
+    MATCH "[E_3 == 1]" -> ASSUME {E_3 == (1);} GOTO ARG126519;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126519 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG126524;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126524 :
+    MATCH "goto return_label;" -> GOTO ARG126526;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126526 :
+    MATCH "return (__retres1);" -> GOTO ARG126527;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126527 :
+    MATCH "" -> GOTO ARG126528;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126528 :
+    MATCH "[tmp___2]" -> ASSUME {tmp___2 == (1);} GOTO ARG126531;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126531 :
+    MATCH "t3_st = 0;" -> ASSUME {t3_st == (0);} GOTO ARG126533;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126533 :
+    MATCH "" -> GOTO ARG126536;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126536 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG126538;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126538 :
+    MATCH "" -> GOTO ARG126539;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126539 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126542;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126542 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG126545;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126545 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG126548;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126548 :
+    MATCH "" -> GOTO ARG126549;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126549 :
+    MATCH "" -> GOTO ARG126551;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126551 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126555 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126556;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126556 :
+    MATCH "return (__retres1);" -> GOTO ARG126557;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126557 :
+    MATCH "" -> GOTO ARG126558;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126558 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG126560;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126560 :
+    MATCH "" -> GOTO ARG126562;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126562 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG126563;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126563 :
+    MATCH "" -> GOTO ARG126564;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126564 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126566;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126566 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG126567;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126567 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG126571;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126571 :
+    MATCH "" -> GOTO ARG126572;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126572 :
+    MATCH "" -> GOTO ARG126575;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126575 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126576;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126576 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126578;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126578 :
+    MATCH "return (__retres1);" -> GOTO ARG126581;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126581 :
+    MATCH "" -> GOTO ARG126584;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126584 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG126587;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126587 :
+    MATCH "" -> GOTO ARG126589;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126589 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG126591;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126591 :
+    MATCH "" -> GOTO ARG126592;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126592 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126593;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126593 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG126594;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126594 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG126599;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126599 :
+    MATCH "" -> GOTO ARG126601;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126601 :
+    MATCH "" -> GOTO ARG126604;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126604 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126605;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126605 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126606;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126606 :
+    MATCH "return (__retres1);" -> GOTO ARG126607;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126607 :
+    MATCH "" -> GOTO ARG126608;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126608 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG126611;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126611 :
+    MATCH "" -> GOTO ARG126612;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126612 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG126613;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126613 :
+    MATCH "" -> GOTO ARG126614;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126614 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126615;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126615 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG126617;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126617 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG126624;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126624 :
+    MATCH "" -> GOTO ARG126625;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126625 :
+    MATCH "" -> GOTO ARG126629;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126629 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126632;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126632 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126634;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126634 :
+    MATCH "return (__retres1);" -> GOTO ARG126653;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126653 :
+    MATCH "" -> GOTO ARG126656;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126656 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG126659;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126659 :
+    MATCH "" -> GOTO ARG126661;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126661 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG126662;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126662 :
+    MATCH "" -> GOTO ARG126663;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126663 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126665;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126665 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG126669;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126669 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG126676;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126676 :
+    MATCH "" -> GOTO ARG126678;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126678 :
+    MATCH "" -> GOTO ARG126682;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126682 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126689;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126689 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126690;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126690 :
+    MATCH "return (__retres1);" -> GOTO ARG126691;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126691 :
+    MATCH "" -> GOTO ARG126692;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126692 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG126693;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126693 :
+    MATCH "" -> GOTO ARG126694;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126694 :
+    MATCH "return;" -> GOTO ARG126695;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126695 :
+    MATCH "" -> GOTO ARG126696;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126696 :
+    MATCH "return;" -> GOTO ARG126697;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126697 :
+    MATCH "" -> GOTO ARG126698;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126698 :
+    MATCH "E_3 = 2;" -> ASSUME {E_3 == (2);} GOTO ARG126699;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126699 :
+    MATCH "" -> GOTO ARG126704;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126704 :
+    MATCH "1" -> GOTO ARG126705;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126705 :
+    MATCH "while_2_continue: ;" -> GOTO ARG126706;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126706 :
+    MATCH "t2_pc = 1;" -> ASSUME {t2_pc == (1);} GOTO ARG126707;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126707 :
+    MATCH "t2_st = 2;" -> ASSUME {t2_st == (2);} GOTO ARG126708;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126708 :
+    MATCH "goto return_label;" -> GOTO ARG126709;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126709 :
+    MATCH "return;" -> GOTO ARG126710;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126710 :
+    MATCH "" -> GOTO ARG126711;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126711 :
+    MATCH "" -> GOTO ARG126714;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126714 :
+    MATCH "" -> GOTO ARG126716;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126716 :
+    MATCH "[t3_st == 0]" -> ASSUME {t3_st == (0);} GOTO ARG126717;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126717 :
+    MATCH "int tmp_ndt_4;" -> ASSUME {tmp_ndt_4 == (2);} GOTO ARG126720;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126720 :
+    MATCH "tmp_ndt_4 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_4 == (2);} GOTO ARG126721;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126721 :
+    MATCH "[tmp_ndt_4]" -> ASSUME {tmp_ndt_4 == (2);} GOTO ARG126723;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126723 :
+    MATCH "t3_st = 1;" -> ASSUME {t3_st == (1);} GOTO ARG126724;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126724 :
+    MATCH "transmit3();" -> GOTO ARG126725;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126725 :
+    MATCH "" -> GOTO ARG126726;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126726 :
+    MATCH "[!(t3_pc == 0)]" -> ASSUME {t3_pc == (1);} GOTO ARG126730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126730 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG126733;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126733 :
+    MATCH "goto T3_WAIT;" -> GOTO ARG126739;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126739 :
+    MATCH "T3_WAIT:\n    {\n    token += 1;\n    E_4 = 1;\n    immediate_notify();\n    E_4 = 2;\n    }" -> GOTO ARG126741;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126741 :
+    MATCH "token += 1;" -> ASSUME {token == (6);} GOTO ARG126742;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126742 :
+    MATCH "E_4 = 1;" -> ASSUME {E_4 == (1);} GOTO ARG126745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126745 :
+    MATCH "immediate_notify();" -> GOTO ARG126746;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126746 :
+    MATCH "" -> GOTO ARG126747;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126747 :
+    MATCH "activate_threads2();" -> GOTO ARG126748;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126748 :
+    MATCH "" -> GOTO ARG126749;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126749 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG126750;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126750 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG126753;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126753 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG126756;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126756 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (1);} GOTO ARG126759;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126759 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG126761;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126761 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG126762;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126762 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG126764;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126764 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG126766;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126766 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG126768;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126768 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG126770;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126770 :
+    MATCH "" -> GOTO ARG126772;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126772 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126774;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126774 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG126780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126780 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG126785;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126785 :
+    MATCH "" -> GOTO ARG126786;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126786 :
+    MATCH "" -> GOTO ARG126790;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126790 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126793 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126795;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126795 :
+    MATCH "return (__retres1);" -> GOTO ARG126797;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126797 :
+    MATCH "" -> GOTO ARG126799;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126799 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG126802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126802 :
+    MATCH "" -> GOTO ARG126803;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126803 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG126805;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126805 :
+    MATCH "" -> GOTO ARG126807;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126807 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126809;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126809 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG126813;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126813 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG126818;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126818 :
+    MATCH "" -> GOTO ARG126819;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126819 :
+    MATCH "" -> GOTO ARG126822;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126822 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126824;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126824 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126826;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126826 :
+    MATCH "return (__retres1);" -> GOTO ARG126829;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126829 :
+    MATCH "" -> GOTO ARG126831;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126831 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG126835;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126835 :
+    MATCH "" -> GOTO ARG126837;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126837 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG126838;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126838 :
+    MATCH "" -> GOTO ARG126840;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126840 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126846;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126846 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG126850;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126850 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG126854;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126854 :
+    MATCH "" -> GOTO ARG126855;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126855 :
+    MATCH "" -> GOTO ARG126858;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126858 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126863;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126863 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126864;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126864 :
+    MATCH "return (__retres1);" -> GOTO ARG126866;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126866 :
+    MATCH "" -> GOTO ARG126869;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126869 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG126875;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126875 :
+    MATCH "" -> GOTO ARG126876;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126876 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG126877;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126877 :
+    MATCH "" -> GOTO ARG126878;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126878 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG126880;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126880 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG126883;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126883 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG126885;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126885 :
+    MATCH "" -> GOTO ARG126886;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126886 :
+    MATCH "" -> GOTO ARG126888;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126888 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126890;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126890 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126891;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126891 :
+    MATCH "return (__retres1);" -> GOTO ARG126893;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126893 :
+    MATCH "" -> GOTO ARG126896;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126896 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG126898;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126898 :
+    MATCH "" -> GOTO ARG126899;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126899 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG126901;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126901 :
+    MATCH "" -> GOTO ARG126903;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126903 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126905;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126905 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG126908;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126908 :
+    MATCH "[E_4 == 1]" -> ASSUME {E_4 == (1);} GOTO ARG126913;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126913 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG126922;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126922 :
+    MATCH "goto return_label;" -> GOTO ARG126925;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126925 :
+    MATCH "return (__retres1);" -> GOTO ARG126928;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126928 :
+    MATCH "" -> GOTO ARG126932;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126932 :
+    MATCH "[tmp___3]" -> ASSUME {tmp___3 == (1);} GOTO ARG126935;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126935 :
+    MATCH "t4_st = 0;" -> ASSUME {t4_st == (0);} GOTO ARG126939;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126939 :
+    MATCH "" -> GOTO ARG126950;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126950 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG126953;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126953 :
+    MATCH "" -> GOTO ARG126956;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126956 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG126961;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126961 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG126967;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126967 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG126976;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126976 :
+    MATCH "" -> GOTO ARG126977;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126977 :
+    MATCH "" -> GOTO ARG126984;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126984 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG126994;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126994 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG126996;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126996 :
+    MATCH "return (__retres1);" -> GOTO ARG126999;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG126999 :
+    MATCH "" -> GOTO ARG127001;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127001 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG127010;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127010 :
+    MATCH "" -> GOTO ARG127013;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127013 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG127015;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127015 :
+    MATCH "" -> GOTO ARG127016;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127016 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127019;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127019 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG127029;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127029 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG127033;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127033 :
+    MATCH "" -> GOTO ARG127036;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127036 :
+    MATCH "" -> GOTO ARG127041;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127041 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127047;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127047 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127050;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127050 :
+    MATCH "return (__retres1);" -> GOTO ARG127054;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127054 :
+    MATCH "" -> GOTO ARG127060;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127060 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG127065;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127065 :
+    MATCH "" -> GOTO ARG127066;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127066 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG127071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127071 :
+    MATCH "" -> GOTO ARG127074;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127074 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127079;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127079 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG127081;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127081 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG127085;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127085 :
+    MATCH "" -> GOTO ARG127087;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127087 :
+    MATCH "" -> GOTO ARG127090;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127090 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127113;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127113 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127114;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127114 :
+    MATCH "return (__retres1);" -> GOTO ARG127115;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127115 :
+    MATCH "" -> GOTO ARG127116;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127116 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG127121;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127121 :
+    MATCH "" -> GOTO ARG127123;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127123 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG127127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127127 :
+    MATCH "" -> GOTO ARG127129;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127129 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127133;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127133 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG127142;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127142 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG127151;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127151 :
+    MATCH "" -> GOTO ARG127152;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127152 :
+    MATCH "" -> GOTO ARG127157;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127157 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127158;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127158 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127159;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127159 :
+    MATCH "return (__retres1);" -> GOTO ARG127160;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127160 :
+    MATCH "" -> GOTO ARG127161;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127161 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG127162;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127162 :
+    MATCH "" -> GOTO ARG127163;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127163 :
+    MATCH "return;" -> GOTO ARG127164;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127164 :
+    MATCH "" -> GOTO ARG127165;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127165 :
+    MATCH "return;" -> GOTO ARG127166;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127166 :
+    MATCH "" -> GOTO ARG127167;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127167 :
+    MATCH "E_4 = 2;" -> ASSUME {E_4 == (2);} GOTO ARG127168;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127168 :
+    MATCH "" -> GOTO ARG127173;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127173 :
+    MATCH "1" -> GOTO ARG127174;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127174 :
+    MATCH "while_3_continue: ;" -> GOTO ARG127175;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127175 :
+    MATCH "t3_pc = 1;" -> ASSUME {t3_pc == (1);} GOTO ARG127176;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127176 :
+    MATCH "t3_st = 2;" -> ASSUME {t3_st == (2);} GOTO ARG127177;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127177 :
+    MATCH "goto return_label;" -> GOTO ARG127178;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127178 :
+    MATCH "return;" -> GOTO ARG127179;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127179 :
+    MATCH "" -> GOTO ARG127181;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127181 :
+    MATCH "" -> GOTO ARG127191;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127191 :
+    MATCH "" -> GOTO ARG127197;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127197 :
+    MATCH "[t4_st == 0]" -> ASSUME {t4_st == (0);} GOTO ARG127199;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127199 :
+    MATCH "int tmp_ndt_5;" -> ASSUME {tmp_ndt_5 == (2);} GOTO ARG127204;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127204 :
+    MATCH "tmp_ndt_5 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_5 == (2);} GOTO ARG127208;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127208 :
+    MATCH "[tmp_ndt_5]" -> ASSUME {tmp_ndt_5 == (2);} GOTO ARG127212;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127212 :
+    MATCH "t4_st = 1;" -> ASSUME {t4_st == (1);} GOTO ARG127214;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127214 :
+    MATCH "transmit4();" -> GOTO ARG127215;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127215 :
+    MATCH "" -> GOTO ARG127216;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127216 :
+    MATCH "[!(t4_pc == 0)]" -> ASSUME {t4_pc == (1);} GOTO ARG127221;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127221 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG127222;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127222 :
+    MATCH "goto T4_WAIT;" -> GOTO ARG127227;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127227 :
+    MATCH "T4_WAIT:\n    {\n    token += 1;\n    E_5 = 1;\n    immediate_notify();\n    E_5 = 2;\n    }" -> GOTO ARG127228;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127228 :
+    MATCH "token += 1;" -> ASSUME {token == (7);} GOTO ARG127229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127229 :
+    MATCH "E_5 = 1;" -> ASSUME {E_5 == (1);} GOTO ARG127230;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127230 :
+    MATCH "immediate_notify();" -> GOTO ARG127231;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127231 :
+    MATCH "" -> GOTO ARG127232;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127232 :
+    MATCH "activate_threads2();" -> GOTO ARG127233;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127233 :
+    MATCH "" -> GOTO ARG127234;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127234 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG127235;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127235 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG127236;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127236 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG127237;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127237 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG127238;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127238 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (1);} GOTO ARG127239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127239 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG127240;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127240 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG127241;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127241 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG127242;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127242 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG127243;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127243 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG127244;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127244 :
+    MATCH "" -> GOTO ARG127245;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127245 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127246;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127246 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG127247;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127247 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG127250;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127250 :
+    MATCH "" -> GOTO ARG127251;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127251 :
+    MATCH "" -> GOTO ARG127253;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127253 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127254;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127254 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127255;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127255 :
+    MATCH "return (__retres1);" -> GOTO ARG127270;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127270 :
+    MATCH "" -> GOTO ARG127275;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127275 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG127276;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127276 :
+    MATCH "" -> GOTO ARG127277;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127277 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG127278;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127278 :
+    MATCH "" -> GOTO ARG127279;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127279 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127280;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127280 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG127281;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127281 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG127284;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127284 :
+    MATCH "" -> GOTO ARG127285;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127285 :
+    MATCH "" -> GOTO ARG127287;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127287 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127288;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127288 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127289;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127289 :
+    MATCH "return (__retres1);" -> GOTO ARG127290;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127290 :
+    MATCH "" -> GOTO ARG127291;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127291 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG127292;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127292 :
+    MATCH "" -> GOTO ARG127293;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127293 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG127294;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127294 :
+    MATCH "" -> GOTO ARG127295;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127295 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127296;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127296 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG127297;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127297 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG127300;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127300 :
+    MATCH "" -> GOTO ARG127301;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127301 :
+    MATCH "" -> GOTO ARG127303;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127303 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127304;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127304 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127305;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127305 :
+    MATCH "return (__retres1);" -> GOTO ARG127306;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127306 :
+    MATCH "" -> GOTO ARG127307;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127307 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG127308;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127308 :
+    MATCH "" -> GOTO ARG127309;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127309 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG127310;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127310 :
+    MATCH "" -> GOTO ARG127311;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127311 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127312;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127312 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG127313;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127313 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG127318;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127318 :
+    MATCH "" -> GOTO ARG127320;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127320 :
+    MATCH "" -> GOTO ARG127322;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127322 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127323;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127323 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127324;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127324 :
+    MATCH "return (__retres1);" -> GOTO ARG127326;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127326 :
+    MATCH "" -> GOTO ARG127329;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127329 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG127332;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127332 :
+    MATCH "" -> GOTO ARG127333;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127333 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG127334;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127334 :
+    MATCH "" -> GOTO ARG127335;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127335 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG127337;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127337 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG127338;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127338 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG127339;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127339 :
+    MATCH "" -> GOTO ARG127340;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127340 :
+    MATCH "" -> GOTO ARG127341;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127341 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127342;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127342 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127343;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127343 :
+    MATCH "return (__retres1);" -> GOTO ARG127344;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127344 :
+    MATCH "" -> GOTO ARG127345;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127345 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG127346;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127346 :
+    MATCH "" -> GOTO ARG127347;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127347 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG127348;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127348 :
+    MATCH "" -> GOTO ARG127349;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127349 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127352;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127352 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG127353;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127353 :
+    MATCH "[E_5 == 1]" -> ASSUME {E_5 == (1);} GOTO ARG127359;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127359 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG127373;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127373 :
+    MATCH "goto return_label;" -> GOTO ARG127376;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127376 :
+    MATCH "return (__retres1);" -> GOTO ARG127380;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127380 :
+    MATCH "" -> GOTO ARG127381;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127381 :
+    MATCH "[tmp___4]" -> ASSUME {tmp___4 == (1);} GOTO ARG127384;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127384 :
+    MATCH "t5_st = 0;" -> ASSUME {t5_st == (0);} GOTO ARG127392;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127392 :
+    MATCH "" -> GOTO ARG127395;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127395 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG127399;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127399 :
+    MATCH "" -> GOTO ARG127400;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127400 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127405;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127405 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG127410;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127410 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG127419;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127419 :
+    MATCH "" -> GOTO ARG127420;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127420 :
+    MATCH "" -> GOTO ARG127422;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127422 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127430;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127430 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127433;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127433 :
+    MATCH "return (__retres1);" -> GOTO ARG127437;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127437 :
+    MATCH "" -> GOTO ARG127440;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127440 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG127444;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127444 :
+    MATCH "" -> GOTO ARG127447;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127447 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG127449;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127449 :
+    MATCH "" -> GOTO ARG127453;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127453 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127455;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127455 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG127457;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127457 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG127460;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127460 :
+    MATCH "" -> GOTO ARG127461;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127461 :
+    MATCH "" -> GOTO ARG127464;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127464 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127465;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127465 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127466;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127466 :
+    MATCH "return (__retres1);" -> GOTO ARG127469;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127469 :
+    MATCH "" -> GOTO ARG127470;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127470 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG127471;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127471 :
+    MATCH "" -> GOTO ARG127472;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127472 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG127473;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127473 :
+    MATCH "" -> GOTO ARG127474;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127474 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127477;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127477 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG127479;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127479 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG127485;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127485 :
+    MATCH "" -> GOTO ARG127487;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127487 :
+    MATCH "" -> GOTO ARG127489;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127489 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127492;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127492 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127493;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127493 :
+    MATCH "return (__retres1);" -> GOTO ARG127494;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127494 :
+    MATCH "" -> GOTO ARG127496;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127496 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG127498;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127498 :
+    MATCH "" -> GOTO ARG127499;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127499 :
+    MATCH "return;" -> GOTO ARG127501;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127501 :
+    MATCH "" -> GOTO ARG127503;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127503 :
+    MATCH "return;" -> GOTO ARG127504;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127504 :
+    MATCH "" -> GOTO ARG127505;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127505 :
+    MATCH "E_5 = 2;" -> ASSUME {E_5 == (2);} GOTO ARG127506;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127506 :
+    MATCH "" -> GOTO ARG127511;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127511 :
+    MATCH "1" -> GOTO ARG127512;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127512 :
+    MATCH "while_4_continue: ;" -> GOTO ARG127513;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127513 :
+    MATCH "t4_pc = 1;" -> ASSUME {t4_pc == (1);} GOTO ARG127514;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127514 :
+    MATCH "t4_st = 2;" -> ASSUME {t4_st == (2);} GOTO ARG127515;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127515 :
+    MATCH "goto return_label;" -> GOTO ARG127516;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127516 :
+    MATCH "return;" -> GOTO ARG127517;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127517 :
+    MATCH "" -> GOTO ARG127518;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127518 :
+    MATCH "" -> GOTO ARG127521;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127521 :
+    MATCH "" -> GOTO ARG127523;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127523 :
+    MATCH "[t5_st == 0]" -> ASSUME {t5_st == (0);} GOTO ARG127524;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127524 :
+    MATCH "int tmp_ndt_6;" -> ASSUME {tmp_ndt_6 == (2);} GOTO ARG127527;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127527 :
+    MATCH "tmp_ndt_6 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_6 == (2);} GOTO ARG127528;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127528 :
+    MATCH "[tmp_ndt_6]" -> ASSUME {tmp_ndt_6 == (2);} GOTO ARG127530;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127530 :
+    MATCH "t5_st = 1;" -> ASSUME {t5_st == (1);} GOTO ARG127531;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127531 :
+    MATCH "transmit5();" -> GOTO ARG127532;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127532 :
+    MATCH "" -> GOTO ARG127533;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127533 :
+    MATCH "[!(t5_pc == 0)]" -> ASSUME {t5_pc == (1);} GOTO ARG127535;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127535 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG127536;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127536 :
+    MATCH "goto T5_WAIT;" -> GOTO ARG127540;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127540 :
+    MATCH "T5_WAIT:\n    {\n    token += 1;\n    E_6 = 1;\n    immediate_notify();\n    E_6 = 2;\n    }" -> GOTO ARG127541;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127541 :
+    MATCH "token += 1;" -> ASSUME {token == (8);} GOTO ARG127542;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127542 :
+    MATCH "E_6 = 1;" -> ASSUME {E_6 == (1);} GOTO ARG127543;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127543 :
+    MATCH "immediate_notify();" -> GOTO ARG127544;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127544 :
+    MATCH "" -> GOTO ARG127545;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127545 :
+    MATCH "activate_threads2();" -> GOTO ARG127546;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127546 :
+    MATCH "" -> GOTO ARG127547;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127547 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG127548;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127548 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG127551;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127551 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG127552;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127552 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG127555;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127555 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG127557;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127557 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (1);} GOTO ARG127560;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127560 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG127563;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127563 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG127564;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127564 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG127565;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127565 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG127566;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127566 :
+    MATCH "" -> GOTO ARG127567;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127567 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127568;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127568 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG127569;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127569 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG127576;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127576 :
+    MATCH "" -> GOTO ARG127577;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127577 :
+    MATCH "" -> GOTO ARG127579;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127579 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127582;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127582 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127583;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127583 :
+    MATCH "return (__retres1);" -> GOTO ARG127584;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127584 :
+    MATCH "" -> GOTO ARG127585;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127585 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG127586;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127586 :
+    MATCH "" -> GOTO ARG127588;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127588 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG127590;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127590 :
+    MATCH "" -> GOTO ARG127592;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127592 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127593;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127593 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG127596;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127596 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG127599;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127599 :
+    MATCH "" -> GOTO ARG127600;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127600 :
+    MATCH "" -> GOTO ARG127602;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127602 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127604;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127604 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127605;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127605 :
+    MATCH "return (__retres1);" -> GOTO ARG127606;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127606 :
+    MATCH "" -> GOTO ARG127608;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127608 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG127611;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127611 :
+    MATCH "" -> GOTO ARG127612;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127612 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG127614;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127614 :
+    MATCH "" -> GOTO ARG127615;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127615 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127616;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127616 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG127619;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127619 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG127622;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127622 :
+    MATCH "" -> GOTO ARG127623;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127623 :
+    MATCH "" -> GOTO ARG127628;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127628 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127630;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127630 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127631;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127631 :
+    MATCH "return (__retres1);" -> GOTO ARG127632;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127632 :
+    MATCH "" -> GOTO ARG127633;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127633 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG127634;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127634 :
+    MATCH "" -> GOTO ARG127635;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127635 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG127636;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127636 :
+    MATCH "" -> GOTO ARG127638;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127638 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127640;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127640 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG127641;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127641 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG127644;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127644 :
+    MATCH "" -> GOTO ARG127645;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127645 :
+    MATCH "" -> GOTO ARG127648;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127648 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127651;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127651 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127652;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127652 :
+    MATCH "return (__retres1);" -> GOTO ARG127653;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127653 :
+    MATCH "" -> GOTO ARG127655;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127655 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG127656;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127656 :
+    MATCH "" -> GOTO ARG127657;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127657 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG127659;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127659 :
+    MATCH "" -> GOTO ARG127660;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127660 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127661;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127661 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG127665;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127665 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG127673;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127673 :
+    MATCH "" -> GOTO ARG127674;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127674 :
+    MATCH "" -> GOTO ARG127679;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127679 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127685;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127685 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127687;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127687 :
+    MATCH "return (__retres1);" -> GOTO ARG127692;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127692 :
+    MATCH "" -> GOTO ARG127695;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127695 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG127698;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127698 :
+    MATCH "" -> GOTO ARG127700;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127700 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG127701;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127701 :
+    MATCH "" -> GOTO ARG127704;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127704 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG127708;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127708 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG127709;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127709 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG127710;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127710 :
+    MATCH "" -> GOTO ARG127711;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127711 :
+    MATCH "" -> GOTO ARG127712;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127712 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127716;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127716 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127718;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127718 :
+    MATCH "return (__retres1);" -> GOTO ARG127720;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127720 :
+    MATCH "" -> GOTO ARG127723;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127723 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG127727;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127727 :
+    MATCH "" -> GOTO ARG127730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127730 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG127732;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127732 :
+    MATCH "" -> GOTO ARG127733;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127733 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127734;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127734 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG127735;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127735 :
+    MATCH "[E_6 == 1]" -> ASSUME {E_6 == (1);} GOTO ARG127738;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127738 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG127743;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127743 :
+    MATCH "goto return_label;" -> GOTO ARG127745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127745 :
+    MATCH "return (__retres1);" -> GOTO ARG127746;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127746 :
+    MATCH "" -> GOTO ARG127748;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127748 :
+    MATCH "[tmp___5]" -> ASSUME {tmp___5 == (1);} GOTO ARG127753;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127753 :
+    MATCH "t6_st = 0;" -> ASSUME {t6_st == (0);} GOTO ARG127755;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127755 :
+    MATCH "" -> GOTO ARG127762;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127762 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG127764;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127764 :
+    MATCH "" -> GOTO ARG127766;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127766 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127769;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127769 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG127773;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127773 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG127781;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127781 :
+    MATCH "" -> GOTO ARG127783;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127783 :
+    MATCH "" -> GOTO ARG127786;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127786 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127787;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127787 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127788;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127788 :
+    MATCH "return (__retres1);" -> GOTO ARG127789;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127789 :
+    MATCH "" -> GOTO ARG127790;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127790 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG127791;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127791 :
+    MATCH "" -> GOTO ARG127792;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127792 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG127793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127793 :
+    MATCH "" -> GOTO ARG127794;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127794 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127795;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127795 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG127796;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127796 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG127799;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127799 :
+    MATCH "" -> GOTO ARG127800;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127800 :
+    MATCH "" -> GOTO ARG127802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127802 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127803;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127803 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127804;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127804 :
+    MATCH "return (__retres1);" -> GOTO ARG127805;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127805 :
+    MATCH "" -> GOTO ARG127806;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127806 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG127807;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127807 :
+    MATCH "" -> GOTO ARG127808;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127808 :
+    MATCH "return;" -> GOTO ARG127809;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127809 :
+    MATCH "" -> GOTO ARG127810;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127810 :
+    MATCH "return;" -> GOTO ARG127811;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127811 :
+    MATCH "" -> GOTO ARG127812;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127812 :
+    MATCH "E_6 = 2;" -> ASSUME {E_6 == (2);} GOTO ARG127813;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127813 :
+    MATCH "" -> GOTO ARG127818;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127818 :
+    MATCH "1" -> GOTO ARG127819;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127819 :
+    MATCH "while_5_continue: ;" -> GOTO ARG127820;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127820 :
+    MATCH "t5_pc = 1;" -> ASSUME {t5_pc == (1);} GOTO ARG127822;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127822 :
+    MATCH "t5_st = 2;" -> ASSUME {t5_st == (2);} GOTO ARG127823;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127823 :
+    MATCH "goto return_label;" -> GOTO ARG127824;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127824 :
+    MATCH "return;" -> GOTO ARG127825;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127825 :
+    MATCH "" -> GOTO ARG127826;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127826 :
+    MATCH "" -> GOTO ARG127831;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127831 :
+    MATCH "" -> GOTO ARG127835;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127835 :
+    MATCH "[t6_st == 0]" -> ASSUME {t6_st == (0);} GOTO ARG127839;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127839 :
+    MATCH "int tmp_ndt_7;" -> ASSUME {tmp_ndt_7 == (2);} GOTO ARG127842;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127842 :
+    MATCH "tmp_ndt_7 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_7 == (2);} GOTO ARG127845;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127845 :
+    MATCH "[tmp_ndt_7]" -> ASSUME {tmp_ndt_7 == (2);} GOTO ARG127847;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127847 :
+    MATCH "t6_st = 1;" -> ASSUME {t6_st == (1);} GOTO ARG127848;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127848 :
+    MATCH "transmit6();" -> GOTO ARG127849;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127849 :
+    MATCH "" -> GOTO ARG127850;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127850 :
+    MATCH "[!(t6_pc == 0)]" -> ASSUME {t6_pc == (1);} GOTO ARG127852;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127852 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG127854;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127854 :
+    MATCH "goto T6_WAIT;" -> GOTO ARG127860;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127860 :
+    MATCH "T6_WAIT:\n    {\n    token += 1;\n    E_7 = 1;\n    immediate_notify();\n    E_7 = 2;\n    }" -> GOTO ARG127861;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127861 :
+    MATCH "token += 1;" -> ASSUME {token == (9);} GOTO ARG127864;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127864 :
+    MATCH "E_7 = 1;" -> ASSUME {E_7 == (1);} GOTO ARG127867;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127867 :
+    MATCH "immediate_notify();" -> GOTO ARG127870;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127870 :
+    MATCH "" -> GOTO ARG127872;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127872 :
+    MATCH "activate_threads2();" -> GOTO ARG127874;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127874 :
+    MATCH "" -> GOTO ARG127876;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127876 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG127878;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127878 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG127882;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127882 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG127884;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127884 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG127889;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127889 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG127891;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127891 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG127894;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127894 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (1);} GOTO ARG127896;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127896 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG127897;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127897 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG127898;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127898 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG127899;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127899 :
+    MATCH "" -> GOTO ARG127900;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127900 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127901;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127901 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG127902;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127902 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG127905;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127905 :
+    MATCH "" -> GOTO ARG127906;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127906 :
+    MATCH "" -> GOTO ARG127908;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127908 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127909;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127909 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127910;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127910 :
+    MATCH "return (__retres1);" -> GOTO ARG127937;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127937 :
+    MATCH "" -> GOTO ARG127938;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127938 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG127939;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127939 :
+    MATCH "" -> GOTO ARG127940;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127940 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG127941;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127941 :
+    MATCH "" -> GOTO ARG127942;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127942 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127943;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127943 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG127944;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127944 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG127947;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127947 :
+    MATCH "" -> GOTO ARG127948;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127948 :
+    MATCH "" -> GOTO ARG127950;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127950 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127951;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127951 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127952;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127952 :
+    MATCH "return (__retres1);" -> GOTO ARG127953;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127953 :
+    MATCH "" -> GOTO ARG127954;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127954 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG127955;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127955 :
+    MATCH "" -> GOTO ARG127956;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127956 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG127957;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127957 :
+    MATCH "" -> GOTO ARG127958;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127958 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127959;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127959 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG127960;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127960 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG127963;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127963 :
+    MATCH "" -> GOTO ARG127964;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127964 :
+    MATCH "" -> GOTO ARG127966;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127966 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127967;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127967 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127968;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127968 :
+    MATCH "return (__retres1);" -> GOTO ARG127969;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127969 :
+    MATCH "" -> GOTO ARG127970;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127970 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG127971;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127971 :
+    MATCH "" -> GOTO ARG127972;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127972 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG127973;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127973 :
+    MATCH "" -> GOTO ARG127974;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127974 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127975;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127975 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG127976;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127976 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG127980;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127980 :
+    MATCH "" -> GOTO ARG127981;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127981 :
+    MATCH "" -> GOTO ARG127983;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127983 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG127984;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127984 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG127985;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127985 :
+    MATCH "return (__retres1);" -> GOTO ARG127986;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127986 :
+    MATCH "" -> GOTO ARG127987;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127987 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG127988;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127988 :
+    MATCH "" -> GOTO ARG127989;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127989 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG127990;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127990 :
+    MATCH "" -> GOTO ARG127991;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127991 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG127992;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127992 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG127993;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127993 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG127996;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127996 :
+    MATCH "" -> GOTO ARG127997;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127997 :
+    MATCH "" -> GOTO ARG127999;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG127999 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128000;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128000 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128001;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128001 :
+    MATCH "return (__retres1);" -> GOTO ARG128002;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128002 :
+    MATCH "" -> GOTO ARG128003;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128003 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG128004;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128004 :
+    MATCH "" -> GOTO ARG128005;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128005 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG128006;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128006 :
+    MATCH "" -> GOTO ARG128007;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128007 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128008;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128008 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG128009;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128009 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG128012;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128012 :
+    MATCH "" -> GOTO ARG128013;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128013 :
+    MATCH "" -> GOTO ARG128015;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128015 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128016;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128016 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128017;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128017 :
+    MATCH "return (__retres1);" -> GOTO ARG128018;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128018 :
+    MATCH "" -> GOTO ARG128021;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128021 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG128023;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128023 :
+    MATCH "" -> GOTO ARG128025;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128025 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG128026;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128026 :
+    MATCH "" -> GOTO ARG128028;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128028 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG128033;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128033 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG128036;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128036 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG128044;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128044 :
+    MATCH "" -> GOTO ARG128046;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128046 :
+    MATCH "" -> GOTO ARG128047;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128047 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128050;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128050 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128052;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128052 :
+    MATCH "return (__retres1);" -> GOTO ARG128055;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128055 :
+    MATCH "" -> GOTO ARG128062;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128062 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG128066;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128066 :
+    MATCH "" -> GOTO ARG128067;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128067 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG128071;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128071 :
+    MATCH "" -> GOTO ARG128073;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128073 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128078;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128078 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG128082;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128082 :
+    MATCH "[E_7 == 1]" -> ASSUME {E_7 == (1);} GOTO ARG128086;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128086 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG128095;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128095 :
+    MATCH "goto return_label;" -> GOTO ARG128104;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128104 :
+    MATCH "return (__retres1);" -> GOTO ARG128111;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128111 :
+    MATCH "" -> GOTO ARG128112;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128112 :
+    MATCH "[tmp___6]" -> ASSUME {tmp___6 == (1);} GOTO ARG128118;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128118 :
+    MATCH "t7_st = 0;" -> ASSUME {t7_st == (0);} GOTO ARG128121;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128121 :
+    MATCH "" -> GOTO ARG128127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128127 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG128129;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128129 :
+    MATCH "" -> GOTO ARG128131;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128131 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128134;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128134 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG128138;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128138 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG128142;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128142 :
+    MATCH "" -> GOTO ARG128143;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128143 :
+    MATCH "" -> GOTO ARG128146;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128146 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128148;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128148 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128150;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128150 :
+    MATCH "return (__retres1);" -> GOTO ARG128151;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128151 :
+    MATCH "" -> GOTO ARG128157;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128157 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG128158;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128158 :
+    MATCH "" -> GOTO ARG128159;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128159 :
+    MATCH "return;" -> GOTO ARG128160;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128160 :
+    MATCH "" -> GOTO ARG128161;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128161 :
+    MATCH "return;" -> GOTO ARG128162;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128162 :
+    MATCH "" -> GOTO ARG128163;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128163 :
+    MATCH "E_7 = 2;" -> ASSUME {E_7 == (2);} GOTO ARG128164;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128164 :
+    MATCH "" -> GOTO ARG128169;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128169 :
+    MATCH "1" -> GOTO ARG128170;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128170 :
+    MATCH "while_6_continue: ;" -> GOTO ARG128171;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128171 :
+    MATCH "t6_pc = 1;" -> ASSUME {t6_pc == (1);} GOTO ARG128172;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128172 :
+    MATCH "t6_st = 2;" -> ASSUME {t6_st == (2);} GOTO ARG128173;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128173 :
+    MATCH "goto return_label;" -> GOTO ARG128174;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128174 :
+    MATCH "return;" -> GOTO ARG128175;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128175 :
+    MATCH "" -> GOTO ARG128176;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128176 :
+    MATCH "" -> GOTO ARG128181;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128181 :
+    MATCH "" -> GOTO ARG128187;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128187 :
+    MATCH "[t7_st == 0]" -> ASSUME {t7_st == (0);} GOTO ARG128206;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128206 :
+    MATCH "int tmp_ndt_8;" -> ASSUME {tmp_ndt_8 == (2);} GOTO ARG128213;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128213 :
+    MATCH "tmp_ndt_8 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_8 == (2);} GOTO ARG128216;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128216 :
+    MATCH "[tmp_ndt_8]" -> ASSUME {tmp_ndt_8 == (2);} GOTO ARG128220;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128220 :
+    MATCH "t7_st = 1;" -> ASSUME {t7_st == (1);} GOTO ARG128225;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128225 :
+    MATCH "transmit7();" -> GOTO ARG128228;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128228 :
+    MATCH "" -> GOTO ARG128229;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128229 :
+    MATCH "[!(t7_pc == 0)]" -> ASSUME {t7_pc == (1);} GOTO ARG128231;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128231 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG128232;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128232 :
+    MATCH "goto T7_WAIT;" -> GOTO ARG128236;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128236 :
+    MATCH "T7_WAIT:\n    {\n    token += 1;\n    E_8 = 1;\n    immediate_notify();\n    E_8 = 2;\n    }" -> GOTO ARG128237;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128237 :
+    MATCH "token += 1;" -> ASSUME {token == (10);} GOTO ARG128238;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128238 :
+    MATCH "E_8 = 1;" -> ASSUME {E_8 == (1);} GOTO ARG128239;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128239 :
+    MATCH "immediate_notify();" -> GOTO ARG128240;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128240 :
+    MATCH "" -> GOTO ARG128241;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128241 :
+    MATCH "activate_threads2();" -> GOTO ARG128242;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128242 :
+    MATCH "" -> GOTO ARG128243;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128243 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG128244;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128244 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG128247;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128247 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG128250;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128250 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG128254;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128254 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG128256;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128256 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG128259;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128259 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG128262;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128262 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (1);} GOTO ARG128265;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128265 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (0);} GOTO ARG128269;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128269 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG128270;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128270 :
+    MATCH "" -> GOTO ARG128271;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128271 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128272;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128272 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG128273;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128273 :
+    MATCH "[!(E_M == 1)]" -> ASSUME {E_M == (2);} GOTO ARG128276;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128276 :
+    MATCH "" -> GOTO ARG128277;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128277 :
+    MATCH "" -> GOTO ARG128279;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128279 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128280;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128280 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128281;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128281 :
+    MATCH "return (__retres1);" -> GOTO ARG128282;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128282 :
+    MATCH "" -> GOTO ARG128283;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128283 :
+    MATCH "[!(tmp)]" -> ASSUME {tmp == (0);} GOTO ARG128284;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128284 :
+    MATCH "" -> GOTO ARG128285;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128285 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG128286;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128286 :
+    MATCH "" -> GOTO ARG128287;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128287 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128288;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128288 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG128289;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128289 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG128292;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128292 :
+    MATCH "" -> GOTO ARG128293;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128293 :
+    MATCH "" -> GOTO ARG128295;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128295 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128298;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128298 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128299;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128299 :
+    MATCH "return (__retres1);" -> GOTO ARG128302;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128302 :
+    MATCH "" -> GOTO ARG128305;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128305 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG128308;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128308 :
+    MATCH "" -> GOTO ARG128310;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128310 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG128311;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128311 :
+    MATCH "" -> GOTO ARG128312;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128312 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128313;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128313 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG128314;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128314 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG128317;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128317 :
+    MATCH "" -> GOTO ARG128318;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128318 :
+    MATCH "" -> GOTO ARG128320;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128320 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128321;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128321 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128322;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128322 :
+    MATCH "return (__retres1);" -> GOTO ARG128323;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128323 :
+    MATCH "" -> GOTO ARG128324;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128324 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG128325;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128325 :
+    MATCH "" -> GOTO ARG128326;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128326 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG128328;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128328 :
+    MATCH "" -> GOTO ARG128329;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128329 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128330;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128330 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG128331;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128331 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG128334;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128334 :
+    MATCH "" -> GOTO ARG128335;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128335 :
+    MATCH "" -> GOTO ARG128337;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128337 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128338;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128338 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128339;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128339 :
+    MATCH "return (__retres1);" -> GOTO ARG128340;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128340 :
+    MATCH "" -> GOTO ARG128341;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128341 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG128342;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128342 :
+    MATCH "" -> GOTO ARG128343;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128343 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG128344;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128344 :
+    MATCH "" -> GOTO ARG128345;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128345 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128346;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128346 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG128347;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128347 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG128350;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128350 :
+    MATCH "" -> GOTO ARG128351;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128351 :
+    MATCH "" -> GOTO ARG128353;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128353 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128354;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128354 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128355;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128355 :
+    MATCH "return (__retres1);" -> GOTO ARG128356;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128356 :
+    MATCH "" -> GOTO ARG128357;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128357 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG128358;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128358 :
+    MATCH "" -> GOTO ARG128359;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128359 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG128360;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128360 :
+    MATCH "" -> GOTO ARG128361;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128361 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128362;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128362 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG128363;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128363 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG128366;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128366 :
+    MATCH "" -> GOTO ARG128367;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128367 :
+    MATCH "" -> GOTO ARG128369;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128369 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128370;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128370 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128371;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128371 :
+    MATCH "return (__retres1);" -> GOTO ARG128372;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128372 :
+    MATCH "" -> GOTO ARG128373;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128373 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG128374;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128374 :
+    MATCH "" -> GOTO ARG128375;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128375 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG128376;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128376 :
+    MATCH "" -> GOTO ARG128377;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128377 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128378;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128378 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG128381;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128381 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG128385;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128385 :
+    MATCH "" -> GOTO ARG128388;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128388 :
+    MATCH "" -> GOTO ARG128393;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128393 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128395;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128395 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128396;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128396 :
+    MATCH "return (__retres1);" -> GOTO ARG128397;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128397 :
+    MATCH "" -> GOTO ARG128398;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128398 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG128399;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128399 :
+    MATCH "" -> GOTO ARG128400;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128400 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG128401;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128401 :
+    MATCH "" -> GOTO ARG128402;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128402 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG128403;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128403 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG128404;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128404 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG128407;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128407 :
+    MATCH "" -> GOTO ARG128408;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128408 :
+    MATCH "" -> GOTO ARG128409;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128409 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128410;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128410 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128412;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128412 :
+    MATCH "return (__retres1);" -> GOTO ARG128415;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128415 :
+    MATCH "" -> GOTO ARG128423;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128423 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG128427;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128427 :
+    MATCH "" -> GOTO ARG128428;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128428 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG128431;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128431 :
+    MATCH "" -> GOTO ARG128432;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128432 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128450;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128450 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG128451;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128451 :
+    MATCH "[E_8 == 1]" -> ASSUME {E_8 == (1);} GOTO ARG128454;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128454 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG128457;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128457 :
+    MATCH "goto return_label;" -> GOTO ARG128459;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128459 :
+    MATCH "return (__retres1);" -> GOTO ARG128460;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128460 :
+    MATCH "" -> GOTO ARG128461;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128461 :
+    MATCH "[tmp___7]" -> ASSUME {tmp___7 == (1);} GOTO ARG128463;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128463 :
+    MATCH "t8_st = 0;" -> ASSUME {t8_st == (0);} GOTO ARG128464;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128464 :
+    MATCH "" -> GOTO ARG128467;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128467 :
+    MATCH "return;" -> GOTO ARG128468;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128468 :
+    MATCH "" -> GOTO ARG128471;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128471 :
+    MATCH "return;" -> GOTO ARG128472;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128472 :
+    MATCH "" -> GOTO ARG128473;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128473 :
+    MATCH "E_8 = 2;" -> ASSUME {E_8 == (2);} GOTO ARG128476;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128476 :
+    MATCH "" -> GOTO ARG128507;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128507 :
+    MATCH "1" -> GOTO ARG128508;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128508 :
+    MATCH "while_7_continue: ;" -> GOTO ARG128509;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128509 :
+    MATCH "t7_pc = 1;" -> ASSUME {t7_pc == (1);} GOTO ARG128512;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128512 :
+    MATCH "t7_st = 2;" -> ASSUME {t7_st == (2);} GOTO ARG128515;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128515 :
+    MATCH "goto return_label;" -> GOTO ARG128517;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128517 :
+    MATCH "return;" -> GOTO ARG128520;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128520 :
+    MATCH "" -> GOTO ARG128523;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128523 :
+    MATCH "" -> GOTO ARG128577;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128577 :
+    MATCH "" -> GOTO ARG128585;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128585 :
+    MATCH "[t8_st == 0]" -> ASSUME {t8_st == (0);} GOTO ARG128592;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128592 :
+    MATCH "int tmp_ndt_9;" -> ASSUME {tmp_ndt_9 == (2);} GOTO ARG128600;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128600 :
+    MATCH "tmp_ndt_9 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_9 == (2);} GOTO ARG128606;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128606 :
+    MATCH "[tmp_ndt_9]" -> ASSUME {tmp_ndt_9 == (2);} GOTO ARG128615;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128615 :
+    MATCH "t8_st = 1;" -> ASSUME {t8_st == (1);} GOTO ARG128619;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128619 :
+    MATCH "transmit8();" -> GOTO ARG128708;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128708 :
+    MATCH "" -> GOTO ARG128709;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128709 :
+    MATCH "[!(t8_pc == 0)]" -> ASSUME {t8_pc == (1);} GOTO ARG128712;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128712 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG128713;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128713 :
+    MATCH "goto T8_WAIT;" -> GOTO ARG128717;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128717 :
+    MATCH "T8_WAIT:\n    {\n    token += 1;\n    E_M = 1;\n    immediate_notify();\n    E_M = 2;\n    }" -> GOTO ARG128718;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128718 :
+    MATCH "token += 1;" -> ASSUME {token == (11);} GOTO ARG128719;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128719 :
+    MATCH "E_M = 1;" -> ASSUME {E_M == (1);} GOTO ARG128720;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128720 :
+    MATCH "immediate_notify();" -> GOTO ARG128721;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128721 :
+    MATCH "" -> GOTO ARG128722;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128722 :
+    MATCH "activate_threads2();" -> GOTO ARG128723;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128723 :
+    MATCH "" -> GOTO ARG128724;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128724 :
+    MATCH "int tmp ;" -> ASSUME {tmp == (0);} GOTO ARG128725;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128725 :
+    MATCH "int tmp___0 ;" -> ASSUME {tmp___0 == (0);} GOTO ARG128726;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128726 :
+    MATCH "int tmp___1 ;" -> ASSUME {tmp___1 == (0);} GOTO ARG128727;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128727 :
+    MATCH "int tmp___2 ;" -> ASSUME {tmp___2 == (0);} GOTO ARG128728;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128728 :
+    MATCH "int tmp___3 ;" -> ASSUME {tmp___3 == (0);} GOTO ARG128729;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128729 :
+    MATCH "int tmp___4 ;" -> ASSUME {tmp___4 == (0);} GOTO ARG128730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128730 :
+    MATCH "int tmp___5 ;" -> ASSUME {tmp___5 == (0);} GOTO ARG128731;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128731 :
+    MATCH "int tmp___6 ;" -> ASSUME {tmp___6 == (0);} GOTO ARG128732;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128732 :
+    MATCH "int tmp___7 ;" -> ASSUME {tmp___7 == (1);} GOTO ARG128733;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128733 :
+    MATCH "tmp = is_master_triggered();" -> GOTO ARG128734;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128734 :
+    MATCH "" -> GOTO ARG128735;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128735 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128736;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128736 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG128737;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128737 :
+    MATCH "[E_M == 1]" -> ASSUME {E_M == (1);} GOTO ARG128740;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128740 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG128745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128745 :
+    MATCH "goto return_label;" -> GOTO ARG128749;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128749 :
+    MATCH "return (__retres1);" -> GOTO ARG128752;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128752 :
+    MATCH "" -> GOTO ARG128753;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128753 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG128755;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128755 :
+    MATCH "m_st = 0;" -> ASSUME {m_st == (0);} GOTO ARG128756;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128756 :
+    MATCH "" -> GOTO ARG128759;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128759 :
+    MATCH "tmp___0 = is_transmit1_triggered();" -> GOTO ARG128760;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128760 :
+    MATCH "" -> GOTO ARG128761;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128761 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128762;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128762 :
+    MATCH "[t1_pc == 1]" -> ASSUME {t1_pc == (1);} GOTO ARG128763;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128763 :
+    MATCH "[!(E_1 == 1)]" -> ASSUME {E_1 == (2);} GOTO ARG128767;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128767 :
+    MATCH "" -> GOTO ARG128768;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128768 :
+    MATCH "" -> GOTO ARG128770;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128770 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128771;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128771 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128772;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128772 :
+    MATCH "return (__retres1);" -> GOTO ARG128773;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128773 :
+    MATCH "" -> GOTO ARG128774;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128774 :
+    MATCH "[!(tmp___0)]" -> ASSUME {tmp___0 == (0);} GOTO ARG128775;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128775 :
+    MATCH "" -> GOTO ARG128776;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128776 :
+    MATCH "tmp___1 = is_transmit2_triggered();" -> GOTO ARG128777;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128777 :
+    MATCH "" -> GOTO ARG128778;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128778 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128779;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128779 :
+    MATCH "[t2_pc == 1]" -> ASSUME {t2_pc == (1);} GOTO ARG128780;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128780 :
+    MATCH "[!(E_2 == 1)]" -> ASSUME {E_2 == (2);} GOTO ARG128783;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128783 :
+    MATCH "" -> GOTO ARG128784;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128784 :
+    MATCH "" -> GOTO ARG128786;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128786 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128787;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128787 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128788;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128788 :
+    MATCH "return (__retres1);" -> GOTO ARG128789;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128789 :
+    MATCH "" -> GOTO ARG128790;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128790 :
+    MATCH "[!(tmp___1)]" -> ASSUME {tmp___1 == (0);} GOTO ARG128791;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128791 :
+    MATCH "" -> GOTO ARG128792;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128792 :
+    MATCH "tmp___2 = is_transmit3_triggered();" -> GOTO ARG128793;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128793 :
+    MATCH "" -> GOTO ARG128794;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128794 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128795;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128795 :
+    MATCH "[t3_pc == 1]" -> ASSUME {t3_pc == (1);} GOTO ARG128796;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128796 :
+    MATCH "[!(E_3 == 1)]" -> ASSUME {E_3 == (2);} GOTO ARG128799;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128799 :
+    MATCH "" -> GOTO ARG128800;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128800 :
+    MATCH "" -> GOTO ARG128802;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128802 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128803;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128803 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128804;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128804 :
+    MATCH "return (__retres1);" -> GOTO ARG128805;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128805 :
+    MATCH "" -> GOTO ARG128806;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128806 :
+    MATCH "[!(tmp___2)]" -> ASSUME {tmp___2 == (0);} GOTO ARG128807;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128807 :
+    MATCH "" -> GOTO ARG128808;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128808 :
+    MATCH "tmp___3 = is_transmit4_triggered();" -> GOTO ARG128809;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128809 :
+    MATCH "" -> GOTO ARG128810;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128810 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128811;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128811 :
+    MATCH "[t4_pc == 1]" -> ASSUME {t4_pc == (1);} GOTO ARG128812;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128812 :
+    MATCH "[!(E_4 == 1)]" -> ASSUME {E_4 == (2);} GOTO ARG128815;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128815 :
+    MATCH "" -> GOTO ARG128816;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128816 :
+    MATCH "" -> GOTO ARG128818;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128818 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128819;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128819 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128820;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128820 :
+    MATCH "return (__retres1);" -> GOTO ARG128823;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128823 :
+    MATCH "" -> GOTO ARG128827;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128827 :
+    MATCH "[!(tmp___3)]" -> ASSUME {tmp___3 == (0);} GOTO ARG128834;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128834 :
+    MATCH "" -> GOTO ARG128835;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128835 :
+    MATCH "tmp___4 = is_transmit5_triggered();" -> GOTO ARG128838;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128838 :
+    MATCH "" -> GOTO ARG128840;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128840 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128842;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128842 :
+    MATCH "[t5_pc == 1]" -> ASSUME {t5_pc == (1);} GOTO ARG128844;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128844 :
+    MATCH "[!(E_5 == 1)]" -> ASSUME {E_5 == (2);} GOTO ARG128851;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128851 :
+    MATCH "" -> GOTO ARG128854;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128854 :
+    MATCH "" -> GOTO ARG128859;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128859 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128867;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128867 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128870;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128870 :
+    MATCH "return (__retres1);" -> GOTO ARG128873;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128873 :
+    MATCH "" -> GOTO ARG128875;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128875 :
+    MATCH "[!(tmp___4)]" -> ASSUME {tmp___4 == (0);} GOTO ARG128883;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128883 :
+    MATCH "" -> GOTO ARG128884;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128884 :
+    MATCH "tmp___5 = is_transmit6_triggered();" -> GOTO ARG128887;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128887 :
+    MATCH "" -> GOTO ARG128888;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128888 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128890;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128890 :
+    MATCH "[t6_pc == 1]" -> ASSUME {t6_pc == (1);} GOTO ARG128897;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128897 :
+    MATCH "[!(E_6 == 1)]" -> ASSUME {E_6 == (2);} GOTO ARG128906;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128906 :
+    MATCH "" -> GOTO ARG128909;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128909 :
+    MATCH "" -> GOTO ARG128913;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128913 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128916;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128916 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128919;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128919 :
+    MATCH "return (__retres1);" -> GOTO ARG128922;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128922 :
+    MATCH "" -> GOTO ARG128927;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128927 :
+    MATCH "[!(tmp___5)]" -> ASSUME {tmp___5 == (0);} GOTO ARG128929;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128929 :
+    MATCH "" -> GOTO ARG128930;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128930 :
+    MATCH "tmp___6 = is_transmit7_triggered();" -> GOTO ARG128932;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128932 :
+    MATCH "" -> GOTO ARG128933;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128933 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (0);} GOTO ARG128936;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128936 :
+    MATCH "[t7_pc == 1]" -> ASSUME {t7_pc == (1);} GOTO ARG128940;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128940 :
+    MATCH "[!(E_7 == 1)]" -> ASSUME {E_7 == (2);} GOTO ARG128943;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128943 :
+    MATCH "" -> GOTO ARG128944;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128944 :
+    MATCH "" -> GOTO ARG128946;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128946 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128947;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128947 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128948;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128948 :
+    MATCH "return (__retres1);" -> GOTO ARG128949;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128949 :
+    MATCH "" -> GOTO ARG128950;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128950 :
+    MATCH "[!(tmp___6)]" -> ASSUME {tmp___6 == (0);} GOTO ARG128951;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128951 :
+    MATCH "" -> GOTO ARG128952;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128952 :
+    MATCH "tmp___7 = is_transmit8_triggered();" -> GOTO ARG128953;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128953 :
+    MATCH "" -> GOTO ARG128954;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128954 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG128955;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128955 :
+    MATCH "[t8_pc == 1]" -> ASSUME {t8_pc == (1);} GOTO ARG128956;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128956 :
+    MATCH "[!(E_8 == 1)]" -> ASSUME {E_8 == (2);} GOTO ARG128957;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128957 :
+    MATCH "" -> GOTO ARG128958;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128958 :
+    MATCH "" -> GOTO ARG128959;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128959 :
+    MATCH "__retres1 = 0;" -> ASSUME {__retres1 == (0);} GOTO ARG128960;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128960 :
+    MATCH "return_label:\n  return (__retres1);" -> GOTO ARG128961;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128961 :
+    MATCH "return (__retres1);" -> GOTO ARG128962;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128962 :
+    MATCH "" -> GOTO ARG128963;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128963 :
+    MATCH "[!(tmp___7)]" -> ASSUME {tmp___7 == (0);} GOTO ARG128964;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128964 :
+    MATCH "" -> GOTO ARG128965;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128965 :
+    MATCH "return;" -> GOTO ARG128966;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128966 :
+    MATCH "" -> GOTO ARG128967;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128967 :
+    MATCH "return;" -> GOTO ARG128968;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128968 :
+    MATCH "" -> GOTO ARG128969;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128969 :
+    MATCH "E_M = 2;" -> ASSUME {E_M == (2);} GOTO ARG128970;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128970 :
+    MATCH "" -> GOTO ARG128975;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128975 :
+    MATCH "1" -> GOTO ARG128976;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128976 :
+    MATCH "while_8_continue: ;" -> GOTO ARG128977;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128977 :
+    MATCH "t8_pc = 1;" -> ASSUME {t8_pc == (1);} GOTO ARG128979;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128979 :
+    MATCH "t8_st = 2;" -> ASSUME {t8_st == (2);} GOTO ARG128980;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128980 :
+    MATCH "goto return_label;" -> GOTO ARG128981;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128981 :
+    MATCH "return;" -> GOTO ARG128982;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128982 :
+    MATCH "" -> GOTO ARG128983;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128983 :
+    MATCH "" -> GOTO ARG128997;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG128997 :
+    MATCH "" -> GOTO ARG129006;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG129006 :
+    MATCH "" -> GOTO ARG293571;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293571 :
+    MATCH "1" -> GOTO ARG293582;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293582 :
+    MATCH "while_9_continue: ;" -> GOTO ARG293585;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293585 :
+    MATCH "tmp = exists_runnable_thread2();" -> GOTO ARG293660;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293660 :
+    MATCH "" -> GOTO ARG293661;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293661 :
+    MATCH "int __retres1 ;" -> ASSUME {__retres1 == (1);} GOTO ARG293662;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293662 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG293665;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293665 :
+    MATCH "__retres1 = 1;" -> ASSUME {__retres1 == (1);} GOTO ARG293719;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293719 :
+    MATCH "goto return_label;" -> GOTO ARG293722;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293722 :
+    MATCH "return (__retres1);" -> GOTO ARG293725;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293725 :
+    MATCH "" -> GOTO ARG293726;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293726 :
+    MATCH "[tmp]" -> ASSUME {tmp == (1);} GOTO ARG293730;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293730 :
+    MATCH "" -> GOTO ARG293732;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293732 :
+    MATCH "[m_st == 0]" -> ASSUME {m_st == (0);} GOTO ARG293736;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293736 :
+    MATCH "int tmp_ndt_1;" -> ASSUME {tmp_ndt_1 == (2);} GOTO ARG293741;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293741 :
+    MATCH "tmp_ndt_1 = __VERIFIER_nondet_int();" -> ASSUME {tmp_ndt_1 == (2);} GOTO ARG293745;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293745 :
+    MATCH "[tmp_ndt_1]" -> ASSUME {tmp_ndt_1 == (2);} GOTO ARG293749;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293749 :
+    MATCH "m_st = 1;" -> ASSUME {m_st == (1);} GOTO ARG293751;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG293751 :
+    MATCH "master();" -> GOTO ARG294097;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294097 :
+    MATCH "" -> GOTO ARG294099;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294099 :
+    MATCH "int tmp_var = __VERIFIER_nondet_int();" -> ASSUME {tmp_var == (12);} GOTO ARG294102;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294102 :
+    MATCH "int tmp_var = __VERIFIER_nondet_int();" -> ASSUME {tmp_var == (5);} GOTO ARG294103;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294103 :
+    MATCH "[!(m_pc == 0)]" -> ASSUME {m_pc == (1);} GOTO ARG294105;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294105 :
+    MATCH "[m_pc == 1]" -> ASSUME {m_pc == (1);} GOTO ARG294106;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294106 :
+    MATCH "goto M_WAIT;" -> GOTO ARG294110;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294110 :
+    MATCH "M_WAIT: ;" -> GOTO ARG294111;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294111 :
+    MATCH "[!(token != local + 8)]" -> ASSUME {token == (11);} GOTO ARG294113;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294113 :
+    MATCH "skipped unnecessary edges" -> GOTO ARG294114;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294114 :
+    MATCH "[tmp_var <= 5]" -> ASSUME {tmp_var == (5);} GOTO ARG294115;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294115 :
+    MATCH "[tmp_var >= 5]" -> ASSUME {tmp_var == (5);} GOTO ARG294118;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294118 :
+    MATCH "[tmp_var == 5]" -> ASSUME {tmp_var == (5);} GOTO ARG294122;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294122 :
+    MATCH "error2();" -> GOTO ARG294126;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294126 :
+    MATCH "" -> GOTO ARG294127;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294127 :
+    MATCH "ERROR: {reach_error();abort();}" -> ERROR;
+    TRUE -> STOP;
+
+STATE USEFIRST ARG294129 :
+    TRUE -> STOP;
+
+END AUTOMATON

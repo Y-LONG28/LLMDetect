@@ -1,0 +1,60 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "be90314b-bffc-3020-a372-898d3a3152b0"
+    creation_time: "2025-01-15T14:09:40+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c: "e370f265a7c203ec6ea8bbb272dda309b9b342f348db509df9615f095a6370a1"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c"
+          line: 8
+          column: 5
+          function: "f"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c"
+          line: 17
+          column: 5
+          function: "f2"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c"
+          line: 8
+          column: 5
+          function: "f"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/afterrec_2calls-1_process_dc_iter1.c"
+          line: 19
+          column: 17
+          function: "f2"

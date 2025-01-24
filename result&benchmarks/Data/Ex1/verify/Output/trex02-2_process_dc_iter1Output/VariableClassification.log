@@ -1,0 +1,47 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_2, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, main::tmp_var_1_int, __bswap_16::__bsx, main::c, main::expr_tmp_var_16_bool]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::local_14, x]
+
+IntOverflow
+
+[main::local_14, x]
+
+ALL
+
+[__bswap_16::__CPAchecker_TMP_0, __bswap_32::__bsx, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::c, assume::cond, main::__CPAchecker_TMP_2, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, main::local_14, __bswap_64::__bsx, main::local_15, __uint64_identity::__x, x, __bswap_64::__CPAchecker_TMP_0, main::tmp_var_1_int, __bswap_16::__retval__, __uint16_identity::__retval__, main::expr_tmp_var_16_bool]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[main::local_14, x] --> [0, 1],
+[main::local_15] --> [],
+[main::c] --> [],
+[main::expr_tmp_var_16_bool] --> [],
+[main::tmp_var_1_int] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[x, assume::cond, main::local_14, main::local_15]
+
+RELEVANT FIELDS
+
+{}

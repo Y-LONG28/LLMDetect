@@ -1,0 +1,25 @@
+line 11:	N38 -{int local_28;}-> N39
+	local_28 == 2;
+line 13:	N40 -{int tmp_var_3_int;}-> N41
+	tmp_var_3_int == 8;
+line 15:	N42 -{int tmp_var_2_int;}-> N43
+	tmp_var_2_int == 0;
+line 20:	N46 -{[tmp_var_2_int == (((int)(tmp_var_3_int + (((uint32_t )(tmp_var_3_int >> 31)) >> 27))) >> 5)]}-> N48
+	tmp_var_2_int == 0;
+lines 21-36:	N49 -{nlen = 0;}-> N50
+	nlen == 0;
+lines 21-22:	N50 -{[nlen < (((int)(tmp_var_3_int + (((uint32_t )(tmp_var_3_int >> 31)) >> 29))) >> 3)]}-> N54
+	nlen == 0;
+lines 21-23:	N54 -{[nlen < local_28]}-> N52
+	nlen == 0;
+	local_28 == 2;
+line 24:	N52 -{[!(nlen < 0)]}-> N55
+	nlen == 0;
+line 27:	N55 -{[!(local_28 <= nlen)]}-> N68
+	local_28 == 2;
+	nlen == 0;
+line 30:	N68 -{[!(nlen < -3)]}-> N81
+	nlen == 0;
+line 33:	N81 -{[tmp_var_2_int <= (((int)(nlen + (((uint32_t )(nlen >> 31)) >> 30))) >> 2)]}-> N95
+	tmp_var_2_int == 0;
+line 34:	N104 -{__assert_fail("0 && \"Assertion failed: j/4 < nlen\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id_trans_process_dc_iter1.c", 34, "__PRETTY_FUNCTION__");}-> N407

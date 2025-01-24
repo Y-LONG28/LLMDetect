@@ -1,0 +1,30 @@
+line 53:	N70 -{uint uVar1;}-> N71
+line 54:	N71 -{uint local_14;}-> N72
+	local_14 == 2U;
+line 58:	N74 -{id(local_14)}-> N37
+	x == 2U;
+line 21:	N41 -{[!(x == 0)]}-> N44
+	x == 2U;
+line 25:	N44 -{id2(x - 1)}-> N53
+	x == 1U;
+line 35:	N54 -{uint uVar1;}-> N55
+	x == 1U;
+line 39:	N57 -{[!(x == 0)]}-> N60
+	x == 1U;
+line 43:	N60 -{id(x - 1)}-> N37
+	x == 0U;
+line 21:	N41 -{[x == 0]}-> N43
+	x == 0U;
+line 22:	N43 -{uVar1 = 0;}-> N45
+	uVar1 == 0U;
+line 44:	N62 -{uVar1 = uVar1 + 1;}-> N63
+	uVar1 == 1U;
+line 45:	N63 -{[!(3 < uVar1)]}-> N64
+	uVar1 == 1U;
+line 26:	N46 -{uVar1 = uVar1 + 1;}-> N47
+	uVar1 == 2U;
+line 27:	N47 -{[!(3 < uVar1)]}-> N48
+	uVar1 == 2U;
+line 59:	N75 -{[uVar1 == 2]}-> N77
+	uVar1 == 2U;
+line 60:	N86 -{__assert_fail("0 && \"Assertion failed: uVar1 should not equal 2\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/id2_b3_o2_process_dc_iter1.c", 60, "__PRETTY_FUNCTION__");}-> N391

@@ -1,0 +1,7 @@
+line 20:	N43 -{uint x;}-> N44
+	x == 0U;
+line 23:	N45 -{[!(x == 1)]}-> N47
+	x == 0U;
+line 23:	N50 -{[!(x == 1)]}-> N53
+	x == 0U;
+line 23:	N53 -{__assert_fail("x == 1 && \"Assertion failed: x should be equal to 1\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/const_1-2_abstracted_process_dc_iter1.c", 23, "__PRETTY_FUNCTION__");}-> N363

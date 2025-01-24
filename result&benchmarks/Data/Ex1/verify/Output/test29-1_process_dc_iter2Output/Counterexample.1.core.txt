@@ -1,0 +1,31 @@
+line 17:	N39 -{dummy adStack_30[2];}-> N40
+	(&d2) == 28LL;
+	(d2.a) == 2;
+	(&adStack_30) == 4LL;
+	(&(adStack_30[0])) == 4LL;
+	(&(adStack_30[1])) == 12LL;
+line 19:	N41 -{dummy local_24;}-> N42
+	pd == 60LL;
+	(&d1) == 60LL;
+	(d1.a) == 0;
+	(&local_24) == 48LL;
+	(local_24.a) == 2;
+	(local_24.b) == 0;
+line 29:	N47 -{[(pd->a) == 0]}-> N49
+line 30:	N49 -{pd = adStack_30;}-> N51
+	pd == 4LL;
+line 34:	N48 -{d2 = local_24;}-> N53
+	(&d2) == 28LL;
+	(d2.a) == 2;
+	(d2.a) == 2;
+	(d2.b) == 0;
+line 35:	N53 -{[!(pd == (&d2))]}-> N56
+	pd == 4LL;
+line 40:	N54 -{[pd == adStack_30]}-> N62
+	pd == 4LL;
+	(&adStack_30) == 4LL;
+	(&(adStack_30[0])) == 4LL;
+	(&(adStack_30[1])) == 12LL;
+line 40:	N62 -{[(d2.a) != 0]}-> N60
+	(d2.a) == 2;
+line 42:	N72 -{__assert_fail("0 && \"Assertion failed: pd == adStack_30 && d2.a != 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test29-1_process_dc_iter2.c", 42, "__PRETTY_FUNCTION__");}-> N354

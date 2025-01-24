@@ -1,0 +1,836 @@
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1991:	N2313 -{int __ste_Client_Keyring1_User0 = 0;}-> N2314
+	__ste_Client_Keyring1_User0 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1992:	N2314 -{int __ste_Client_Keyring1_User1 = 0;}-> N2315
+	__ste_email_isSignatureVerified1 == 0;
+	__ste_email_isSignatureVerified0 == 0;
+	__ste_email_signKey1 == 0;
+	__ste_email_signKey0 == 0;
+	__ste_email_isSigned1 == 0;
+	__ste_email_isSigned0 == 0;
+	__ste_email_to1 == 0;
+	__ste_email_to0 == 0;
+	__ste_email_from1 == 0;
+	__ste_email_from0 == 0;
+	__ste_email_id1 == 0;
+	__ste_email_id0 == 0;
+	__ste_Email_counter == 0;
+	__ste_client_idCounter2 == 0;
+	__ste_client_idCounter1 == 0;
+	__ste_client_idCounter0 == 0;
+	__ste_Client_Keyring2_PublicKey1 == 0;
+	__ste_Client_Keyring2_PublicKey0 == 0;
+	__ste_Client_Keyring1_PublicKey1 == 0;
+	__ste_Client_Keyring1_PublicKey0 == 0;
+	__ste_Client_Keyring0_PublicKey1 == 0;
+	__ste_Client_Keyring0_PublicKey0 == 0;
+	__ste_Client_Keyring2_User1 == 0;
+	__ste_Client_Keyring2_User0 == 0;
+	__ste_Client_Keyring1_User1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 538:	N318 -{int tmp;}-> N319
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 542:	N319 -{select_helpers()}-> N439
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 543:	N320 -{select_features()}-> N435
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 544:	N321 -{valid_product()}-> N443
+	retValue_acc == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 546:	N322 -{[!(tmp == 0)]}-> N324
+	tmp == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 548:	N324 -{setup()}-> N297
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 520:	N301 -{bob = 1;}-> N302
+	bob == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 521:	N302 -{setup_bob(bob)}-> N247
+	bob___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 431:	N248 -{setup_bob__wrappee__Base(bob___0)}-> N242
+	bob___0 == 1;
+	bob___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 421:	N243 -{setClientId(bob___0, bob___0)}-> N1751
+	handle == 1;
+	value == 1;
+	bob___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2335:	N1752 -{[handle == 1]}-> N1754
+	__ste_client_idCounter0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 432:	N249 -{setClientPrivateKey(bob___0, 123)}-> N1388
+	handle == 1;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1900:	N1389 -{[handle == 1]}-> N1391
+	__cil_tmp1 == 6LL;
+	__ste_client_privateKey0 == 123;
+	handle == 1;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 523:	N304 -{printf(__cil_tmp1, bob);}-> N305
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 524:	N305 -{rjh = 2;}-> N306
+	rjh == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 525:	N306 -{setup_rjh(rjh)}-> N258
+	rjh___0 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 452:	N259 -{setup_rjh__wrappee__Base(rjh___0)}-> N253
+	rjh___0 == 2;
+	rjh___0 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 442:	N254 -{setClientId(rjh___0, rjh___0)}-> N1751
+	handle == 2;
+	value == 2;
+	rjh___0 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2335:	N1752 -{[!(handle == 1)]}-> N1755
+	handle == 2;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2338:	N1755 -{[handle == 2]}-> N1758
+	__ste_client_idCounter1 == 2;
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 453:	N260 -{setClientPrivateKey(rjh___0, 456)}-> N1388
+	handle == 2;
+	value == 456;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1900:	N1389 -{[!(handle == 1)]}-> N1392
+	handle == 2;
+	value == 456;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1903:	N1392 -{[handle == 2]}-> N1395
+	__cil_tmp2 == 7LL;
+	__ste_client_privateKey1 == 456;
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 527:	N308 -{printf(__cil_tmp2, rjh);}-> N309
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 528:	N309 -{chuck = 3;}-> N310
+	chuck == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 529:	N310 -{setup_chuck(chuck)}-> N269
+	chuck___0 == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 473:	N270 -{setup_chuck__wrappee__Base(chuck___0)}-> N264
+	chuck___0 == 3;
+	chuck___0 == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 463:	N265 -{setClientId(chuck___0, chuck___0)}-> N1751
+	handle == 3;
+	value == 3;
+	chuck___0 == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2335:	N1752 -{[!(handle == 1)]}-> N1755
+	handle == 3;
+	value == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2338:	N1755 -{[!(handle == 2)]}-> N1759
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2341:	N1759 -{[handle == 3]}-> N1762
+	__ste_client_idCounter2 == 3;
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 474:	N271 -{setClientPrivateKey(chuck___0, 789)}-> N1388
+	handle == 3;
+	value == 789;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1900:	N1389 -{[!(handle == 1)]}-> N1392
+	handle == 3;
+	value == 789;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1903:	N1392 -{[!(handle == 2)]}-> N1396
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1906:	N1396 -{[handle == 3]}-> N1399
+	__cil_tmp3 == 8LL;
+	__ste_client_privateKey2 == 789;
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 531:	N312 -{printf(__cil_tmp3, chuck);}-> N313
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 549:	N326 -{test()}-> N450
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 777:	N474 -{op1 = 0;}-> N475
+	op1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 778:	N475 -{op2 = 0;}-> N476
+	op2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 779:	N476 -{op3 = 0;}-> N477
+	op3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 780:	N477 -{op4 = 0;}-> N478
+	op4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 781:	N478 -{op5 = 0;}-> N479
+	op5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 782:	N479 -{op6 = 0;}-> N480
+	op6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 783:	N480 -{op7 = 0;}-> N481
+	op7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 784:	N481 -{op8 = 0;}-> N482
+	op8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 785:	N482 -{op9 = 0;}-> N483
+	op9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 786:	N483 -{op10 = 0;}-> N484
+	op10 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 787:	N484 -{op11 = 0;}-> N485
+	op11 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 788:	N485 -{splverifierCounter = 0;}-> N486
+	splverifierCounter == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 790:	N486 -{while}-> N487
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 792:	N490 -{[splverifierCounter < 4]}-> N492
+	splverifierCounter == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 797:	N491 -{splverifierCounter = splverifierCounter + 1;}-> N495
+	splverifierCounter == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 798:	N495 -{[op1 == 0]}-> N497
+	op1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 800:	N497 -{tmp___9 = __VERIFIER_nondet_int();}-> N499
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 802:	N499 -{[tmp___9 == 0]}-> N502
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 812:	N506 -{[op2 == 0]}-> N508
+	op2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 814:	N508 -{tmp___8 = __VERIFIER_nondet_int();}-> N510
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 816:	N510 -{[tmp___8 == 0]}-> N513
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 823:	N516 -{[op3 == 0]}-> N518
+	op3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 825:	N518 -{tmp___7 = __VERIFIER_nondet_int();}-> N520
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 827:	N520 -{[tmp___7 == 0]}-> N523
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 837:	N527 -{[op4 == 0]}-> N529
+	op4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 839:	N529 -{tmp___6 = __VERIFIER_nondet_int();}-> N531
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 841:	N531 -{[tmp___6 == 0]}-> N534
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 851:	N538 -{[op5 == 0]}-> N540
+	op5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 853:	N540 -{tmp___5 = __VERIFIER_nondet_int();}-> N542
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 855:	N542 -{[tmp___5 == 0]}-> N545
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 865:	N549 -{[op6 == 0]}-> N551
+	op6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 867:	N551 -{tmp___4 = __VERIFIER_nondet_int();}-> N553
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 869:	N553 -{[tmp___4 == 0]}-> N556
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 876:	N559 -{[op7 == 0]}-> N561
+	op7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 878:	N561 -{tmp___3 = __VERIFIER_nondet_int();}-> N563
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 880:	N563 -{[tmp___3 == 0]}-> N566
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 890:	N570 -{[op8 == 0]}-> N572
+	op8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 892:	N572 -{tmp___2 = __VERIFIER_nondet_int();}-> N574
+	tmp___2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 894:	N574 -{[tmp___2 == 0]}-> N577
+	tmp___2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 904:	N581 -{[op9 == 0]}-> N583
+	op9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 906:	N583 -{tmp___1 = __VERIFIER_nondet_int();}-> N585
+	tmp___1 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 908:	N585 -{[!(tmp___1 == 0)]}-> N587
+	tmp___1 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 910:	N587 -{chuckKeyAdd()}-> N369
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 620:	N370 -{createClientKeyringEntry(chuck)}-> N1442
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1966:	N1445 -{int tmp;}-> N1446
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1971:	N1447 -{getClientKeyringSize(handle)}-> N1404
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1923:	N1406 -{[!(handle == 1)]}-> N1409
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1927:	N1409 -{[!(handle == 2)]}-> N1414
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1931:	N1414 -{[handle == 3]}-> N1418
+	retValue_acc == 0;
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1972:	N1448 -{size = tmp;}-> N1449
+	size == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1974:	N1449 -{[size < 2]}-> N1451
+	__cil_tmp5 == 1;
+	size == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1977:	N1453 -{setClientKeyringSize(handle, __cil_tmp5)}-> N1426
+	handle == 3;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1947:	N1427 -{[!(handle == 1)]}-> N1430
+	handle == 3;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1950:	N1430 -{[!(handle == 2)]}-> N1434
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1953:	N1434 -{[handle == 3]}-> N1437
+	__ste_ClientKeyring_size2 == 1;
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 621:	N371 -{setClientKeyringUser(chuck, 0, 1)}-> N1513
+	handle == 3;
+	index == 0;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2055:	N1514 -{[!(handle == 1)]}-> N1517
+	handle == 3;
+	index == 0;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2066:	N1517 -{[!(handle == 2)]}-> N1528
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2077:	N1528 -{[handle == 3]}-> N1538
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2078:	N1538 -{[index == 0]}-> N1541
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2079:	N1541 -{__ste_Client_Keyring2_User0 = value;}-> N1543
+	__ste_Client_Keyring2_User0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 622:	N372 -{setClientKeyringPublicKey(chuck, 0, 123)}-> N1654
+	handle == 3;
+	index == 0;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2216:	N1655 -{[!(handle == 1)]}-> N1658
+	handle == 3;
+	index == 0;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2227:	N1658 -{[!(handle == 2)]}-> N1669
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2238:	N1669 -{[handle == 3]}-> N1679
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2239:	N1679 -{[index == 0]}-> N1682
+	__ste_Client_Keyring2_PublicKey0 == 123;
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 911:	N589 -{op9 = 1;}-> N590
+	op9 == 1;
+none:	N496 -{}-> N487
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 792:	N490 -{[splverifierCounter < 4]}-> N492
+	splverifierCounter == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 797:	N491 -{splverifierCounter = splverifierCounter + 1;}-> N495
+	splverifierCounter == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 798:	N495 -{[op1 == 0]}-> N497
+	op1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 800:	N497 -{tmp___9 = __VERIFIER_nondet_int();}-> N499
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 802:	N499 -{[tmp___9 == 0]}-> N502
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 812:	N506 -{[op2 == 0]}-> N508
+	op2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 814:	N508 -{tmp___8 = __VERIFIER_nondet_int();}-> N510
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 816:	N510 -{[tmp___8 == 0]}-> N513
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 823:	N516 -{[op3 == 0]}-> N518
+	op3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 825:	N518 -{tmp___7 = __VERIFIER_nondet_int();}-> N520
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 827:	N520 -{[tmp___7 == 0]}-> N523
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 837:	N527 -{[op4 == 0]}-> N529
+	op4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 839:	N529 -{tmp___6 = __VERIFIER_nondet_int();}-> N531
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 841:	N531 -{[tmp___6 == 0]}-> N534
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 851:	N538 -{[op5 == 0]}-> N540
+	op5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 853:	N540 -{tmp___5 = __VERIFIER_nondet_int();}-> N542
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 855:	N542 -{[tmp___5 == 0]}-> N545
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 865:	N549 -{[op6 == 0]}-> N551
+	op6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 867:	N551 -{tmp___4 = __VERIFIER_nondet_int();}-> N553
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 869:	N553 -{[tmp___4 == 0]}-> N556
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 876:	N559 -{[op7 == 0]}-> N561
+	op7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 878:	N561 -{tmp___3 = __VERIFIER_nondet_int();}-> N563
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 880:	N563 -{[tmp___3 == 0]}-> N566
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 890:	N570 -{[op8 == 0]}-> N572
+	op8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 892:	N572 -{tmp___2 = __VERIFIER_nondet_int();}-> N574
+	tmp___2 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 894:	N574 -{[!(tmp___2 == 0)]}-> N576
+	tmp___2 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 896:	N576 -{bobSetAddressBook()}-> N398
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 674:	N399 -{setClientAddressBookSize(bob, 1)}-> N17
+	handle == 1;
+	value == 1;
+output/email_spec27_product17.cil_dc_fix.c, line 21:	N18 -{[handle == 1]}-> N20
+	__ste_ClientAddressBook_size0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 675:	N400 -{setClientAddressBookAlias(bob, 0, rjh)}-> N1163
+	handle == 1;
+	index == 0;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1636:	N1164 -{[handle == 1]}-> N1166
+	handle == 1;
+	index == 0;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1637:	N1166 -{[index == 0]}-> N1169
+	__ste_Client_AddressBook0_Alias0 == 2;
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 676:	N401 -{setClientAddressBookAddress(bob, 0, rjh)}-> N1279
+	handle == 1;
+	index == 0;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1770:	N1280 -{[handle == 1]}-> N1282
+	handle == 1;
+	index == 0;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1771:	N1282 -{[index == 0]}-> N1285
+	__ste_Client_AddressBook0_Address0 == 2;
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 677:	N402 -{setClientAddressBookAddress(bob, 1, chuck)}-> N1279
+	handle == 1;
+	index == 1;
+	value == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1770:	N1280 -{[handle == 1]}-> N1282
+	handle == 1;
+	index == 1;
+	value == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1771:	N1282 -{[!(index == 0)]}-> N1286
+	index == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1774:	N1286 -{[index == 1]}-> N1289
+	__ste_Client_AddressBook0_Address1 == 3;
+	index == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 897:	N578 -{op8 = 1;}-> N579
+	op8 == 1;
+none:	N496 -{}-> N487
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 792:	N490 -{[splverifierCounter < 4]}-> N492
+	splverifierCounter == 3;
+	splverifierCounter == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 798:	N495 -{[op1 == 0]}-> N497
+	op1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 800:	N497 -{tmp___9 = __VERIFIER_nondet_int();}-> N499
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 802:	N499 -{[tmp___9 == 0]}-> N502
+	tmp___9 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 812:	N506 -{[op2 == 0]}-> N508
+	op2 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 814:	N508 -{tmp___8 = __VERIFIER_nondet_int();}-> N510
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 816:	N510 -{[tmp___8 == 0]}-> N513
+	tmp___8 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 823:	N516 -{[op3 == 0]}-> N518
+	op3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 825:	N518 -{tmp___7 = __VERIFIER_nondet_int();}-> N520
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 827:	N520 -{[tmp___7 == 0]}-> N523
+	tmp___7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 837:	N527 -{[op4 == 0]}-> N529
+	op4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 839:	N529 -{tmp___6 = __VERIFIER_nondet_int();}-> N531
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 841:	N531 -{[tmp___6 == 0]}-> N534
+	tmp___6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 851:	N538 -{[op5 == 0]}-> N540
+	op5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 853:	N540 -{tmp___5 = __VERIFIER_nondet_int();}-> N542
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 855:	N542 -{[tmp___5 == 0]}-> N545
+	tmp___5 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 865:	N549 -{[op6 == 0]}-> N551
+	op6 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 867:	N551 -{tmp___4 = __VERIFIER_nondet_int();}-> N553
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 869:	N553 -{[tmp___4 == 0]}-> N556
+	tmp___4 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 876:	N559 -{[op7 == 0]}-> N561
+	op7 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 878:	N561 -{tmp___3 = __VERIFIER_nondet_int();}-> N563
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 880:	N563 -{[tmp___3 == 0]}-> N566
+	tmp___3 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 890:	N570 -{[!(op8 == 0)]}-> N573
+	op8 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 904:	N581 -{[!(op9 == 0)]}-> N584
+	op9 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 918:	N592 -{[op10 == 0]}-> N594
+	op10 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 920:	N594 -{tmp___0 = __VERIFIER_nondet_int();}-> N596
+	tmp___0 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 922:	N596 -{[tmp___0 == 0]}-> N599
+	tmp___0 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 932:	N603 -{[op11 == 0]}-> N605
+	op11 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 934:	N605 -{tmp = __VERIFIER_nondet_int();}-> N607
+	tmp == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 936:	N607 -{[tmp == 0]}-> N610
+	tmp == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 961:	N616 -{bobToRjh()}-> N275
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 486:	N279 -{puts("Please enter a subject and a message body.\n");}-> N280
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 487:	N280 -{sendEmail(bob, rjh)}-> N129
+	sender == 1;
+	receiver == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 223:	N131 -{int tmp;}-> N132
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 227:	N132 -{createEmail(0, receiver)}-> N1830
+	from == 0;
+	to == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2440:	N1833 -{msg = 1;}-> N1834
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2441:	N1834 -{setEmailFrom(msg, from)}-> N1900
+	handle == 1;
+	value == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2538:	N1901 -{[handle == 1]}-> N1903
+	__ste_email_from0 == 0;
+	handle == 1;
+	value == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2442:	N1835 -{setEmailTo(msg, to)}-> N1929
+	handle == 1;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2575:	N1930 -{[handle == 1]}-> N1932
+	retValue_acc == 1;
+	__ste_email_to0 == 2;
+	handle == 1;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 228:	N133 -{email = tmp;}-> N134
+	email == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 229:	N134 -{outgoing(sender, email)}-> N91
+	client == 1;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 164:	N92 -{sign(client, msg)}-> N195
+	client == 1;
+	msg == 1;
+	client == 1;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 315:	N197 -{int tmp;}-> N198
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 319:	N198 -{getClientPrivateKey(client)}-> N1366
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1876:	N1368 -{[handle == 1]}-> N1370
+	retValue_acc == 123;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 320:	N199 -{privkey = tmp;}-> N200
+	privkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 322:	N200 -{[!(privkey == 0)]}-> N203
+	privkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 328:	N201 -{setEmailIsSigned(msg, 1)}-> N2078
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2764:	N2079 -{[handle == 1]}-> N2081
+	__ste_email_isSigned0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 329:	N205 -{setEmailSignKey(msg, privkey)}-> N2107
+	handle == 1;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2801:	N2108 -{[handle == 1]}-> N2110
+	__ste_email_signKey0 == 123;
+	handle == 1;
+	value == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 165:	N93 -{outgoing__wrappee__AddressBook(client, msg)}-> N62
+	client == 1;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 124:	N64 -{int tmp;}-> N65
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 133:	N70 -{getClientAddressBookSize(client)}-> N1
+	handle == 1;
+output/email_spec27_product17.cil_dc_fix.c, line 8:	N2 -{[handle == 1]}-> N4
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 134:	N71 -{size = tmp;}-> N72
+	size == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 136:	N72 -{[!(size == 0)]}-> N74
+	size == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 138:	N74 -{sendToAddressBook(client, msg)}-> N191
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 139:	N76 -{puts("sending to alias in address book\n");}-> N77
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 140:	N77 -{getEmailTo(msg)}-> N1912
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2556:	N1914 -{[handle == 1]}-> N1916
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 142:	N79 -{puts("sending to second receipient\n");}-> N80
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 143:	N80 -{getClientAddressBookAddress(client, 1)}-> N1212
+	handle == 1;
+	index == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1701:	N1214 -{[handle == 1]}-> N1216
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1702:	N1216 -{[!(index == 0)]}-> N1220
+	index == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1706:	N1220 -{[index == 1]}-> N1224
+	second == 3;
+	retValue_acc == 3;
+	index == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 145:	N82 -{setEmailTo(msg, second)}-> N1929
+	handle == 1;
+	value == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2575:	N1930 -{[handle == 1]}-> N1932
+	__ste_email_to0 == 3;
+	handle == 1;
+	value == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 146:	N83 -{outgoing__wrappee__Keys(client, msg)}-> N54
+	client == 1;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 115:	N56 -{getClientId(client)}-> N1729
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2311:	N1731 -{[handle == 1]}-> N1733
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 116:	N57 -{setEmailFrom(msg, tmp)}-> N1900
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2538:	N1901 -{[handle == 1]}-> N1903
+	__ste_email_from0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 117:	N58 -{mail(client, msg)}-> N46
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 99:	N47 -{int tmp;}-> N48
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 103:	N48 -{puts("mail sent");}-> N49
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 104:	N49 -{getEmailTo(msg)}-> N1912
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2556:	N1914 -{[handle == 1]}-> N1916
+	retValue_acc == 3;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 105:	N50 -{incoming(tmp, msg)}-> N112
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 200:	N113 -{verify(client, msg)}-> N209
+	client == 3;
+	msg == 1;
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 335:	N210 -{int tmp;}-> N211
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 336:	N211 -{int tmp___0;}-> N212
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 338:	N213 -{int tmp___1;}-> N214
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 339:	N214 -{int tmp___2;}-> N215
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 340:	N215 -{int tmp___3;}-> N216
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 341:	N216 -{int tmp___4;}-> N217
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 345:	N217 -{isReadable(msg)}-> N1816
+	retValue_acc == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 347:	N218 -{[!(tmp == 0)]}-> N220
+	tmp == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 349:	N220 -{isSigned(msg)}-> N2061
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2745:	N2063 -{[handle == 1]}-> N2065
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 351:	N222 -{[!(tmp___0 == 0)]}-> N224
+	tmp___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 360:	N219 -{getEmailFrom(msg)}-> N1883
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2519:	N1885 -{[handle == 1]}-> N1887
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 361:	N228 -{findPublicKey(client, tmp___1)}-> N1602
+	handle == 3;
+	userid == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2162:	N1604 -{[!(handle == 1)]}-> N1607
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2176:	N1607 -{[!(handle == 2)]}-> N1622
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2190:	N1622 -{[handle == 3]}-> N1636
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2191:	N1636 -{[userid == __ste_Client_Keyring2_User0]}-> N1639
+	retValue_acc == 123;
+	userid == 1;
+	__ste_Client_Keyring2_User0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 362:	N229 -{pubkey = tmp___2;}-> N230
+	pubkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 364:	N230 -{[!(pubkey == 0)]}-> N232
+	pubkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 366:	N232 -{getEmailSignKey(msg)}-> N2090
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2782:	N2092 -{[handle == 1]}-> N2094
+	retValue_acc == 123;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 367:	N234 -{isKeyPairValid(tmp___3, pubkey)}-> N166
+	__cil_tmp4 == 4LL;
+	publicKey == 123;
+	privateKey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 278:	N170 -{printf(__cil_tmp4, publicKey, privateKey);}-> N171
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 280:	N171 -{[!(publicKey == 0)]}-> N174
+	publicKey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 284:	N174 -{[!(privateKey == 0)]}-> N179
+	retValue_acc == 1;
+	privateKey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 369:	N235 -{[!(tmp___4 == 0)]}-> N237
+	tmp___4 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 371:	N237 -{setEmailIsSignatureVerified(msg, 1)}-> N2136
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2838:	N2137 -{[handle == 1]}-> N2139
+	__ste_email_isSignatureVerified0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 201:	N114 -{incoming__wrappee__Sign(client, msg)}-> N107
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 190:	N108 -{deliver(client, msg)}-> N97
+	client == 3;
+	msg == 1;
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 177:	N100 -{__utac__ad__arg1 = client;}-> N101
+	__utac__ad__arg1 == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 178:	N101 -{__utac__ad__arg2 = msg;}-> N102
+	__utac__ad__arg2 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 179:	N102 -{__utac_acc__VerifyForward_spec__1(__utac__ad__arg1, __utac__ad__arg2)}-> N406
+	client == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 687:	N408 -{int tmp;}-> N409
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 688:	N409 -{int tmp___0;}-> N410
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 689:	N410 -{int tmp___1;}-> N411
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 693:	N411 -{puts("before deliver\n");}-> N412
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 694:	N412 -{isVerified(msg)}-> N2119
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2819:	N2121 -{[handle == 1]}-> N2123
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 696:	N413 -{[!(tmp___1 == 0)]}-> N415
+	tmp___1 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 698:	N415 -{getEmailFrom(msg)}-> N1883
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2519:	N1885 -{[handle == 1]}-> N1887
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 699:	N417 -{findPublicKey(client, tmp)}-> N1602
+	retValue_acc == 123;
+	handle == 3;
+	userid == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2162:	N1604 -{[!(handle == 1)]}-> N1607
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2176:	N1607 -{[!(handle == 2)]}-> N1622
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2190:	N1622 -{[handle == 3]}-> N1636
+	handle == 3;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2191:	N1636 -{[userid == __ste_Client_Keyring2_User0]}-> N1639
+	retValue_acc == 123;
+	userid == 1;
+	__ste_Client_Keyring2_User0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 700:	N418 -{pubkey = tmp___0;}-> N419
+	pubkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 702:	N419 -{[!(pubkey == 0)]}-> N422
+	pubkey == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 180:	N103 -{puts("mail delivered\n");}-> N104
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 147:	N84 -{getClientAddressBookAddress(client, 0)}-> N1212
+	retValue_acc == 3;
+	handle == 1;
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1701:	N1214 -{[handle == 1]}-> N1216
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 1702:	N1216 -{[index == 0]}-> N1219
+	retValue_acc == 2;
+	index == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 148:	N85 -{setEmailTo(msg, tmp___2)}-> N1929
+	handle == 1;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2575:	N1930 -{[handle == 1]}-> N1932
+	__ste_email_to0 == 2;
+	handle == 1;
+	value == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 149:	N86 -{outgoing__wrappee__Keys(client, msg)}-> N54
+	tmp == 1;
+	client == 1;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 115:	N56 -{getClientId(client)}-> N1729
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2311:	N1731 -{[handle == 1]}-> N1733
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 116:	N57 -{setEmailFrom(msg, tmp)}-> N1900
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2538:	N1901 -{[handle == 1]}-> N1903
+	__ste_email_from0 == 1;
+	handle == 1;
+	value == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 117:	N58 -{mail(client, msg)}-> N46
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 99:	N47 -{int tmp;}-> N48
+	tmp == 3;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 103:	N48 -{puts("mail sent");}-> N49
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 104:	N49 -{getEmailTo(msg)}-> N1912
+	retValue_acc == 3;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2556:	N1914 -{[handle == 1]}-> N1916
+	retValue_acc == 2;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 105:	N50 -{incoming(tmp, msg)}-> N112
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 200:	N113 -{verify(client, msg)}-> N209
+	client == 2;
+	msg == 1;
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 335:	N210 -{int tmp;}-> N211
+	tmp == 1;
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 336:	N211 -{int tmp___0;}-> N212
+	pubkey == 123;
+	tmp___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 338:	N213 -{int tmp___1;}-> N214
+	tmp___1 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 339:	N214 -{int tmp___2;}-> N215
+	tmp___4 == 1;
+	tmp___3 == 123;
+	tmp___2 == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 345:	N217 -{isReadable(msg)}-> N1816
+	retValue_acc == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 347:	N218 -{[!(tmp == 0)]}-> N220
+	tmp == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 349:	N220 -{isSigned(msg)}-> N2061
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2745:	N2063 -{[handle == 1]}-> N2065
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 351:	N222 -{[!(tmp___0 == 0)]}-> N224
+	tmp___0 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 360:	N219 -{getEmailFrom(msg)}-> N1883
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2519:	N1885 -{[handle == 1]}-> N1887
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 361:	N228 -{findPublicKey(client, tmp___1)}-> N1602
+	retValue_acc == 123;
+	handle == 2;
+	userid == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2162:	N1604 -{[!(handle == 1)]}-> N1607
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2176:	N1607 -{[handle == 2]}-> N1621
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2177:	N1621 -{[!(userid == __ste_Client_Keyring1_User0)]}-> N1625
+	userid == 1;
+	__ste_Client_Keyring1_User0 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2181:	N1625 -{[!(userid == __ste_Client_Keyring1_User1)]}-> N1630
+	retValue_acc == 0;
+	userid == 1;
+	__ste_Client_Keyring1_User1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 362:	N229 -{pubkey = tmp___2;}-> N230
+	pubkey == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 364:	N230 -{[pubkey == 0]}-> N233
+	pubkey == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 201:	N114 -{incoming__wrappee__Sign(client, msg)}-> N107
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 190:	N108 -{deliver(client, msg)}-> N97
+	__utac__ad__arg2 == 1;
+	__utac__ad__arg1 == 3;
+	client == 2;
+	msg == 1;
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 177:	N100 -{__utac__ad__arg1 = client;}-> N101
+	__utac__ad__arg1 == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 178:	N101 -{__utac__ad__arg2 = msg;}-> N102
+	__utac__ad__arg2 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 179:	N102 -{__utac_acc__VerifyForward_spec__1(__utac__ad__arg1, __utac__ad__arg2)}-> N406
+	pubkey == 123;
+	client == 2;
+	msg == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 687:	N408 -{int tmp;}-> N409
+	tmp == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 688:	N409 -{int tmp___0;}-> N410
+	tmp___0 == 123;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 689:	N410 -{int tmp___1;}-> N411
+	tmp___1 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 693:	N411 -{puts("before deliver\n");}-> N412
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 694:	N412 -{isVerified(msg)}-> N2119
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2819:	N2121 -{[handle == 1]}-> N2123
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 696:	N413 -{[!(tmp___1 == 0)]}-> N415
+	tmp___1 == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 698:	N415 -{getEmailFrom(msg)}-> N1883
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2519:	N1885 -{[handle == 1]}-> N1887
+	retValue_acc == 1;
+	handle == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 699:	N417 -{findPublicKey(client, tmp)}-> N1602
+	retValue_acc == 0;
+	handle == 2;
+	userid == 1;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2162:	N1604 -{[!(handle == 1)]}-> N1607
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2176:	N1607 -{[handle == 2]}-> N1621
+	handle == 2;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2177:	N1621 -{[!(userid == __ste_Client_Keyring1_User0)]}-> N1625
+	userid == 1;
+	__ste_Client_Keyring1_User0 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 2181:	N1625 -{[!(userid == __ste_Client_Keyring1_User1)]}-> N1630
+	retValue_acc == 0;
+	userid == 1;
+	__ste_Client_Keyring1_User1 == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 700:	N418 -{pubkey = tmp___0;}-> N419
+	pubkey == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 702:	N419 -{[pubkey == 0]}-> N421
+	pubkey == 0;
+src/email_spec27_product17.cil/email_spec27_product17.cil.c, line 704:	N421 -{__automaton_fail()}-> N620

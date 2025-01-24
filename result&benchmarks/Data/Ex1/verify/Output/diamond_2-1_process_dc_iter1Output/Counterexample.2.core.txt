@@ -1,0 +1,32 @@
+line 14:	N38 -{uint local_18;}-> N39
+	local_18 == 1U;
+line 19:	N42 -{local_14 = 0;}-> N43
+	local_18 == 1U;
+	local_14 == 0U;
+line 21:	N43 -{while}-> N44
+line 21:	N44 -{[local_14 < 99]}-> N45
+	local_14 == 0U;
+line 22:	N45 -{[!((local_18 & 1) == 0)]}-> N49
+line 25:	N49 -{local_14 = local_14 + 2;}-> N51
+	local_14 == 2U;
+line 27:	N47 -{[!((local_18 & 1) == 0)]}-> N54
+line 30:	N54 -{local_14 = local_14 + -2;}-> N56
+	local_14 == 0U;
+line 32:	N52 -{[!((local_18 & 1) == 0)]}-> N57
+line 35:	N57 -{[!((local_18 & 1) == 0)]}-> N62
+line 38:	N62 -{local_14 = local_14 + -2;}-> N64
+	local_14 == 4294967294U;
+line 40:	N60 -{[!((local_18 & 1) == 0)]}-> N67
+line 43:	N67 -{local_14 = local_14 + 4;}-> N69
+	local_14 == 2U;
+line 45:	N65 -{[!((local_18 & 1) == 0)]}-> N72
+line 48:	N72 -{local_14 = local_14 + -2;}-> N74
+	local_14 == 0U;
+line 50:	N70 -{[!((local_18 & 1) == 0)]}-> N77
+line 53:	N77 -{local_14 = local_14 - 4;}-> N79
+	local_14 == 4294967292U;
+none:	N75 -{}-> N44
+line 21:	N44 -{[!(local_14 < 99)]}-> N46
+	local_14 == 4294967292U;
+line 58:	N46 -{[((local_18 ^ local_14) & 1) != 0]}-> N81
+line 59:	N90 -{__assert_fail("0 && \"(x % 2) == (y % 2)\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/diamond_2-1_process_dc_iter1.c", 59, "__PRETTY_FUNCTION__");}-> N393

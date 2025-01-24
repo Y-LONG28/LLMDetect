@@ -1,0 +1,58 @@
+IntBool
+
+[main::res, assume::cond, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, signgam, main::__CPAchecker_TMP_5]
+
+IntEq
+
+[]
+
+IntAdd
+
+[main::__CPAchecker_TMP_0, main::iptr]
+
+IntOverflow
+
+[main::iVar2, main::iptr, modf_float::x, modf_float::iptr, modf_float::uVar2, isnan_float::__retval__, modf_float::pfVar3, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_1, main::__CPAchecker_TMP_0, main::in_a1, modf_float::__retval__, modf_float::iVar1, isnan_float::__CPAchecker_TMP_0, main::fVar1, main::x, isnan_float::x, modf_float::__CPAchecker_TMP_0]
+
+ALL
+
+[modf_float::x, __uint32_identity::__retval__, modf_float::uVar2, signgam, main::__CPAchecker_TMP_2, modf_float::gf_u_1, main::__CPAchecker_TMP_1, modf_float::gf_u_2, main::__CPAchecker_TMP_0, main::in_a1, modf_float::i, isnan_float::__CPAchecker_TMP_0, __bswap_64::__CPAchecker_TMP_0, main::__CPAchecker_TMP_5, main::res, __bswap_16::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, __bswap_32::__retval__, modf_float::iptr, isnan_float::__retval__, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, modf_float::i0, __uint64_identity::__x, main::fVar1, isnan_float::x, __bswap_16::__retval__, __uint16_identity::__retval__, main::iVar2, modf_float::sf_u, __bswap_32::__bsx, main::iptr, __uint32_identity::__x, __bswap_16::__bsx, assume::cond, modf_float::__retval__, main::x, modf_float::j0, modf_float::gf_u, modf_float::sf_u_1, modf_float::ix_1, modf_float::sf_u_2, main::__retval__, modf_float::sf_u_3, modf_float::ix, modf_float::pfVar3, __bswap_64::__bsx, modf_float::iVar1, modf_float::__CPAchecker_TMP_0]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[isnan_float::__CPAchecker_TMP_0, isnan_float::__retval__, isnan_float::x, main::__CPAchecker_TMP_1, main::__CPAchecker_TMP_2, main::fVar1, main::iVar2, main::in_a1, main::x, modf_float::__CPAchecker_TMP_0, modf_float::__retval__, modf_float::iVar1, modf_float::iptr, modf_float::pfVar3, modf_float::uVar2, modf_float::x] --> [0, 23, 31, 127, 255, 8388607, 2147483648],
+[main::__CPAchecker_TMP_0, main::iptr] --> [],
+[main::res] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_5] --> [0],
+[signgam] --> [],
+[modf_float::sf_u_3] --> [],
+[modf_float::gf_u_2] --> [],
+[modf_float::sf_u_2] --> [],
+[modf_float::sf_u_1] --> [],
+[modf_float::gf_u_1] --> [],
+[modf_float::sf_u] --> [],
+[modf_float::gf_u] --> [],
+[modf_float::ix] --> [],
+[modf_float::i] --> [],
+[modf_float::ix_1] --> [],
+[modf_float::j0] --> [],
+[modf_float::i0] --> []]
+
+RELEVANT VARS
+
+[main::iVar2, modf_float::x, modf_float::uVar2, modf_float::iptr, isnan_float::__retval__, assume::cond, modf_float::pfVar3, main::__CPAchecker_TMP_2, main::__CPAchecker_TMP_1, modf_float::__retval__, main::in_a1, modf_float::iVar1, main::fVar1, main::x, isnan_float::__CPAchecker_TMP_0, isnan_float::x, modf_float::__CPAchecker_TMP_0]
+
+RELEVANT FIELDS
+
+{}

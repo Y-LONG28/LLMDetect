@@ -1,0 +1,1 @@
+void __utac_acc__Specification1_spec__2(int floor, int *landingButtons_spc1_0,int *landingButtons_spc1_1,int *landingButtons_spc1_2,int *landingButtons_spc1_3,int *landingButtons_spc1_4);

@@ -1,0 +1,58 @@
+IntBool
+
+[main::__CPAchecker_TMP_3, assume::cond, get_dummy::expr_tmp_var_34_bool, __bswap_32::__bsx, init::expr_tmp_var_31_int, init::expr_tmp_var_30_int, __bswap_64::__bsx, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[main::iVar1, get_dummy::__retval__, main::s1, get_dummy::lVar1, main::__retval__, main::s2, check::s2->b, check::s2, main::extraout_var, check::s1, check::__retval__, main::__CPAchecker_TMP_0, check::s1->a]
+
+ALL
+
+[main::pd1, main::pd2, get_dummy::lVar1, __uint32_identity::__retval__, main::__CPAchecker_TMP_3, init::__retval__, check::__retval__, main::in_a0, main::__CPAchecker_TMP_0, __bswap_64::__CPAchecker_TMP_0, init::d2.a, check::s1->a, init::d2.b, get_dummy::expr_tmp_var_34_bool, __bswap_16::__CPAchecker_TMP_0, get_dummy::__retval__, __bswap_64::__retval__, __uint64_identity::__retval__, __bswap_32::__retval__, check::s2->b, __uint16_identity::__x, main::extraout_var, __bswap_32::__CPAchecker_TMP_0, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__, main::iVar1, init::local_1c, __bswap_32::__bsx, init::expr_tmp_var_31_int, init::expr_tmp_var_30_int, __uint32_identity::__x, __bswap_16::__bsx, get_dummy::local_11, d1, d2, init::local_20, assume::cond, check::s2, check::s1, init::expr_tmp_var_32_int, init::ctx, check::s1_local, init::d1.b, init::d1.a, init::expr_tmp_var_33_int, main::s1, check::s2_local, main::s2, main::__retval__, __bswap_64::__bsx]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[check::__retval__, check::s1->a, check::s2->b, main::__CPAchecker_TMP_0, main::__retval__, main::extraout_var, main::iVar1] --> [0, 32, 1048576],
+[check::s2_local] --> [],
+[check::s1_local] --> [],
+[check::s1, check::s2, get_dummy::__retval__, get_dummy::lVar1, main::s1, main::s2] --> [0, 304, 312, 1048576],
+[get_dummy::local_11] --> [],
+[get_dummy::expr_tmp_var_34_bool] --> [],
+[init::__retval__, init::ctx, main::in_a0] --> [],
+[init::d1.a, init::expr_tmp_var_32_int] --> [],
+[init::d1.b, init::expr_tmp_var_33_int] --> [],
+[init::expr_tmp_var_31_int] --> [],
+[init::expr_tmp_var_30_int] --> [],
+[init::d2.a, init::local_1c] --> [],
+[init::d2.b, init::local_20] --> [],
+[main::pd2] --> [],
+[main::pd1] --> [],
+[main::__CPAchecker_TMP_3] --> [0],
+[d1] --> [],
+[d2] --> []]
+
+RELEVANT VARS
+
+[init::expr_tmp_var_33_int, main::iVar1, init::local_1c, main::s1, get_dummy::__retval__, main::s2, get_dummy::lVar1, get_dummy::local_11, d1, d2, init::local_20, assume::cond, check::s2, main::extraout_var, check::s1, main::__CPAchecker_TMP_0, check::__retval__, init::expr_tmp_var_32_int]
+
+RELEVANT FIELDS
+
+{struct __anon_type_dummy=[a, b]}

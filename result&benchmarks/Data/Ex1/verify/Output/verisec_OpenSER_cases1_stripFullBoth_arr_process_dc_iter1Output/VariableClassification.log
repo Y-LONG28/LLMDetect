@@ -1,0 +1,60 @@
+IntBool
+
+[parse_expression_list::__CPAchecker_TMP_2, assume::cond, parse_expression_list::i, __bswap_32::__bsx, main::i, __bswap_64::__bsx, parse_expression_list::start, main::__retval__, main::expr_tmp_var_56_char, __bswap_16::__bsx]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[r_strncpy::src, parse_expression_list::str_local, main::A[0], parse_expression_list::str, main::acStack_20[(int)(A[4])], main::acStack_20, r_strncpy::dest, parse_expression_list::__retval__, _str2, parse_expression_list::j, r_strncpy::n, main::A[4], parse_expression_list::str2[(((int)((str_local - str) - j)) + 1) - 8], main::A[7], main::A[5], main::A[6], parse_expression_list::iVar1]
+
+ALL
+
+[r_strncpy::src, parse_expression_list::str_local, __bswap_32::__bsx, parse_expression_list::str, r_strncpy::pcVar1, r_strncpy::n_local, parse_expression_list::start, main::acStack_20[(int)(A[4])], __uint32_identity::__x, __uint32_identity::__retval__, main::expr_tmp_var_56_char, __bswap_16::__bsx, main::acStack_20, parse_expression_list::__retval__, assume::cond, parse_expression_list::j, parse_expression_list::i, parse_expression_list::str2, main::i, main::A[4], parse_expression_list::str2[(((int)((str_local - str) - j)) + 1) - 8], __bswap_64::__CPAchecker_TMP_0, main::A[6], r_strncpy::dest_local, r_strncpy::__retval__, __bswap_16::__CPAchecker_TMP_0, main::A[0], __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, r_strncpy::dest, main::A, _str2, parse_expression_list::__CPAchecker_TMP_2, __uint16_identity::__x, r_strncpy::n, r_strncpy::src_local, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, main::A[7], __uint16_identity::__retval__, main::A[5], parse_expression_list::iVar1]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[_str2, main::acStack_20, parse_expression_list::__retval__, parse_expression_list::iVar1, parse_expression_list::j, parse_expression_list::str, parse_expression_list::str_local, r_strncpy::dest, r_strncpy::n, r_strncpy::src] --> [-1, 0, 1, 8],
+[main::A] --> [9],
+[main::expr_tmp_var_56_char] --> [],
+[main::i] --> [],
+[main::A[4]] --> [1],
+[main::A[5]] --> [],
+[main::A[6]] --> [],
+[main::A[7]] --> [],
+[main::acStack_20[(int)(A[4])]] --> [],
+[main::A[0]] --> [],
+[main::__retval__] --> [0],
+[parse_expression_list::str2] --> [2],
+[parse_expression_list::i] --> [],
+[parse_expression_list::start] --> [],
+[r_strncpy::__retval__, r_strncpy::pcVar1] --> [],
+[parse_expression_list::str2[(((int)((str_local - str) - j)) + 1) - 8]] --> [],
+[parse_expression_list::__CPAchecker_TMP_2] --> [0],
+[r_strncpy::n_local] --> [],
+[r_strncpy::src_local] --> [],
+[r_strncpy::dest_local] --> []]
+
+RELEVANT VARS
+
+[_str2, assume::cond, parse_expression_list::j, parse_expression_list::str_local, parse_expression_list::str2, parse_expression_list::str, main::acStack_20, parse_expression_list::iVar1, main::A]
+
+RELEVANT FIELDS
+
+{}

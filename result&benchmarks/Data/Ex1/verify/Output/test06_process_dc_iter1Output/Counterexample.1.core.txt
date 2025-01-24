@@ -1,0 +1,20 @@
+line 47:	N69 -{f(4, &p2, (int **)(&local_28))}-> N48
+	a == 4;
+	p1 == 28LL;
+	(*p1) == 44LL;
+	(*(*p1)) == 4;
+	p2 == 8LL;
+line 28:	N52 -{[a == 4]}-> N54
+	a == 4;
+line 29:	N54 -{g(p1, p2)}-> N37
+	(*piVar1) == 0;
+	(*p1) == 44LL;
+	(*(*p1)) == 4;
+	piVar1 == 0LL;
+	p1 == 28LL;
+	(*p1) == 44LL;
+	(*(*p1)) == 4;
+	p2 == 8LL;
+line 48:	N70 -{[(*p2) == 0]}-> N72
+	(*p2) == 1;
+line 50:	N83 -{__assert_fail("0 && \"Assertion failed: *p2 should not be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test06_process_dc_iter1.c", 50, "__PRETTY_FUNCTION__");}-> N365

@@ -1,0 +1,82 @@
+- entry_type: "violation_sequence"
+  metadata:
+    format_version: "2.0"
+    uuid: "a76b090d-363a-34db-9083-7c63ceb88858"
+    creation_time: "2025-01-15T14:19:42+08:00"
+    producer:
+      name: "CPAchecker"
+      version: "4.0"
+      configuration: "default"
+    task:
+      input_files:
+      - "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+      input_file_hashes:
+        /home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c: "e5873ca7ded58868e32a236f2744f14e3f2a4328e1fc35071649c2ec3819b541"
+      specification: ""
+      data_model: "ILP32"
+      language: "C"
+  content:
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 32
+          column: 5
+          function: "__fpclassify_float"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 59
+          column: 5
+          function: "fmin_float"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 32
+          column: 5
+          function: "__fpclassify_float"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "false"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 34
+          column: 12
+          function: "__fpclassify_float"
+  - segment:
+    - waypoint:
+        type: "branching"
+        action: "follow"
+        constraint:
+          value: "true"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 93
+          column: 5
+          function: "main"
+  - segment:
+    - waypoint:
+        type: "target"
+        action: "follow"
+        location:
+          file_name: "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1232b_process_dc_iter2.c"
+          line: 94
+          column: 17
+          function: "main"

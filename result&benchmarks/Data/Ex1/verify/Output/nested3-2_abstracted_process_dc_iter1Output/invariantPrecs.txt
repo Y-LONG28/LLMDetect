@@ -1,0 +1,11 @@
+(set-info :source |printed by MathSAT|)
+(declare-fun |main::z| () (_ BitVec 32))
+(declare-fun __string__ (Int) (_ BitVec 32))
+(declare-fun |main::w| () (_ BitVec 32))
+
+main N47:
+(assert (let ((.def_149 (= |main::z| (_ bv0 32)))).def_149))
+
+main N52:
+(assert (let ((.def_401 (bvurem |main::z| (_ bv4 32))))(let ((.def_404 (bvult |main::z| .def_401)))(let ((.def_435 (not .def_404)))(let ((.def_409 (= .def_401 (_ bv0 32))))(let ((.def_269 (__string__ 6)))(let ((.def_270 (= .def_269 (_ bv0 32))))(let ((.def_271 (not .def_270)))(let ((.def_433 (and .def_271 .def_409)))(let ((.def_406 (bvurem .def_401 (_ bv4 32))))(let ((.def_407 (= .def_401 .def_406)))(let ((.def_434 (and .def_407 .def_433)))(let ((.def_436 (and .def_434 .def_435)))(let ((.def_402 (bvult .def_401 (_ bv4 32))))(let ((.def_437 (and .def_402 .def_436)))(let ((.def_226 (= |main::w| (_ bv0 32))))(let ((.def_509 (or .def_226 .def_437)))(let ((.def_348 (= |main::w| (_ bv1 32))))(let ((.def_359 (not .def_348)))(let ((.def_319 (not .def_226)))(let ((.def_508 (or .def_319 .def_359)))(let ((.def_510 (and .def_508 .def_509)))(let ((.def_149 (= |main::z| (_ bv0 32))))(let ((.def_511 (and .def_149 .def_510))).def_511))))))))))))))))))))))))
+

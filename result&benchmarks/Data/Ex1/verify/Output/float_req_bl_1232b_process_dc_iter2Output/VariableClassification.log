@@ -1,0 +1,53 @@
+IntBool
+
+[assume::cond, main::__CPAchecker_TMP_3, main::in_a1, __bswap_32::__bsx, fmin_float::y_local, __bswap_64::__bsx, fmin_float::y, main::__retval__, __bswap_16::__bsx, fmin_float::x_local]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[main::iVar1, __fpclassify_float::x, __signbit_float::in_fa0, __fpclassify_float::__retval__, __bswap_32::__bsx, fmin_float::y_local, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, assume::cond, main::__CPAchecker_TMP_3, fmin_float::extraout_var, main::in_a0, main::__CPAchecker_TMP_0, __fpclassify_float::gf_u.word, main::in_a1, __fpclassify_float::in_fa0, __bswap_64::__CPAchecker_TMP_0, __signbit_float::gf_u.word, __signbit_float::gf_u.value, __fpclassify_float::gf_u, main::extraout_fa0, __bswap_16::__CPAchecker_TMP_0, fmin_float::x, fmin_float::__CPAchecker_TMP_0, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, fmin_float::__CPAchecker_TMP_1, __signbit_float::x, fmin_float::x_local, __fpclassify_float::gf_u.value, __uint16_identity::__x, main::extraout_var, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __signbit_float::__retval__, __uint64_identity::__x, fmin_float::y, __fpclassify_float::iVar1, fmin_float::x_00, __bswap_16::__retval__, __signbit_float::gf_u, __uint16_identity::__retval__, main::x_00, fmin_float::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__fpclassify_float::__retval__, __fpclassify_float::gf_u.value, __fpclassify_float::iVar1, __fpclassify_float::x, __signbit_float::gf_u.value, __signbit_float::x, fmin_float::__CPAchecker_TMP_0, fmin_float::__CPAchecker_TMP_1, fmin_float::__retval__, fmin_float::x, fmin_float::x_00, main::in_a0, main::x_00] --> [0, 1, 2, 3, 4],
+[__fpclassify_float::gf_u.word, __fpclassify_float::in_fa0] --> [0, 8388607, 8388608, 2139095039, 2139095040, 2147483648, 2147483649, 2155872255, 2155872256, 4286578687, 4286578688],
+[__fpclassify_float::gf_u] --> [],
+[__signbit_float::__retval__, __signbit_float::gf_u.word, __signbit_float::in_fa0, main::iVar1] --> [31],
+[__signbit_float::gf_u] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[assume::cond] --> [0],
+[fmin_float::extraout_var] --> [0],
+[fmin_float::y_local] --> [],
+[fmin_float::x_local] --> [],
+[main::__CPAchecker_TMP_0, main::extraout_var] --> [0, 1],
+[fmin_float::y, main::in_a1] --> [],
+[main::extraout_fa0] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_3] --> [0]]
+
+RELEVANT VARS
+
+[__fpclassify_float::gf_u, main::extraout_fa0, __fpclassify_float::x, __fpclassify_float::__retval__, fmin_float::x, fmin_float::__CPAchecker_TMP_0, fmin_float::__CPAchecker_TMP_1, __signbit_float::x, assume::cond, main::extraout_var, main::__CPAchecker_TMP_0, fmin_float::extraout_var, main::in_a0, __fpclassify_float::in_fa0, fmin_float::x_00, __fpclassify_float::iVar1, __signbit_float::gf_u, main::x_00, fmin_float::__retval__]
+
+RELEVANT FIELDS
+
+{union __anon_type_ieee_float_shape_type=[word, value]}

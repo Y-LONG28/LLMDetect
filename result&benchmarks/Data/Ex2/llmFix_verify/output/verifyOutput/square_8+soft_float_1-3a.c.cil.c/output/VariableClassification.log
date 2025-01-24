@@ -1,0 +1,45 @@
+IntBool
+
+[main1::__retval__, main2::__retval__, main::__CPAchecker_TMP_0, main2::__retres23]
+
+IntEq
+
+[__assert_func::line, main2::tmp___6, main2::tmp___5, main2::tmp___8, assume_abort_if_not::cond, main2::tmp___7, main1::__CPAchecker_TMP_0]
+
+IntAdd
+
+[main2::tmp___0, main2::sa, main2::tmp, main2::sb]
+
+IntOverflow
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, mulflt::tmp, main2::tmp___9, main2::b, main2::a, addflt::ma, addflt::mb, main2::tmp___2, mulflt::uVar2, main2::tmp___1, main1::x, main2::tmp___4, __assert_func::file, __assert_func::msg, main2::tmp___3, mulflt::local_44, base2flt::__retres4, mulflt::a, base2flt::res, mulflt::__retres10, main2::ma, base2flt::e, main2::mb, __VERIFIER_assert::cond, main1::IN, mulflt::b, addflt::a, addflt::b, mulflt::__retval__, main2::zero, addflt::tmp, base2flt::m, addflt::__retval__, mulflt::local_48, mulflt::ma, addflt::delta, __assert_func::func, base2flt::__retval__, addflt::res, addflt::__retres10, main2::r_add, mulflt::iVar1, main1::result]
+
+ALL
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, mulflt::tmp, main2::b, main2::a, addflt::ma, __assert_func::line, addflt::mb, mulflt::uVar2, __assert_func::file, __assert_func::msg, main1::__retval__, base2flt::__retres4, main2::__retval__, mulflt::local_44, main::__CPAchecker_TMP_0, base2flt::res, main2::ma, base2flt::e, main2::mb, __VERIFIER_assert::cond, assume_abort_if_not::cond, main1::IN, mulflt::__retval__, main2::zero, main2::__retres23, main1::__CPAchecker_TMP_0, __assert_func::func, addflt::__retres10, main2::r_add, main2::tmp, main2::tmp___9, main2::tmp___6, main2::tmp___5, main2::tmp___8, main2::tmp___7, main2::tmp___2, main2::tmp___1, main1::x, main2::tmp___4, main2::tmp___3, main2::tmp___0, main2::sa, mulflt::a, mulflt::__retres10, mulflt::b, addflt::a, main2::sb, addflt::b, addflt::tmp, base2flt::m, addflt::__retval__, mulflt::local_48, mulflt::ma, addflt::delta, base2flt::__retval__, addflt::res, mulflt::iVar1, main1::result]
+
+DEPENDENCIES
+
+[[__VERIFIER_assert::cond, addflt::__retres10, addflt::__retval__, addflt::a, addflt::b, addflt::delta, addflt::ea, addflt::eb, addflt::ma, addflt::mb, addflt::res, addflt::tmp, base2flt::__retres4, base2flt::__retval__, base2flt::e, base2flt::m, base2flt::res, main2::a, main2::b, main2::ea, main2::eb, main2::ma, main2::mb, main2::r_add, main2::tmp___1, main2::tmp___2, main2::tmp___3, main2::tmp___4, main2::tmp___9, main2::zero] --> [-128, -1, 0, 1, 24, 32, 127, 128, 16777215, 16777216, 33554432, 4278190079, 4294967295],
+[assume_abort_if_not::cond, main1::__CPAchecker_TMP_0] --> [0, 1],
+[main::__CPAchecker_TMP_0] --> [0],
+[main1::__retval__] --> [0],
+[main2::__retres23, main2::__retval__] --> [0],
+[main1::IN, main1::result, main1::x] --> [],
+[main2::sa, main2::tmp] --> [-1, 0, 1],
+[main2::sb, main2::tmp___0] --> [-1, 0, 1],
+[main2::tmp___5, main2::tmp___6] --> [-1, 0, 1],
+[main2::tmp___7, main2::tmp___8] --> [-1, 0, 1],
+[mulflt::__retres10, mulflt::__retval__, mulflt::a, mulflt::b, mulflt::iVar1, mulflt::local_44, mulflt::local_48, mulflt::ma, mulflt::tmp, mulflt::uVar2] --> [-128, 0, 24, 25, 103, 104, 127, 128, 16777215, 16777216, 33554431, 4278190079, 4294967295],
+[__assert_func::file] --> [],
+[__assert_func::line] --> [68, 69],
+[__assert_func::func] --> [],
+[__assert_func::msg] --> []]
+
+RELEVANT VARS
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, mulflt::tmp, main2::b, main2::a, addflt::ma, addflt::mb, mulflt::uVar2, mulflt::local_44, base2flt::__retres4, main::__CPAchecker_TMP_0, base2flt::res, main2::ma, base2flt::e, main2::mb, __VERIFIER_assert::cond, main1::IN, assume_abort_if_not::cond, main2::zero, main1::__CPAchecker_TMP_0, main2::r_add, addflt::__retres10, main2::tmp, main2::tmp___9, main2::tmp___6, main2::tmp___5, main2::tmp___8, main2::tmp___7, main2::tmp___2, main2::tmp___1, main2::tmp___4, main1::x, main2::tmp___3, main2::tmp___0, main2::sa, mulflt::a, mulflt::__retres10, mulflt::b, main2::sb, addflt::a, addflt::b, addflt::tmp, base2flt::m, addflt::__retval__, mulflt::local_48, addflt::delta, base2flt::__retval__, addflt::res, mulflt::iVar1, main1::result]
+
+RELEVANT FIELDS
+
+{}

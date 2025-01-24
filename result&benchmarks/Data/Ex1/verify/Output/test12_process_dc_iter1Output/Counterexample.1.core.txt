@@ -1,0 +1,11 @@
+line 5:	N329 -{int a = 0;}-> N330
+	a == 0;
+line 6:	N330 -{int b = 0;}-> N331
+	b == 0;
+line 24:	N55 -{equal(&a, &b)}-> N37
+	a == 8LL;
+	b == 1073741836LL;
+line 16:	N38 -{[a != b]}-> N40
+	a == 8LL;
+	b == 1073741836LL;
+line 17:	N49 -{__assert_fail("0 && \"Assertion failed: a should equal b\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/test12_process_dc_iter1.c", 17, "__PRETTY_FUNCTION__");}-> N336

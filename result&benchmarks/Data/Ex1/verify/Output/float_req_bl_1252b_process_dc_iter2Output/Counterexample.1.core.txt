@@ -1,0 +1,45 @@
+line 74:	N94 -{float extraout_fa0;}-> N95
+	extraout_fa0 == 2.0;
+line 76:	N95 -{fmax_float(in_a0, in_a1)}-> N65
+	x == 0.0;
+line 48:	N67 -{uint32_t extraout_var;}-> N68
+	extraout_var == 0U;
+line 49:	N68 -{int __CPAchecker_TMP_0;}-> N69
+line 49:	N69 -{__fpclassify_float(x)}-> N31
+	(gf_u.value) == 0.0;
+	(&gf_u) == 4LL;
+	x == 0.0;
+line 24:	N36 -{in_fa0 = gf_u.word;}-> N37
+	in_fa0 == 0U;
+line 26:	N37 -{[in_fa0 == 0]}-> N39
+	iVar1 == 2;
+	in_fa0 == 0U;
+line 49:	N70 -{x_00 = (float)__CPAchecker_TMP_0;}-> N71
+	x_00 == 2.0;
+line 50:	N71 -{[!(extraout_var != 0)]}-> N74
+	extraout_var == 0U;
+line 50:	N74 -{[x_00 != 0]}-> N73
+	x_00 == 2.0;
+line 51:	N75 -{__fpclassify_float(x_00)}-> N31
+	(gf_u.value) == 2.0;
+	(&gf_u) == 4LL;
+	(gf_u.value) == 0.0;
+	(gf_u.word) == 0LL;
+	in_fa0 == 0U;
+	iVar1 == 2;
+	x == 2.0;
+line 24:	N36 -{in_fa0 = gf_u.word;}-> N37
+	in_fa0 == 1073741824U;
+line 26:	N37 -{[!(in_fa0 == 0)]}-> N41
+	in_fa0 == 1073741824U;
+line 26:	N41 -{[!(in_fa0 == 2147483648U)]}-> N40
+	in_fa0 == 1073741824U;
+line 28:	N40 -{[!(in_fa0 < 8388608)]}-> N47
+	in_fa0 == 1073741824U;
+line 28:	N47 -{[!(2139095039 < in_fa0)]}-> N45
+	x_00 == 4.0;
+	iVar1 == 4;
+	in_fa0 == 1073741824U;
+line 77:	N96 -{[extraout_fa0 != 0.0]}-> N98
+	extraout_fa0 == 2.0;
+line 78:	N116 -{__assert_fail("0 && \"Assertion failed: extraout_fa0 should be 0.0 and signbit should be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/float_req_bl_1252b_process_dc_iter2.c", 78, "__PRETTY_FUNCTION__");}-> N446

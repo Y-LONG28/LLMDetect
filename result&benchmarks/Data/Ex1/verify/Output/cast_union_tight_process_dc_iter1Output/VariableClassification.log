@@ -1,0 +1,45 @@
+IntBool
+
+[main::__CPAchecker_TMP_2, __bswap_32::__bsx, __bswap_64::__bsx, main::__retval__, __bswap_16::__bsx, main::a]
+
+IntEq
+
+[]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[]
+
+ALL
+
+[cast::y, __bswap_32::__bsx, __uint32_identity::__x, __uint32_identity::__retval__, __bswap_16::__bsx, main::a, main::__CPAchecker_TMP_2, cast::i, cast::y.parts.high, cast::y.parts.low, __bswap_64::__CPAchecker_TMP_0, main::tmp_var_1_int, main::r, cast::__retval__, __bswap_16::__CPAchecker_TMP_0, cast::y.d, __bswap_64::__retval__, __uint64_identity::__retval__, main::__retval__, __bswap_32::__retval__, __uint16_identity::__x, __bswap_32::__CPAchecker_TMP_0, __bswap_64::__bsx, __uint64_identity::__x, __bswap_16::__retval__, __uint16_identity::__retval__]
+
+DEPENDENCIES
+
+[[__bswap_16::__CPAchecker_TMP_0, __bswap_16::__retval__] --> [],
+[__bswap_16::__bsx] --> [],
+[__bswap_32::__CPAchecker_TMP_0, __bswap_32::__retval__] --> [],
+[__bswap_32::__bsx] --> [],
+[__bswap_64::__CPAchecker_TMP_0, __bswap_64::__retval__] --> [],
+[__bswap_64::__bsx] --> [],
+[__uint16_identity::__retval__, __uint16_identity::__x] --> [],
+[__uint32_identity::__retval__, __uint32_identity::__x] --> [],
+[__uint64_identity::__retval__, __uint64_identity::__x] --> [],
+[cast::__retval__, cast::i, cast::y.d, cast::y.parts.low, main::r, main::tmp_var_1_int] --> [],
+[cast::y] --> [],
+[cast::y.parts.high] --> [0],
+[main::a] --> [],
+[main::__retval__] --> [0],
+[main::__CPAchecker_TMP_2] --> [0]]
+
+RELEVANT VARS
+
+[main::tmp_var_1_int, cast::__retval__, cast::y, cast::i, main::r]
+
+RELEVANT FIELDS
+
+{union __anon_type_u=[d, parts], struct __anon_type_1=[low, high]}

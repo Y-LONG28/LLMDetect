@@ -1,0 +1,40 @@
+IntBool
+
+[main1::__retval__, base2flt::m_local, base2flt::__retres4, main2::__retval__, main::__CPAchecker_TMP_0, base2flt::res, base2flt::e_local, main2::__retres14]
+
+IntEq
+
+[assume_abort_if_not::cond, main1::__CPAchecker_TMP_0]
+
+IntAdd
+
+[]
+
+IntOverflow
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, main2::tmp, mulflt::tmp, main2::b, main2::r_add2, main2::a, main2::r_add1, addflt::ma, mulflt::eb, mulflt::ea, addflt::mb, main1::x, base2flt::local_14, main2::tmp___0, mulflt::a, mulflt::__retres10, main2::ma, base2flt::e, main2::mb, mulflt::b, __VERIFIER_assert::cond, main1::IN, addflt::a, addflt::b, mulflt::res, mulflt::__retval__, main2::zero, addflt::tmp, base2flt::m, addflt::__retval__, mulflt::accu, mulflt::mb, base2flt::local_28, mulflt::ma, base2flt::local_24, addflt::delta, base2flt::__retval__, addflt::res, addflt::__retres10, main1::result]
+
+ALL
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, mulflt::tmp, main2::b, main2::a, addflt::ma, mulflt::eb, mulflt::ea, addflt::mb, main1::__retval__, base2flt::local_14, base2flt::__retres4, main2::__retval__, main::__CPAchecker_TMP_0, base2flt::res, main2::ma, base2flt::e, main2::mb, __VERIFIER_assert::cond, assume_abort_if_not::cond, main1::IN, mulflt::res, mulflt::__retval__, main2::zero, main1::__CPAchecker_TMP_0, base2flt::local_28, base2flt::local_24, base2flt::e_local, addflt::__retres10, main2::tmp, main2::r_add2, main2::r_add1, main1::x, main2::__retres14, main2::tmp___0, mulflt::a, mulflt::__retres10, mulflt::b, addflt::a, addflt::b, addflt::tmp, base2flt::m_local, base2flt::m, addflt::__retval__, mulflt::accu, mulflt::mb, mulflt::ma, addflt::delta, base2flt::__retval__, addflt::res, main1::result]
+
+DEPENDENCIES
+
+[[__VERIFIER_assert::cond, addflt::__retres10, addflt::__retval__, addflt::a, addflt::b, addflt::delta, addflt::ea, addflt::eb, addflt::ma, addflt::mb, addflt::res, addflt::tmp, base2flt::__retval__, base2flt::e, base2flt::local_14, base2flt::local_24, base2flt::local_28, base2flt::m, main2::a, main2::b, main2::ea, main2::eb, main2::ma, main2::mb, main2::r_add1, main2::r_add2, main2::tmp, main2::tmp___0, main2::zero, mulflt::__retres10, mulflt::__retval__, mulflt::a, mulflt::accu, mulflt::b, mulflt::ea, mulflt::eb, mulflt::ma, mulflt::mb, mulflt::res, mulflt::tmp] --> [-128, -127, -1, 0, 1, 24, 32, 126, 127, 128, 16777215, 16777216, 33554431, 33554432, 4278190079, 4294967295],
+[assume_abort_if_not::cond, main1::__CPAchecker_TMP_0] --> [0, 1],
+[base2flt::e_local] --> [],
+[base2flt::m_local] --> [],
+[base2flt::res] --> [],
+[base2flt::__retres4] --> [],
+[main::__CPAchecker_TMP_0] --> [0],
+[main1::__retval__] --> [0],
+[main2::__retres14, main2::__retval__] --> [0],
+[main1::IN, main1::result, main1::x] --> []]
+
+RELEVANT VARS
+
+[addflt::ea, main2::ea, main2::eb, addflt::eb, mulflt::tmp, main2::tmp, main2::r_add2, main2::b, main2::r_add1, main2::a, addflt::ma, mulflt::eb, mulflt::ea, addflt::mb, main1::x, main2::tmp___0, base2flt::local_14, mulflt::a, main::__CPAchecker_TMP_0, main2::ma, main2::mb, base2flt::e, __VERIFIER_assert::cond, mulflt::b, main1::IN, assume_abort_if_not::cond, addflt::a, addflt::b, addflt::tmp, base2flt::m, addflt::__retval__, mulflt::accu, main1::__CPAchecker_TMP_0, mulflt::mb, base2flt::local_28, mulflt::ma, base2flt::local_24, addflt::delta, base2flt::__retval__, addflt::res, addflt::__retres10, main1::result]
+
+RELEVANT FIELDS
+
+{}

@@ -1,0 +1,11 @@
+line 7:	N453 -{int global = 0;}-> N454
+	iVar1 == 0;
+	(&env_buffer) == 4LL;
+	(&(env_buffer[0])) == 4LL;
+	(&((env_buffer[0]).__jmpbuf)) == 4LL;
+	(&((env_buffer[0]).__saved_mask)) == 40LL;
+	(&((env_buffer[0]).__saved_mask.__val)) == 40LL;
+	global == 0;
+line 32:	N47 -{[global == 0]}-> N49
+	global == 0;
+line 33:	N58 -{__assert_fail("0 && \"Assertion failed: global should not be 0\"", "/home/zyl/biVerify/CPA_DATA2/C/F/llmfix/realOutput/iterationTry/68-longjmp_18-simple-else_unknown_1_neg_process_dc_iter1.c", 33, "__PRETTY_FUNCTION__");}-> N462
